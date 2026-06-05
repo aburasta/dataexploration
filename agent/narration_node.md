@@ -105,3 +105,40 @@ A VO script, segmented and production-friendly:
 2. The user's **writing samples** (for the style bible).
 3. **Target runtime** per video (drives length & structure depth).
 4. Optional: per-video tone steer ("play this one straighter / darker").
+
+---
+
+## 7. TIMED SHOT-LIST MODE (visual prescription) — REQUIRED OUTPUT
+
+After the narration is written, the node must produce a **timed shot list** so the
+script doubles as an edit/visual brief.
+
+**Procedure:**
+1. **Measure the read length.** Count narration words (exclude headers and stage
+   directions). Estimate runtime at **~140 words/min** voiceover pace; report total
+   as `mm:ss` and per-segment.
+2. **Segment into beats of ~3–5 seconds.** A beat ≈ one short clause/sentence,
+   roughly **8–12 spoken words**. Assign **running timecodes** to each beat
+   (e.g. `[00:08–00:12]`).
+3. **Prescribe one visual per beat**, written **directly beneath that beat's text**:
+   - A one-line **description** of the ideal image/clip.
+   - A **real web link** where such an image/clip can be found.
+   - An **asset-type tag**: `REAL` (specific real photo/video of the actual
+     person/place/event) · `ARCHIVE` (news-agency footage, licensable) ·
+     `PUBLIC-DOMAIN` / `CC` (free to use) · `STOCK` (generic B-roll).
+   - A short **licensing note** where relevant.
+4. **Priority order for suggestions (strict):**
+   **(a) real related images/footage of the actual subject → (b) public-domain / CC
+   → (c) archive (licensable) → (d) generic stock footage** as a last resort.
+   Only suggest stock when no real/archival image fits the beat.
+5. Links are a **vetted starting map**, not cleared rights — the node states this.
+
+## 8. MULTI-AGENT EXECUTION MODEL
+
+- **Writer agent** — produces the narration (Sections 1–5) + timing/beats (Section 7).
+- **Footage-research agents (fan-out by cluster)** — e.g. *People*, *The Event &
+  Aftermath*, *Country/History/Context*. Each trawls the web for real
+  images/videos with descriptions + links + licensing, prioritizing real over
+  stock (Section 7.4), and returns a **visual asset library** keyed by subject.
+- **Compiler agent** — maps each beat to the best asset from the library, lays the
+  visual under its narration block, and assembles the final **Word document**.
