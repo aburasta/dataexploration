@@ -1,14 +1,19 @@
 #!/usr/bin/env python3
-"""Convert the Wonga Coup markdown dossier into a styled Word (.docx) document."""
+"""Convert a markdown file (dossier or script) into a styled Word (.docx) document.
+
+Usage: python3 md_to_docx.py [input.md] [output.docx]
+Defaults to the Wonga Coup dossier if no arguments are given.
+"""
 
 import re
+import sys
 from docx import Document
 from docx.shared import Pt, RGBColor, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.table import WD_TABLE_ALIGNMENT
 
-SRC = "wonga_coup_dossier.md"
-OUT = "wonga_coup_dossier.docx"
+SRC = sys.argv[1] if len(sys.argv) > 1 else "wonga_coup_dossier.md"
+OUT = sys.argv[2] if len(sys.argv) > 2 else SRC.rsplit(".", 1)[0] + ".docx"
 
 NAVY = RGBColor(0x1F, 0x3A, 0x5F)
 GREEN = RGBColor(0x2E, 0x7D, 0x32)   # FACT
