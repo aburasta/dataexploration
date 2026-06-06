@@ -1,141 +1,133 @@
 #!/usr/bin/env python3
-"""Render the agent architecture diagram (SVG -> PNG)."""
+"""Render the CURRENT agent architecture diagram (SVG -> PNG)."""
 import cairosvg
 
-W, H = 1500, 1820
+W, H = 1540, 1780
 
 def esc(s): return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 svg = []
 svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="Helvetica,Arial,sans-serif">')
 svg.append(f'<rect width="{W}" height="{H}" fill="#0f1117"/>')
-
-# defs: arrow marker
 svg.append('''<defs>
-<marker id="arr" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto">
-  <path d="M0,0 L10,5 L0,10 z" fill="#7aa2f7"/>
-</marker>
-<marker id="arrg" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto">
-  <path d="M0,0 L10,5 L0,10 z" fill="#9ece6a"/>
-</marker>
+<marker id="arr" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7aa2f7"/></marker>
 </defs>''')
 
-# title
-svg.append(f'<text x="{W//2}" y="56" fill="#ffffff" font-size="34" font-weight="bold" text-anchor="middle">THE COUP-TO-DOCUMENTARY AGENT</text>')
-svg.append(f'<text x="{W//2}" y="88" fill="#9aa5ce" font-size="17" text-anchor="middle">Pipeline built so far &#8212; raw coup data &#8594; research &#8594; script &#8594; footage-ready shot list</text>')
+svg.append(f'<text x="{W//2}" y="54" fill="#ffffff" font-size="33" font-weight="bold" text-anchor="middle">THE COUP-TO-DOCUMENTARY AGENT</text>')
+svg.append(f'<text x="{W//2}" y="86" fill="#9aa5ce" font-size="16.5" text-anchor="middle">current state &#8226; starts from a chosen unsuccessful-coup row &#8594; research &#8594; script &#8594; footage shot list</text>')
 
-def node(x, y, w, h, title, lines, fill, stroke, badge=None, tcol="#ffffff"):
-    svg.append(f'<rect x="{x}" y="{y}" rx="14" ry="14" width="{w}" height="{h}" fill="{fill}" stroke="{stroke}" stroke-width="2.5"/>')
-    svg.append(f'<text x="{x+22}" y="{y+34}" fill="{tcol}" font-size="20" font-weight="bold">{esc(title)}</text>')
-    yy = y + 60
+def node(x, y, w, h, title, lines, fill, stroke, badge=None, accent=None):
+    svg.append(f'<rect x="{x}" y="{y}" rx="14" width="{w}" height="{h}" fill="{fill}" stroke="{stroke}" stroke-width="2.5"/>')
+    if accent:
+        svg.append(f'<rect x="{x}" y="{y}" rx="14" width="8" height="{h}" fill="{accent}"/>')
+    svg.append(f'<text x="{x+24}" y="{y+33}" fill="#ffffff" font-size="20" font-weight="bold">{esc(title)}</text>')
+    yy = y + 59
     for ln in lines:
-        svg.append(f'<text x="{x+22}" y="{yy}" fill="#c8d0f0" font-size="14.5">{esc(ln)}</text>')
-        yy += 22
+        svg.append(f'<text x="{x+24}" y="{yy}" fill="#c8d0f0" font-size="14.5">{esc(ln)}</text>'); yy += 22
     if badge:
-        bw = 116
-        svg.append(f'<rect x="{x+w-bw-14}" y="{y+14}" rx="10" ry="10" width="{bw}" height="26" fill="{badge[1]}"/>')
-        svg.append(f'<text x="{x+w-bw/2-14}" y="{y+32}" fill="#0f1117" font-size="13" font-weight="bold" text-anchor="middle">{esc(badge[0])}</text>')
+        bw = 128
+        svg.append(f'<rect x="{x+w-bw-14}" y="{y+13}" rx="10" width="{bw}" height="26" fill="{badge[1]}"/>')
+        svg.append(f'<text x="{x+w-bw/2-14}" y="{y+31}" fill="#0f1117" font-size="12.5" font-weight="bold" text-anchor="middle">{esc(badge[0])}</text>')
 
-def varrow(x, y1, y2, color="#7aa2f7", mk="arr", label=None):
-    svg.append(f'<line x1="{x}" y1="{y1}" x2="{x}" y2="{y2-4}" stroke="{color}" stroke-width="3" marker-end="url(#{mk})"/>')
+def varrow(x, y1, y2, label=None):
+    svg.append(f'<line x1="{x}" y1="{y1}" x2="{x}" y2="{y2-4}" stroke="#7aa2f7" stroke-width="3" marker-end="url(#arr)"/>')
     if label:
         svg.append(f'<text x="{x+14}" y="{(y1+y2)//2+5}" fill="#9aa5ce" font-size="13" font-style="italic">{esc(label)}</text>')
 
-cx = 150           # left column x
-colw = 760         # node width
-done = ("BUILT", "#9ece6a")
-prog = ("IN PROGRESS", "#e0af68")
-pend = ("PENDING", "#7dcfff")
+cx, colw = 130, 800
+done = ("BUILT", "#9ece6a"); active = ("ACTIVE", "#7dcfff"); pend = ("PENDING", "#e0af68")
+green, gstroke = "#13261b", "#2f6d3f"
+blue, bstroke = "#10212e", "#356a8f"
 
-# ---- INPUT ----
-node(cx, 110, colw, 70, "INPUT  —  user request", ["“African coups d’état — successful vs. unsuccessful”"], "#1b2335", "#3b4a6b")
-varrow(cx+colw/2, 180, 230)
+# Node 0
+node(cx, 108, colw, 92, "NODE 0  ·  Row Selector",
+     ["Pick a coup from african_coups_unsuccessful.xlsx:",
+      "RANDOM on “generate a new one”, or a USER-SUPPLIED row."],
+     blue, bstroke, badge=active)
+varrow(cx+colw/2, 200, 234, label="the chosen coup")
 
-# ---- NODE 1 ----
-node(cx, 230, colw, 96, "NODE 1  ·  Coup Dataset",
-     ["Compile African coups 1950–present; classify by outcome.",
-      "→ african_coups_1950_present.xlsx  (tabs: All / Successful / Unsuccessful)"],
-     "#13261b", "#2f6d3f", badge=done)
-varrow(cx+colw/2, 326, 360)
-
-# ---- NODE 2 ----
-node(cx, 360, colw, 96, "NODE 2  ·  Extract Unsuccessful",
-     ["Pull the unsuccessful coups into their own sheet.",
-      "→ african_coups_unsuccessful.xlsx"],
-     "#13261b", "#2f6d3f", badge=done)
-varrow(cx+colw/2, 456, 490, label="user picks: the 2004 Wonga Coup")
-
-# ---- NODE 3 ----
-node(cx, 490, colw, 150, "NODE 3  ·  Deep-Research Dossier",
+# Node 1
+node(cx, 234, colw, 116, "NODE 1  ·  Deep-Research Dossier",
      ["5 parallel research agents → cross-check → tag [FACT]/[ALLEGED]/[DISPUTED].",
-      "Characters · oil/motive · colonial history · the plot · the failure.",
-      "→ wonga_coup_dossier.md  +  .docx  (sourced bibliography)"],
-     "#13261b", "#2f6d3f", badge=done)
-varrow(cx+colw/2, 640, 674)
+      "Characters · founding history · resources/motive · the plot · the aftermath.",
+      "→ <case>_dossier.md + .docx  (sourced bibliography)"],
+     green, gstroke, badge=done)
+varrow(cx+colw/2, 350, 384)
 
-# ---- NODE 4 ----
-node(cx, 674, colw, 168, "NODE 4  ·  Narration / Voiceover",
-     ["Persona: showrunner + director + continuity + narration writer.",
-      "Structure: COLD OPEN → context → continuation (loose, anti-cringe).",
-      "Accuracy tags inherited. Measures runtime; segments into beats.",
-      "→ wonga_coup_script.md + .docx   (~13:19, voice = placeholder)"],
-     "#13261b", "#2f6d3f", badge=done)
-varrow(cx+colw/2, 842, 876)
+# Node 2
+node(cx, 384, colw, 122, "NODE 2  ·  Narration / Voiceover  +  Timing",
+     ["Showrunner+director+continuity+writer persona.",
+      "COLD OPEN → context → continuation (loose, anti-cringe).",
+      "Measures runtime; segments into ~3–5s beats with timecodes.",
+      "→ <case>_script.md + .docx"],
+     green, gstroke, badge=done)
+varrow(cx+colw/2, 506, 540)
 
-# ---- NODE 5 ----
-node(cx, 876, colw, 196, "NODE 5  ·  Footage Sourcing + Timed Shot List",
-     ["3 parallel footage agents: People · The Event · Country/Oil/History.",
+# Node 3 - the highlighted footage node
+node(cx, 540, colw, 150, "NODE 3  ·  Footage Shot-List   (image + source per beat)",
+     ["3 parallel footage agents: People · Event · Country/History.",
+      "Under EACH beat: a prescribed IMAGE/VIDEO + DESCRIPTION + LINK + licence.",
       "Priority: REAL → public-domain/CC → licensable archive → stock.",
-      "Compiler maps 193 beats (3–5s each) to one visual + link + licence.",
-      "→ wonga_coup_shotlist.md + .docx",
-      "   (timecodes, colour-coded asset types, rights flags)"],
-     "#13261b", "#2f6d3f", badge=done)
-varrow(cx+colw/2, 1072, 1106)
+      "Trawls the web for sources (no downloads); flags gaps & graphic shots.",
+      "→ <case>_shotlist.md + .docx  (colour-coded, timecoded)"],
+     "#241a2e", "#7a4fa3", badge=done, accent="#c08be0")
+varrow(cx+colw/2, 690, 724)
 
-# ---- OUTPUT ----
-node(cx, 1106, colw, 84, "OUTPUT  —  production-ready documentary package",
-     ["Dossier  +  timed voiceover  +  shot list, committed & pushed to GitHub."],
+# Node 4
+node(cx, 724, colw, 80, "NODE 4  ·  Voice Re-tune",
+     ["Ingest user writing samples → style bible → re-voice script & shot list."],
+     "#2a2415", "#6b5a2f", badge=pend)
+varrow(cx+colw/2, 804, 838)
+
+# Output
+node(cx, 838, colw, 80, "OUTPUT  —  documentary package per coup",
+     ["Dossier + timed voiceover + footage shot list — committed & pushed to GitHub."],
      "#1b2335", "#3b4a6b")
 
-# ---- NODE 6 (proposed) ----
-svg.append(f'<line x1="{cx+colw/2}" y1="1190" x2="{cx+colw/2}" y2="1226" stroke="#565f89" stroke-width="3" stroke-dasharray="7 6" marker-end="url(#arr)"/>')
-node(cx, 1226, colw, 74, "NODE 6  ·  Voice Re-tune (next)",
-     ["Ingest user writing samples → style bible → re-voice script & shot list."],
-     "#2a2030", "#6b4a6b", badge=pend)
+# Retired box
+ry = 956
+svg.append(f'<rect x="{cx}" y="{ry}" rx="12" width="{colw}" height="74" fill="#1a1a1f" stroke="#444" stroke-width="2" stroke-dasharray="7 6"/>')
+svg.append(f'<text x="{cx+24}" y="{ry+30}" fill="#888" font-size="17" font-weight="bold">RETIRED  (data already generated)</text>')
+svg.append(f'<text x="{cx+24}" y="{ry+55}" fill="#777" font-size="14" text-decoration="line-through">Coup Dataset → african_coups_1950_present.xlsx   ·   Extract Unsuccessful → african_coups_unsuccessful.xlsx</text>')
 
-# ====== RIGHT SIDE: cross-cutting capabilities & infra ======
-rx = 1000
-rw = 360
+# Right column cross-cutting
+rx, rw = 1000, 410
 svg.append(f'<text x="{rx}" y="150" fill="#9aa5ce" font-size="16" font-weight="bold">CROSS-CUTTING</text>')
-
-def side(y, title, lines, fill, stroke):
-    h = 40 + 22*len(lines)
+def side(y, title, lines, fill="#1a2230", stroke="#3b5a7b"):
+    h = 38 + 21*len(lines)
     svg.append(f'<rect x="{rx}" y="{y}" rx="12" width="{rw}" height="{h}" fill="{fill}" stroke="{stroke}" stroke-width="2"/>')
-    svg.append(f'<text x="{rx+18}" y="{y+28}" fill="#ffffff" font-size="16" font-weight="bold">{esc(title)}</text>')
-    yy=y+52
+    svg.append(f'<text x="{rx+18}" y="{y+27}" fill="#ffffff" font-size="15.5" font-weight="bold">{esc(title)}</text>')
+    yy = y+50
     for ln in lines:
-        svg.append(f'<text x="{rx+18}" y="{yy}" fill="#c8d0f0" font-size="13">{esc(ln)}</text>'); yy+=22
-    return y+h+24
-
+        svg.append(f'<text x="{rx+18}" y="{yy}" fill="#c8d0f0" font-size="13">{esc(ln)}</text>'); yy += 21
+    return y+h+22
 y = 168
-y = side(y, "Accuracy spine", ["[FACT] / [ALLEGED] / [DISPUTED]", "tags propagate node → node.", "Allegations never stated as fact."], "#241f12", "#6b5a2f")
-y = side(y, "Multi-agent engine", ["Fan-out research agents (5 + 3),", "then a compiler agent merges", "results into the deliverable."], "#1a2230", "#3b5a7b")
-y = side(y, "Doc rendering", ["md_to_docx.py  +  generators", "→ styled Word (.docx) output.", "Tables, headings, colour tags."], "#1a2230", "#3b5a7b")
-y = side(y, "Footage rules", ["Real → CC → archive → stock.", "Links = map, not cleared rights.", "Gaps flagged (note, Calil)."], "#1a2230", "#3b5a7b")
-y = side(y, "Version control", ["Every artifact committed &", "pushed to branch on GitHub.", "Reproducible generators."], "#1a2230", "#3b5a7b")
-y = side(y, "Known limits", ["Sandbox blocks downloads;", "no live video pull / no Google", "Sheets — files import instead."], "#2a1a1a", "#6b3b3b")
+y = side(y, "Accuracy spine", ["[FACT]/[ALLEGED]/[DISPUTED] tags", "propagate node → node;", "allegations never stated as fact."], "#241f12", "#6b5a2f")
+y = side(y, "Multi-agent engine", ["Fan-out research/footage agents,", "then a compiler builds the doc."])
+y = side(y, "Footage rules", ["Real → CC → archive → stock.", "Links = map to verify, not rights.", "Gaps & graphic shots flagged."])
+y = side(y, "Doc rendering", ["md_to_docx.py + generators →", "styled, colour-tagged Word docs."])
+y = side(y, "Version control", ["Every artifact committed &", "pushed to the GitHub branch."])
+y = side(y, "Known limits", ["Sandbox blocks downloads / live", "video pull / Google Sheets;", "files import instead."], "#2a1a1a", "#6b3b3b")
 
-# legend bottom
-ly = 1340
+# status legend
+ly = y + 8
 svg.append(f'<text x="{rx}" y="{ly}" fill="#9aa5ce" font-size="14" font-weight="bold">STATUS</text>')
-for i,(lab,col) in enumerate([("BUILT","#9ece6a"),("IN PROGRESS","#e0af68"),("PENDING","#7dcfff")]):
-    yy=ly+24+i*30
-    svg.append(f'<rect x="{rx}" y="{yy-14}" rx="7" width="20" height="20" fill="{col}"/>')
-    svg.append(f'<text x="{rx+30}" y="{yy+2}" fill="#c8d0f0" font-size="14">{lab}</text>')
+for i,(lab,col) in enumerate([("BUILT","#9ece6a"),("ACTIVE","#7dcfff"),("PENDING","#e0af68")]):
+    yy = ly+22+i*28
+    svg.append(f'<rect x="{rx}" y="{yy-14}" rx="6" width="18" height="18" fill="{col}"/>')
+    svg.append(f'<text x="{rx+28}" y="{yy+1}" fill="#c8d0f0" font-size="13.5">{lab}</text>')
 
-# footer
-svg.append(f'<text x="{cx}" y="{H-30}" fill="#565f89" font-size="13">Case study threaded through: the 2004 Wonga Coup (Equatorial Guinea).  Each node consumes the previous node’s output.</text>')
+# case studies footer
+fy = 1110
+svg.append(f'<text x="{cx}" y="{fy}" fill="#9aa5ce" font-size="15" font-weight="bold">CASE STUDIES RUN THROUGH THE PIPELINE</text>')
+svg.append(f'<rect x="{cx}" y="{fy+16}" rx="10" width="385" height="58" fill="#13261b" stroke="#2f6d3f" stroke-width="2"/>')
+svg.append(f'<text x="{cx+18}" y="{fy+40}" fill="#fff" font-size="15" font-weight="bold">Wonga Coup (Eq. Guinea, 2004)</text>')
+svg.append(f'<text x="{cx+18}" y="{fy+62}" fill="#9ece6a" font-size="13">dossier + script + 193-beat shot list ✓</text>')
+svg.append(f'<rect x="{cx+410}" y="{fy+16}" rx="10" width="385" height="58" fill="#13261b" stroke="#2f6d3f" stroke-width="2"/>')
+svg.append(f'<text x="{cx+428}" y="{fy+40}" fill="#fff" font-size="15" font-weight="bold">Liberia 1985 (Quiwonkpa)</text>')
+svg.append(f'<text x="{cx+428}" y="{fy+62}" fill="#9ece6a" font-size="13">dossier + script + 146-beat shot list ✓</text>')
 
+svg.append(f'<text x="{cx}" y="{H-26}" fill="#565f89" font-size="13">Each node consumes the previous node’s output. Point Node 0 at any unsuccessful-coup row and Nodes 1–3 develop it into the final package.</text>')
 svg.append('</svg>')
 data = "\n".join(svg)
 open("agent_architecture.svg","w").write(data)

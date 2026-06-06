@@ -1,107 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1820" viewBox="0 0 1500 1820" font-family="Helvetica,Arial,sans-serif">
-<rect width="1500" height="1820" fill="#0f1117"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1540" height="1780" viewBox="0 0 1540 1780" font-family="Helvetica,Arial,sans-serif">
+<rect width="1540" height="1780" fill="#0f1117"/>
 <defs>
-<marker id="arr" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto">
-  <path d="M0,0 L10,5 L0,10 z" fill="#7aa2f7"/>
-</marker>
-<marker id="arrg" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto">
-  <path d="M0,0 L10,5 L0,10 z" fill="#9ece6a"/>
-</marker>
+<marker id="arr" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7aa2f7"/></marker>
 </defs>
-<text x="750" y="56" fill="#ffffff" font-size="34" font-weight="bold" text-anchor="middle">THE COUP-TO-DOCUMENTARY AGENT</text>
-<text x="750" y="88" fill="#9aa5ce" font-size="17" text-anchor="middle">Pipeline built so far &#8212; raw coup data &#8594; research &#8594; script &#8594; footage-ready shot list</text>
-<rect x="150" y="110" rx="14" ry="14" width="760" height="70" fill="#1b2335" stroke="#3b4a6b" stroke-width="2.5"/>
-<text x="172" y="144" fill="#ffffff" font-size="20" font-weight="bold">INPUT  —  user request</text>
-<text x="172" y="170" fill="#c8d0f0" font-size="14.5">“African coups d’état — successful vs. unsuccessful”</text>
-<line x1="530.0" y1="180" x2="530.0" y2="226" stroke="#7aa2f7" stroke-width="3" marker-end="url(#arr)"/>
-<rect x="150" y="230" rx="14" ry="14" width="760" height="96" fill="#13261b" stroke="#2f6d3f" stroke-width="2.5"/>
-<text x="172" y="264" fill="#ffffff" font-size="20" font-weight="bold">NODE 1  ·  Coup Dataset</text>
-<text x="172" y="290" fill="#c8d0f0" font-size="14.5">Compile African coups 1950–present; classify by outcome.</text>
-<text x="172" y="312" fill="#c8d0f0" font-size="14.5">→ african_coups_1950_present.xlsx  (tabs: All / Successful / Unsuccessful)</text>
-<rect x="780" y="244" rx="10" ry="10" width="116" height="26" fill="#9ece6a"/>
-<text x="838.0" y="262" fill="#0f1117" font-size="13" font-weight="bold" text-anchor="middle">BUILT</text>
-<line x1="530.0" y1="326" x2="530.0" y2="356" stroke="#7aa2f7" stroke-width="3" marker-end="url(#arr)"/>
-<rect x="150" y="360" rx="14" ry="14" width="760" height="96" fill="#13261b" stroke="#2f6d3f" stroke-width="2.5"/>
-<text x="172" y="394" fill="#ffffff" font-size="20" font-weight="bold">NODE 2  ·  Extract Unsuccessful</text>
-<text x="172" y="420" fill="#c8d0f0" font-size="14.5">Pull the unsuccessful coups into their own sheet.</text>
-<text x="172" y="442" fill="#c8d0f0" font-size="14.5">→ african_coups_unsuccessful.xlsx</text>
-<rect x="780" y="374" rx="10" ry="10" width="116" height="26" fill="#9ece6a"/>
-<text x="838.0" y="392" fill="#0f1117" font-size="13" font-weight="bold" text-anchor="middle">BUILT</text>
-<line x1="530.0" y1="456" x2="530.0" y2="486" stroke="#7aa2f7" stroke-width="3" marker-end="url(#arr)"/>
-<text x="544.0" y="478" fill="#9aa5ce" font-size="13" font-style="italic">user picks: the 2004 Wonga Coup</text>
-<rect x="150" y="490" rx="14" ry="14" width="760" height="150" fill="#13261b" stroke="#2f6d3f" stroke-width="2.5"/>
-<text x="172" y="524" fill="#ffffff" font-size="20" font-weight="bold">NODE 3  ·  Deep-Research Dossier</text>
-<text x="172" y="550" fill="#c8d0f0" font-size="14.5">5 parallel research agents → cross-check → tag [FACT]/[ALLEGED]/[DISPUTED].</text>
-<text x="172" y="572" fill="#c8d0f0" font-size="14.5">Characters · oil/motive · colonial history · the plot · the failure.</text>
-<text x="172" y="594" fill="#c8d0f0" font-size="14.5">→ wonga_coup_dossier.md  +  .docx  (sourced bibliography)</text>
-<rect x="780" y="504" rx="10" ry="10" width="116" height="26" fill="#9ece6a"/>
-<text x="838.0" y="522" fill="#0f1117" font-size="13" font-weight="bold" text-anchor="middle">BUILT</text>
-<line x1="530.0" y1="640" x2="530.0" y2="670" stroke="#7aa2f7" stroke-width="3" marker-end="url(#arr)"/>
-<rect x="150" y="674" rx="14" ry="14" width="760" height="168" fill="#13261b" stroke="#2f6d3f" stroke-width="2.5"/>
-<text x="172" y="708" fill="#ffffff" font-size="20" font-weight="bold">NODE 4  ·  Narration / Voiceover</text>
-<text x="172" y="734" fill="#c8d0f0" font-size="14.5">Persona: showrunner + director + continuity + narration writer.</text>
-<text x="172" y="756" fill="#c8d0f0" font-size="14.5">Structure: COLD OPEN → context → continuation (loose, anti-cringe).</text>
-<text x="172" y="778" fill="#c8d0f0" font-size="14.5">Accuracy tags inherited. Measures runtime; segments into beats.</text>
-<text x="172" y="800" fill="#c8d0f0" font-size="14.5">→ wonga_coup_script.md + .docx   (~13:19, voice = placeholder)</text>
-<rect x="780" y="688" rx="10" ry="10" width="116" height="26" fill="#9ece6a"/>
-<text x="838.0" y="706" fill="#0f1117" font-size="13" font-weight="bold" text-anchor="middle">BUILT</text>
-<line x1="530.0" y1="842" x2="530.0" y2="872" stroke="#7aa2f7" stroke-width="3" marker-end="url(#arr)"/>
-<rect x="150" y="876" rx="14" ry="14" width="760" height="196" fill="#13261b" stroke="#2f6d3f" stroke-width="2.5"/>
-<text x="172" y="910" fill="#ffffff" font-size="20" font-weight="bold">NODE 5  ·  Footage Sourcing + Timed Shot List</text>
-<text x="172" y="936" fill="#c8d0f0" font-size="14.5">3 parallel footage agents: People · The Event · Country/Oil/History.</text>
-<text x="172" y="958" fill="#c8d0f0" font-size="14.5">Priority: REAL → public-domain/CC → licensable archive → stock.</text>
-<text x="172" y="980" fill="#c8d0f0" font-size="14.5">Compiler maps 193 beats (3–5s each) to one visual + link + licence.</text>
-<text x="172" y="1002" fill="#c8d0f0" font-size="14.5">→ wonga_coup_shotlist.md + .docx</text>
-<text x="172" y="1024" fill="#c8d0f0" font-size="14.5">   (timecodes, colour-coded asset types, rights flags)</text>
-<rect x="780" y="890" rx="10" ry="10" width="116" height="26" fill="#9ece6a"/>
-<text x="838.0" y="908" fill="#0f1117" font-size="13" font-weight="bold" text-anchor="middle">BUILT</text>
-<line x1="530.0" y1="1072" x2="530.0" y2="1102" stroke="#7aa2f7" stroke-width="3" marker-end="url(#arr)"/>
-<rect x="150" y="1106" rx="14" ry="14" width="760" height="84" fill="#1b2335" stroke="#3b4a6b" stroke-width="2.5"/>
-<text x="172" y="1140" fill="#ffffff" font-size="20" font-weight="bold">OUTPUT  —  production-ready documentary package</text>
-<text x="172" y="1166" fill="#c8d0f0" font-size="14.5">Dossier  +  timed voiceover  +  shot list, committed &amp; pushed to GitHub.</text>
-<line x1="530.0" y1="1190" x2="530.0" y2="1226" stroke="#565f89" stroke-width="3" stroke-dasharray="7 6" marker-end="url(#arr)"/>
-<rect x="150" y="1226" rx="14" ry="14" width="760" height="74" fill="#2a2030" stroke="#6b4a6b" stroke-width="2.5"/>
-<text x="172" y="1260" fill="#ffffff" font-size="20" font-weight="bold">NODE 6  ·  Voice Re-tune (next)</text>
-<text x="172" y="1286" fill="#c8d0f0" font-size="14.5">Ingest user writing samples → style bible → re-voice script &amp; shot list.</text>
-<rect x="780" y="1240" rx="10" ry="10" width="116" height="26" fill="#7dcfff"/>
-<text x="838.0" y="1258" fill="#0f1117" font-size="13" font-weight="bold" text-anchor="middle">PENDING</text>
+<text x="770" y="54" fill="#ffffff" font-size="33" font-weight="bold" text-anchor="middle">THE COUP-TO-DOCUMENTARY AGENT</text>
+<text x="770" y="86" fill="#9aa5ce" font-size="16.5" text-anchor="middle">current state &#8226; starts from a chosen unsuccessful-coup row &#8594; research &#8594; script &#8594; footage shot list</text>
+<rect x="130" y="108" rx="14" width="800" height="92" fill="#10212e" stroke="#356a8f" stroke-width="2.5"/>
+<text x="154" y="141" fill="#ffffff" font-size="20" font-weight="bold">NODE 0  ·  Row Selector</text>
+<text x="154" y="167" fill="#c8d0f0" font-size="14.5">Pick a coup from african_coups_unsuccessful.xlsx:</text>
+<text x="154" y="189" fill="#c8d0f0" font-size="14.5">RANDOM on “generate a new one”, or a USER-SUPPLIED row.</text>
+<rect x="788" y="121" rx="10" width="128" height="26" fill="#7dcfff"/>
+<text x="852.0" y="139" fill="#0f1117" font-size="12.5" font-weight="bold" text-anchor="middle">ACTIVE</text>
+<line x1="530.0" y1="200" x2="530.0" y2="230" stroke="#7aa2f7" stroke-width="3" marker-end="url(#arr)"/>
+<text x="544.0" y="222" fill="#9aa5ce" font-size="13" font-style="italic">the chosen coup</text>
+<rect x="130" y="234" rx="14" width="800" height="116" fill="#13261b" stroke="#2f6d3f" stroke-width="2.5"/>
+<text x="154" y="267" fill="#ffffff" font-size="20" font-weight="bold">NODE 1  ·  Deep-Research Dossier</text>
+<text x="154" y="293" fill="#c8d0f0" font-size="14.5">5 parallel research agents → cross-check → tag [FACT]/[ALLEGED]/[DISPUTED].</text>
+<text x="154" y="315" fill="#c8d0f0" font-size="14.5">Characters · founding history · resources/motive · the plot · the aftermath.</text>
+<text x="154" y="337" fill="#c8d0f0" font-size="14.5">→ &lt;case&gt;_dossier.md + .docx  (sourced bibliography)</text>
+<rect x="788" y="247" rx="10" width="128" height="26" fill="#9ece6a"/>
+<text x="852.0" y="265" fill="#0f1117" font-size="12.5" font-weight="bold" text-anchor="middle">BUILT</text>
+<line x1="530.0" y1="350" x2="530.0" y2="380" stroke="#7aa2f7" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="130" y="384" rx="14" width="800" height="122" fill="#13261b" stroke="#2f6d3f" stroke-width="2.5"/>
+<text x="154" y="417" fill="#ffffff" font-size="20" font-weight="bold">NODE 2  ·  Narration / Voiceover  +  Timing</text>
+<text x="154" y="443" fill="#c8d0f0" font-size="14.5">Showrunner+director+continuity+writer persona.</text>
+<text x="154" y="465" fill="#c8d0f0" font-size="14.5">COLD OPEN → context → continuation (loose, anti-cringe).</text>
+<text x="154" y="487" fill="#c8d0f0" font-size="14.5">Measures runtime; segments into ~3–5s beats with timecodes.</text>
+<text x="154" y="509" fill="#c8d0f0" font-size="14.5">→ &lt;case&gt;_script.md + .docx</text>
+<rect x="788" y="397" rx="10" width="128" height="26" fill="#9ece6a"/>
+<text x="852.0" y="415" fill="#0f1117" font-size="12.5" font-weight="bold" text-anchor="middle">BUILT</text>
+<line x1="530.0" y1="506" x2="530.0" y2="536" stroke="#7aa2f7" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="130" y="540" rx="14" width="800" height="150" fill="#241a2e" stroke="#7a4fa3" stroke-width="2.5"/>
+<rect x="130" y="540" rx="14" width="8" height="150" fill="#c08be0"/>
+<text x="154" y="573" fill="#ffffff" font-size="20" font-weight="bold">NODE 3  ·  Footage Shot-List   (image + source per beat)</text>
+<text x="154" y="599" fill="#c8d0f0" font-size="14.5">3 parallel footage agents: People · Event · Country/History.</text>
+<text x="154" y="621" fill="#c8d0f0" font-size="14.5">Under EACH beat: a prescribed IMAGE/VIDEO + DESCRIPTION + LINK + licence.</text>
+<text x="154" y="643" fill="#c8d0f0" font-size="14.5">Priority: REAL → public-domain/CC → licensable archive → stock.</text>
+<text x="154" y="665" fill="#c8d0f0" font-size="14.5">Trawls the web for sources (no downloads); flags gaps &amp; graphic shots.</text>
+<text x="154" y="687" fill="#c8d0f0" font-size="14.5">→ &lt;case&gt;_shotlist.md + .docx  (colour-coded, timecoded)</text>
+<rect x="788" y="553" rx="10" width="128" height="26" fill="#9ece6a"/>
+<text x="852.0" y="571" fill="#0f1117" font-size="12.5" font-weight="bold" text-anchor="middle">BUILT</text>
+<line x1="530.0" y1="690" x2="530.0" y2="720" stroke="#7aa2f7" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="130" y="724" rx="14" width="800" height="80" fill="#2a2415" stroke="#6b5a2f" stroke-width="2.5"/>
+<text x="154" y="757" fill="#ffffff" font-size="20" font-weight="bold">NODE 4  ·  Voice Re-tune</text>
+<text x="154" y="783" fill="#c8d0f0" font-size="14.5">Ingest user writing samples → style bible → re-voice script &amp; shot list.</text>
+<rect x="788" y="737" rx="10" width="128" height="26" fill="#e0af68"/>
+<text x="852.0" y="755" fill="#0f1117" font-size="12.5" font-weight="bold" text-anchor="middle">PENDING</text>
+<line x1="530.0" y1="804" x2="530.0" y2="834" stroke="#7aa2f7" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="130" y="838" rx="14" width="800" height="80" fill="#1b2335" stroke="#3b4a6b" stroke-width="2.5"/>
+<text x="154" y="871" fill="#ffffff" font-size="20" font-weight="bold">OUTPUT  —  documentary package per coup</text>
+<text x="154" y="897" fill="#c8d0f0" font-size="14.5">Dossier + timed voiceover + footage shot list — committed &amp; pushed to GitHub.</text>
+<rect x="130" y="956" rx="12" width="800" height="74" fill="#1a1a1f" stroke="#444" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="154" y="986" fill="#888" font-size="17" font-weight="bold">RETIRED  (data already generated)</text>
+<text x="154" y="1011" fill="#777" font-size="14" text-decoration="line-through">Coup Dataset → african_coups_1950_present.xlsx   ·   Extract Unsuccessful → african_coups_unsuccessful.xlsx</text>
 <text x="1000" y="150" fill="#9aa5ce" font-size="16" font-weight="bold">CROSS-CUTTING</text>
-<rect x="1000" y="168" rx="12" width="360" height="106" fill="#241f12" stroke="#6b5a2f" stroke-width="2"/>
-<text x="1018" y="196" fill="#ffffff" font-size="16" font-weight="bold">Accuracy spine</text>
-<text x="1018" y="220" fill="#c8d0f0" font-size="13">[FACT] / [ALLEGED] / [DISPUTED]</text>
-<text x="1018" y="242" fill="#c8d0f0" font-size="13">tags propagate node → node.</text>
-<text x="1018" y="264" fill="#c8d0f0" font-size="13">Allegations never stated as fact.</text>
-<rect x="1000" y="298" rx="12" width="360" height="106" fill="#1a2230" stroke="#3b5a7b" stroke-width="2"/>
-<text x="1018" y="326" fill="#ffffff" font-size="16" font-weight="bold">Multi-agent engine</text>
-<text x="1018" y="350" fill="#c8d0f0" font-size="13">Fan-out research agents (5 + 3),</text>
-<text x="1018" y="372" fill="#c8d0f0" font-size="13">then a compiler agent merges</text>
-<text x="1018" y="394" fill="#c8d0f0" font-size="13">results into the deliverable.</text>
-<rect x="1000" y="428" rx="12" width="360" height="106" fill="#1a2230" stroke="#3b5a7b" stroke-width="2"/>
-<text x="1018" y="456" fill="#ffffff" font-size="16" font-weight="bold">Doc rendering</text>
-<text x="1018" y="480" fill="#c8d0f0" font-size="13">md_to_docx.py  +  generators</text>
-<text x="1018" y="502" fill="#c8d0f0" font-size="13">→ styled Word (.docx) output.</text>
-<text x="1018" y="524" fill="#c8d0f0" font-size="13">Tables, headings, colour tags.</text>
-<rect x="1000" y="558" rx="12" width="360" height="106" fill="#1a2230" stroke="#3b5a7b" stroke-width="2"/>
-<text x="1018" y="586" fill="#ffffff" font-size="16" font-weight="bold">Footage rules</text>
-<text x="1018" y="610" fill="#c8d0f0" font-size="13">Real → CC → archive → stock.</text>
-<text x="1018" y="632" fill="#c8d0f0" font-size="13">Links = map, not cleared rights.</text>
-<text x="1018" y="654" fill="#c8d0f0" font-size="13">Gaps flagged (note, Calil).</text>
-<rect x="1000" y="688" rx="12" width="360" height="106" fill="#1a2230" stroke="#3b5a7b" stroke-width="2"/>
-<text x="1018" y="716" fill="#ffffff" font-size="16" font-weight="bold">Version control</text>
-<text x="1018" y="740" fill="#c8d0f0" font-size="13">Every artifact committed &amp;</text>
-<text x="1018" y="762" fill="#c8d0f0" font-size="13">pushed to branch on GitHub.</text>
-<text x="1018" y="784" fill="#c8d0f0" font-size="13">Reproducible generators.</text>
-<rect x="1000" y="818" rx="12" width="360" height="106" fill="#2a1a1a" stroke="#6b3b3b" stroke-width="2"/>
-<text x="1018" y="846" fill="#ffffff" font-size="16" font-weight="bold">Known limits</text>
-<text x="1018" y="870" fill="#c8d0f0" font-size="13">Sandbox blocks downloads;</text>
-<text x="1018" y="892" fill="#c8d0f0" font-size="13">no live video pull / no Google</text>
-<text x="1018" y="914" fill="#c8d0f0" font-size="13">Sheets — files import instead.</text>
-<text x="1000" y="1340" fill="#9aa5ce" font-size="14" font-weight="bold">STATUS</text>
-<rect x="1000" y="1350" rx="7" width="20" height="20" fill="#9ece6a"/>
-<text x="1030" y="1366" fill="#c8d0f0" font-size="14">BUILT</text>
-<rect x="1000" y="1380" rx="7" width="20" height="20" fill="#e0af68"/>
-<text x="1030" y="1396" fill="#c8d0f0" font-size="14">IN PROGRESS</text>
-<rect x="1000" y="1410" rx="7" width="20" height="20" fill="#7dcfff"/>
-<text x="1030" y="1426" fill="#c8d0f0" font-size="14">PENDING</text>
-<text x="150" y="1790" fill="#565f89" font-size="13">Case study threaded through: the 2004 Wonga Coup (Equatorial Guinea).  Each node consumes the previous node’s output.</text>
+<rect x="1000" y="168" rx="12" width="410" height="101" fill="#241f12" stroke="#6b5a2f" stroke-width="2"/>
+<text x="1018" y="195" fill="#ffffff" font-size="15.5" font-weight="bold">Accuracy spine</text>
+<text x="1018" y="218" fill="#c8d0f0" font-size="13">[FACT]/[ALLEGED]/[DISPUTED] tags</text>
+<text x="1018" y="239" fill="#c8d0f0" font-size="13">propagate node → node;</text>
+<text x="1018" y="260" fill="#c8d0f0" font-size="13">allegations never stated as fact.</text>
+<rect x="1000" y="291" rx="12" width="410" height="80" fill="#1a2230" stroke="#3b5a7b" stroke-width="2"/>
+<text x="1018" y="318" fill="#ffffff" font-size="15.5" font-weight="bold">Multi-agent engine</text>
+<text x="1018" y="341" fill="#c8d0f0" font-size="13">Fan-out research/footage agents,</text>
+<text x="1018" y="362" fill="#c8d0f0" font-size="13">then a compiler builds the doc.</text>
+<rect x="1000" y="393" rx="12" width="410" height="101" fill="#1a2230" stroke="#3b5a7b" stroke-width="2"/>
+<text x="1018" y="420" fill="#ffffff" font-size="15.5" font-weight="bold">Footage rules</text>
+<text x="1018" y="443" fill="#c8d0f0" font-size="13">Real → CC → archive → stock.</text>
+<text x="1018" y="464" fill="#c8d0f0" font-size="13">Links = map to verify, not rights.</text>
+<text x="1018" y="485" fill="#c8d0f0" font-size="13">Gaps &amp; graphic shots flagged.</text>
+<rect x="1000" y="516" rx="12" width="410" height="80" fill="#1a2230" stroke="#3b5a7b" stroke-width="2"/>
+<text x="1018" y="543" fill="#ffffff" font-size="15.5" font-weight="bold">Doc rendering</text>
+<text x="1018" y="566" fill="#c8d0f0" font-size="13">md_to_docx.py + generators →</text>
+<text x="1018" y="587" fill="#c8d0f0" font-size="13">styled, colour-tagged Word docs.</text>
+<rect x="1000" y="618" rx="12" width="410" height="80" fill="#1a2230" stroke="#3b5a7b" stroke-width="2"/>
+<text x="1018" y="645" fill="#ffffff" font-size="15.5" font-weight="bold">Version control</text>
+<text x="1018" y="668" fill="#c8d0f0" font-size="13">Every artifact committed &amp;</text>
+<text x="1018" y="689" fill="#c8d0f0" font-size="13">pushed to the GitHub branch.</text>
+<rect x="1000" y="720" rx="12" width="410" height="101" fill="#2a1a1a" stroke="#6b3b3b" stroke-width="2"/>
+<text x="1018" y="747" fill="#ffffff" font-size="15.5" font-weight="bold">Known limits</text>
+<text x="1018" y="770" fill="#c8d0f0" font-size="13">Sandbox blocks downloads / live</text>
+<text x="1018" y="791" fill="#c8d0f0" font-size="13">video pull / Google Sheets;</text>
+<text x="1018" y="812" fill="#c8d0f0" font-size="13">files import instead.</text>
+<text x="1000" y="851" fill="#9aa5ce" font-size="14" font-weight="bold">STATUS</text>
+<rect x="1000" y="859" rx="6" width="18" height="18" fill="#9ece6a"/>
+<text x="1028" y="874" fill="#c8d0f0" font-size="13.5">BUILT</text>
+<rect x="1000" y="887" rx="6" width="18" height="18" fill="#7dcfff"/>
+<text x="1028" y="902" fill="#c8d0f0" font-size="13.5">ACTIVE</text>
+<rect x="1000" y="915" rx="6" width="18" height="18" fill="#e0af68"/>
+<text x="1028" y="930" fill="#c8d0f0" font-size="13.5">PENDING</text>
+<text x="130" y="1110" fill="#9aa5ce" font-size="15" font-weight="bold">CASE STUDIES RUN THROUGH THE PIPELINE</text>
+<rect x="130" y="1126" rx="10" width="385" height="58" fill="#13261b" stroke="#2f6d3f" stroke-width="2"/>
+<text x="148" y="1150" fill="#fff" font-size="15" font-weight="bold">Wonga Coup (Eq. Guinea, 2004)</text>
+<text x="148" y="1172" fill="#9ece6a" font-size="13">dossier + script + 193-beat shot list ✓</text>
+<rect x="540" y="1126" rx="10" width="385" height="58" fill="#13261b" stroke="#2f6d3f" stroke-width="2"/>
+<text x="558" y="1150" fill="#fff" font-size="15" font-weight="bold">Liberia 1985 (Quiwonkpa)</text>
+<text x="558" y="1172" fill="#9ece6a" font-size="13">dossier + script + 146-beat shot list ✓</text>
+<text x="130" y="1754" fill="#565f89" font-size="13">Each node consumes the previous node’s output. Point Node 0 at any unsuccessful-coup row and Nodes 1–3 develop it into the final package.</text>
 </svg>
