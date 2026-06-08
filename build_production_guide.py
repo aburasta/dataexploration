@@ -332,14 +332,18 @@ bullet(doc, "Keep the bottom ~15% clear (caption-safe). Vary shot scale (wide/me
 h1(doc, "8. Image Generation with Higgsfield")
 
 h2(doc, "8a. Model & Settings")
-bullet(doc, "Use Higgsfield’s BEST current image model — Nano Banana Pro (model id: nano_banana_pro). If unsure it is "
-            "still the top model, run models_explore first and pick the highest-quality image model available.")
-bullet(doc, "aspect_ratio: 16:9. Highest resolution offered. Generate one image per shot (use count to batch a scene).")
-bullet(doc, "For motion shots, generate the STILL first, then animate it with image-to-video so the style is preserved.")
-bullet(doc, "HIGH-VOLUME / DAILY OUTPUT: Nano Banana Pro costs credits (~2 each), which is expensive at a daily cadence. "
-            "For the BULK of stills, use a model in your plan’s 365-day UNLIMITED set (e.g., Seedream 4.5) so you do "
-            "not burn credits, and reserve Nano Banana Pro credits for hero frames and any text/diagram frames. "
-            "Confirm the chosen model reproduces the series style before committing to it.")
+bullet(doc, "PRIMARY model — Seedream 4.5 (model id: seedream_v4_5). This is the DEFAULT for every image in the "
+            "series: high quality, up to 4K, ~1 credit each (half the cost of Nano Banana Pro), and included in the "
+            "paid plans’ 365-day UNLIMITED set. Use quality 'high' for hero frames, 'basic' for the rest.")
+bullet(doc, "SECONDARY model — Nano Banana Pro (nano_banana_pro) or GPT Image, used ONLY for frames that contain "
+            "on-image text or diagrams (stronger text rendering). These cost more credits, so use them sparingly.")
+bullet(doc, "aspect_ratio: 16:9 for every image. Generate one image per shot (use count to batch a scene).")
+bullet(doc, "For motion shots, generate the STILL first (Seedream), then animate it with image-to-video so the "
+            "style is preserved.")
+bullet(doc, "COST NOTE: the Seedream ‘365-day Unlimited’ benefit is advertised for the Higgsfield WEB APP — "
+            "generating there avoids burning credits. Via API/automation Seedream still bills ~1 credit/image, so for "
+            "daily volume either do the bulk in the web app or budget credits. The FREE tier (~10 credits/day) "
+            "cannot sustain a full episode.")
 
 h2(doc, "8b. Consistency (so frames flow like one animation)")
 bullet(doc, "Save the Host (and recurring props/sets) as a Higgsfield ELEMENT, or train a SOUL for the Host, and "
@@ -381,8 +385,10 @@ bullet(doc, "Generate KEY frames — one strong still per beat / shot family (ty
             "generate far fewer images.")
 bullet(doc, "Reuse the Host Element and recurring backgrounds across shots and across episodes.")
 bullet(doc, "Reserve true CLIPs and re-generations for where they truly matter — they cost the most.")
-bullet(doc, "Cost guide (Nano Banana Pro ≈ 2 credits/image): generating EVERY frame ≈ 300–600 credits/episode; "
-            "the key-frame + edit approach ≈ 120–240 credits/episode.")
+bullet(doc, "Cost guide: Seedream 4.5 ≈ 1 credit/image via API (or UNLIMITED in the web app on a paid plan); Nano "
+            "Banana Pro ≈ 2 credits/image. Generating every frame on Seedream via API ≈ 150–300 credits/episode; the "
+            "key-frame + edit approach roughly halves that. Using the web app’s unlimited Seedream removes the credit "
+            "ceiling for stills entirely.")
 
 # ============================ 9. FILE OUTPUT ============================
 h1(doc, "9. Output Files & Naming")
@@ -411,7 +417,8 @@ for step in [
     "Build the shot list table: for each shot write the narration slice, a one-line visual, file name, type, and the "
     "full Higgsfield prompt (subject + action + setting + Master Style Suffix).",
     "Confirm interconnection: group shots into shot families so consecutive images flow (Part 8b).",
-    "Generate every image on Higgsfield’s best model at 16:9, reusing the Host Element/Soul and style key frame.",
+    "Generate every image on Seedream 4.5 (primary) at 16:9, reusing the Host Element and style key frame; use Nano "
+    "Banana Pro only for text/diagram frames.",
     "For any CLIP shots, generate the still then animate it.",
     "Save Deliverable A (shot-list.docx) and Deliverable B (images/ folder, + clips/ if needed) per Part 9 naming.",
     "Run the checklists (Part 11) before delivering.",
