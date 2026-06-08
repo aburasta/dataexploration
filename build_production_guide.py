@@ -191,9 +191,9 @@ body(doc, "Throughout: short sentences, concrete imagery, open loops (tease some
           "every ~20–30 seconds to re-grab attention. Conversational, warm, smart — never lecture-y.")
 
 h2(doc, "4c. Length & Pace")
-bullet(doc, "Target runtime: 4–7 minutes (default ~5). State the chosen target in the header.")
+bullet(doc, "Target runtime: 10–15 minutes (default ~12). State the chosen target in the header.")
 bullet(doc, "Narration pace: 150 words/minute = 2.5 words/second (documentary-calm). Adjustable, but state it.")
-bullet(doc, "At 150 wpm, a 5-minute episode ≈ 750 words.")
+bullet(doc, "At 150 wpm: a 10-minute episode ≈ 1,500 words, 12 min ≈ 1,800 words, 15 min ≈ 2,250 words.")
 
 # ============================ 5. TIMING METHOD ============================
 h1(doc, "5. Timing & Timestamp Method (every shot = 3–5 seconds)")
@@ -206,8 +206,9 @@ numbered(doc, "Assign each shot a cumulative timestamp range (shot 1: 00:00–00
               "computing each shot’s length as its_word_count ÷ 2.5.")
 numbered(doc, "Every shot gets exactly ONE image (still or clip). This guarantees the on-screen visual changes "
               "every 3–5 seconds, as required.")
-callout(doc, "RESULT: a 5-minute (~750-word) episode produces roughly 75–100 shots — i.e., 75–100 images in the "
-             "folder. Plan generation accordingly.")
+callout(doc, "RESULT: a 10–15 minute episode produces roughly 150–300 shots — i.e., 150–300 on-screen visuals "
+             "(more if the pace is fast). Plan generation time and Higgsfield credits accordingly (see Part 8e for "
+             "how to hit this cadence WITHOUT generating a separate image for every shot).")
 body(doc, "Round timestamps to whole seconds. Keep the sum of shot lengths equal to the total duration.")
 
 # ============================ 6. SHOT LIST EXAMPLE ============================
@@ -335,6 +336,10 @@ bullet(doc, "Use Higgsfield’s BEST current image model — Nano Banana Pro (mo
             "still the top model, run models_explore first and pick the highest-quality image model available.")
 bullet(doc, "aspect_ratio: 16:9. Highest resolution offered. Generate one image per shot (use count to batch a scene).")
 bullet(doc, "For motion shots, generate the STILL first, then animate it with image-to-video so the style is preserved.")
+bullet(doc, "HIGH-VOLUME / DAILY OUTPUT: Nano Banana Pro costs credits (~2 each), which is expensive at a daily cadence. "
+            "For the BULK of stills, use a model in your plan’s 365-day UNLIMITED set (e.g., Seedream 4.5) so you do "
+            "not burn credits, and reserve Nano Banana Pro credits for hero frames and any text/diagram frames. "
+            "Confirm the chosen model reproduces the series style before committing to it.")
 
 h2(doc, "8b. Consistency (so frames flow like one animation)")
 bullet(doc, "Save the Host (and recurring props/sets) as a Higgsfield ELEMENT, or train a SOUL for the Host, and "
@@ -365,6 +370,19 @@ box(doc, "NEGATIVE / AVOID:",
     "drop shadows, lens flare, glow/bloom, heavy black outlines, comic linework, sketchy wobble, crosshatching, neon "
     "colors, dark/gritty mood, cluttered backgrounds, complex detailed faces, tiny illegible text, watermarks, extra "
     "limbs/fingers, natural photographic animal coloring.")
+
+h2(doc, "8e. Managing Credit Cost (important at 10–15 minutes)")
+body(doc, "A 10–15 minute episode with a visual change every 3–5 seconds implies 150–300 on-screen visuals. "
+          "Generating a brand-new image for every one is the most credit-expensive path. To keep the pacing but "
+          "control cost:")
+bullet(doc, "Generate KEY frames — one strong still per beat / shot family (typically 60–120 per episode) — and "
+            "create the in-between 3–5s visual changes in your video EDITOR via slow pan/zoom (Ken Burns), reveals, "
+            "and simple element motion on the same still. The on-screen visual still changes every 3–5s, but you "
+            "generate far fewer images.")
+bullet(doc, "Reuse the Host Element and recurring backgrounds across shots and across episodes.")
+bullet(doc, "Reserve true CLIPs and re-generations for where they truly matter — they cost the most.")
+bullet(doc, "Cost guide (Nano Banana Pro ≈ 2 credits/image): generating EVERY frame ≈ 300–600 credits/episode; "
+            "the key-frame + edit approach ≈ 120–240 credits/episode.")
 
 # ============================ 9. FILE OUTPUT ============================
 h1(doc, "9. Output Files & Naming")
