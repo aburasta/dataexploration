@@ -12,20 +12,16 @@ from docx.oxml import OxmlElement
 
 # ---------- fixed style + bibles ----------
 STYLE_SUFFIX = (
-    "Flat 2D vector illustration in a warm mid-century-modern explainer-animation style (in the spirit of Hey "
-    "Duggee / modern motion-graphics). Bold simple geometric shapes with soft rounded corners. No outlines, forms "
-    "defined by flat color blocks. Limited warm palette: ochre yellow (#E8A93C), warm cream (#F7EAD0), teal blue "
-    "(#3C7C9A), deep navy (#21465A), coral red-orange (#EF5A2A), burnt orange (#CC6B2C), moss olive (#A7A24A). Flat "
-    "soft ambient lighting, gentle minimal flat shadows. Subtle fine film-grain / paper texture over the whole frame. "
-    "Simple dot eyes, minimal facial features. Cozy, friendly, clean, generous negative space. 16:9. No gradients, no "
-    "3D, no realistic shading, no glossy highlights, no heavy black outlines, no clutter, no photorealism."
+    "STYLE: flat 2D vector explainer-animation (Hey Duggee vibe); bold rounded geometric shapes, no outlines, flat "
+    "color blocks; warm palette ochre #E8A93C, cream #F7EAD0, teal #3C7C9A, navy #21465A, coral #EF5A2A, burnt "
+    "orange #CC6B2C, olive #A7A24A; flat soft lighting, minimal flat shadows, subtle film-grain; dot eyes, simple "
+    "faces; cozy, clean, generous negative space; 16:9. No gradients/3D/realistic shading/gloss/black "
+    "outlines/clutter/photorealism."
 )
-HOST = ("the teal-blue fox host (rounded chunky body, small charcoal dot eyes, a signature coral-orange knitted "
-        "scarf)")
-BAT = ("a friendly rounded vampire bat (deep-navy body, teal-blue wing membranes, tiny charcoal dot eyes, small "
-       "rounded fangs)")
-FIG = "a simple rounded teal humanoid figure with no detailed face"
-SET = "the cozy mid-century living room (pendant lamp, monstera plant, window with stylized autumn trees)"
+HOST = "teal-blue fox host (rounded chunky body, charcoal dot eyes, coral knitted scarf)"
+BAT = "rounded vampire bat (deep-navy body, teal wing membranes, tiny charcoal dot eyes, small fangs)"
+FIG = "simple rounded teal humanoid figure (no facial detail)"
+SET = "cozy mid-century living room (pendant lamp, monstera, window with autumn trees)"
 
 # ---------- the episode: (act, narration, scene_for_prompt, type, family) ----------
 S = [
@@ -251,6 +247,7 @@ doc.save(os.path.join(OUT, "EP07_shot-list.docx"))
 lines = []
 lines.append("HIGGSFIELD PROMPT PACK  —  EPISODE 07: Risk pooling / Vampire bat reciprocal blood sharing")
 lines.append("Model: Seedream 4.5  |  Aspect: 16:9  |  Paste each SHOT prompt into the Higgsfield web app.")
+lines.append("NOTE: each SHOT prompt below is fully self-contained and under 3000 characters — paste it directly.")
 lines.append("=" * 100)
 lines.append("")
 lines.append("=== CONSISTENCY HEADER  (keep these anchors identical for every image) ===")
@@ -291,7 +288,11 @@ lines.append("END OF PROMPT PACK  —  " + f"{len(rows)} prompts, runtime {mmss(
 with open(os.path.join(OUT, "EP07_prompt-pack.txt"), "w") as f:
     f.write("\n".join(lines))
 
+prompt_lens = [len(r["scene"] + " " + STYLE_SUFFIX) for r in rows]
+assert max(prompt_lens) < 3000, f"A prompt exceeds 3000 chars: {max(prompt_lens)}"
+
 print("Wrote:")
 print(" ", os.path.join(OUT, "EP07_shot-list.docx"))
 print(" ", os.path.join(OUT, "EP07_prompt-pack.txt"))
 print(f"Shots: {len(rows)} | words: {total_words} | runtime: {mmss(total)} | seed families: {len(fams)}")
+print(f"Per-shot prompt chars: min {min(prompt_lens)} | max {max(prompt_lens)} | style block {len(STYLE_SUFFIX)} (all < 3000)")

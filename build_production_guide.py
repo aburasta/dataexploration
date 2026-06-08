@@ -417,6 +417,14 @@ bullet(doc, "Re-state the recurring characters using the SAME wording as the Cha
 bullet(doc, "Name the ONE thing that changes from the previous shot, so consecutive frames interconnect.")
 bullet(doc, "State its seed and shot-family group.")
 bullet(doc, "Be fully self-contained and paste-ready, so it still works if pasted on its own.")
+bullet(doc, "Stay UNDER 3000 characters (Higgsfield's per-prompt limit). Use the COMPACT STYLE TAG below plus compact "
+            "character tokens — NOT the full style paragraph — so each self-contained prompt lands ~600–1000 characters.")
+box(doc, "COMPACT STYLE TAG (append to per-shot prompts instead of the full suffix, to stay under 3000 chars):",
+    "STYLE: flat 2D vector explainer-animation (Hey Duggee vibe); bold rounded geometric shapes, no outlines, flat "
+    "color blocks; warm palette ochre #E8A93C, cream #F7EAD0, teal #3C7C9A, navy #21465A, coral #EF5A2A, burnt "
+    "orange #CC6B2C, olive #A7A24A; flat soft lighting, minimal flat shadows, subtle film-grain; dot eyes, simple "
+    "faces; cozy, clean, generous negative space; 16:9. No gradients/3D/realistic shading/gloss/black "
+    "outlines/clutter/photorealism.")
 callout(doc, "THOROUGHNESS RULE: every per-shot prompt must carry a COMPLETE description of the characters, palette, "
              "and style. Repeating the full description in all 150–300 prompts is exactly what keeps the separately "
              "generated images consistent across the whole episode.")
