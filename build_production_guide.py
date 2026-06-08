@@ -130,15 +130,19 @@ body(doc, "Default behavior: build the episode around the HIGHER-rated match. Us
           "into the “where the analogy breaks down” section rather than overstating it.")
 
 # ============================ 2. OUTPUT OVERVIEW ============================
-h1(doc, "2. The Output: Two Deliverables, Every Time")
-body(doc, "For each row called, Claude produces exactly two things:")
+h1(doc, "2. The Output: Three Deliverables, Every Time")
+body(doc, "For each row called, Claude produces three things:")
 numbered(doc, "DELIVERABLE A — THE SHOT LIST (a Word document). A reader-ready narration script broken into shots, "
               "each with a timestamp range and the exact image to be shown during that stretch of script. Visuals "
-              "change every 3–5 seconds.")
-numbered(doc, "DELIVERABLE B — THE IMAGE FOLDER. A folder containing every image referenced in the shot list, "
-              "generated with Higgsfield’s best image model in the fixed series style, named to match the shots.")
-body(doc, "The shot list and the folder are linked one-to-one: shot_001 in the document corresponds to shot_001.png "
-          "in the folder. (See Part 9 for naming.)")
+              "change every 3–5 seconds. (Spec: Part 3.)")
+numbered(doc, "DELIVERABLE B — THE HIGGSFIELD PROMPT PACK. A single, paste-ready set of prompts that generates EVERY "
+              "image for the episode in the fixed style, written with thorough, repeated descriptions so the whole "
+              "set stays consistent. The user pastes these into the Higgsfield web app (Seedream 4.5) to generate the "
+              "images for free. (Spec: Part 8f.)")
+numbered(doc, "DELIVERABLE C — THE IMAGE FOLDER. The actual images, produced by running the Prompt Pack — generated "
+              "free in the Higgsfield web app, or via API at credit cost — named to match the shots. (Spec: Part 9.)")
+body(doc, "All three are linked one-to-one: Shot 001 in the document ↔ Prompt 001 in the Pack ↔ shot_001.png in the "
+          "folder.")
 
 # ============================ 3. DELIVERABLE A SPEC ============================
 h1(doc, "3. Deliverable A — The Shot List Document")
@@ -155,7 +159,8 @@ bullet(doc, "Narration for this shot (the exact words spoken during this stretch
 bullet(doc, "On-screen visual (one-line description of what the image shows).")
 bullet(doc, "Image file (e.g., shot_001.png) — matches the folder.")
 bullet(doc, "Type (STILL or CLIP — clip only where motion is essential, see Part 8).")
-bullet(doc, "Higgsfield prompt (the full prompt used to generate this image, INCLUDING the Master Style Suffix).")
+bullet(doc, "Prompt # (points to the matching paste-ready prompt in the Prompt Pack, Deliverable B). The FULL prompts "
+            "live in the Pack — not the shot list — so they stay together and consistent.")
 
 # ============================ 4. SCRIPT RULES ============================
 h1(doc, "4. Script Rules (identical every episode)")
@@ -390,13 +395,56 @@ bullet(doc, "Cost guide: Seedream 4.5 ≈ 1 credit/image via API (or UNLIMITED i
             "key-frame + edit approach roughly halves that. Using the web app’s unlimited Seedream removes the credit "
             "ceiling for stills entirely.")
 
+h2(doc, "8f. Deliverable B — The Higgsfield Prompt Pack")
+body(doc, "After the shot list is built, ALWAYS output a PROMPT PACK: the exact, paste-ready prompts the user runs in "
+          "the Higgsfield web app (Seedream 4.5) to generate the whole episode's images consistently. It has two parts.")
+body(doc, "PART 1 — THE CONSISTENCY HEADER (written once; applies to every image). A fixed block the user keeps "
+          "attached to every generation, containing:")
+bullet(doc, "STYLE BLOCK: the full Master Style Suffix (Part 8d), verbatim.")
+bullet(doc, "CHARACTER BIBLE: a thorough, word-for-word description of every recurring character that must look "
+            "identical in every shot — the Host (species, exact body color, face, signature accessory), the Animal of "
+            "the Week (palette re-tint + shape), and the crowd/figure convention. These EXACT words are reused in "
+            "every prompt that features the character.")
+bullet(doc, "WORLD / SET BIBLE: the recurring environment(s) (e.g., the cozy study/living room) described identically.")
+bullet(doc, "PALETTE: the canonical hex list (Part 7b).")
+bullet(doc, "SETTINGS: Seedream 4.5, 16:9; attach the approved style key-frame as a reference image and the Host "
+            "Element; reuse ONE seed within each shot family.")
+body(doc, "PART 2 — THE PER-SHOT PROMPTS (one per image, numbered to match the shot list). Each prompt = the "
+          "Consistency Header content + the shot-specific [shot type] + [subject & action] + [setting] + [coral "
+          "accent]. Each per-shot prompt MUST:")
+bullet(doc, "Re-state the recurring characters using the SAME wording as the Character Bible — never paraphrase and "
+            "never write 'same as before'; paraphrasing is what causes drift.")
+bullet(doc, "Name the ONE thing that changes from the previous shot, so consecutive frames interconnect.")
+bullet(doc, "State its seed and shot-family group.")
+bullet(doc, "Be fully self-contained and paste-ready, so it still works if pasted on its own.")
+callout(doc, "THOROUGHNESS RULE: every per-shot prompt must carry a COMPLETE description of the characters, palette, "
+             "and style. Repeating the full description in all 150–300 prompts is exactly what keeps the separately "
+             "generated images consistent across the whole episode.")
+box(doc, "PROMPT PACK — EXAMPLE (condensed):",
+    "=== CONSISTENCY HEADER (attach to every image) ===\n"
+    "HOST: a friendly rounded teal-blue fox, small charcoal dot eyes, a signature coral-orange knitted scarf, chunky "
+    "rounded shapes.\n"
+    "SET: a cozy mid-century living room — pendant lamp, monstera plant, window with stylized autumn trees.\n"
+    "STYLE: [paste full Master Style Suffix].  SETTINGS: Seedream 4.5, 16:9, reference = style key-frame, "
+    "Element = host-fox, seed per shot-family.\n\n"
+    "=== SHOT 001 (seed 673346) ===\n"
+    "Medium shot of the teal-blue fox host with charcoal dot eyes and coral knitted scarf, leaning in with a curious "
+    "expression, in the cozy mid-century living room (pendant lamp, monstera, autumn window). Coral scarf is the focal "
+    "accent. [full Master Style Suffix]\n\n"
+    "=== SHOT 002 (seed 673346) ===\n"
+    "Same teal-blue fox host (charcoal dot eyes, coral knitted scarf), same living room; now gesturing toward a small "
+    "lone teal figure with a thin coral crack opening beneath it. Only the added figure changes from Shot 001. "
+    "[full Master Style Suffix]")
+doc.add_paragraph()
+
 # ============================ 9. FILE OUTPUT ============================
 h1(doc, "9. Output Files & Naming")
 body(doc, "Produce this structure per episode (EP number + short concept slug):")
 box(doc, "FOLDER STRUCTURE:",
     "EP07_risk-pooling_vampire-bat/\n"
     "    EP07_shot-list.docx          <- Deliverable A (clean script + shot table)\n"
-    "    images/                      <- Deliverable B\n"
+    "    EP07_prompt-pack.txt         <- Deliverable B (consistency header + all per-shot prompts)\n"
+    "    images/                      <- Deliverable C (produced by running the Prompt Pack)\n"
     "        shot_001.png\n"
     "        shot_002.png\n"
     "        shot_003.png\n"
@@ -404,8 +452,8 @@ box(doc, "FOLDER STRUCTURE:",
     "        shot_0NN.png\n"
     "    clips/                       <- only if any CLIP shots exist\n"
     "        shot_0XX.mp4")
-bullet(doc, "Image filenames MUST match the shot list (shot_001.png ↔ Shot 001). Zero-pad to 3 digits.")
-bullet(doc, "One image per shot. Clips go in /clips with the same shot number and are marked CLIP in the table.")
+bullet(doc, "Numbers MUST match across all three: Prompt 001 ↔ Shot 001 ↔ shot_001.png. Zero-pad to 3 digits.")
+bullet(doc, "One prompt and one image per shot. Clips go in /clips with the same shot number and are marked CLIP.")
 
 # ============================ 10. PROCEDURE ============================
 h1(doc, "10. Step-by-Step Procedure When a Row Is Called")
@@ -414,13 +462,18 @@ for step in [
     "Write the HOOK using the benefit-led suspense formula (Part 4a).",
     "Write the full clean narration script using the retention structure (Part 4b), to the target length (Part 4c).",
     "Compute total duration (words ÷ 2.5) and segment into 3–5s shots (~8–13 words each); assign timestamps (Part 5).",
-    "Build the shot list table: for each shot write the narration slice, a one-line visual, file name, type, and the "
-    "full Higgsfield prompt (subject + action + setting + Master Style Suffix).",
+    "Build the shot list table (Deliverable A): for each shot write the narration slice, a one-line visual, file "
+    "name, and type.",
     "Confirm interconnection: group shots into shot families so consecutive images flow (Part 8b).",
-    "Generate every image on Seedream 4.5 (primary) at 16:9, reusing the Host Element and style key frame; use Nano "
-    "Banana Pro only for text/diagram frames.",
+    "Build the PROMPT PACK (Deliverable B, Part 8f): a Consistency Header (style suffix + character/world bible + "
+    "settings) plus one paste-ready prompt per shot, each restating the recurring characters VERBATIM so all images "
+    "stay consistent.",
+    "Produce the images (Deliverable C) by running the Prompt Pack — free in the Higgsfield web app on Seedream 4.5 "
+    "(recommended), or via API at credit cost — at 16:9, reusing the Host Element and style key frame; Nano Banana "
+    "Pro only for text/diagram frames.",
     "For any CLIP shots, generate the still then animate it.",
-    "Save Deliverable A (shot-list.docx) and Deliverable B (images/ folder, + clips/ if needed) per Part 9 naming.",
+    "Save Deliverable A (shot-list.docx), Deliverable B (prompt-pack.txt), and Deliverable C (images/ folder, + "
+    "clips/ if any) per Part 9 naming.",
     "Run the checklists (Part 11) before delivering.",
 ]:
     numbered(doc, step)
@@ -443,6 +496,14 @@ for c in [
     "File names match the images folder exactly.",
 ]:
     doc.add_paragraph("☐  " + c, style="List Bullet")
+h2(doc, "Prompt pack (Deliverable B)")
+for c in [
+    "A Consistency Header is present: full style suffix + character bible + world/set bible + palette + settings.",
+    "Every per-shot prompt restates recurring characters VERBATIM (never 'same as above').",
+    "Each prompt is self-contained, paste-ready, and numbered to match the shot list and image files.",
+    "Seed / shot-family grouping noted so consecutive frames interconnect.",
+]:
+    doc.add_paragraph("☐  " + c, style="List Bullet")
 h2(doc, "Images (every single one)")
 for c in [
     "Flat colors only; palette only; coral reserved for the focal element.",
@@ -455,8 +516,9 @@ for c in [
 
 doc.add_paragraph()
 note = doc.add_paragraph()
-r = note.add_run("End of guide. Inputs: finance_animal_behavior_matches.xlsx. Outputs per row: one shot-list .docx "
-                 "and one image folder, in the fixed series style, with visuals changing every 3–5 seconds.")
+r = note.add_run("End of guide. Inputs: finance_animal_behavior_matches.xlsx. Outputs per row: a shot-list .docx, a "
+                 "Higgsfield prompt pack, and an image folder, in the fixed series style, with visuals changing every "
+                 "3–5 seconds.")
 r.italic = True; r.font.size = Pt(9.5); r.font.color.rgb = RGBColor.from_string("888888")
 
 out = "/home/user/dataexploration/PRODUCTION_GUIDE.docx"
