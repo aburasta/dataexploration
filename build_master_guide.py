@@ -158,40 +158,44 @@ h2("3c. Length & Pace")
 bullet("Target 10–15 minutes (default ~12). Narration pace 150 wpm = 2.5 words/sec.")
 bullet("At 150 wpm: 10 min ≈ 1,500 words, 12 min ≈ 1,800, 15 min ≈ 2,250.")
 
-# ---------------- 4. VISUAL STYLE ----------------
-h1("4. Visual Style — Applied to EVERY Episode")
-callout("Mandatory and unchanging. Every element in every episode matches this. Append the style tag (Section 6 / "
-        "Appendix) to every Higgsfield prompt. Every element is generated ISOLATED on a transparent background.")
-body("One sentence: bright, cheerful, wholesome FLAT 2D vector children's-book CLIP-ART — rounded cute friendly "
-     "characters and objects, clean simple shapes, soft subtle shading with gentle highlights, thin minimal edge "
-     "accents (no heavy black outlines), dot eyes and rosy cheeks; every asset a SINGLE isolated element on a "
-     "transparent background.")
-h2("4a. Core traits")
+# ---------------- 4. VISUAL STYLE & COLOR CONSISTENCY ----------------
+h1("4. Visual Style & Color Consistency — Applied to EVERY Episode")
+callout("THE ONE RULE: the SAME palette + the SAME style on every frame of every episode — that sameness IS the "
+        "brand. Only the CONTENT changes between videos. Append a style tag (4e / Appendix) to every prompt; if a "
+        "new image doesn't match this section, regenerate it. Every element is generated ISOLATED on a transparent "
+        "background.")
+h2("4a. The style in one sentence")
+body("Bright, cheerful, wholesome FLAT 2D vector children's-book CLIP-ART: rounded, cute, friendly characters and "
+     "objects; clean simple shapes; soft subtle shading with gentle highlights; thin minimal edge accents (no heavy "
+     "black outlines); small dot eyes and rosy cheeks. Every asset is a SINGLE isolated element on a transparent "
+     "background, drawn onto the cream VideoScribe canvas.")
+h2("4b. Style rules (the non-negotiables)")
 for x in [
-    "CLIP-ART, ISOLATED — one element per asset, centered, on a TRANSPARENT background (no scene, no ground shadow).",
+    "CLIP-ART, ISOLATED — one element per asset, centered, on a TRANSPARENT background. No scenes, no settings, no ground shadow.",
     "ROUNDED & CUTE — chunky friendly proportions; circles, ovals, soft rounded shapes.",
-    "SOFT SHADING + HIGHLIGHTS — gentle subtle shading and soft highlights for a little depth (not flat-only, not 3D).",
-    "THIN MINIMAL EDGE ACCENTS — light darker edges only where shapes need separation; NO heavy black ink outlines.",
-    "BRIGHT MULTICOLOR BRAND PALETTE (below) — cheerful and saturated, but fixed for series consistency.",
+    "SOFT SHADING + HIGHLIGHTS — gentle subtle depth; never flat-dead, never 3D.",
+    "THIN EDGE ACCENTS ONLY — light darker edges where shapes need separation; NO heavy black ink outlines.",
+    "BRAND PALETTE ONLY (4c) — bright and cheerful, but fixed. Re-tint real animals into the palette.",
     "FRIENDLY FACES — small dot eyes, rosy cheek blush, simple happy expressions.",
-    "CLEAN & WHOLESOME — uncluttered, modern, no grain, no texture overlays.",
+    "CLEAN & WHOLESOME — uncluttered, modern; NO grain, NO texture overlays, NO gradients.",
+    "ONE FOCAL COLOR — reserve TOMATO CORAL for the single thing the viewer should look at in each frame.",
 ]:
     bullet(x)
-h2("4b. Color palette (canonical brand hex)")
+h2("4c. The color palette (canonical — use these exact hex values)")
 palette = [
     ("Sunshine Yellow", "#FBC02D", "Beaks, manes, warm highlights"),
-    ("Sky Blue", "#4FC3E8", "Water/sky elements, calm characters"),
+    ("Sky Blue", "#4FC3E8", "Water/sky elements, calm characters, the Host"),
     ("Leaf Green", "#7CC576", "Foliage, ground shapes"),
-    ("Tomato Coral", "#F0654E", "THE focal color — the key idea (sparingly)"),
+    ("Tomato Coral", "#F0654E", "THE focal color — the ONE key idea per frame (sparingly)"),
     ("Tangerine", "#F39237", "Secondary warm accent (lion/monkey)"),
     ("Blush Pink", "#F6A9B6", "Cheek blush, soft accents"),
     ("Stone Gray", "#9DB0BC", "Elephant/rhino bodies, neutral props"),
     ("Warm Brown", "#8D6E63", "Trunks, wood, branches"),
-    ("Cream", "#FBF7EF", "VideoScribe canvas / negative space"),
-    ("Charcoal", "#3A3631", "Eyes / edge accents / fine detail — never pure black"),
+    ("Cream", "#FBF7EF", "The VideoScribe canvas / negative space"),
+    ("Charcoal", "#3A3631", "Eyes, edge accents, fine detail — never pure black"),
 ]
 pt = doc.add_table(rows=1, cols=4); pt.style = "Table Grid"
-for i, x in enumerate(["Swatch", "Name", "Hex", "Usage"]):
+for i, x in enumerate(["Swatch", "Name", "Hex", "Where it's used"]):
     sct(pt.rows[0].cells[i], x, bold=True, size=8.5, color="FFFFFF"); shade(pt.rows[0].cells[i], "1F4E5F")
 for name, hexv, usage in palette:
     c = pt.add_row().cells
@@ -201,19 +205,29 @@ for row in pt.rows:
     row.cells[0].width = Inches(0.5); row.cells[1].width = Inches(1.5)
     row.cells[2].width = Inches(0.9); row.cells[3].width = Inches(3.3)
 doc.add_paragraph()
-bullet("Bright but balanced: use the palette across elements; reserve TOMATO CORAL for the one focal element per "
-       "frame (the key idea). Cream is the canvas. No pure black/white.")
-h2("4c. Characters")
-bullet("HOST (recurring narrator): one fixed friendly clip-art animal guide — recommended a rounded sky-blue fox "
-       "with a coral scarf, dot eyes and rosy cheeks. Lock ONE design and reuse it identically as a saved Element.")
-bullet("ANIMAL OF THE WEEK: the spreadsheet animal as a cute rounded clip-art character, RE-TINTED into the brand "
-       "palette (not natural photo colors), simplified, friendly.")
-bullet("CROWDS / MARKETS / 'YOU': simple rounded clip-art figures in palette colors; the odd-one-out is coral.")
-h2("4d. Finance motifs & composition")
-bullet("Charts/coins/arrows drawn as cute chunky clip-art in the palette (no realistic stock screenshots). Keep one "
-       "icon vocabulary. Each is its OWN isolated transparent element.")
-bullet("Elements are individual assets (no fixed aspect ratio on the PNG). The 16:9 LAYOUT is composed on the "
-       "VideoScribe canvas; one clear focal subject per frame; keep the bottom ~15% of the canvas caption-safe.")
+bullet("Bright but balanced: spread the palette across elements; let TOMATO CORAL spotlight the one key idea.")
+bullet("Cream (#FBF7EF) is the canvas/background. No pure black/white — use Charcoal and Cream. Tints/shades of "
+       "these colors are fine; brand-new colors are not.")
+h2("4d. Character anchors (describe with the SAME words every time)")
+body("Re-stating these exact descriptions in every prompt is what keeps recurring characters identical across all "
+     "videos. Save the Host (and any repeated prop) as a Higgsfield ELEMENT and reuse it — don't redraw it.")
+box("HOST (recurring narrator — in every episode):",
+    "cute clip-art fox host (rounded chunky sky-blue body, charcoal dot eyes, rosy cheeks, tomato-coral knitted "
+    "scarf). Lock ONE design and reuse it identically as a saved Element.")
+box("ANIMAL OF THE WEEK (the episode's animal):",
+    "the episode's animal as a cute clip-art character, RE-TINTED into the brand palette (NOT natural photo colors), "
+    "rounded and friendly, simplified, dot eyes, rosy cheeks.")
+box("CROWDS / MARKETS / 'YOU':",
+    "simple rounded clip-art person figure (sky-blue body, charcoal dot eyes, no other facial detail); a crowd is "
+    "many identical figures, the odd-one-out is tomato coral.")
+bullet("FINANCE MOTIFS: charts/coins/arrows as cute chunky clip-art in the palette (no stock screenshots); keep one "
+       "icon vocabulary; each is its OWN isolated transparent element.")
+bullet("COMPOSITION: element PNGs have no fixed aspect ratio; the 16:9 LAYOUT is built on the cream VideoScribe "
+       "canvas — one clear focal subject per frame, bottom ~15% caption-safe.")
+h2("4e. Style tags (paste at the end of EVERY prompt)")
+body("Append one verbatim so the look is locked: the COMPACT tag for normal per-element prompts; the FULL suffix "
+     "for one-off hero elements. Full text of both, plus the NEGATIVE/AVOID list, is in the Appendix.")
+box("COMPACT STYLE TAG (the workhorse — append to every per-element prompt):", COMPACT_SUFFIX)
 
 # ---------------- 5. DELIVERABLES + TIMING ----------------
 h1("5. Per-Episode Deliverables")
