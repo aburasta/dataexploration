@@ -115,6 +115,13 @@
     font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: var(--stamp);
   }
 
+  .angles { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+  .angle { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 16px 18px; display: grid; gap: 8px; align-content: start; }
+  .angle h3 { margin: 0; font-size: 15px; }
+  .angle .teach { margin: 0; color: var(--ink-2); font-size: 13px; }
+  .angle .rule { margin: 0; font-size: 12.5px; color: var(--ink-3); border-left: 3px solid var(--stamp); padding-left: 10px; }
+  .angle .subs { display: flex; flex-wrap: wrap; gap: 4px; }
+  .angle .subs span { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px; color: var(--stamp); background: var(--stamp-bg); border-radius: 2px; padding: 2px 6px; }
   .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; align-items: center; }
   .filters input {
     flex: 1 1 200px; min-width: 160px; padding: 7px 12px; border: 1px solid var(--line);
@@ -151,7 +158,7 @@
   <div class="tiles">
     <div class="tile"><b id="t-rows">—</b><span>videos indexed</span></div>
     <div class="tile"><b id="t-subs">—</b><span>subcategories hit</span></div>
-    <div class="tile"><b>56</b><span>subcats in taxonomy</span></div>
+    <div class="tile"><b>59</b><span>subcats in taxonomy</span></div>
     <div class="tile"><b>10</b><span>moment families</span></div>
     <div class="tile"><b>13</b><span>channels tracked</span></div>
   </div>
@@ -252,7 +259,12 @@
     <li>“Am I Being Detained?” — 5 Times It Ended Badly</li>
   </ol>
 
-  <h2>Moment bank — 171 indexed videos</h2>
+  <h2>Commentary angles — the transformative layer</h2>
+  <p class="h2-note">14 educational lenses that turn ranked clips into commentary. Pick the angle first;
+    its selection rule decides which clips qualify. Full framework in COMMENTARY_ANGLES.md.</p>
+  <div class="angles" id="angles"></div>
+
+  <h2>Moment bank — indexed videos</h2>
   <p class="h2-note">The “memory”: what happens, and exactly where to find it. Filter by family or search
     titles, cases, and subcategories.</p>
   <div class="filters" id="filters">
@@ -278,6 +290,12 @@
   const ROWS = __ROWS__;
   const FAMS = __FAMS__;
   const CHANNELS = __CHANNELS__;
+  const ANGLES = __ANGLES__;
+
+  document.getElementById('angles').innerHTML = Object.values(ANGLES).map(a =>
+    `<div class="angle"><h3>${a.label}</h3><p class="teach">${a.teaches}</p>` +
+    `<p class="rule">${a.selection_rule}</p>` +
+    `<div class="subs">${a.subcategories.map(s => `<span>${s}</span>`).join('')}</div></div>`).join('');
 
   document.getElementById('t-rows').textContent = ROWS.length;
   document.getElementById('t-subs').textContent = new Set(ROWS.map(r => r.subcategory)).size;

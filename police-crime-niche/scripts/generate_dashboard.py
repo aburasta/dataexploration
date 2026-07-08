@@ -36,10 +36,13 @@ channels = [
     ("Vigilant Detective", 7.1),
 ]
 
+angles = json.load(open(ROOT / "commentary_angles.json"))["angles"]
+
 template = (ROOT / "scripts" / "dashboard_template.html").read_text()
 html = (template
         .replace("__ROWS__", json.dumps(rows))
         .replace("__FAMS__", json.dumps(fam_counts))
-        .replace("__CHANNELS__", json.dumps(channels)))
+        .replace("__CHANNELS__", json.dumps(channels))
+        .replace("__ANGLES__", json.dumps(angles)))
 (ROOT / "dashboard.html").write_text(html)
 print(f"dashboard.html written: {len(rows)} rows, {len(fam_counts)} families")

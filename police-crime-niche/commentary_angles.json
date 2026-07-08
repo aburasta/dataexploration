@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "description": "Commentary lenses that turn ranked clips into transformative educational content. Each angle maps to taxonomy.json subcategory ids and carries a clip-selection rule: if a clip doesn't satisfy the rule, it doesn't go in a Short built on that angle.",
+  "angles": {
+    "interrogation_tactics": {
+      "label": "Interrogation Tactics, Decoded",
+      "teaches": "The named techniques detectives actually use — minimization, maximization, theme development, evidence reveals, strategic silence — and why they work (and when they produce false confessions).",
+      "subcategories": ["confession_moment", "lies_unraveling", "interrogation_general", "psychopath_calm", "young_suspect", "lawyer_moments"],
+      "selection_rule": "Only include a clip if a nameable technique is visible ON camera and visibly changes the suspect's behavior in the clip.",
+      "script_formula": "Name the technique ('This is minimization') → show the 8-second moment it lands → explain the psychology + the one caveat (e.g., why this technique is banned for minors in some states)."
+    },
+    "deception_analysis": {
+      "label": "The Science of Lies",
+      "teaches": "Statement analysis: distancing language, tense shifts, overly specific denials, performed grief — presented with the honest caveat that behavior analysis is probabilistic, not proof.",
+      "subcategories": ["lies_unraveling", "faking_insanity", "psychopath_calm", "killer_calls_911"],
+      "selection_rule": "Only include a clip if there is a specific verbal or behavioral marker you can freeze-frame, caption, and name.",
+      "script_formula": "Play the line → freeze + caption the marker ('listen to the tense shift: \"she WAS a good wife\"') → explain what investigators actually do with this signal."
+    },
+    "forensics_explained": {
+      "label": "How They Actually Caught Him",
+      "teaches": "The science behind the catch: genetic genealogy trees, touch DNA, fingerprint minutiae, decomposition timelines — real methods, correctly described.",
+      "subcategories": ["dna_catch", "cold_case_solved", "forensic_detail", "criminal_mistake"],
+      "selection_rule": "Only include a case if the forensic method is documented in the public case record — never guess the science.",
+      "script_formula": "The impossible-sounding fact ('a smoothie cup solved a 41-year-old murder') → 15-second method explainer with a simple diagram → the arrest moment as payoff."
+    },
+    "digital_footprint": {
+      "label": "Your Phone Is a Witness",
+      "teaches": "How search history, cell-tower pings, Ring/Fitbit/Alexa data, and metadata become courtroom evidence — digital literacy through true crime.",
+      "subcategories": ["digital_evidence", "camera_reveal", "online_predator", "scammer_fraudster"],
+      "selection_rule": "Only include a case if the specific data type (searches, pings, device logs) is identifiable and its legal path to court is explainable.",
+      "script_formula": "Read the search query out loud → explain how police legally obtained it (warrant to Google, geofence) → what the jury did with it."
+    },
+    "legal_literacy": {
+      "label": "Know Your Rights (For Real)",
+      "teaches": "Miranda myths, how to actually invoke a lawyer, detained-vs-arrested, search & seizure (plain view, probable cause, exigent circumstances), and what sovereign-citizen arguments get legally wrong.",
+      "subcategories": ["lawyer_moments", "sovereign_citizen", "entitled_meltdown", "celebrity_arrest", "traffic_stop_escalation", "trunk_discovery", "house_of_horrors", "smell_complaint", "welfare_check"],
+      "selection_rule": "Only include a clip if a real legal rule is invoked, waived, or misunderstood on camera — and you can cite the actual doctrine.",
+      "script_formula": "The on-camera claim ('you can't search my car!') → the actual rule in one sentence (plain-view doctrine / probable cause) → how it played out because of the rule."
+    },
+    "police_procedure": {
+      "label": "Why Cops Do It That Way",
+      "teaches": "The physics of a PIT maneuver, pursuit-termination policy, felony-stop choreography, K9 deployment rules, taser guidelines, the use-of-force continuum.",
+      "subcategories": ["pit_maneuver", "high_speed_chase", "chase_crash_ending", "motorcycle_chase", "k9_takedown", "taser_moment", "shootout", "standoff_hostage", "traffic_stop_escalation"],
+      "selection_rule": "Only include a clip if the visible action maps to a written policy or physical principle you can state.",
+      "script_formula": "Freeze before the action ('watch the front wheel') → the principle in one line (rear-quarter contact breaks traction) → replay at speed with the outcome."
+    },
+    "dispatch_protocol": {
+      "label": "What the Dispatcher Heard",
+      "teaches": "Dispatcher training: what they listen for in background audio, how coded calls are recognized, the questioning protocols that keep callers alive.",
+      "subcategories": ["chilling_911", "coded_call", "dispatcher_hero", "kid_hero_call", "killer_calls_911"],
+      "selection_rule": "Only include a call if the dispatcher's specific action (or the caller's technique) changed the outcome.",
+      "script_formula": "Play the odd-sounding moment → explain what the dispatcher recognized ('pizza order = can't speak freely') → the rescue as payoff."
+    },
+    "criminal_psychology": {
+      "label": "Why They Did It",
+      "teaches": "Escalation patterns, offender typologies, victim selection, what the insanity defense actually requires — criminology, not mind-reading.",
+      "subcategories": ["serial_killer", "family_killer", "female_killer", "young_killer", "nurse_caregiver_killer", "psychopath_calm"],
+      "selection_rule": "Only include a case if the pattern generalizes — the clip illustrates a documented criminological concept, not just one person's evil.",
+      "script_formula": "The pattern claim ('family annihilators almost always show this first') → the case as evidence → the research finding in one line."
+    },
+    "the_one_mistake": {
+      "label": "The Mistake That Ended It",
+      "teaches": "Evidence-chain reconstruction: how one decision — a kept receipt, a reused phone, a returned-to scene — causally led to the arrest.",
+      "subcategories": ["criminal_mistake", "dumb_criminal", "camera_reveal", "digital_evidence", "stolen_vehicle"],
+      "selection_rule": "Only include a case if the causal chain from mistake to arrest is documented — no 'probably this got him caught'.",
+      "script_formula": "State the mistake cold ('he kept the receipt') → 3-step chain: mistake → discovery → arrest → close on the interrogation/arrest face."
+    },
+    "courtroom_explained": {
+      "label": "What Just Happened in Court",
+      "teaches": "Sentencing math (consecutive vs concurrent), contempt powers, why plea deals exist, the legal role of victim impact statements, courtroom security procedure.",
+      "subcategories": ["sentencing_reaction", "verdict_moment", "judge_moments", "victim_confronts", "courtroom_outburst", "escape_attempt"],
+      "selection_rule": "Only include a clip if there's a legal mechanism to explain — the emotion is the hook, the mechanism is the content.",
+      "script_formula": "The dramatic moment → 'here's what legally just happened' (judge added contempt = X days per outburst) → the number that makes it concrete."
+    },
+    "under_pressure": {
+      "label": "The Brain in Crisis",
+      "teaches": "Acute stress response: why suspects run when surrounded, auditory exclusion in shootouts, panic decision-making, why heroes stay calm — with real psychology terms.",
+      "subcategories": ["foot_chase", "resisting_arrest", "suspect_breakdown", "escape_attempt", "officer_down", "hero_rescue"],
+      "selection_rule": "Only include a clip if the behavior illustrates a nameable stress response you can define in one sentence.",
+      "script_formula": "The irrational-looking act ('why run when 6 cops surround you?') → the mechanism (amygdala hijack in one line) → what training does to override it."
+    },
+    "system_accountability": {
+      "label": "When the System Polices Itself",
+      "teaches": "How corrupt officers actually get caught (their own bodycams, FBI audits, internal affairs), why impersonators are prosecuted hard, what bodycam policy changed.",
+      "subcategories": ["killer_cop", "fake_cop", "instant_karma"],
+      "selection_rule": "Only include a case if an accountability mechanism — not just an individual's downfall — is the explainable center.",
+      "script_formula": "The irony hook ('his own bodycam convicted him') → the mechanism (who reviews footage, when) → the consequence with the number (sentence/settlement)."
+    },
+    "safety_playbook": {
+      "label": "What This Teaches You",
+      "teaches": "Directly usable safety knowledge: the pizza-order technique, teaching kids their address for 911, why 0.08 exists, when police can enter for a welfare check.",
+      "subcategories": ["coded_call", "kid_hero_call", "dui_stop", "welfare_check", "missing_person_found", "hero_rescue", "dispatcher_hero"],
+      "selection_rule": "Only include a clip if there's an actionable takeaway a viewer could personally use within the Short's last 5 seconds.",
+      "script_formula": "The save → why it worked, as instruction ('she kept the call in pizza terms — dispatchers are trained for this') → the direct 'if you ever need this' line."
+    },
+    "history_firsts": {
+      "label": "The First Time Ever",
+      "teaches": "Turning points: the first DNA conviction (Pitchfork 1986), the birth of genetic genealogy (GSK 2018), the first bodycam programs, historic 911 recordings.",
+      "subcategories": ["dna_catch", "cold_case_solved", "chilling_911", "serial_killer"],
+      "selection_rule": "Only include a case if the 'first' or turning point is verifiable — history claims get fact-checked hardest.",
+      "script_formula": "'Before 1986, this crime was unsolvable' → the breakthrough case → what it changed (every DNA catch since traces to this)."
+    }
+  }
+}

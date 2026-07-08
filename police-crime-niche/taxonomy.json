@@ -278,6 +278,15 @@
           "patterns": ["dispatcher (hero|hailed|saves?|honored|award)", "hero dispatcher", "dispatcher('s)? (calm|quick thinking)", "talks? (him|her|caller) through", "lifesaving (911 )?call"]
         }
       }
+    },
+    "hero_moments": {
+      "label": "Hero Moments",
+      "subcategories": {
+        "hero_rescue": {
+          "label": "Hero cops & dramatic rescues",
+          "patterns": ["hero (cop|officer|deputy|police)", "(officer|deputy|cop|police) (saves?|rescues?|revives?)", "dramatic rescue", "saves? (a |the )?(baby|infant|toddler|child|kid|boy|girl)('s)? life", "choking (baby|infant|child)", "pulls? (him|her|them|man|woman|driver) (from|out of)"]
+        }
+      }
     }
   }
 }
