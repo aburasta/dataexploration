@@ -1,0 +1,275 @@
+{
+  "version": 1,
+  "description": "Multi-label subcategory taxonomy for the police-camera true crime niche (Dr Insanity style). Each subcategory has regex patterns (case-insensitive) applied to video titles. A video can match multiple subcategories.",
+  "families": {
+    "pursuits": {
+      "label": "Pursuits & Chases",
+      "subcategories": {
+        "high_speed_chase": {
+          "label": "High-speed car chases",
+          "patterns": ["high[- ]?speed", "police chase", "car chase", "pursuit", "flee(s|ing)? (from )?(the )?(police|cops)", "outrun", "getaway driver", "led police on"]
+        },
+        "chase_crash_ending": {
+          "label": "Chase ends in crash",
+          "patterns": ["chase ends", "crash(es|ed)? (into|during|after)", "pursuit ends", "wreck(s|ed)? .*(chase|pursuit)", "(chase|pursuit).*(crash|wreck)"]
+        },
+        "foot_chase": {
+          "label": "Foot chases & runners",
+          "patterns": ["foot chase", "runs? from (the )?(police|cops)", "tries to (run|escape|flee)", "tried to (run|escape|flee)", "take(s)? off running", "sprint(s|ing)? (away|from)"]
+        },
+        "pit_maneuver": {
+          "label": "PIT maneuvers & takedown driving",
+          "patterns": ["pit maneuver", "pit[s]? (a|the|his|her)", "spike strip", "stop stick", "rams? (the )?(suspect|car|vehicle)"]
+        },
+        "motorcycle_chase": {
+          "label": "Motorcycle getaways",
+          "patterns": ["motorcycle (chase|pursuit|rider)", "biker (flees|runs|chase)", "dirt ?bike.*(police|chase|cops)"]
+        },
+        "stolen_vehicle": {
+          "label": "Stolen car/joyride incidents",
+          "patterns": ["stolen (car|vehicle|truck|cruiser|cop car|police car)", "steals? (a |the )?(car|police|cop|cruiser|ambulance|bus|tank)", "carjack", "joyride", "grand theft"]
+        }
+      }
+    },
+    "interrogation": {
+      "label": "Interrogation Room",
+      "subcategories": {
+        "confession_moment": {
+          "label": "Confession moments",
+          "patterns": ["confess(es|ion|ed|ing)?", "admits? (to|everything|killing|murder)", "moment .* admits", "comes? clean", "tells? (the )?truth about"]
+        },
+        "lies_unraveling": {
+          "label": "Lies falling apart / caught lying",
+          "patterns": ["caught (in a lie|lying)", "lies? (unravel|fall apart|collapse|exposed)", "story (falls apart|changes|doesn'?t add up)", "web of lies", "every lie", "keeps? lying"]
+        },
+        "suspect_breakdown": {
+          "label": "Suspect breaks down / loses it",
+          "patterns": ["break(s)? down", "meltdown", "loses? (it|his mind|her mind|control)", "cries? (in|during|when)", "panics? (in|when|during)", "goes? (crazy|insane|berserk)"]
+        },
+        "psychopath_calm": {
+          "label": "Chilling calm / psychopath tells",
+          "patterns": ["psychopath", "sociopath", "no (remorse|emotion)", "chilling(ly)? calm", "ice[- ]?cold", "shows? no", "creepiest", "chilling interrogation", "emotionless"]
+        },
+        "faking_insanity": {
+          "label": "Faking insanity / fake tears",
+          "patterns": ["fak(es|ing|ed) (insanity|crazy|mental|tears|cry)", "pretends? to be (crazy|insane)", "crocodile tears", "fake (tears|crying|grief)"]
+        },
+        "interrogation_general": {
+          "label": "Interrogation (general)",
+          "patterns": ["interrogat(ion|ed|es|ing)", "detective (breaks|corners|traps|destroys|outsmarts)", "police interview"]
+        },
+        "young_suspect": {
+          "label": "Teen & child suspects",
+          "patterns": ["teen(ager)? (killer|murderer|confesses|interrogat)", "youngest (killer|murderer|inmate)", "\\b1[0-7][- ]?year[- ]?old\\b.*(kill|murder|interrogat|arrest)", "kid (killer|confesses|interrogated)", "juvenile"]
+        },
+        "lawyer_moments": {
+          "label": "Lawyer & rights moments",
+          "patterns": ["lawyer(s)? up", "asks? for (a )?lawyer", "without (a )?lawyer", "waives? (his|her|their) rights", "miranda", "should have (asked|gotten) (for )?a lawyer"]
+        }
+      }
+    },
+    "forensics_reveals": {
+      "label": "Forensics & Case-Cracking Reveals",
+      "subcategories": {
+        "dna_catch": {
+          "label": "Caught by DNA (often years later)",
+          "patterns": ["\\bdna\\b", "genetic genealogy", "genealogy", "familial dna"]
+        },
+        "cold_case_solved": {
+          "label": "Cold cases finally solved",
+          "patterns": ["cold case", "solved after \\d+ years", "\\d+ years? later", "decades[- ]old", "after \\d+ (years|decades)", "finally (caught|solved|identified|arrested)"]
+        },
+        "digital_evidence": {
+          "label": "Caught by phone/tech/internet trail",
+          "patterns": ["google search(es)?", "search history", "cell ?phone (data|records|ping)", "gps", "text message", "caught by (his|her|their) (phone|computer|internet)", "browser history", "fitbit", "ring camera", "alexa", "smartwatch"]
+        },
+        "camera_reveal": {
+          "label": "Hidden/security camera reveals",
+          "patterns": ["hidden camera", "secret camera", "caught on (camera|cctv|tape|video|surveillance)", "surveillance (footage|video|camera)", "doorbell cam", "security (footage|camera)", "didn'?t know .*(camera|filming|recording)"]
+        },
+        "forensic_detail": {
+          "label": "Tiny forensic detail solves case",
+          "patterns": ["one (tiny|small) (detail|clue|mistake)", "single (clue|hair|fingerprint|detail)", "fingerprint", "forensic", "autopsy (reveal|shock|found)", "blood (spatter|evidence)"]
+        },
+        "criminal_mistake": {
+          "label": "The one mistake that caught them",
+          "patterns": ["one mistake", "fatal (mistake|error|flaw)", "mistake that (caught|exposed|ended)", "slip[- ]?up", "gave (himself|herself|themselves) away", "shouldn'?t have"]
+        }
+      }
+    },
+    "bodycam_encounters": {
+      "label": "Bodycam Encounters & Traffic Stops",
+      "subcategories": {
+        "instant_karma": {
+          "label": "Instant karma / instant regret",
+          "patterns": ["instant(ly)? (karma|regret)", "immediately regret", "karma", "backfires?", "wrong (cop|officer|guy|person|house|car) ", "messed with the wrong", "picks? a fight with"]
+        },
+        "entitled_meltdown": {
+          "label": "Entitled people & 'do you know who I am'",
+          "patterns": ["do you know who i am", "entitled", "karen", "calls? (his|her|their) (dad|mom|daddy|lawyer)", "i('ll| will) have your (badge|job)", "you can'?t arrest me", "i pay your salary"]
+        },
+        "dui_stop": {
+          "label": "DUI stops & drunk drivers",
+          "patterns": ["\\bdui\\b", "\\bdwi\\b", "drunk driv(er|ing)", "sobriety test", "breathalyzer", "wasted", "intoxicated", "under the influence"]
+        },
+        "traffic_stop_escalation": {
+          "label": "Routine stop goes wrong",
+          "patterns": ["routine (traffic )?stop", "traffic stop (turns|goes|escalates)", "pulled over.*(turns|goes|discovers|finds)", "simple stop", "speeding stop (turns|leads)"]
+        },
+        "fake_cop": {
+          "label": "Cop impersonators caught",
+          "patterns": ["fake (cop|police|officer|deputy|agent)", "impersonat(es|ing|or)", "pretends? to be (a )?(cop|police|officer|fbi|federal)", "poses? as (a )?(cop|police|officer)"]
+        },
+        "sovereign_citizen": {
+          "label": "Sovereign citizens & 'I don't answer questions'",
+          "patterns": ["sovereign citizen", "i do(n'?t| not) answer questions", "am i being detained", "first amendment audit", "refuses? to (show|give|provide) (id|identification|license)", "you have no jurisdiction"]
+        },
+        "celebrity_arrest": {
+          "label": "Rich, famous & VIP arrests",
+          "patterns": ["millionaire", "billionaire", "celebrity", "famous", "nfl|nba|mlb", "pro athlete", "politician", "mayor|senator|judge arrested", "ceo (arrested|caught)", "influencer (arrested|caught)"]
+        }
+      }
+    },
+    "dark_discoveries": {
+      "label": "Dark Discoveries",
+      "subcategories": {
+        "trunk_discovery": {
+          "label": "Something in the trunk/car",
+          "patterns": ["in (the|his|her) trunk", "trunk (of|reveals|discovery)", "opens? the trunk", "inside (the|his|her) (car|van|truck) (was|they found)", "finds? .* in (the|a) (car|trunk|van)"]
+        },
+        "house_of_horrors": {
+          "label": "House-of-horrors searches",
+          "patterns": ["house of horrors", "inside (the|his|her) (house|home|apartment|basement)", "what (police|they|cops) found (in|inside)", "search(es|ed)? (the|his|her) (house|home|apartment)", "basement", "freezer", "under the (floor|house|bed)", "buried in the (backyard|garden|yard)"]
+        },
+        "missing_person_found": {
+          "label": "Missing person cases & discoveries",
+          "patterns": ["missing (girl|boy|woman|man|person|teen|child|mother|father|wife|husband)", "disappear(ance|ed|s)", "vanish(ed|es|ing)?", "found (alive|dead|after)", "last seen"]
+        },
+        "welfare_check": {
+          "label": "Welfare checks gone dark",
+          "patterns": ["welfare check", "wellness check", "check on (his|her|their|a) (neighbor|mother|father|friend)", "hadn'?t (been seen|heard from)"]
+        },
+        "smell_complaint": {
+          "label": "Neighbors report a smell / grim finds",
+          "patterns": ["smell(s|ed)? (coming|something)", "strange (smell|odor)", "neighbors? (complain|report|call)", "decompos", "remains (found|discovered)"]
+        }
+      }
+    },
+    "justice_courtroom": {
+      "label": "Courtroom & Justice Moments",
+      "subcategories": {
+        "sentencing_reaction": {
+          "label": "Sentencing reactions & collapses",
+          "patterns": ["reacts? to (life |death |his |her |the )?(sentence|sentencing|verdict)", "sentenc(ed|ing) to", "collapses? (in court|after)", "faints?", "life (in prison|sentence|without parole)", "death (penalty|sentence|row)"]
+        },
+        "verdict_moment": {
+          "label": "Verdict moments",
+          "patterns": ["verdict", "found guilty", "guilty on all", "not guilty", "acquitted", "jury (finds|convicts|decides)"]
+        },
+        "judge_moments": {
+          "label": "Judge destroys / iconic judge moments",
+          "patterns": ["judge (destroys|slams|loses|snaps|shuts|rips|scolds|laughs|cries)", "judge has (enough|no mercy)", "disrespects? (the )?judge", "mouths? off to (the )?judge", "contempt of court"]
+        },
+        "victim_confronts": {
+          "label": "Victims/families confront killers",
+          "patterns": ["confronts? (his|her|their|the) (killer|murderer|attacker|abuser)", "victim'?s? (family|mother|father|statement)", "impact statement", "faces? (his|her|the) (victim|killer)", "forgives? (the|his|her) killer"]
+        },
+        "courtroom_outburst": {
+          "label": "Courtroom outbursts & attacks",
+          "patterns": ["courtroom (outburst|attack|chaos|brawl|fight)", "attacks? .* in court", "lunges? at", "jumps? (over|at|on) .*(court|judge|defendant)", "dragged (out of|from) court", "smirks? (in court|at)"]
+        }
+      }
+    },
+    "force_danger": {
+      "label": "Use of Force & Danger",
+      "subcategories": {
+        "shootout": {
+          "label": "Shootouts & armed confrontations",
+          "patterns": ["shoot[- ]?out", "opens? fire", "gun ?fight", "exchange[sd]? (gun)?fire", "shots? fired", "armed (suspect|robber|man|standoff)", "pulls? (a )?gun"]
+        },
+        "officer_down": {
+          "label": "Officer down / ambush on police",
+          "patterns": ["officer (down|shot|killed|ambushed|attacked|stabbed)", "ambush(es|ed)? (a |the )?(cop|officer|police)", "attacks? (a |an |the )?(cop|officer|police)", "cop (shot|stabbed|attacked|killed)", "assaults? (an? )?officer"]
+        },
+        "k9_takedown": {
+          "label": "K9 takedowns",
+          "patterns": ["\\bk-?9\\b", "police dog", "canine (unit|takedown|catches)"]
+        },
+        "taser_moment": {
+          "label": "Taser deployments",
+          "patterns": ["taser(ed|s)?", "tases?[sd]?\\b", "tased", "stun gun", "don'?t tase"]
+        },
+        "standoff_hostage": {
+          "label": "Standoffs & hostage situations",
+          "patterns": ["stand[- ]?off", "hostage", "barricad(es|ed|ing)?", "swat (team|raid|standoff)", "negotiat(or|ion|es)", "hours[- ]long"]
+        },
+        "escape_attempt": {
+          "label": "Escape attempts (custody, courtroom, jail)",
+          "patterns": ["escapes? (from|police|custody|jail|prison|courtroom)", "escape attempt", "breaks? out of", "jail ?break", "flees? (the )?(courtroom|courthouse|hospital)", "slips? out of (hand)?cuffs", "prison break"]
+        },
+        "resisting_arrest": {
+          "label": "Fighting cops / resisting arrest",
+          "patterns": ["resist(s|ing|ed)? arrest", "fights? (the |with )?(police|cops|officers?)", "wrestles? (with )?(the )?(police|cops|officer)", "refuses? to (get out|comply|exit|leave)", "won'?t comply", "struggle with (police|officers)"]
+        }
+      }
+    },
+    "perpetrator_profiles": {
+      "label": "Perpetrator Profiles",
+      "subcategories": {
+        "serial_killer": {
+          "label": "Serial killers",
+          "patterns": ["serial killer", "serial murder", "killing spree", "\\bbtk\\b", "night stalker", "golden state killer"]
+        },
+        "family_killer": {
+          "label": "Family annihilators & domestic murders",
+          "patterns": ["kills? (his|her) (own )?(wife|husband|family|mother|father|parents|kids|children|son|daughter|baby)", "murders? (his|her) (own )?(wife|husband|family|mother|father|parents)", "family (annihilator|massacre|murder)", "husband (kills|murders)", "wife (kills|murders)"]
+        },
+        "female_killer": {
+          "label": "Female killers",
+          "patterns": ["female (killer|murderer|psychopath)", "woman (who )?(kill|murder)s?", "she (killed|murdered|poisoned)", "deadly (women|wife|girlfriend|nurse)", "black widow"]
+        },
+        "young_killer": {
+          "label": "Teen & child killers",
+          "patterns": ["teen(age)? killer", "youngest (killer|murderer)", "kid(s)? who kill", "child (killer|murderer)(?!.*of)", "school (shooter|shooting)"]
+        },
+        "killer_cop": {
+          "label": "Cops & officials as criminals",
+          "patterns": ["(cop|officer|deputy|police chief|detective) (who )?(kill|murder|arrest)ed", "corrupt (cop|officer|police|detective|judge)", "cop (arrested|caught|charged|goes to jail)", "police officer (arrested|caught|charged)", "dirty cop", "cops? arrest(ing)? (a |another )?cop"]
+        },
+        "nurse_caregiver_killer": {
+          "label": "Killer nurses, doctors & caregivers",
+          "patterns": ["(nurse|doctor|caregiver|babysitter|nanny) (who )?(kill|murder|poison)", "angel of death", "killer (nurse|doctor|nanny|babysitter)"]
+        },
+        "online_predator": {
+          "label": "Online predators & sting catches",
+          "patterns": ["predator", "catfish", "to catch a", "sting (operation|catches)", "undercover (sting|operation|cop|officer|detective)", "meets? (up with )?(a )?minor", "groom(er|ing)"]
+        },
+        "scammer_fraudster": {
+          "label": "Scammers & fraudsters exposed",
+          "patterns": ["scam(mer|s)?", "fraud(ster)?", "ponzi", "fake (heiress|doctor|lawyer|nurse|millionaire)", "con[- ]?(artist|man|woman)", "identity (theft|thief)", "embezzl"]
+        },
+        "dumb_criminal": {
+          "label": "Dumbest criminals",
+          "patterns": ["dumb(est)? (criminal|robber|thief|burglar)", "stupid(est)? (criminal|robber|thief)", "idiot", "hilarious(ly)?", "fail(s|ed)?\\b", "worst (robber|burglar|criminal|getaway)", "clueless"]
+        }
+      }
+    },
+    "calls_dispatch": {
+      "label": "911 & Dispatch",
+      "subcategories": {
+        "chilling_911": {
+          "label": "Chilling 911 calls",
+          "patterns": ["911 call", "calls? 911", "\\b911\\b", "emergency call", "dispatcher", "999 call"]
+        },
+        "killer_calls_911": {
+          "label": "Killer makes the 911 call",
+          "patterns": ["killer calls? 911", "calls? 911 (after|on himself|on herself)", "reports? (his|her) own", "fake[sd]? (a )?911", "911 call (exposes|catches|reveals)"]
+        },
+        "kid_hero_call": {
+          "label": "Kids & heroes on the line",
+          "patterns": ["(kid|child|boy|girl|son|daughter) calls? 911", "youngest 911", "hero (kid|child|neighbor|bystander)", "saves? (his|her|their) (mom|mother|family|sister|brother)"]
+        }
+      }
+    }
+  }
+}

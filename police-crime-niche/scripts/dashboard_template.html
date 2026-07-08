@@ -1,0 +1,328 @@
+<title>Police-Camera True Crime — Shorts Intel</title>
+<style>
+  :root {
+    --bg: #f4f6f8;
+    --surface: #fcfcfb;
+    --ink: #10151b;
+    --ink-2: #49525c;
+    --ink-3: #78828e;
+    --line: #dde3e8;
+    --stamp: #9a6403;
+    --stamp-bg: #fdf3df;
+    --blue: #2a78d6;
+    --aqua: #157f5a;
+    --tier-s: #104281; --tier-a: #256abf; --tier-b: #5598e7; --tier-c: #86b6ef;
+    --tier-c-ink: #10151b;
+    --link: #1c5cab;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121316;
+      --surface: #1a1a19;
+      --ink: #f0f2f4;
+      --ink-2: #b6bec7;
+      --ink-3: #828b95;
+      --line: #2d3238;
+      --stamp: #e0a32e;
+      --stamp-bg: #2a2413;
+      --blue: #3987e5;
+      --aqua: #2bb385;
+      --tier-s: #86b6ef; --tier-a: #5598e7; --tier-b: #2a78d6; --tier-c: #184f95;
+      --tier-c-ink: #f0f2f4;
+      --link: #86b6ef;
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: #f4f6f8; --surface: #fcfcfb; --ink: #10151b; --ink-2: #49525c;
+    --ink-3: #78828e; --line: #dde3e8; --stamp: #9a6403; --stamp-bg: #fdf3df;
+    --blue: #2a78d6; --aqua: #157f5a;
+    --tier-s: #104281; --tier-a: #256abf; --tier-b: #5598e7; --tier-c: #86b6ef;
+    --tier-c-ink: #10151b; --link: #1c5cab;
+  }
+  :root[data-theme="dark"] {
+    --bg: #121316; --surface: #1a1a19; --ink: #f0f2f4; --ink-2: #b6bec7;
+    --ink-3: #828b95; --line: #2d3238; --stamp: #e0a32e; --stamp-bg: #2a2413;
+    --blue: #3987e5; --aqua: #2bb385;
+    --tier-s: #86b6ef; --tier-a: #5598e7; --tier-b: #2a78d6; --tier-c: #184f95;
+    --tier-c-ink: #f0f2f4; --link: #86b6ef;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 15px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 40px 24px 80px; }
+  a { color: var(--link); text-decoration: none; }
+  a:hover, a:focus-visible { text-decoration: underline; }
+  a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+
+  header { border-bottom: 2px solid var(--ink); padding-bottom: 24px; margin-bottom: 32px; }
+  .eyebrow {
+    display: inline-block; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 11px; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--stamp); background: var(--stamp-bg); border: 1px solid var(--stamp);
+    padding: 3px 10px; border-radius: 2px; margin-bottom: 14px;
+  }
+  h1 { font-size: clamp(26px, 4.5vw, 38px); line-height: 1.12; margin: 0 0 10px; letter-spacing: -.015em; text-wrap: balance; }
+  .sub { color: var(--ink-2); max-width: 68ch; margin: 0; }
+  .sub em { color: var(--ink-3); font-style: normal; font-size: 13px; display: block; margin-top: 8px; }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 28px 0 40px; }
+  .tile { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; }
+  .tile b { display: block; font-size: 26px; font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+  .tile span { font-size: 12px; color: var(--ink-3); text-transform: uppercase; letter-spacing: .08em; }
+
+  h2 { font-size: 20px; margin: 44px 0 6px; letter-spacing: -.01em; }
+  .h2-note { color: var(--ink-3); font-size: 13px; margin: 0 0 18px; max-width: 72ch; }
+
+  .tierboard { display: grid; gap: 14px; }
+  .tier { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; display: grid; grid-template-columns: 64px 1fr; }
+  .tier-tag { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; color: #fff; padding: 14px 0; }
+  .tier--c .tier-tag { color: var(--tier-c-ink); }
+  .tier--s .tier-tag { background: var(--tier-s); }
+  .tier--a .tier-tag { background: var(--tier-a); }
+  .tier--b .tier-tag { background: var(--tier-b); }
+  .tier--c .tier-tag { background: var(--tier-c); }
+  :root[data-theme="dark"] .tier--s .tier-tag, :root[data-theme="dark"] .tier--b .tier-tag { color: #10151b; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tier--s .tier-tag, :root:not([data-theme="light"]) .tier--b .tier-tag { color: #10151b; } }
+  .tier-tag b { font-size: 24px; }
+  .tier-tag span { font-size: 9px; letter-spacing: .1em; text-transform: uppercase; opacity: .85; }
+  .tier-body { padding: 14px 18px; display: grid; gap: 10px; }
+  .entry { display: grid; gap: 2px; padding-bottom: 10px; border-bottom: 1px dashed var(--line); }
+  .entry:last-child { border-bottom: 0; padding-bottom: 0; }
+  .entry b { font-size: 14.5px; }
+  .entry .cats { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; color: var(--stamp); }
+  .entry p { margin: 0; color: var(--ink-2); font-size: 13.5px; max-width: 78ch; }
+
+  .chart { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 18px 20px; }
+  .chart h3 { margin: 0 0 4px; font-size: 15px; }
+  .chart .src { font-size: 12px; color: var(--ink-3); margin: 0 0 14px; }
+  .barrow { display: grid; grid-template-columns: 170px 1fr 58px; align-items: center; gap: 10px; padding: 3px 0; border-radius: 3px; }
+  .barrow:hover { background: color-mix(in oklab, var(--blue) 8%, transparent); }
+  .barrow .lbl { font-size: 12.5px; color: var(--ink-2); text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .barrow .val { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; font-variant-numeric: tabular-nums; color: var(--ink); }
+  .bar { height: 16px; border-radius: 0 3px 3px 0; background: var(--blue); min-width: 2px; }
+  .bar--aqua { background: var(--aqua); }
+  .charts2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 780px) { .charts2 { grid-template-columns: 1fr; } .barrow { grid-template-columns: 120px 1fr 52px; } }
+
+  ol.ideas { margin: 0; padding: 0 0 0 0; counter-reset: idea; list-style: none; columns: 2; column-gap: 28px; }
+  @media (max-width: 780px) { ol.ideas { columns: 1; } }
+  ol.ideas li { counter-increment: idea; break-inside: avoid; padding: 8px 0 8px 44px; position: relative; border-bottom: 1px dashed var(--line); font-size: 14px; }
+  ol.ideas li::before {
+    content: counter(idea, decimal-leading-zero); position: absolute; left: 0; top: 9px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: var(--stamp);
+  }
+
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; align-items: center; }
+  .filters input {
+    flex: 1 1 200px; min-width: 160px; padding: 7px 12px; border: 1px solid var(--line);
+    border-radius: 4px; background: var(--surface); color: var(--ink); font: inherit; font-size: 13.5px;
+  }
+  .chip {
+    border: 1px solid var(--line); background: var(--surface); color: var(--ink-2);
+    font-size: 12px; padding: 5px 11px; border-radius: 99px; cursor: pointer; font-family: inherit;
+  }
+  .chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .tablewrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+  table { border-collapse: collapse; width: 100%; min-width: 640px; font-size: 13.5px; }
+  th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); padding: 10px 14px; border-bottom: 1px solid var(--line); }
+  td { padding: 8px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  td .subcat { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; color: var(--stamp); white-space: nowrap; }
+  td.notes { color: var(--ink-3); font-size: 12.5px; max-width: 340px; }
+  .count { color: var(--ink-3); font-size: 12.5px; margin: 8px 2px 0; }
+
+  footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--ink-3); font-size: 12.5px; max-width: 78ch; }
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Case file · Niche intel · 2026-07-08</span>
+    <h1>Police-Camera True Crime — Viral Subcategory Rankings</h1>
+    <p class="sub">A moment bank and virality tier list for a rankings-format Shorts channel in the
+      Dr&nbsp;Insanity / EWU niche. Every entry is a real, locatable video — indexed by what happens in it.
+      <em>Method note: built from web-search sweeps + channel-level VidIQ momentum data. Tiers are grounded
+      judgments, not per-video view math; the classifier in this repo is ready to quantify them when
+      per-video stats become available.</em></p>
+  </header>
+
+  <div class="tiles">
+    <div class="tile"><b id="t-rows">—</b><span>videos indexed</span></div>
+    <div class="tile"><b id="t-subs">—</b><span>subcategories hit</span></div>
+    <div class="tile"><b>56</b><span>subcats in taxonomy</span></div>
+    <div class="tile"><b>10</b><span>moment families</span></div>
+    <div class="tile"><b>13</b><span>channels tracked</span></div>
+  </div>
+
+  <h2>Virality tiers</h2>
+  <p class="h2-note">What to build the channel on, in order. S-tier formats power the fastest-growing
+    channels in the niche (Dr&nbsp;Insanity: 161M views in the last two months alone).</p>
+  <div class="tierboard">
+    <section class="tier tier--s">
+      <div class="tier-tag"><b>S</b><span>build on</span></div>
+      <div class="tier-body">
+        <div class="entry"><b>“The moment they realized they were caught”</b><span class="cats">lies_unraveling · psychopath_calm · confession_moment</span>
+          <p>The engine of the niche — a 5–15&nbsp;second facial-expression payoff, perfect for Shorts countdowns.</p></div>
+        <div class="entry"><b>Caught by DNA, decades later</b><span class="cats">dna_catch · cold_case_solved</span>
+          <p>Built-in ranking axis (years until caught: 7 → 24 → 41 → 57) with historic anchors like Colin Pitchfork and the Golden State Killer.</p></div>
+        <div class="entry"><b>Instant karma / messed with the wrong person</b><span class="cats">instant_karma · entitled_meltdown</span>
+          <p>Setup → arrogance → payoff in under 30 seconds. Endless supply, huge comment bait.</p></div>
+        <div class="entry"><b>Chases with dramatic endings</b><span class="cats">pit_maneuver · chase_crash_ending · stolen_vehicle</span>
+          <p>Pure visual adrenaline that works muted; proven “Top 10 PIT” series demand.</p></div>
+        <div class="entry"><b>Sentencing &amp; judge moments</b><span class="cats">sentencing_reaction · judge_moments</span>
+          <p>Public-record footage, faces are the content, “smirk gets wiped off” is a proven loop.</p></div>
+      </div>
+    </section>
+    <section class="tier tier--a">
+      <div class="tier-tag"><b>A</b><span>rotation</span></div>
+      <div class="tier-body">
+        <div class="entry"><b>Dark discovery cliffhangers</b><span class="cats">trunk_discovery · welfare_check · house_of_horrors</span>
+          <p>Massive curiosity-gap hooks — tease, never show.</p></div>
+        <div class="entry"><b>Courtroom outbursts &amp; victim confrontations</b><span class="cats">courtroom_outburst · victim_confronts</span>
+          <p>Nassar-dad-level moments; rank by chaos.</p></div>
+        <div class="entry"><b>Fake cops caught by real cops</b><span class="cats">fake_cop</span>
+          <p>Reliable irony engine — “fake cop pulls over the sheriff.”</p></div>
+        <div class="entry"><b>Teen suspects in interrogation</b><span class="cats">young_suspect</span>
+          <p>The “(He Didn’t)” formula — the most copied title in the niche. Keep it factual.</p></div>
+        <div class="entry"><b>K9 takedowns &amp; escape attempts</b><span class="cats">k9_takedown · escape_attempt</span>
+          <p>Fast, visual, satisfying; already proven as Shorts by A&amp;E Court Cam.</p></div>
+      </div>
+    </section>
+    <section class="tier tier--b">
+      <div class="tier-tag"><b>B</b><span>freshness</span></div>
+      <div class="tier-body">
+        <div class="entry"><b>Sovereign citizens</b><span class="cats">sovereign_citizen</span><p>Reliable but saturated — lead with twist endings.</p></div>
+        <div class="entry"><b>DUI stops</b><span class="cats">dui_stop</span><p>Infinite supply; best stacked with entitlement (“my son is a cop!”).</p></div>
+        <div class="entry"><b>Dumb criminals / funny arrests</b><span class="cats">dumb_criminal</span><p>Comedy diversifies the emotional palette.</p></div>
+        <div class="entry"><b>911 audio formats</b><span class="cats">killer_calls_911 · chilling_911 · kid_hero_call</span><p>Audio-first with waveform + captions; kid-hero calls are the wholesome counterweight.</p></div>
+        <div class="entry"><b>Digital-evidence catches</b><span class="cats">digital_evidence</span><p>“His Google searches convicted him” — refreshes with every big trial.</p></div>
+        <div class="entry"><b>Corrupt cops arrested</b><span class="cats">killer_cop</span><p>Justice-porn appeal; verify outcomes before publishing claims.</p></div>
+      </div>
+    </section>
+    <section class="tier tier--c">
+      <div class="tier-tag"><b>C</b><span>caution</span></div>
+      <div class="tier-body">
+        <div class="entry"><b>Shootouts &amp; officer-down</b><span class="cats">shootout · officer_down</span><p>High views, but graphic-content demonetization and age-restriction risk on Shorts.</p></div>
+        <div class="entry"><b>Predator stings</b><span class="cats">online_predator</span><p>Popular but brand-unsafe and policy-sensitive.</p></div>
+        <div class="entry"><b>Slow-burn arcs</b><span class="cats">standoff_hostage · smell_complaint</span><p>Need more than 60 seconds to land.</p></div>
+      </div>
+    </section>
+  </div>
+
+  <h2>The numbers behind the tiers</h2>
+  <p class="h2-note">Left: measured channel momentum (views gained May 8 – Jul 8, 2026, VidIQ). Right: where the
+    moment bank’s 171 indexed videos sit.</p>
+  <div class="charts2">
+    <div class="chart">
+      <h3>Channel momentum — last 2 months</h3>
+      <p class="src">Millions of views gained · VidIQ daily stats</p>
+      <div id="chart-channels"></div>
+    </div>
+    <div class="chart">
+      <h3>Moment bank coverage by family</h3>
+      <p class="src">Indexed videos per family · moment_bank.csv</p>
+      <div id="chart-fams"></div>
+    </div>
+  </div>
+
+  <h2>First 20 Shorts to make</h2>
+  <p class="h2-note">Ordered by priority; every concept is sourceable from the moment bank below today.</p>
+  <ol class="ideas">
+    <li>5 Killers Caught by DNA — Decades Later (rank by years: 7→24→41→57)</li>
+    <li>The First Person Ever Caught by DNA (Colin Pitchfork)</li>
+    <li>5 Moments Killers Realized It Was Over</li>
+    <li>3 Suspects Whose Lies Fell Apart in Seconds</li>
+    <li>Top 5 PIT Maneuvers That Ended Chases Instantly</li>
+    <li>He Stole a POLICE CAR — 3 Dumbest Getaways</li>
+    <li>5 “Do You Know Who I Am?” Meltdowns That Ended in Handcuffs</li>
+    <li>Fake Cop Pulls Over a Real Sheriff — 3 Impersonators Caught</li>
+    <li>5 Judges Who Wiped the Smirk Off a Defendant’s Face</li>
+    <li>Killers Collapsing at Sentencing — Ranked by Reaction</li>
+    <li>Police Thought It Was Shoplifting… 3 Trunk Discoveries</li>
+    <li>4 Welfare Checks That Uncovered the Unthinkable</li>
+    <li>5 Courtroom Attacks — When Families Snapped</li>
+    <li>3 Killers Whose Google Searches Convicted Them</li>
+    <li>Teen Killers Who Thought They Got Away With It</li>
+    <li>5 Craziest K9 Takedowns on Bodycam</li>
+    <li>3 Inmates Who Almost Escaped the Courtroom</li>
+    <li>The Killer Who Called 911 On Himself — 3 Self-Confessions</li>
+    <li>4 Kids Who Saved Their Parents With One 911 Call</li>
+    <li>“Am I Being Detained?” — 5 Times It Ended Badly</li>
+  </ol>
+
+  <h2>Moment bank — 171 indexed videos</h2>
+  <p class="h2-note">The “memory”: what happens, and exactly where to find it. Filter by family or search
+    titles, cases, and subcategories.</p>
+  <div class="filters" id="filters">
+    <input id="search" type="search" placeholder="Search titles, cases, subcategories…" aria-label="Search moment bank">
+  </div>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Family</th><th>Subcategory</th><th>Video</th><th>Case notes</th></tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+  <p class="count" id="count"></p>
+
+  <footer>
+    Sources: video locations verified via web search, Jul 8 2026; channel momentum from VidIQ daily
+    statistics (May 8 – Jul 8, 2026). Full data + taxonomy + classifier live in the
+    <span class="mono">police-crime-niche/</span> folder of the dataexploration repo. Sensitive
+    subcategories (minors, predator stings, officer-down) carry ethics &amp; monetization notes in REPORT.md.
+  </footer>
+</div>
+
+<script>
+  const ROWS = __ROWS__;
+  const FAMS = __FAMS__;
+  const CHANNELS = __CHANNELS__;
+
+  document.getElementById('t-rows').textContent = ROWS.length;
+  document.getElementById('t-subs').textContent = new Set(ROWS.map(r => r.subcategory)).size;
+
+  function bars(el, pairs, cls, fmt) {
+    const max = Math.max(...pairs.map(p => p[1]));
+    el.innerHTML = pairs.map(([k, v]) =>
+      `<div class="barrow" title="${k}: ${fmt(v)}"><span class="lbl">${k}</span>` +
+      `<div><div class="bar ${cls}" style="width:${(v / max * 100).toFixed(1)}%"></div></div>` +
+      `<span class="val">${fmt(v)}</span></div>`).join('');
+  }
+  bars(document.getElementById('chart-channels'), CHANNELS, '', v => v.toFixed(1) + 'M');
+  bars(document.getElementById('chart-fams'), Object.entries(FAMS), 'bar--aqua', v => String(v));
+
+  const famNames = ['All', ...Object.keys(FAMS)];
+  let activeFam = 'All';
+  const filterBox = document.getElementById('filters');
+  famNames.forEach(name => {
+    const b = document.createElement('button');
+    b.className = 'chip'; b.textContent = name;
+    b.setAttribute('aria-pressed', String(name === activeFam));
+    b.onclick = () => {
+      activeFam = name;
+      filterBox.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', String(c.textContent === name)));
+      render();
+    };
+    filterBox.appendChild(b);
+  });
+
+  const tbody = document.getElementById('tbody');
+  const count = document.getElementById('count');
+  const search = document.getElementById('search');
+  const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+  function render() {
+    const q = search.value.trim().toLowerCase();
+    const subset = ROWS.filter(r =>
+      (activeFam === 'All' || r.family_label === activeFam) &&
+      (!q || (r.title + ' ' + r.subcategory + ' ' + (r.notes || '') + ' ' + r.family_label).toLowerCase().includes(q)));
+    tbody.innerHTML = subset.map(r =>
+      `<tr><td>${esc(r.family_label)}</td><td><span class="subcat">${esc(r.subcategory)}</span></td>` +
+      `<td><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></td>` +
+      `<td class="notes">${esc(r.notes || '')}</td></tr>`).join('');
+    count.textContent = subset.length + ' of ' + ROWS.length + ' videos shown';
+  }
+  search.addEventListener('input', render);
+  render();
+</script>

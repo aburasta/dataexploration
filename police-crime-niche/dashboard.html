@@ -1,0 +1,328 @@
+<title>Police-Camera True Crime — Shorts Intel</title>
+<style>
+  :root {
+    --bg: #f4f6f8;
+    --surface: #fcfcfb;
+    --ink: #10151b;
+    --ink-2: #49525c;
+    --ink-3: #78828e;
+    --line: #dde3e8;
+    --stamp: #9a6403;
+    --stamp-bg: #fdf3df;
+    --blue: #2a78d6;
+    --aqua: #157f5a;
+    --tier-s: #104281; --tier-a: #256abf; --tier-b: #5598e7; --tier-c: #86b6ef;
+    --tier-c-ink: #10151b;
+    --link: #1c5cab;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121316;
+      --surface: #1a1a19;
+      --ink: #f0f2f4;
+      --ink-2: #b6bec7;
+      --ink-3: #828b95;
+      --line: #2d3238;
+      --stamp: #e0a32e;
+      --stamp-bg: #2a2413;
+      --blue: #3987e5;
+      --aqua: #2bb385;
+      --tier-s: #86b6ef; --tier-a: #5598e7; --tier-b: #2a78d6; --tier-c: #184f95;
+      --tier-c-ink: #f0f2f4;
+      --link: #86b6ef;
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: #f4f6f8; --surface: #fcfcfb; --ink: #10151b; --ink-2: #49525c;
+    --ink-3: #78828e; --line: #dde3e8; --stamp: #9a6403; --stamp-bg: #fdf3df;
+    --blue: #2a78d6; --aqua: #157f5a;
+    --tier-s: #104281; --tier-a: #256abf; --tier-b: #5598e7; --tier-c: #86b6ef;
+    --tier-c-ink: #10151b; --link: #1c5cab;
+  }
+  :root[data-theme="dark"] {
+    --bg: #121316; --surface: #1a1a19; --ink: #f0f2f4; --ink-2: #b6bec7;
+    --ink-3: #828b95; --line: #2d3238; --stamp: #e0a32e; --stamp-bg: #2a2413;
+    --blue: #3987e5; --aqua: #2bb385;
+    --tier-s: #86b6ef; --tier-a: #5598e7; --tier-b: #2a78d6; --tier-c: #184f95;
+    --tier-c-ink: #f0f2f4; --link: #86b6ef;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 15px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 40px 24px 80px; }
+  a { color: var(--link); text-decoration: none; }
+  a:hover, a:focus-visible { text-decoration: underline; }
+  a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+
+  header { border-bottom: 2px solid var(--ink); padding-bottom: 24px; margin-bottom: 32px; }
+  .eyebrow {
+    display: inline-block; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 11px; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--stamp); background: var(--stamp-bg); border: 1px solid var(--stamp);
+    padding: 3px 10px; border-radius: 2px; margin-bottom: 14px;
+  }
+  h1 { font-size: clamp(26px, 4.5vw, 38px); line-height: 1.12; margin: 0 0 10px; letter-spacing: -.015em; text-wrap: balance; }
+  .sub { color: var(--ink-2); max-width: 68ch; margin: 0; }
+  .sub em { color: var(--ink-3); font-style: normal; font-size: 13px; display: block; margin-top: 8px; }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 28px 0 40px; }
+  .tile { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; }
+  .tile b { display: block; font-size: 26px; font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+  .tile span { font-size: 12px; color: var(--ink-3); text-transform: uppercase; letter-spacing: .08em; }
+
+  h2 { font-size: 20px; margin: 44px 0 6px; letter-spacing: -.01em; }
+  .h2-note { color: var(--ink-3); font-size: 13px; margin: 0 0 18px; max-width: 72ch; }
+
+  .tierboard { display: grid; gap: 14px; }
+  .tier { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; display: grid; grid-template-columns: 64px 1fr; }
+  .tier-tag { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; color: #fff; padding: 14px 0; }
+  .tier--c .tier-tag { color: var(--tier-c-ink); }
+  .tier--s .tier-tag { background: var(--tier-s); }
+  .tier--a .tier-tag { background: var(--tier-a); }
+  .tier--b .tier-tag { background: var(--tier-b); }
+  .tier--c .tier-tag { background: var(--tier-c); }
+  :root[data-theme="dark"] .tier--s .tier-tag, :root[data-theme="dark"] .tier--b .tier-tag { color: #10151b; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tier--s .tier-tag, :root:not([data-theme="light"]) .tier--b .tier-tag { color: #10151b; } }
+  .tier-tag b { font-size: 24px; }
+  .tier-tag span { font-size: 9px; letter-spacing: .1em; text-transform: uppercase; opacity: .85; }
+  .tier-body { padding: 14px 18px; display: grid; gap: 10px; }
+  .entry { display: grid; gap: 2px; padding-bottom: 10px; border-bottom: 1px dashed var(--line); }
+  .entry:last-child { border-bottom: 0; padding-bottom: 0; }
+  .entry b { font-size: 14.5px; }
+  .entry .cats { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; color: var(--stamp); }
+  .entry p { margin: 0; color: var(--ink-2); font-size: 13.5px; max-width: 78ch; }
+
+  .chart { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 18px 20px; }
+  .chart h3 { margin: 0 0 4px; font-size: 15px; }
+  .chart .src { font-size: 12px; color: var(--ink-3); margin: 0 0 14px; }
+  .barrow { display: grid; grid-template-columns: 170px 1fr 58px; align-items: center; gap: 10px; padding: 3px 0; border-radius: 3px; }
+  .barrow:hover { background: color-mix(in oklab, var(--blue) 8%, transparent); }
+  .barrow .lbl { font-size: 12.5px; color: var(--ink-2); text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .barrow .val { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; font-variant-numeric: tabular-nums; color: var(--ink); }
+  .bar { height: 16px; border-radius: 0 3px 3px 0; background: var(--blue); min-width: 2px; }
+  .bar--aqua { background: var(--aqua); }
+  .charts2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 780px) { .charts2 { grid-template-columns: 1fr; } .barrow { grid-template-columns: 120px 1fr 52px; } }
+
+  ol.ideas { margin: 0; padding: 0 0 0 0; counter-reset: idea; list-style: none; columns: 2; column-gap: 28px; }
+  @media (max-width: 780px) { ol.ideas { columns: 1; } }
+  ol.ideas li { counter-increment: idea; break-inside: avoid; padding: 8px 0 8px 44px; position: relative; border-bottom: 1px dashed var(--line); font-size: 14px; }
+  ol.ideas li::before {
+    content: counter(idea, decimal-leading-zero); position: absolute; left: 0; top: 9px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: var(--stamp);
+  }
+
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; align-items: center; }
+  .filters input {
+    flex: 1 1 200px; min-width: 160px; padding: 7px 12px; border: 1px solid var(--line);
+    border-radius: 4px; background: var(--surface); color: var(--ink); font: inherit; font-size: 13.5px;
+  }
+  .chip {
+    border: 1px solid var(--line); background: var(--surface); color: var(--ink-2);
+    font-size: 12px; padding: 5px 11px; border-radius: 99px; cursor: pointer; font-family: inherit;
+  }
+  .chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .tablewrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+  table { border-collapse: collapse; width: 100%; min-width: 640px; font-size: 13.5px; }
+  th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); padding: 10px 14px; border-bottom: 1px solid var(--line); }
+  td { padding: 8px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  td .subcat { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; color: var(--stamp); white-space: nowrap; }
+  td.notes { color: var(--ink-3); font-size: 12.5px; max-width: 340px; }
+  .count { color: var(--ink-3); font-size: 12.5px; margin: 8px 2px 0; }
+
+  footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--ink-3); font-size: 12.5px; max-width: 78ch; }
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Case file · Niche intel · 2026-07-08</span>
+    <h1>Police-Camera True Crime — Viral Subcategory Rankings</h1>
+    <p class="sub">A moment bank and virality tier list for a rankings-format Shorts channel in the
+      Dr&nbsp;Insanity / EWU niche. Every entry is a real, locatable video — indexed by what happens in it.
+      <em>Method note: built from web-search sweeps + channel-level VidIQ momentum data. Tiers are grounded
+      judgments, not per-video view math; the classifier in this repo is ready to quantify them when
+      per-video stats become available.</em></p>
+  </header>
+
+  <div class="tiles">
+    <div class="tile"><b id="t-rows">—</b><span>videos indexed</span></div>
+    <div class="tile"><b id="t-subs">—</b><span>subcategories hit</span></div>
+    <div class="tile"><b>56</b><span>subcats in taxonomy</span></div>
+    <div class="tile"><b>10</b><span>moment families</span></div>
+    <div class="tile"><b>13</b><span>channels tracked</span></div>
+  </div>
+
+  <h2>Virality tiers</h2>
+  <p class="h2-note">What to build the channel on, in order. S-tier formats power the fastest-growing
+    channels in the niche (Dr&nbsp;Insanity: 161M views in the last two months alone).</p>
+  <div class="tierboard">
+    <section class="tier tier--s">
+      <div class="tier-tag"><b>S</b><span>build on</span></div>
+      <div class="tier-body">
+        <div class="entry"><b>“The moment they realized they were caught”</b><span class="cats">lies_unraveling · psychopath_calm · confession_moment</span>
+          <p>The engine of the niche — a 5–15&nbsp;second facial-expression payoff, perfect for Shorts countdowns.</p></div>
+        <div class="entry"><b>Caught by DNA, decades later</b><span class="cats">dna_catch · cold_case_solved</span>
+          <p>Built-in ranking axis (years until caught: 7 → 24 → 41 → 57) with historic anchors like Colin Pitchfork and the Golden State Killer.</p></div>
+        <div class="entry"><b>Instant karma / messed with the wrong person</b><span class="cats">instant_karma · entitled_meltdown</span>
+          <p>Setup → arrogance → payoff in under 30 seconds. Endless supply, huge comment bait.</p></div>
+        <div class="entry"><b>Chases with dramatic endings</b><span class="cats">pit_maneuver · chase_crash_ending · stolen_vehicle</span>
+          <p>Pure visual adrenaline that works muted; proven “Top 10 PIT” series demand.</p></div>
+        <div class="entry"><b>Sentencing &amp; judge moments</b><span class="cats">sentencing_reaction · judge_moments</span>
+          <p>Public-record footage, faces are the content, “smirk gets wiped off” is a proven loop.</p></div>
+      </div>
+    </section>
+    <section class="tier tier--a">
+      <div class="tier-tag"><b>A</b><span>rotation</span></div>
+      <div class="tier-body">
+        <div class="entry"><b>Dark discovery cliffhangers</b><span class="cats">trunk_discovery · welfare_check · house_of_horrors</span>
+          <p>Massive curiosity-gap hooks — tease, never show.</p></div>
+        <div class="entry"><b>Courtroom outbursts &amp; victim confrontations</b><span class="cats">courtroom_outburst · victim_confronts</span>
+          <p>Nassar-dad-level moments; rank by chaos.</p></div>
+        <div class="entry"><b>Fake cops caught by real cops</b><span class="cats">fake_cop</span>
+          <p>Reliable irony engine — “fake cop pulls over the sheriff.”</p></div>
+        <div class="entry"><b>Teen suspects in interrogation</b><span class="cats">young_suspect</span>
+          <p>The “(He Didn’t)” formula — the most copied title in the niche. Keep it factual.</p></div>
+        <div class="entry"><b>K9 takedowns &amp; escape attempts</b><span class="cats">k9_takedown · escape_attempt</span>
+          <p>Fast, visual, satisfying; already proven as Shorts by A&amp;E Court Cam.</p></div>
+      </div>
+    </section>
+    <section class="tier tier--b">
+      <div class="tier-tag"><b>B</b><span>freshness</span></div>
+      <div class="tier-body">
+        <div class="entry"><b>Sovereign citizens</b><span class="cats">sovereign_citizen</span><p>Reliable but saturated — lead with twist endings.</p></div>
+        <div class="entry"><b>DUI stops</b><span class="cats">dui_stop</span><p>Infinite supply; best stacked with entitlement (“my son is a cop!”).</p></div>
+        <div class="entry"><b>Dumb criminals / funny arrests</b><span class="cats">dumb_criminal</span><p>Comedy diversifies the emotional palette.</p></div>
+        <div class="entry"><b>911 audio formats</b><span class="cats">killer_calls_911 · chilling_911 · kid_hero_call</span><p>Audio-first with waveform + captions; kid-hero calls are the wholesome counterweight.</p></div>
+        <div class="entry"><b>Digital-evidence catches</b><span class="cats">digital_evidence</span><p>“His Google searches convicted him” — refreshes with every big trial.</p></div>
+        <div class="entry"><b>Corrupt cops arrested</b><span class="cats">killer_cop</span><p>Justice-porn appeal; verify outcomes before publishing claims.</p></div>
+      </div>
+    </section>
+    <section class="tier tier--c">
+      <div class="tier-tag"><b>C</b><span>caution</span></div>
+      <div class="tier-body">
+        <div class="entry"><b>Shootouts &amp; officer-down</b><span class="cats">shootout · officer_down</span><p>High views, but graphic-content demonetization and age-restriction risk on Shorts.</p></div>
+        <div class="entry"><b>Predator stings</b><span class="cats">online_predator</span><p>Popular but brand-unsafe and policy-sensitive.</p></div>
+        <div class="entry"><b>Slow-burn arcs</b><span class="cats">standoff_hostage · smell_complaint</span><p>Need more than 60 seconds to land.</p></div>
+      </div>
+    </section>
+  </div>
+
+  <h2>The numbers behind the tiers</h2>
+  <p class="h2-note">Left: measured channel momentum (views gained May 8 – Jul 8, 2026, VidIQ). Right: where the
+    moment bank’s 171 indexed videos sit.</p>
+  <div class="charts2">
+    <div class="chart">
+      <h3>Channel momentum — last 2 months</h3>
+      <p class="src">Millions of views gained · VidIQ daily stats</p>
+      <div id="chart-channels"></div>
+    </div>
+    <div class="chart">
+      <h3>Moment bank coverage by family</h3>
+      <p class="src">Indexed videos per family · moment_bank.csv</p>
+      <div id="chart-fams"></div>
+    </div>
+  </div>
+
+  <h2>First 20 Shorts to make</h2>
+  <p class="h2-note">Ordered by priority; every concept is sourceable from the moment bank below today.</p>
+  <ol class="ideas">
+    <li>5 Killers Caught by DNA — Decades Later (rank by years: 7→24→41→57)</li>
+    <li>The First Person Ever Caught by DNA (Colin Pitchfork)</li>
+    <li>5 Moments Killers Realized It Was Over</li>
+    <li>3 Suspects Whose Lies Fell Apart in Seconds</li>
+    <li>Top 5 PIT Maneuvers That Ended Chases Instantly</li>
+    <li>He Stole a POLICE CAR — 3 Dumbest Getaways</li>
+    <li>5 “Do You Know Who I Am?” Meltdowns That Ended in Handcuffs</li>
+    <li>Fake Cop Pulls Over a Real Sheriff — 3 Impersonators Caught</li>
+    <li>5 Judges Who Wiped the Smirk Off a Defendant’s Face</li>
+    <li>Killers Collapsing at Sentencing — Ranked by Reaction</li>
+    <li>Police Thought It Was Shoplifting… 3 Trunk Discoveries</li>
+    <li>4 Welfare Checks That Uncovered the Unthinkable</li>
+    <li>5 Courtroom Attacks — When Families Snapped</li>
+    <li>3 Killers Whose Google Searches Convicted Them</li>
+    <li>Teen Killers Who Thought They Got Away With It</li>
+    <li>5 Craziest K9 Takedowns on Bodycam</li>
+    <li>3 Inmates Who Almost Escaped the Courtroom</li>
+    <li>The Killer Who Called 911 On Himself — 3 Self-Confessions</li>
+    <li>4 Kids Who Saved Their Parents With One 911 Call</li>
+    <li>“Am I Being Detained?” — 5 Times It Ended Badly</li>
+  </ol>
+
+  <h2>Moment bank — 171 indexed videos</h2>
+  <p class="h2-note">The “memory”: what happens, and exactly where to find it. Filter by family or search
+    titles, cases, and subcategories.</p>
+  <div class="filters" id="filters">
+    <input id="search" type="search" placeholder="Search titles, cases, subcategories…" aria-label="Search moment bank">
+  </div>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Family</th><th>Subcategory</th><th>Video</th><th>Case notes</th></tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+  <p class="count" id="count"></p>
+
+  <footer>
+    Sources: video locations verified via web search, Jul 8 2026; channel momentum from VidIQ daily
+    statistics (May 8 – Jul 8, 2026). Full data + taxonomy + classifier live in the
+    <span class="mono">police-crime-niche/</span> folder of the dataexploration repo. Sensitive
+    subcategories (minors, predator stings, officer-down) carry ethics &amp; monetization notes in REPORT.md.
+  </footer>
+</div>
+
+<script>
+  const ROWS = [{"family": "pursuits", "subcategory": "pit_maneuver", "title": "Armed Suspect Flees Police Before PIT Maneuver Ends Pursuit", "url": "https://www.youtube.com/watch?v=ABAZlIL1fFU", "notes": "Atlanta GA, Apr 2026", "family_label": "Pursuits & Chases"}, {"family": "pursuits", "subcategory": "pit_maneuver", "title": "Top 10 PIT Maneuvers Caught on Police Dashcam #2", "url": "https://www.youtube.com/watch?v=aRhAE61lba0", "notes": "ranked-compilation format proof", "family_label": "Pursuits & Chases"}, {"family": "pursuits", "subcategory": "pit_maneuver", "title": "Arkansas: Police Chase Ends With PIT Maneuver", "url": "https://www.youtube.com/watch?v=az0ewCG9cDA", "notes": "single-incident", "family_label": "Pursuits & Chases"}, {"family": "pursuits", "subcategory": "pit_maneuver", "title": "Police Chase Ends in Violent Arrest After Pit Maneuver", "url": "https://www.youtube.com/watch?v=arEt6KK4Tqg", "notes": "", "family_label": "Pursuits & Chases"}, {"family": "pursuits", "subcategory": "high_speed_chase", "title": "Craziest Police Chases, Wildest PITs, and High-Speed Endings", "url": "https://www.youtube.com/watch?v=4yXv8-hWsa0", "notes": "compilation", "family_label": "Pursuits & Chases"}, {"family": "pursuits", "subcategory": "high_speed_chase", "title": "9 Most Legendary Police Chases Caught On Bodycam - Ultimate Collection", "url": "https://www.youtube.com/watch?v=gasxEoX_aYM", "notes": "ranked-collection format proof", "family_label": "Pursuits & Chases"}, {"family": "pursuits", "subcategory": "high_speed_chase", "title": "High-Speed Police Chase Ends in Crash | Police bodycam", "url": "https://www.youtube.com/watch?v=JEVvt21rQS4", "notes": "", "family_label": "Pursuits & Chases"}, {"family": "pursuits", "subcategory": "motorcycle_chase", "title": "Most INSANE Motorcycle Police Chases Ever Caught on Camera #3", "url": "https://www.youtube.com/watch?v=i15eJfVMv_Q", "notes": "numbered series = evergreen demand", "family_label": "Pursuits & Chases"}, {"family": "pursuits", "subcategory": "motorcycle_chase", "title": "Most INSANE Motorcycle Police Chases Ever Caught on Camera #4", "url": "https://www.youtube.com/watch?v=jKRm5VwnMIk", "notes": "", "family_label": "Pursuits & Chases"}, {"family": "pursuits", "subcategory": "stolen_vehicle", "title": "Dashcam & Bodycam: Stolen Car Crashes During Police Chase on I-75 (Toledo OH)", "url": "https://www.youtube.com/watch?v=Z7PSKmdNbZk", "notes": "", "family_label": "Pursuits & Chases"}, {"family": "pursuits", "subcategory": "stolen_vehicle", "title": "120 mph wrong-way stolen car chase in Texas ends with teen arrests", "url": "https://www.youtube.com/watch?v=1oinguNu3pM", "notes": "teen angle stacks subcats", "family_label": "Pursuits & Chases"}, {"family": "pursuits", "subcategory": "stolen_vehicle", "title": "Man running on freeway steals Washington state trooper vehicle", "url": "https://www.youtube.com/watch?v=MZe-OpS8_eY", "notes": "steals-the-cop-car twist", "family_label": "Pursuits & Chases"}, {"family": "interrogation", "subcategory": "suspect_breakdown", "title": "Man Breaks Down After Admitting to Murder (Interrogation Cam S1E16)", "url": "https://www.youtube.com/watch?v=f6N0rVDA0nE", "notes": "", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "suspect_breakdown", "title": "Murder Suspect Starts Panicking, Breaks Down During Intense Interrogation", "url": "https://www.youtube.com/watch?v=IXiQzyI6kqU", "notes": "Peter Tournay case", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "suspect_breakdown", "title": "Killer Mother Breaks Down Before Admitting She Murdered Her Child", "url": "https://www.youtube.com/watch?v=nHTMDQf30WQ", "notes": "Lonna Barton / Lonzie case", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "confession_moment", "title": "Murderer Tricked Into EXPLOSIVE, Cold-Blooded Confession (A&E Interrogation Raw)", "url": "https://www.youtube.com/watch?v=KNdHF1n3dY0", "notes": "", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "confession_moment", "title": "Top 5 Most Chilling Interrogation Confessions", "url": "https://www.youtube.com/watch?v=ZNgVMxxcpws", "notes": "ranked format proof", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "confession_moment", "title": "Nancy Guthrie's Son-In-Law FINALLY CONFESSED", "url": "https://www.youtube.com/watch?v=jgGzzMdly30", "notes": "", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "lies_unraveling", "title": "Genius Detective Tricks Guilty Suspect Into Confession", "url": "https://www.youtube.com/watch?v=IQxrxZFNAc0", "notes": "Joe Roberts / Brittany Tavar case", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "lies_unraveling", "title": "When Dumb Criminals Lie To Experienced Detectives", "url": "https://www.youtube.com/watch?v=Hx3SHMS-YVo", "notes": "", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "lies_unraveling", "title": "When Guilty Suspects Get Tricked Into Confession", "url": "https://www.youtube.com/watch?v=dr7dkXlqLrM", "notes": "", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "lies_unraveling", "title": "Detectives Let Him Lie for Hours... Then Dropped the Bombshell", "url": "https://www.youtube.com/watch?v=yt7gmH1S1lQ", "notes": "pastor's murder case", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "lies_unraveling", "title": "Confident Killer Tries To Fake Innocence \u2014 Then Everything Falls", "url": "https://www.youtube.com/watch?v=xGdOcpyaBTk", "notes": "", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "faking_insanity", "title": "Killer Wife Thought Her Fake Crying Would Fool Everyone, She Was Wrong", "url": "https://www.youtube.com/watch?v=38hLe-Clpac", "notes": "Iowa farmhouse / Ryan Cooper case", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "young_suspect", "title": "Teen Killer Thinks He Got Away With Murder (He Didn't)", "url": "https://www.youtube.com/watch?v=EGGRKbwZWcc", "notes": "signature title formula of the niche", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "young_suspect", "title": "Crazy Teen Killer Thinks She Got Away With Murder (She Didn't)", "url": "https://www.youtube.com/watch?v=ULTvgaqRjA8", "notes": "JCS-inspired", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "young_suspect", "title": "16-Years-Old Teen Thinks He Got Away With Murder (He Didn't)", "url": "https://www.youtube.com/watch?v=G6RbQ4MFVsA", "notes": "", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "young_suspect", "title": "Entitled 13-Year-Old Killer Thinks He Got Away With Murder", "url": "https://www.youtube.com/watch?v=eUIZaFPKJdg", "notes": "Lewis Jackson Carte case", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "young_suspect", "title": "Teen Killer Thinks He Got Away With a Neighbor's Murder", "url": "https://www.youtube.com/watch?v=zyG0Gu2Noj0", "notes": "Tyler Hirsch case", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "young_suspect", "title": "Teen Killer Tries Outsmarting The Police", "url": "https://www.youtube.com/watch?v=jHDY5e8jwP8", "notes": "", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "young_suspect", "title": "Cocky Killer Duo Thinks They Got Away With Murder", "url": "https://www.youtube.com/watch?v=JAoBrKVuwbI", "notes": "duo variant", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "psychopath_calm", "title": "Psychopath Killer Realizes Cops Discovered Her Horrifying 10 Year Secret", "url": "https://www.youtube.com/watch?v=mZZWoaWAkdc", "notes": "JCS-inspired", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "psychopath_calm", "title": "The Detectives Realize That The Psychopath Is Actually The Killer", "url": "https://www.youtube.com/watch?v=Xiz6d5D-oWw", "notes": "Kimberly Kessler case", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "psychopath_calm", "title": "Psychopath Killer Realizes Detectives Found The Evidence", "url": "https://www.youtube.com/watch?v=c9M55_0hNts", "notes": "", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "psychopath_calm", "title": "Psychopath Killer Realizes Detectives Discovered His 10 Year Secret", "url": "https://www.youtube.com/watch?v=Ut_aJSfPgLY", "notes": "Joel Hollendorfer / Kara Nichols case", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "psychopath_calm", "title": "Interrogation Of A Real Psychopath", "url": "https://www.youtube.com/watch?v=pAWAJXgSVHI", "notes": "Fidel Lopez case", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "psychopath_calm", "title": "No Tears for His Murdered Family (Signs Of A Psychopath - ID)", "url": "https://www.youtube.com/watch?v=xaJPv_9qnZU", "notes": "", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "psychopath_calm", "title": "Genius Cops Flatter Psychopath Into Confessing", "url": "https://www.youtube.com/watch?v=CfDZHhsby3s", "notes": "", "family_label": "Interrogation Room"}, {"family": "interrogation", "subcategory": "psychopath_calm", "title": "A Detective Realizes The Suspect Is A Psychopath", "url": "https://www.youtube.com/watch?v=4LGXHF9lU8o", "notes": "", "family_label": "Interrogation Room"}, {"family": "forensics_reveals", "subcategory": "dna_catch", "title": "Colin Pitchfork: The First Killer Ever Caught by DNA", "url": "https://www.youtube.com/watch?v=d-4GPDxyYpk", "notes": "historic first - great #1 for a ranking", "family_label": "Forensics & Reveals"}, {"family": "forensics_reveals", "subcategory": "dna_catch", "title": "Golden State Killer: How DNA Solved a 40-Year Mystery", "url": "https://www.youtube.com/watch?v=Y2jnJTQWBVM", "notes": "biggest DNA-catch case ever", "family_label": "Forensics & Reveals"}, {"family": "forensics_reveals", "subcategory": "dna_catch", "title": "The Moment Cops Caught Killer Wife After 7 Years", "url": "https://www.youtube.com/watch?v=Agcy2M4nNiY", "notes": "", "family_label": "Forensics & Reveals"}, {"family": "forensics_reveals", "subcategory": "dna_catch", "title": "Cold Case Files: A Killer Caught Through a Single Piece of Duct Tape (A&E)", "url": "https://www.youtube.com/watch?v=jxGVTeK6XrU", "notes": "tiny-evidence angle", "family_label": "Forensics & Reveals"}, {"family": "forensics_reveals", "subcategory": "cold_case_solved", "title": "Genetic genealogy helps solve Colorado cold case 50 years later", "url": "https://www.youtube.com/watch?v=hNItkPJWoAg", "notes": "Nancy Anderson case", "family_label": "Forensics & Reveals"}, {"family": "forensics_reveals", "subcategory": "cold_case_solved", "title": "Cold Case Solved 24 Years Later \u2014 DNA From Son Identifies the Killer", "url": "https://www.youtube.com/watch?v=8yY9XdmZwzQ", "notes": "", "family_label": "Forensics & Reveals"}, {"family": "forensics_reveals", "subcategory": "cold_case_solved", "title": "Cold case solved after 41 years using DNA collected from smoothie cup", "url": "https://www.youtube.com/watch?v=P1KBuejjuNU", "notes": "Theresa Fusco case - stealth DNA collection angle", "family_label": "Forensics & Reveals"}, {"family": "forensics_reveals", "subcategory": "cold_case_solved", "title": "Cold case murder solved after 42 years through genetic genealogy", "url": "https://www.youtube.com/watch?v=H4HFfKJxIIQ", "notes": "New Hampshire", "family_label": "Forensics & Reveals"}, {"family": "forensics_reveals", "subcategory": "cold_case_solved", "title": "9-Year-Old's 1964 Murder Solved After 57 Years by Student Genealogist", "url": "https://www.youtube.com/watch?v=PMGouegqACc", "notes": "Marise Chiverella case - civilian hero angle", "family_label": "Forensics & Reveals"}, {"family": "forensics_reveals", "subcategory": "cold_case_solved", "title": "The Biggest Cold Cases Finally Solved With DNA In The Last Decade", "url": "https://www.youtube.com/watch?v=y9qo0yR8ijI", "notes": "ranked format proof", "family_label": "Forensics & Reveals"}, {"family": "forensics_reveals", "subcategory": "digital_evidence", "title": "Brian Walshe's Google searches as read by prosecutors", "url": "https://www.youtube.com/watch?v=cnA6XwVQUHY", "notes": "Ana Walshe case - infamous search list", "family_label": "Forensics & Reveals"}, {"family": "forensics_reveals", "subcategory": "digital_evidence", "title": "Christopher Gregor's Google Search History (Treadmill Abuse Murder Trial)", "url": "https://www.youtube.com/watch?v=npB-KeXQLKg", "notes": "", "family_label": "Forensics & Reveals"}, {"family": "forensics_reveals", "subcategory": "digital_evidence", "title": "Google Search History Exposed Neighbor's Murder Plan (Susan Lorincz)", "url": "https://www.youtube.com/watch?v=wOIPqjjzIiw", "notes": "Perfect Neighbor Netflix case", "family_label": "Forensics & Reveals"}, {"family": "forensics_reveals", "subcategory": "digital_evidence", "title": "Shocking Search History in Trial of Family Feud Contestant Who Killed Wife", "url": "https://www.youtube.com/watch?v=CscUsdxvtl8", "notes": "Tim Bliefnick case", "family_label": "Forensics & Reveals"}, {"family": "forensics_reveals", "subcategory": "digital_evidence", "title": "Google Maps Caught a Murder?", "url": "https://www.youtube.com/watch?v=_ik3F13b2e8", "notes": "", "family_label": "Forensics & Reveals"}, {"family": "forensics_reveals", "subcategory": "camera_reveal", "title": "Killer Teen Doesn't Realize Camera Caught Him", "url": "https://www.youtube.com/watch?v=ChsE2C4w4jE", "notes": "", "family_label": "Forensics & Reveals"}, {"family": "forensics_reveals", "subcategory": "camera_reveal", "title": "Disabled Killer Doesn't Realize He's Caught on Camera", "url": "https://www.youtube.com/watch?v=iK0KLKcwbl4", "notes": "", "family_label": "Forensics & Reveals"}, {"family": "bodycam_encounters", "subcategory": "entitled_meltdown", "title": "The Most Entitled Woman Meltdowns Caught On Police Bodycam", "url": "https://www.youtube.com/watch?v=4tj7NouEcvA", "notes": "compilation", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "entitled_meltdown", "title": "9 'Karen' Meltdowns Caught on Bodycam (Law&Crime)", "url": "https://www.youtube.com/watch?v=yPS4TzxIMpc", "notes": "ranked format proof from major channel", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "entitled_meltdown", "title": "Entitled Woman Has A Complete Meltdown During Traffic Stop", "url": "https://www.youtube.com/watch?v=zMXvGIK02cU", "notes": "", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "entitled_meltdown", "title": "10 'Entitled' Mom Meltdowns Caught on Bodycam", "url": "https://www.youtube.com/watch?v=Gwp5MHt3nnA", "notes": "ranked format proof", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "entitled_meltdown", "title": "\"I'm Not Getting Out!\" Entitled Karen's 6-Minute Roadside Meltdown", "url": "https://www.youtube.com/watch?v=Sbbd1YKx6UI", "notes": "", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "entitled_meltdown", "title": "Entitled Woman Makes Situation 10X Worse (Police Bodycam)", "url": "https://www.youtube.com/watch?v=TzmfYLJK-mE", "notes": "", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "instant_karma", "title": "Entitled 'Roadside Law Experts' Test The Wrong Florida Cop - Instant Regret", "url": "https://www.youtube.com/watch?v=zh9BzS4jVRU", "notes": "", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "instant_karma", "title": "When Cops Pull Over the Wrong Person and Regret It", "url": "https://www.youtube.com/watch?v=Dagob12ZnK4", "notes": "reverse angle: cop regrets", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "instant_karma", "title": "This Officer Had No Idea Who He Just Pulled Over", "url": "https://www.youtube.com/watch?v=NqVEz03E3Uo", "notes": "", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "instant_karma", "title": "Cop Pulls Over Black Judge and Lives To Regret It", "url": "https://www.youtube.com/watch?v=0cF0BJGlzuY", "notes": "", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "instant_karma", "title": "When ENTITLED People Challenge The Wrong Cops And Regret It", "url": "https://www.youtube.com/watch?v=j-ChalTbg2I", "notes": "", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "instant_karma", "title": "The Instant Moment Of Regret Caught On Bodycam", "url": "https://www.youtube.com/watch?v=ioe7wbcvWY8", "notes": "", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "dui_stop", "title": "Craziest DUI Arrests Caught on Police Bodycam", "url": "https://www.youtube.com/watch?v=nS6KwyJyHnM", "notes": "compilation", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "dui_stop", "title": "Bodycam DUI Arrest - 25-Year-Old Woman is Drunk Beyond Belief", "url": "https://www.youtube.com/watch?v=b5ZH4EOw5Qo", "notes": "", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "dui_stop", "title": "\"My Son Is A Cop!\" \u2014 Drunk Driver's Wife Gets Arrested Too", "url": "https://www.youtube.com/watch?v=m-bBNjS4SOY", "notes": "entitled+DUI stack", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "dui_stop", "title": "Drunk driver SLAMS head-on into sheriff deputy's vehicle during DUI stop", "url": "https://www.youtube.com/watch?v=VfJ5dgK4b0c", "notes": "", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "dui_stop", "title": "She Couldn't Stop Making This DUI Stop Worse", "url": "https://www.youtube.com/watch?v=X7XtjMdqb8o", "notes": "", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "sovereign_citizen", "title": "5 'Sovereign Citizens' Caught on Police Bodycam", "url": "https://www.youtube.com/watch?v=W1Al040oADw", "notes": "ranked format proof", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "sovereign_citizen", "title": "The Worst Sovereign Citizen Ever Caught on Police Bodycam", "url": "https://www.youtube.com/watch?v=zz3jtVLZ648", "notes": "", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "sovereign_citizen", "title": "Sovereign Citizen Refuses ID - Hidden Cocaine Uncovered", "url": "https://www.youtube.com/watch?v=_Y2RH2t_MJ8", "notes": "twist ending stack", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "sovereign_citizen", "title": "5 Times 'Sovereign Citizens' Learned a Hard Lesson on Bodycam", "url": "https://www.youtube.com/watch?v=EcjHh1aEqLw", "notes": "ranked format proof", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "sovereign_citizen", "title": "Brutal Window Smash & Arrest as Sovereign Citizen Refuses Orders", "url": "https://www.youtube.com/watch?v=qTyC8HtmDpY", "notes": "window-smash payoff moment", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "fake_cop", "title": "Fake Cop Pulls Over Sheriff INSTANTLY Regrets It", "url": "https://www.youtube.com/watch?v=a0A787nRA7E", "notes": "best-case irony", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "fake_cop", "title": "Fake Cop Gets Caught In Full Police Gear", "url": "https://www.youtube.com/watch?v=fuQlmZR_hDU", "notes": "", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "fake_cop", "title": "Fake Cop Responds to Emergency Call, Gets Arrested by Real Police", "url": "https://www.youtube.com/watch?v=J5tMU50to28", "notes": "", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "fake_cop", "title": "Fake Cop Pulled Over By Real Cop Gets Arrested", "url": "https://www.youtube.com/watch?v=ZpPM_Eo0B2o", "notes": "", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "fake_cop", "title": "Fake Cop Arrests Himself on His Own Bodycam (Arkansas)", "url": "https://www.youtube.com/watch?v=S3jqEJ71eB8", "notes": "", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "fake_cop", "title": "Court Cam: Fake Officer Arrested AGAIN & Mouths Off To Real Police", "url": "https://www.youtube.com/watch?v=ZCKI8JYN2Og", "notes": "repeat-offender angle", "family_label": "Bodycam Encounters"}, {"family": "bodycam_encounters", "subcategory": "fake_cop", "title": "Serial Police Impersonator Arrested AGAIN With Siren, Fake Badge, Firearm", "url": "https://www.youtube.com/watch?v=RW6UJSwGrto", "notes": "", "family_label": "Bodycam Encounters"}, {"family": "dark_discoveries", "subcategory": "trunk_discovery", "title": "Cops Discover Bodies in Woman's Trunk During Traffic Stop", "url": "https://www.youtube.com/watch?v=7xboEsXt_a0", "notes": "Nicole Johnson (Essex MD) case - heavily re-covered", "family_label": "Dark Discoveries"}, {"family": "dark_discoveries", "subcategory": "trunk_discovery", "title": "Cops Discover Body in Mom's Trunk During Traffic Stop", "url": "https://www.youtube.com/watch?v=5krFR7DJyDA", "notes": "Julissa Thaler / Eli Hart case", "family_label": "Dark Discoveries"}, {"family": "dark_discoveries", "subcategory": "trunk_discovery", "title": "Cops Open Mom's Trunk, Uncover Horrifying Secret", "url": "https://www.youtube.com/watch?v=LovV99dWUmk", "notes": "", "family_label": "Dark Discoveries"}, {"family": "dark_discoveries", "subcategory": "trunk_discovery", "title": "Police Thought It Was Just Shoplifting... Then They Opened the Trunk", "url": "https://www.youtube.com/watch?v=RgkzUpKP1MI", "notes": "Palm Coast FL - escalation arc", "family_label": "Dark Discoveries"}, {"family": "dark_discoveries", "subcategory": "house_of_horrors", "title": "The Moments Police Raided Turpin Family's 'House of Horrors'", "url": "https://www.youtube.com/watch?v=WutGc8vAM1s", "notes": "Turpin case - most famous of the genre", "family_label": "Dark Discoveries"}, {"family": "dark_discoveries", "subcategory": "house_of_horrors", "title": "13 Young Kids Rescued from Ohio House of Horrors", "url": "https://www.youtube.com/watch?v=-MYvMDa5opA", "notes": "Jun 2026 - current", "family_label": "Dark Discoveries"}, {"family": "dark_discoveries", "subcategory": "house_of_horrors", "title": "Police Rescue 6 Kids From Filthy House of Horrors (Police Bodycam)", "url": "https://www.youtube.com/watch?v=oO8AElSLawE", "notes": "", "family_label": "Dark Discoveries"}, {"family": "dark_discoveries", "subcategory": "house_of_horrors", "title": "Cops Discover House of Horrors After Young Girl Escapes", "url": "https://www.youtube.com/watch?v=lXF_squiTr4", "notes": "Jordan Turpin escape-911 angle", "family_label": "Dark Discoveries"}, {"family": "dark_discoveries", "subcategory": "house_of_horrors", "title": "When Cops Make Terrifying Discovery In House of Horrors", "url": "https://www.youtube.com/watch?v=AYk7oOpjr7M", "notes": "", "family_label": "Dark Discoveries"}, {"family": "dark_discoveries", "subcategory": "welfare_check", "title": "Welfare Check Turns into Deadly Discovery", "url": "https://www.youtube.com/watch?v=6fSfqHMNvx8", "notes": "Prior Lake MN", "family_label": "Dark Discoveries"}, {"family": "dark_discoveries", "subcategory": "welfare_check", "title": "Cops Discover Boy's Body During Welfare Check", "url": "https://www.youtube.com/watch?v=dMtg-wotSGc", "notes": "", "family_label": "Dark Discoveries"}, {"family": "dark_discoveries", "subcategory": "welfare_check", "title": "Cops Discover 20 Bodies During Welfare Check", "url": "https://www.youtube.com/watch?v=PEx51LIz1j0", "notes": "", "family_label": "Dark Discoveries"}, {"family": "dark_discoveries", "subcategory": "welfare_check", "title": "Cops Find Missing Mom in Her Son's Freezer", "url": "https://www.youtube.com/watch?v=eO_YT3jyFGY", "notes": "Ernestina Lucero case", "family_label": "Dark Discoveries"}, {"family": "dark_discoveries", "subcategory": "welfare_check", "title": "Ohio Welfare Check Exposes Serial Predator \u2014 3 States 5 Years", "url": "https://www.youtube.com/watch?v=_PwOgV5Mqck", "notes": "Sandusky OH case", "family_label": "Dark Discoveries"}, {"family": "justice_courtroom", "subcategory": "sentencing_reaction", "title": "Killers COLLAPSING After Hearing Their Sentence", "url": "https://www.youtube.com/watch?v=tY40KZq0J9g", "notes": "compilation - exact rankings blueprint", "family_label": "Courtroom & Justice"}, {"family": "justice_courtroom", "subcategory": "sentencing_reaction", "title": "4 TEENAGE Killers Reacting To A Life Sentence", "url": "https://www.youtube.com/watch?v=_1qiF42QxhA", "notes": "ranked format proof", "family_label": "Courtroom & Justice"}, {"family": "justice_courtroom", "subcategory": "sentencing_reaction", "title": "Defendant collapses in court after guilty verdict", "url": "https://www.youtube.com/watch?v=or_MDJnmihc", "notes": "Diana Lovejoy case", "family_label": "Courtroom & Justice"}, {"family": "justice_courtroom", "subcategory": "sentencing_reaction", "title": "5 Most BRUTAL Killers Reacting To A Death Sentence", "url": "https://www.youtube.com/watch?v=ZW6MBDWEhDM", "notes": "ranked format proof", "family_label": "Courtroom & Justice"}, {"family": "justice_courtroom", "subcategory": "sentencing_reaction", "title": "Rex Heuermann gets life for Gilgo murders - families react in courtroom", "url": "https://www.youtube.com/watch?v=QcEg3kOFv-g", "notes": "LISK case", "family_label": "Courtroom & Justice"}, {"family": "justice_courtroom", "subcategory": "judge_moments", "title": "Defendant Won't Stop Laughing \u2014 Judge Boyd Wipes Out His Smile in Seconds", "url": "https://www.youtube.com/watch?v=9N18cl3S3tw", "notes": "Judge Boyd = recurring viral character", "family_label": "Courtroom & Justice"}, {"family": "justice_courtroom", "subcategory": "judge_moments", "title": "Judge DESTROYS Defendant Who Laughs After Rejecting 15-Year Plea Deal", "url": "https://www.youtube.com/watch?v=65UDPFmUU-4", "notes": "", "family_label": "Courtroom & Justice"}, {"family": "justice_courtroom", "subcategory": "judge_moments", "title": "Convict Laughs During Sentencing, Judge Wipes Grin Off Her Face", "url": "https://www.youtube.com/watch?v=AvdUmjpyu6I", "notes": "", "family_label": "Courtroom & Justice"}, {"family": "justice_courtroom", "subcategory": "judge_moments", "title": "Judge Calls Out Smirking Defendant: \"Stop Playing Xbox\"", "url": "https://www.youtube.com/watch?v=BSIKJzuv1so", "notes": "", "family_label": "Courtroom & Justice"}, {"family": "justice_courtroom", "subcategory": "judge_moments", "title": "Judge Calls Out Convicted Family Killer During Sentencing", "url": "https://www.youtube.com/watch?v=L2ETrCVpuFc", "notes": "", "family_label": "Courtroom & Justice"}, {"family": "justice_courtroom", "subcategory": "victim_confronts", "title": "Distraught father of 3 victims tries to attack Larry Nassar in courtroom", "url": "https://www.youtube.com/watch?v=Bhplg8YCu-M", "notes": "Randall Margraves - iconic moment", "family_label": "Courtroom & Justice"}, {"family": "justice_courtroom", "subcategory": "victim_confronts", "title": "Grieving Father Lunges At Daughter's Killer In Court", "url": "https://www.youtube.com/watch?v=mzXcmrvFHE0", "notes": "Van Terry (Cleveland) case", "family_label": "Courtroom & Justice"}, {"family": "justice_courtroom", "subcategory": "courtroom_outburst", "title": "Cop Killer Suspect Lunges at Victim's Family in Courtroom Attack", "url": "https://www.youtube.com/watch?v=5NpPStTFTcM", "notes": "", "family_label": "Courtroom & Justice"}, {"family": "justice_courtroom", "subcategory": "courtroom_outburst", "title": "Courtroom brawl: murder suspect attacked by victim's family", "url": "https://www.youtube.com/watch?v=3-b14H4J_Cs", "notes": "", "family_label": "Courtroom & Justice"}, {"family": "justice_courtroom", "subcategory": "courtroom_outburst", "title": "Family Attacks Killer in Bloody Courtroom Brawl (Bodycam)", "url": "https://www.youtube.com/watch?v=4tTbO6Fjyy4", "notes": "", "family_label": "Courtroom & Justice"}, {"family": "justice_courtroom", "subcategory": "courtroom_outburst", "title": "Ohio murder victim's sons attack killer in court", "url": "https://www.youtube.com/watch?v=8k1U4Gd-F_w", "notes": "", "family_label": "Courtroom & Justice"}, {"family": "justice_courtroom", "subcategory": "courtroom_outburst", "title": "Fight breaks out inside Kansas courtroom during murder sentencing", "url": "https://www.youtube.com/watch?v=w-DyL8Icm1E", "notes": "", "family_label": "Courtroom & Justice"}, {"family": "force_danger", "subcategory": "escape_attempt", "title": "Inmate ESCAPES COURTHOUSE UNNOTICED (Court Cam Short)", "url": "https://www.youtube.com/shorts/4rfKbhQYLKY", "notes": "proof this works AS a Short", "family_label": "Use of Force & Danger"}, {"family": "force_danger", "subcategory": "escape_attempt", "title": "WILDEST Courtroom Escape Attempts Caught on Camera (A&E)", "url": "https://www.youtube.com/watch?v=rjlQ_lcVHRU", "notes": "ranked format proof", "family_label": "Use of Force & Danger"}, {"family": "force_danger", "subcategory": "escape_attempt", "title": "Court Cam: Top 5 Greatest Escapes (A&E)", "url": "https://www.youtube.com/watch?v=pjDS578FROw", "notes": "ranked format proof", "family_label": "Use of Force & Danger"}, {"family": "force_danger", "subcategory": "escape_attempt", "title": "Court Cam: Man Escapes from Courthouse in Handcuffs", "url": "https://www.youtube.com/watch?v=M9aZH00sl6E", "notes": "", "family_label": "Use of Force & Danger"}, {"family": "force_danger", "subcategory": "escape_attempt", "title": "Defendant FIGHTS Judge & Officer in Escape Attempt", "url": "https://www.youtube.com/watch?v=qm4gwIP4c1M", "notes": "judge-joins-takedown twist", "family_label": "Use of Force & Danger"}, {"family": "force_danger", "subcategory": "shootout", "title": "Bodycam shows intense SoCal shootout that killed suspect and wounded officer", "url": "https://www.youtube.com/watch?v=KQLaV77K4AY", "notes": "Pasadena CA", "family_label": "Use of Force & Danger"}, {"family": "force_danger", "subcategory": "shootout", "title": "Intense bodycam shows deadly shootout after suspect opens fire on deputy", "url": "https://www.youtube.com/watch?v=uxpTsJruRzs", "notes": "", "family_label": "Use of Force & Danger"}, {"family": "force_danger", "subcategory": "shootout", "title": "Suspect in Body Armor Opens Fire on Officer During Traffic Stop", "url": "https://www.youtube.com/watch?v=EQfzJiuO29w", "notes": "", "family_label": "Use of Force & Danger"}, {"family": "force_danger", "subcategory": "shootout", "title": "Bodycam Video of Shootout Between Seattle Officers and Barricaded Suspect", "url": "https://www.youtube.com/watch?v=to076MMpES0", "notes": "", "family_label": "Use of Force & Danger"}, {"family": "force_danger", "subcategory": "officer_down", "title": "Suspect Who Ambushed Nevada Officers 3 Times Before Being Fatally Shot", "url": "https://www.youtube.com/watch?v=QxWiRVCuW24", "notes": "Sparks NV", "family_label": "Use of Force & Danger"}, {"family": "force_danger", "subcategory": "officer_down", "title": "Suspect ambushes 3 Lorain police officers, killing 1 (GRAPHIC)", "url": "https://www.youtube.com/watch?v=X4moG4r2LfY", "notes": "graphic - monetization risk", "family_label": "Use of Force & Danger"}, {"family": "force_danger", "subcategory": "officer_down", "title": "Shoplifting suspect grabs gun, attempts to shoot police officer", "url": "https://www.youtube.com/watch?v=Adpr4Rhmu9c", "notes": "Ohio Walmart case", "family_label": "Use of Force & Danger"}, {"family": "force_danger", "subcategory": "officer_down", "title": "Armed Man Beats Orange County Deputy Before Being Shot", "url": "https://www.youtube.com/watch?v=uxhWlCaIS2Q", "notes": "", "family_label": "Use of Force & Danger"}, {"family": "force_danger", "subcategory": "k9_takedown", "title": "Craziest Police K9 Takedowns Caught on Camera", "url": "https://www.youtube.com/watch?v=6IywiYG_Ucw", "notes": "compilation", "family_label": "Use of Force & Danger"}, {"family": "force_danger", "subcategory": "k9_takedown", "title": "Most Aggressive K9 Takedown (Bodycam Footage)", "url": "https://www.youtube.com/watch?v=2fUueemgkeM", "notes": "", "family_label": "Use of Force & Danger"}, {"family": "force_danger", "subcategory": "k9_takedown", "title": "K9 Apprehends Fleeing Standoff Suspect", "url": "https://www.youtube.com/watch?v=d__K6J4OdOc", "notes": "", "family_label": "Use of Force & Danger"}, {"family": "force_danger", "subcategory": "k9_takedown", "title": "Top Police K9 Takedowns & Captures Caught on Bodycam (Law&Crime)", "url": "https://www.youtube.com/watch?v=X-02zxG-HvA", "notes": "ranked format proof", "family_label": "Use of Force & Danger"}, {"family": "perpetrator_profiles", "subcategory": "serial_killer", "title": "Police Discover Car Filled With Serial Killer's Bodies", "url": "https://www.youtube.com/watch?v=mefsXP4FI6s", "notes": "Dr Insanity-style serial killer doc", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "serial_killer", "title": "Police Discover A Mass Killer's Secret Hideout", "url": "https://www.youtube.com/watch?v=hvxuXT2uDrI", "notes": "", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "serial_killer", "title": "Serial Killer Realizes Police Found His Body Collection", "url": "https://www.youtube.com/watch?v=OOcD2WFBWoE", "notes": "\"realizes\" formula", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "serial_killer", "title": "How Police Captured Colorado's Smartest Killer (Dr Insanity)", "url": "https://www.youtube.com/watch?v=t6h8Uae2Q_E", "notes": "confirmed Dr Insanity upload", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "female_killer", "title": "Trans Killer Reveals How She Executed Parents in Chilling Interrogation", "url": "https://www.youtube.com/watch?v=JRqsKocaOsw", "notes": "", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "female_killer", "title": "The Chilling Interrogation That Exposed a Cold-Blooded Killer", "url": "https://www.youtube.com/watch?v=QiSb9xzC2HQ", "notes": "", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "female_killer", "title": "Killer Mom Realizes She's Been Exposed By Her Children", "url": "https://www.youtube.com/watch?v=ufuv2X4TlKU", "notes": "exposed-by-own-kids twist", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "family_killer", "title": "Killer Son Thinks He Got Away With Murder (He Did)", "url": "https://www.youtube.com/watch?v=1NKvgEDnYI8", "notes": "rare he-got-away twist", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "family_killer", "title": "Three People Dead in 60 Seconds\u2026 His Reason Is Chilling", "url": "https://www.youtube.com/watch?v=Ze7eXH4fL-Y", "notes": "", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "killer_cop", "title": "Cop Gets Arrested After FBI Watches His Bodycam", "url": "https://www.youtube.com/watch?v=DG1G6Bzyk9U", "notes": "East Cleveland PD case", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "killer_cop", "title": "Corrupt Female Cop Caught On Her OWN BODYCAM", "url": "https://www.youtube.com/watch?v=elL5MY8s-wQ", "notes": "", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "killer_cop", "title": "Corrupt Cop Gets FIRED & ARRESTED - New Video Shows Why", "url": "https://www.youtube.com/watch?v=VQMRW2m-zEM", "notes": "", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "killer_cop", "title": "Corrupt Officer Fired and Sued After Shooting at Handcuffed Unarmed Man", "url": "https://www.youtube.com/watch?v=kP1w-KrXp44", "notes": "", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "online_predator", "title": "Caught on Bodycam: 8 Shocking Predator Arrests", "url": "https://www.youtube.com/watch?v=ex71w8hNob0", "notes": "ranked format proof - monetization risk", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "online_predator", "title": "Predator Realizes Cops Can See His Online Activity", "url": "https://www.youtube.com/watch?v=iQflFPahuz0", "notes": "", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "online_predator", "title": "Predator Arrested After Police Find His Disturbing Messages", "url": "https://www.youtube.com/watch?v=kNLrKProTbQ", "notes": "", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "dumb_criminal", "title": "The Dumbest Criminals EVER Caught On Police Bodycam", "url": "https://www.youtube.com/watch?v=zpEYmUUnFT4", "notes": "", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "dumb_criminal", "title": "Dumbest Criminals Who Got Caught On Camera", "url": "https://www.youtube.com/watch?v=fn5jAVWn5Lk", "notes": "", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "dumb_criminal", "title": "30 Thieves Who Rob The WRONG Store", "url": "https://www.youtube.com/watch?v=3kNJx5Bh0gM", "notes": "numbered ranking series", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "dumb_criminal", "title": "Are These The FUNNIEST Police Body Cam Arrests Ever?", "url": "https://www.youtube.com/watch?v=GiADDpNPw5c", "notes": "", "family_label": "Perpetrator Profiles"}, {"family": "perpetrator_profiles", "subcategory": "dumb_criminal", "title": "The Funniest Body Cam Arrest I Have Ever Seen", "url": "https://www.youtube.com/watch?v=pzOI3NFjWyk", "notes": "", "family_label": "Perpetrator Profiles"}, {"family": "calls_dispatch", "subcategory": "chilling_911", "title": "Killer's Chilling 911 Call After Ending Five Lives", "url": "https://www.youtube.com/watch?v=URuecMS2IK8", "notes": "Zephen Xaver FL bank case", "family_label": "911 & Dispatch"}, {"family": "calls_dispatch", "subcategory": "chilling_911", "title": "Inside the Chilling 911 Call That Revealed the Long Island Serial Killer", "url": "https://www.youtube.com/watch?v=owLDp4yrvrA", "notes": "LISK case", "family_label": "911 & Dispatch"}, {"family": "calls_dispatch", "subcategory": "chilling_911", "title": "The Chilling 911 Call of Ruth Price (1987)", "url": "https://www.youtube.com/watch?v=yhdPme3UDk8", "notes": "internet-legend audio", "family_label": "911 & Dispatch"}, {"family": "calls_dispatch", "subcategory": "chilling_911", "title": "Chilling 911 call in the Idaho college murders", "url": "https://www.youtube.com/watch?v=9EWSBAjY-CA", "notes": "Kohberger case", "family_label": "911 & Dispatch"}, {"family": "calls_dispatch", "subcategory": "chilling_911", "title": "Shocking 911 Call Leads to Horrifying Discovery", "url": "https://www.youtube.com/watch?v=r5_rp2Pgvmo", "notes": "", "family_label": "911 & Dispatch"}, {"family": "calls_dispatch", "subcategory": "killer_calls_911", "title": "Man Confesses to Murder in Chilling 911 Call: 'I Need to Be Arrested'", "url": "https://www.youtube.com/watch?v=U2CoW8mr_sg", "notes": "Emmett Metzger case", "family_label": "911 & Dispatch"}, {"family": "calls_dispatch", "subcategory": "killer_calls_911", "title": "Killer Realizes 911 Call Was His Own Confession", "url": "https://www.youtube.com/watch?v=ZA2bsHf7bUM", "notes": "Kristopher Johnson case", "family_label": "911 & Dispatch"}, {"family": "calls_dispatch", "subcategory": "killer_calls_911", "title": "Chris Moyer's Calm Confession to 911", "url": "https://www.youtube.com/watch?v=M3SaVmWwpj0", "notes": "", "family_label": "911 & Dispatch"}, {"family": "calls_dispatch", "subcategory": "kid_hero_call", "title": "Little Girl's 911 Call Rescues Her From INSANELY Dangerous Mother", "url": "https://www.youtube.com/watch?v=mk3WfAxz2yk", "notes": "", "family_label": "911 & Dispatch"}, {"family": "calls_dispatch", "subcategory": "kid_hero_call", "title": "4-year-old hailed as hero for calling 911 and saving mom", "url": "https://www.youtube.com/watch?v=q1H-voa00Bc", "notes": "Isa Glaser NJ", "family_label": "911 & Dispatch"}, {"family": "calls_dispatch", "subcategory": "kid_hero_call", "title": "10-year-old hero calls 911 to save pregnant unresponsive mom", "url": "https://www.youtube.com/watch?v=KTGsjf8u6jc", "notes": "Wesston Giese", "family_label": "911 & Dispatch"}, {"family": "calls_dispatch", "subcategory": "kid_hero_call", "title": "Cops Rescue 7 Year Old From TERRIFYING Step Dad After Mom's 911 Call", "url": "https://www.youtube.com/watch?v=2Kh8E7sS6mA", "notes": "", "family_label": "911 & Dispatch"}, {"family": "hero_moments", "subcategory": "hero_rescue", "title": "Hero police officer saves toddler's life (bodycam)", "url": "https://www.youtube.com/watch?v=S5aqE2-kuaA", "notes": "Philadelphia sergeant", "family_label": "Hero Moments"}, {"family": "hero_moments", "subcategory": "hero_rescue", "title": "Officer saves choking 7-month-old girl (Orange County bodycam)", "url": "https://www.youtube.com/watch?v=ChHhCnCpAIQ", "notes": "", "family_label": "Hero Moments"}, {"family": "hero_moments", "subcategory": "hero_rescue", "title": "Deputy rescues infant at scene of car crash in Florida", "url": "https://www.youtube.com/watch?v=C4Gs5muGdKM", "notes": "", "family_label": "Hero Moments"}, {"family": "hero_moments", "subcategory": "hero_rescue", "title": "Florida deputy rescues 7-year-old boy held hostage", "url": "https://www.youtube.com/watch?v=qQLcywpVBuk", "notes": "knife hostage save", "family_label": "Hero Moments"}, {"family": "hero_moments", "subcategory": "hero_rescue", "title": "Dramatic rescue of child at Macomb County pool (bodycam)", "url": "https://www.youtube.com/watch?v=WslCNpyl8kw", "notes": "", "family_label": "Hero Moments"}];
+  const FAMS = {"Bodycam Encounters": 29, "Interrogation Room": 27, "Perpetrator Profiles": 21, "Forensics & Reveals": 17, "Courtroom & Justice": 17, "Use of Force & Danger": 17, "Dark Discoveries": 14, "Pursuits & Chases": 12, "911 & Dispatch": 12, "Hero Moments": 5};
+  const CHANNELS = [["Dr Insanity", 161.2], ["EWU Bodycam", 94.6], ["EXPLORE WITH US", 52.1], ["EWU Crime Storytime", 38.3], ["Police Insider", 24.0], ["Law&Crime BodyCam", 14.2], ["The Hidden Files", 7.7], ["Stranger Stories", 7.3], ["JustThoughtLounge", 7.3], ["Vigilant Detective", 7.1]];
+
+  document.getElementById('t-rows').textContent = ROWS.length;
+  document.getElementById('t-subs').textContent = new Set(ROWS.map(r => r.subcategory)).size;
+
+  function bars(el, pairs, cls, fmt) {
+    const max = Math.max(...pairs.map(p => p[1]));
+    el.innerHTML = pairs.map(([k, v]) =>
+      `<div class="barrow" title="${k}: ${fmt(v)}"><span class="lbl">${k}</span>` +
+      `<div><div class="bar ${cls}" style="width:${(v / max * 100).toFixed(1)}%"></div></div>` +
+      `<span class="val">${fmt(v)}</span></div>`).join('');
+  }
+  bars(document.getElementById('chart-channels'), CHANNELS, '', v => v.toFixed(1) + 'M');
+  bars(document.getElementById('chart-fams'), Object.entries(FAMS), 'bar--aqua', v => String(v));
+
+  const famNames = ['All', ...Object.keys(FAMS)];
+  let activeFam = 'All';
+  const filterBox = document.getElementById('filters');
+  famNames.forEach(name => {
+    const b = document.createElement('button');
+    b.className = 'chip'; b.textContent = name;
+    b.setAttribute('aria-pressed', String(name === activeFam));
+    b.onclick = () => {
+      activeFam = name;
+      filterBox.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', String(c.textContent === name)));
+      render();
+    };
+    filterBox.appendChild(b);
+  });
+
+  const tbody = document.getElementById('tbody');
+  const count = document.getElementById('count');
+  const search = document.getElementById('search');
+  const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+  function render() {
+    const q = search.value.trim().toLowerCase();
+    const subset = ROWS.filter(r =>
+      (activeFam === 'All' || r.family_label === activeFam) &&
+      (!q || (r.title + ' ' + r.subcategory + ' ' + (r.notes || '') + ' ' + r.family_label).toLowerCase().includes(q)));
+    tbody.innerHTML = subset.map(r =>
+      `<tr><td>${esc(r.family_label)}</td><td><span class="subcat">${esc(r.subcategory)}</span></td>` +
+      `<td><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></td>` +
+      `<td class="notes">${esc(r.notes || '')}</td></tr>`).join('');
+    count.textContent = subset.length + ' of ' + ROWS.length + ' videos shown';
+  }
+  search.addEventListener('input', render);
+  render();
+</script>
