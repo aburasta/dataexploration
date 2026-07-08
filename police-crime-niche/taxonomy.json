@@ -268,6 +268,14 @@
         "kid_hero_call": {
           "label": "Kids & heroes on the line",
           "patterns": ["(kid|child|boy|girl|son|daughter) calls? 911", "youngest 911", "hero (kid|child|neighbor|bystander)", "saves? (his|her|their) (mom|mother|family|sister|brother)"]
+        },
+        "coded_call": {
+          "label": "Coded/disguised 911 calls (pizza order etc.)",
+          "patterns": ["order(s|ing)? (a )?pizza.*911", "911.*pizza", "disguis(es|ed|ing)? (a |her |his )?911", "secret(ly)? (calls?|dials?) 911", "coded (call|message).*(911|police)", "pretend(s|ing)? to order"]
+        },
+        "dispatcher_hero": {
+          "label": "Hero dispatchers & lifesaving calls",
+          "patterns": ["dispatcher (hero|hailed|saves?|honored|award)", "hero dispatcher", "dispatcher('s)? (calm|quick thinking)", "talks? (him|her|caller) through", "lifesaving (911 )?call"]
         }
       }
     }
