@@ -1,0 +1,74 @@
+LEGAL COUP - MEDIA SOURCING MANIFEST (Act 1 + early Act 2)
+64 beats sourced: 50 images, 14 video clips | 5 pending
+Files on git branch: reich-engine/public/media/special-legal-coup-1919-1933/
+All public-domain / Creative Commons. Full source URLs in the branch copy (tools/MANIFEST_readable.md).
+
+VIDEO CLIPS
+    18  18.mp4    [TheNazisStrike] aerial Nuremberg rally columns — packed beer-hall rallies / propaganda wing
+    50  50.mp4    [TheNazisStrike] vast flag-filled crowd — party districts / shadow state
+    51  51.mp4    [TheNazisStrike] officials at desk with documents — parallel party bureaucracy
+    52  52.mp4    [TheNazisStrike] women marching in formation — women's league / youth wings
+    53  53.mp4    [TheNazisStrike] soldiers marching in column — the S.A. under Roehm
+    55  55.mp4    [TheNazisStrike] Himmler in SS uniform (captioned) — Himmler handed the SS, 1929
+    70  70.mp4    [TheNazisStrike] industrial forge interior — 1929 crash / industry collapse
+    76  76.mp4    [TheNazisStrike] aircraft on field — chartered aircraft / private armies funded
+    82  82.mp4    [TheNazisStrike] Hitler speaking forcefully in open car — courting the generals
+    87  87.mp4    [TheNazisStrike] rally grandstand with swastika banners — Harzburg mass demonstration
+    95  95.mp4    [TheNazisStrike] Hitler motorcade through crowd — national campaign tour
+   132  132.mp4   [TheNazisStrike] assembled uniformed ranks, faces up — Berlin S.A. mobilized
+   146  146.mp4   [TheNazisStrike] Hitler with officers at ceremony — Day of Potsdam
+   149  149.mp4   [TheNazisStrike] uniformed ranks saluting — storm troopers lining the aisles
+
+IMAGES  (beat | file | license | Commons file title)
+     1  1.jpg     Public domain    File:3 1 0 17 11968 12 1 32811 Potsdam Day 1933-03-21 Ceremonial openi
+     2  2.jpg     Public domain    File:Wir wählen Hindenburg! Hitler! NSDAP Wahlplakat Reichspräsidenten
+     3  3.jpg     Public domain    File:Hitler's officers.jpg
+     4  4.jpeg    Public domain    File:Adolf Hitler 1933 Portrait (3x4 cropped).jpeg
+     5  5.jpg     CC0              File:Plaque remembering Police victims Hitlers 1923 putsch Feldherrnha
+     6  6.jpg     CC BY-SA 4.0     File:JVA Landsberg Lech - Eingangsgebäude.JPG
+     7  7.jpg     Public domain    File:SA-Sturme group portrait Schellingstrasse 50 Munich Germany c 192
+     8  8.jpg     Public domain    File:Hermann Eißfeldt - Portrait Erich Ludendorff, sitzend.JPG
+     9  9.jpg     Public domain    File:Hindenburg and Ludendorff.jpg
+    10  10.jpg    Public domain    File:Ernst Röhm (1887-1934) München, Germany (Weimar Republic) 1924 Ha
+    11  11.jpg    Public domain    File:Waffenstillstand gr.jpg
+    12  12.jpg    Public domain    File:Drills - Engineer Corps - Pioneer Work - Soldiers lay track. Brit
+    13  13.jpeg   CC BY 4.0        File:Soldaten in einer mobilen Lazarett-Baracke - LABW - Staatsarchiv 
+    14  14.jpg    Public domain    File:AK - München - Stiglmaierplatz - 1919.jpg
+    16  16.jpg    CC0              File:242-HF-0767 001 Totenfeier 1923-11-04 Anfange d Bewegung Münchene
+    17  17.jpg    Public domain    File:Anton Drexler at desk.jpg
+    19  19.jpg    Public domain    File:Berlin - Unter Den Linden, Bibliotek. vº-rº.jpg
+    20  20.jpg    Public domain    File:Organisationsbuc00nati orig 0094 ORGANISATIONSBUCH DER NSDAP 1936
+    21  21.jpg    Public domain    File:SA-Sturme group portrait Schellingstrasse 50 Munich Germany c 192
+    23  23.jpg    Public domain    File:3 2 0 - 14882 186256 NSDAP-Parteitag Nurnberg Nazi Rally 1933-09-
+    24  24.jpg    CC BY-SA 3.0     File:Justizpalast at dusk 2.JPG
+    25  25.jpg    Public domain    File:Organisationsbuc00nati 0 orig 0119 ORGANISATIONSBUCH DER NSDAP 19
+    27  27.jpg    Public domain    File:Walther Rathenau.jpg
+    28  28.jpg    Public domain    File:Soldiers the Brandenburger Tor during the Spartacist uprising Jan
+    29  29.jpg    Public domain    File:Strassenkämpfe in Berlin Sturmtrupp Fotopostkarte 1919 Freikorps 
+    30  30.jpg    Public domain    File:Munich, fête de tir de la garde (civique, Königsplatz, 26-9-20, d
+    31  31.jpg    Public domain    File:242-HF-0134 001. Adolf Hitler Nazi leader studio portrait photogr
+    32  32.jpg    Public domain    File:Buergerbraeukeller.jpg
+    34  34.jpg    CC BY-SA 4.0     File:242-HF-0804 001 Beginnings of the Nazi Movement Deutscher Tag Cob
+    35  35.jpg    Public domain    File:Hermann Göring as leader of the SA in 1923.jpg
+    36  36.jpg    CC BY-SA 3.0 de  File:Bundesarchiv Bild 119-1486, Hitler-Putsch, München, Marienplatz.j
+    37  37.jpg    CC BY-SA 3.0 de  File:Bundesarchiv Bild 102-00327A, Berlin, Verkehrsposten der Schutzpo
+    38  38.jpg    Public domain    File:3 1 0 17 12306 2 1 34215 Commemoration 15th Anniversary Munich Pu
+    39  39.jpg    CC BY-SA 4.0     File:242-HF-0204 001 Braunes Haus Muenchen Fahnenhalle Empfangsraum mi
+    40  40.jpg    CC0              File:Tilly Feldherrnhalle Munich.jpg
+    41  41.jpg    Public domain    File:Löwenstamm Emma - Adolf Hitler hraje šachy s Leninem (1909).jpg
+    42  42.jpg    CC BY-SA 4.0     File:242-HF-0374 001 Erich Ludendorff (1876-1941) Hitler-Ludendorff Pr
+    43  43.jpg    Public domain    File:Defendents in Hitler Trail - DPLA - 69c5d0875c39789ae053448bd1568
+    44  44.jpg    Public domain    File:Das Hakenkreuz (Zeitung). Erste Ausgabe vom April 1924.jpg
+    45  45.jpg    Public domain    File:Hitler, Maurice, Kriebel, Hess, Weber, prison de Landsberg en 192
+    46  46.jpg    Public domain    File:Rudolf Hess in Landsberg Prison.jpg
+    47  47.jpg    Public domain    File:Portrait of Adolf Hitler - DPLA - 37c5c313704caf620480b141bdf9915
+    48  48.jpg    Public domain    File:Bernard Person Reichstag.jpg
+    54  54.jpg    Public domain    File:Ideen zur SS Uniformierung Nazi Party Schutzstaffel paramilitary 
+    Q1  Q1.jpg    Public domain    File:Erich Ludendorff Hugo Vogel.jpg
+    Q2  Q2.jpg    Public domain    File:Adolf Hitler in World War I Bavarian Army Hitler (later Nazi dict
+    Q3  Q3.jpg    Public domain    File:Anton Drexler 1901.jpg
+    Q4  Q4.jpg    Public domain    File:Ernst Röh Portrait (3x4 cropped).jpg
+    Q5  Q5.jpg    Public domain    File:Danzigers cheer for Adolf Hitler 2.jpg
+    Q6  Q6.jpg    Public domain    File:Primeira Matéria sobre Adolf Hitler na Imprensa Brasileira.jpg
+
+PENDING (video substitutes): 15, 22, 26, 33, 49

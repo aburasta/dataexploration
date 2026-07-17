@@ -6,3 +6,4 @@ tools/*.log
 node_modules/
 out.mp4
 public/media/**/_review/
+tools/_dense/
