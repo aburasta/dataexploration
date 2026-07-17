@@ -1,0 +1,22 @@
+{
+ "source_id": "TheNazisStrike",
+ "source_file": "_srcfilm/TheNazisStrike.mp4",
+ "license": "Public domain (US Government / Frank Capra, War Dept. 1943)",
+ "page": "https://archive.org/details/TheNazisStrike",
+ "clips": [
+  {"tag":"18","start":104,"dur":6,"note":"aerial Nuremberg rally columns — packed beer-hall rallies / propaganda wing"},
+  {"tag":"50","start":180,"dur":6,"note":"vast flag-filled crowd — party districts / shadow state"},
+  {"tag":"51","start":244,"dur":6,"note":"officials at desk with documents — parallel party bureaucracy"},
+  {"tag":"52","start":808,"dur":6,"note":"women marching in formation — women's league / youth wings"},
+  {"tag":"53","start":712,"dur":6,"note":"soldiers marching in column — the S.A. under Roehm"},
+  {"tag":"55","start":680,"dur":5,"note":"Himmler in SS uniform (captioned) — Himmler handed the SS, 1929"},
+  {"tag":"70","start":648,"dur":5,"note":"industrial forge interior — 1929 crash / industry collapse"},
+  {"tag":"76","start":751,"dur":5,"note":"aircraft on field — chartered aircraft / private armies funded"},
+  {"tag":"82","start":1077,"dur":6,"note":"Hitler speaking forcefully in open car — courting the generals"},
+  {"tag":"87","start":172,"dur":6,"note":"rally grandstand with swastika banners — Harzburg mass demonstration"},
+  {"tag":"95","start":975,"dur":7,"note":"Hitler motorcade through crowd — national campaign tour"},
+  {"tag":"132","start":736,"dur":5,"note":"assembled uniformed ranks, faces up — Berlin S.A. mobilized"},
+  {"tag":"146","start":188,"dur":6,"note":"Hitler with officers at ceremony — Day of Potsdam"},
+  {"tag":"149","start":427,"dur":5,"note":"uniformed ranks saluting — storm troopers lining the aisles"}
+ ]
+}
