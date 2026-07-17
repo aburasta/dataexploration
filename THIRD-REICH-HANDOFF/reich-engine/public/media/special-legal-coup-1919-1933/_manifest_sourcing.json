@@ -48,50 +48,6 @@
   ]
  },
  {
-  "tag": "6",
-  "status": "ok",
-  "file": "6.jpg",
-  "query": "Festung Landsberg Hitler 1924",
-  "title": "File:JVA Landsberg Lech - Eingangsgebäude.JPG",
-  "page": "https://commons.wikimedia.org/wiki/File:JVA_Landsberg_Lech_-_Eingangsgeb%C3%A4ude.JPG",
-  "license": "CC BY-SA 4.0",
-  "attribution": "Guido Radig",
-  "dims": "1920x1280",
-  "alts": []
- },
- {
-  "tag": "8",
-  "status": "ok",
-  "file": "8.jpg",
-  "query": "Erich Ludendorff portrait",
-  "title": "File:Hermann Eißfeldt - Portrait Erich Ludendorff, sitzend.JPG",
-  "page": "https://commons.wikimedia.org/wiki/File:Hermann_Ei%C3%9Ffeldt_-_Portrait_Erich_Ludendorff,_sitzend.JPG",
-  "license": "Public domain",
-  "attribution": "Hermann Eissfeldt",
-  "dims": "1146x1587",
-  "alts": [
-   "File:Hermann Eißfeldt - Portrait Erich Ludendorff, stehend.jpg",
-   "File:Erich Ludendorff Hugo Vogel.jpg",
-   "File:Recueil. Portraits de Erich Ludendorff - btv1b10336721d.jpg"
-  ]
- },
- {
-  "tag": "11",
-  "status": "ok",
-  "file": "11.jpg",
-  "query": "Waffenstillstand 1918 Compiegne armistice",
-  "title": "File:Waffenstillstand gr.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Waffenstillstand_gr.jpg",
-  "license": "Public domain",
-  "attribution": "Maurice Pillard Verneuil",
-  "dims": "1920x1255",
-  "alts": [
-   "File:Armistice Day in London, 11 November 1918 Q47852.jpg",
-   "File:Waffenstillstand 11.nov 1918.jpg",
-   "File:Armistice Day 11 November 1918 , outside Parliament House (Declaration of Signing), end of World War 1914-1918(GN04432).jpg"
-  ]
- },
- {
   "tag": "4",
   "status": "ok",
   "file": "4.jpeg",
@@ -124,6 +80,18 @@
   ]
  },
  {
+  "tag": "6",
+  "status": "ok",
+  "file": "6.jpg",
+  "query": "Festung Landsberg Hitler 1924",
+  "title": "File:JVA Landsberg Lech - Eingangsgebäude.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:JVA_Landsberg_Lech_-_Eingangsgeb%C3%A4ude.JPG",
+  "license": "CC BY-SA 4.0",
+  "attribution": "Guido Radig",
+  "dims": "1920x1280",
+  "alts": []
+ },
+ {
   "tag": "7",
   "status": "ok",
   "file": "7.jpg",
@@ -137,6 +105,22 @@
    "File:SA-Sturme group portrait Schellingstrasse 50 Munich Germany c 1923 Nazi Party NSDAP Sturmabteilung Bund Oberland paramilitary uniforms Edelweiss Ski caps Early swastika flag Propaganda Studio National Archives NARA Unrestricted use 242.jpg",
    "File:SA-Sturme group portrait Schellingstrasse 50 Munich Germany c 1923 Nazi Party NSDAP Sturmabteilung Bund Oberland paramilitary uniforms Edelweiss Ski caps Early swastika flag Propaganda US National Archives NARA Unrestricted use 242-HF-0.jpg",
    "File:Die erste Hakenkreuzflagge der NSDAP. Nationalsozialistische Deutsche Arbeiterpartei Müchen First Nazi swastika flag (NSDAP Schulungsbrief 1938-08-09 p 292) Propaganda magazine No known copyright restrictions.jpg"
+  ]
+ },
+ {
+  "tag": "8",
+  "status": "ok",
+  "file": "8.jpg",
+  "query": "Erich Ludendorff portrait",
+  "title": "File:Hermann Eißfeldt - Portrait Erich Ludendorff, sitzend.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Hermann_Ei%C3%9Ffeldt_-_Portrait_Erich_Ludendorff,_sitzend.JPG",
+  "license": "Public domain",
+  "attribution": "Hermann Eissfeldt",
+  "dims": "1146x1587",
+  "alts": [
+   "File:Hermann Eißfeldt - Portrait Erich Ludendorff, stehend.jpg",
+   "File:Erich Ludendorff Hugo Vogel.jpg",
+   "File:Recueil. Portraits de Erich Ludendorff - btv1b10336721d.jpg"
   ]
  },
  {
@@ -156,22 +140,6 @@
   ]
  },
  {
-  "tag": "Q1",
-  "status": "ok",
-  "file": "Q1.jpg",
-  "query": "Erich Ludendorff World War I",
-  "title": "File:Erich Ludendorff Hugo Vogel.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Erich_Ludendorff_Hugo_Vogel.jpg",
-  "license": "Public domain",
-  "attribution": "Hugo Vogel",
-  "dims": "640x551",
-  "alts": [
-   "File:Erich Ludendorff 1924.jpg",
-   "File:General Ludendorff and Ahmet Tevfik Pasha.jpg",
-   "File:Portret van de Duitse Generaal-kwartiermeester Ludendorff, RP-F-F02907.jpg"
-  ]
- },
- {
   "tag": "10",
   "status": "ok",
   "file": "10.jpg",
@@ -185,6 +153,22 @@
    "File:Ernst Röhm (1887-1934) München, Germany (Weimar Republic) 1924 Hauptmann Bund Freikorps Epp uniform Iron cross etc 242-HF-0377 001 Unrestricted No known copyright (cropped)(2).jpg",
    "File:Erich Ludendorff 1924 Portrait (3x4 cropped)(2).jpg",
    "File:Erich Ludendorff 1924 Portrait (3x4 cropped).jpg"
+  ]
+ },
+ {
+  "tag": "11",
+  "status": "ok",
+  "file": "11.jpg",
+  "query": "Waffenstillstand 1918 Compiegne armistice",
+  "title": "File:Waffenstillstand gr.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Waffenstillstand_gr.jpg",
+  "license": "Public domain",
+  "attribution": "Maurice Pillard Verneuil",
+  "dims": "1920x1255",
+  "alts": [
+   "File:Armistice Day in London, 11 November 1918 Q47852.jpg",
+   "File:Waffenstillstand 11.nov 1918.jpg",
+   "File:Armistice Day 11 November 1918 , outside Parliament House (Declaration of Signing), end of World War 1914-1918(GN04432).jpg"
   ]
  },
  {
@@ -217,22 +201,6 @@
    "File:Nachgestellte Operation im Lazarett - LABW - Staatsarchiv Sigmaringen N 1-68 Nr. 1862.jpeg",
    "File:Lazarett in einer Ortschaft; im Hintergrund eine Kirche - LABW - Staatsarchiv Sigmaringen N 1-68 Nr. 1829.jpeg",
    "File:Soldaten im Lazarettsaal - LABW - Staatsarchiv Sigmaringen N 1-68 Nr. 1686.jpeg"
-  ]
- },
- {
-  "tag": "Q2",
-  "status": "ok",
-  "file": "Q2.jpg",
-  "query": "Adolf Hitler soldier World War I 1916",
-  "title": "File:Adolf Hitler in World War I Bavarian Army Hitler (later Nazi dictator, second from right top row) and his wounded soldier comrades in Beelitz Lazareth military hospital near Berlin 1916-10-26 Unknown photographer No known copyright.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Adolf_Hitler_in_World_War_I_Bavarian_Army_Hitler_(later_Nazi_dictator,_second_from_right_top_row)_and_his_wounded_soldier_comrades_in_Beelitz_Lazareth_military_hospital_near_Berlin_1916-10-26_Unknown_photographer_No_known_copyright.jpg",
-  "license": "Public domain",
-  "attribution": "Unknown (unidentified) photographer. No known copyright restrictions.",
-  "dims": "920x647",
-  "alts": [
-   "File:724114-000000 Hitler im Felde Ansichtskarte Postkarte propagandakarte Adolf Hitler as soldier in World War I Postcard Nazi propaganda No known copyright restrictions.jpg",
-   "File:859 Hitler im Felde Postkarte Propagandakarte Adolf Hitler as a German soldier in World War I 1914-18 Postcard Nazi propaganda portrait postcard Unknown photographer No known copyright restrictions.jpg",
-   "File:H0171-L314896559 original Adolf Hitler im Kreise der Meldegänger des List-Regiments German World War I soldiers group photograph (7th Division, 16th Bavarian Reserve Regiment) Unknown photographer No known copyright restrictions.jpg"
   ]
  },
  {
@@ -282,11 +250,6 @@
   ]
  },
  {
-  "tag": "15",
-  "status": "miss",
-  "query": "Hofbraeuhaus Munich beer hall interior historic"
- },
- {
   "tag": "18",
   "status": "ok",
   "type": "video",
@@ -297,6 +260,268 @@
   "attribution": "US War Department (Frank Capra, Why We Fight)",
   "clip": "104s+6s",
   "note": "aerial Nuremberg rally columns — packed beer-hall rallies / propaganda wing"
+ },
+ {
+  "tag": "21",
+  "status": "ok",
+  "file": "21.jpg",
+  "query": "Adolf Hitler 1921 portrait",
+  "title": "File:SA-Sturme group portrait Schellingstrasse 50 Munich Germany c 1923 Nazi Party NSDAP Sturmabteilung Bund Oberland paramilitary uniforms Edelweiss Ski caps Early swastika flag Propaganda Studio National Archives NARA Unrestricted use 242.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:SA-Sturme_group_portrait_Schellingstrasse_50_Munich_Germany_c_1923_Nazi_Party_NSDAP_Sturmabteilung_Bund_Oberland_paramilitary_uniforms_Edelweiss_Ski_caps_Early_swastika_flag_Propaganda_Studio_National_Archives_NARA_Unrestricted_use_242.jpg",
+  "license": "Public domain",
+  "attribution": "Uncredited author. NARA (US National Archives and Records Administration): Unrestricted access and use.",
+  "dims": "1920x1431",
+  "alts": [
+   "File:SA-Sturme group portrait Schellingstrasse 50 Munich Germany c 1923 Nazi Party NSDAP Sturmabteilung Bund Oberland paramilitary uniforms Edelweiss Ski caps Early swastika flag Propaganda US National Archives NARA Unrestricted use 242-HF.jpg",
+   "File:Berlin- Hitler-Bild-Plakat \"Freiheit Friede\" - LABW - Staatsarchiv Freiburg W 134 Nr. 008660.jpeg",
+   "File:Adolf Hitler cropped restored.jpg"
+  ]
+ },
+ {
+  "tag": "23",
+  "status": "ok",
+  "file": "23.jpg",
+  "query": "Adolf Hitler 1922 Munich",
+  "title": "File:3 2 0 - 14882 186256 NSDAP-Parteitag Nurnberg Nazi Rally 1933-09-02 Opening Ceremony Luitpoldhalle Roehm SA speaks Axmann Frank Schirach Fiehler Darre Goebbels Ley Buch Schwartz Hitler Hess Epp Heines Leaders stand SS guards Blutfahne.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:3_2_0_-_14882_186256_NSDAP-Parteitag_Nurnberg_Nazi_Rally_1933-09-02_Opening_Ceremony_Luitpoldhalle_Roehm_SA_speaks_Axmann_Frank_Schirach_Fiehler_Darre_Goebbels_Ley_Buch_Schwartz_Hitler_Hess_Epp_Heines_Leaders_stand_SS_guards_Blutfahne.jpg",
+  "license": "Public domain",
+  "attribution": "Uncredited photographer. Press photo distributed through a news agency (Wide World Photos, Berlin)",
+  "dims": "1920x1521",
+  "alts": [
+   "File:Nazi Bavarian Commissarial Government (Bayerische Kommission) March 1933 Postcard 1 Siebert, v Epp, Wagner, H Schemm 2 Himmler, Röhm, Frank, Hermann Esser, Georg Luber Weiler Munich Signatures on verso dated October No known copyrig.jpg",
+   "File:Wilhelm Brückner (1884-1954, Adolf Hitler's chief adjutant) Portrait SS-Gruppenführer uniform late 1930s (?) National Archives NARA (US seized WW2 enemy property) 242-HF-0037 001 Unrestricted No known copyright.jpg",
+   "File:Wilhelm Brückner (1884-1954, Adolf Hitler's chief adjutant) Oberleutnant portrait c. 1924 (?) Stahlhelm steel helmet National Archives NARA (US seized WW2 enemy property) 242-HF-0035 001 Unrestricted No known copyright.jpg"
+  ]
+ },
+ {
+  "tag": "25",
+  "status": "ok",
+  "file": "25.jpg",
+  "query": "Deutsche Arbeiterpartei founding members",
+  "title": "File:Organisationsbuc00nati 0 orig 0119 ORGANISATIONSBUCH DER NSDAP 1943 Tafel 17 Deutsche Arbeitsfront DAF Uniform Werkscharführer als politischer Leiter DAF.-Festanzug. No known copyright Cropped.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Organisationsbuc00nati_0_orig_0119_ORGANISATIONSBUCH_DER_NSDAP_1943_Tafel_17_Deutsche_Arbeitsfront_DAF_Uniform_Werkscharf%C3%BChrer_als_politischer_Leiter_DAF.-Festanzug._No_known_copyright_Cropped.jpg",
+  "license": "Public domain",
+  "attribution": "Unnamed illustrator (anonymous, not identified or mentioned in the book).\n\n(Some of the descriptive drawings of uniforms etc. also appear in the 1940 edition of Organisationsbuch der NSDAP, the official Nazi party handbook, published by Nationalsozialistische Deutsche Arbeiter-Partei. Reichsorganisationsamt (The National Organization Office of the NSDAP) under it's leader Robert Ley (1890–1945, Reichsorganisationsleiter, head of the party organization dissolved in 1945.)",
+  "dims": "1920x2696",
+  "alts": [
+   "File:Organisationsbuc00nati orig 0291 ORGANISATIONSBUCH DER NSDAP 1936 Tafel 27 Deutsche Arbeitsfront DAF Uniform NSBO.-Mann Werkschar-Mann DAF.-Walter und KdF-Wart German Labour Front Nazi Germany No known copyright Cropped.jpg",
+   "File:Beppo Bässler - Aufbau und Abzeichen der NSDAP SA SS HJ PO NSBO DAF 1934 - 34-35 NS-Frauenschaft NSV Wolkswohlfahrt Opferring Freiheitsbund DAF Deutsche Arbeitsfront (Nazi Party structure insignia uniforms. Propaganda booklet) No copy.jpg",
+   "File:Beppo Bässler - Aufbau und Abzeichen der NSDAP SA SS HJ PO NSBO DAF 1934 - 00-01 Titelseite. Verlag H. Schaufuß Leipzig. Werbung Allgemeine Deutsche Credit-Anstalt) (Nazi Party structure insignia uniforms. Propaganda booklet) No copy.jpg"
+  ]
+ },
+ {
+  "tag": "27",
+  "status": "ok",
+  "file": "27.jpg",
+  "query": "Walther Rathenau portrait",
+  "title": "File:Walther Rathenau.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Walther_Rathenau.jpg",
+  "license": "Public domain",
+  "attribution": "Bain News Service",
+  "dims": "1920x2682",
+  "alts": [
+   "File:Dr Walther Rathenau, SFA022003689.jpg",
+   "File:(Walther) Rathenau - btv1b53069720n.jpg",
+   "File:Spreebogen @ Berlin-GPlus Anniversary Photowalk - panoramio.jpg"
+  ]
+ },
+ {
+  "tag": "28",
+  "status": "ok",
+  "file": "28.jpg",
+  "query": "Spartakusaufstand 1919 Berlin",
+  "title": "File:Soldiers the Brandenburger Tor during the Spartacist uprising Jan 7 1919.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Soldiers_the_Brandenburger_Tor_during_the_Spartacist_uprising_Jan_7_1919.jpg",
+  "license": "Public domain",
+  "attribution": "New-York Tribune",
+  "dims": "800x579",
+  "alts": [
+   "File:German forces during Berlin uprising with armoured cars 1919.jpg",
+   "File:Fighting during the Berlin Uprising 1919.jpg",
+   "File:AlzadosEspartaquistas..png"
+  ]
+ },
+ {
+  "tag": "29",
+  "status": "ok",
+  "file": "29.jpg",
+  "query": "Freikorps 1919 Berlin soldiers",
+  "title": "File:Strassenkämpfe in Berlin Sturmtrupp Fotopostkarte 1919 Freikorps soldiers during German November Revolution 1919 Ehrhardt EV4 armored truck Totenkopf emblem Flame thrower Uncredited photo postcard PD-old H22785-L376967726 original.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Strassenk%C3%A4mpfe_in_Berlin_Sturmtrupp_Fotopostkarte_1919_Freikorps_soldiers_during_German_November_Revolution_1919_Ehrhardt_EV4_armored_truck_Totenkopf_emblem_Flame_thrower_Uncredited_photo_postcard_PD-old_H22785-L376967726_original.jpg",
+  "license": "Public domain",
+  "attribution": "Unknown author (uncredited photographer).",
+  "dims": "1920x1243",
+  "alts": [
+   "File:Strassenkämpfe in Berlin Kampfbereite Regierungstruppen Fotopostkarte 1919 Freikorps soldiers during the German November Revolution Prototype armored car M.K.III Totenkopf emblem Uncredited postcard PD.old H22785-L376967723 original.jpg",
+   "File:Freischar Loeschebrand, der Garde Kavallerie Schützen Division. Offiziere, Unteroffiziere und Mannschaften aller Waffen, meldet euch LCCN2004666109.jpg"
+  ]
+ },
+ {
+  "tag": "30",
+  "status": "ok",
+  "file": "30.jpg",
+  "query": "Gustav von Kahr Bavaria",
+  "title": "File:Munich, fête de tir de la garde (civique, Königsplatz, 26-9-20, dans la tribune, le président du conseil bavarois von Kahr, devant Georg Escherich et le colonel von Epp) - btv1b53052222x.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Munich,_f%C3%AAte_de_tir_de_la_garde_(civique,_K%C3%B6nigsplatz,_26-9-20,_dans_la_tribune,_le_pr%C3%A9sident_du_conseil_bavarois_von_Kahr,_devant_Georg_Escherich_et_le_colonel_von_Epp)_-_btv1b53052222x.jpg",
+  "license": "Public domain",
+  "attribution": "Agence Rol. Agence photographique (commanditaire)",
+  "dims": "1920x1404",
+  "alts": [
+   "File:242-HF-0767 001 Totenfeier 1923-11-04 Anfange d Bewegung Münchener Trauertag Parade völkischen Kampfverbände Kronprinz Rupprecht Prinz Leopold v Bayern NSDAP SA Nationalist Mourning Day Armeemuseum Denkmal NARA.jpg",
+   "File:242-HF-0767 001 Totenfeier 1923-11-04 Anfange d Bewegung Münchener Trauertag Parade völkischen Kampfverbände Kronprinz Rupprecht Prinz Leopold v Bayern NSDAP SA Nationalist Mourning Day Armeemuseum Denkmal NARA cropped.jpg"
+  ]
+ },
+ {
+  "tag": "34",
+  "status": "ok",
+  "file": "34.jpg",
+  "query": "Beer Hall Putsch 1923 storm troopers Munich",
+  "title": "File:242-HF-0804 001 Beginnings of the Nazi Movement Deutscher Tag Coburg 14-15 Oct 1922 NSDAP Hitlerbewegung SA Sturmabteilung Graf Alfarth Rosenberg Schaub Esser Feder Dietrich Weber Alpers etc Swastikas Deutschvölkisch NARA Cropped.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:242-HF-0804_001_Beginnings_of_the_Nazi_Movement_Deutscher_Tag_Coburg_14-15_Oct_1922_NSDAP_Hitlerbewegung_SA_Sturmabteilung_Graf_Alfarth_Rosenberg_Schaub_Esser_Feder_Dietrich_Weber_Alpers_etc_Swastikas_Deutschv%C3%B6lkisch_NARA_Cropped.jpg",
+  "license": "CC BY-SA 4.0",
+  "attribution": "Uncredited author (photographer). NARA (US National Archives and Records Administration): Unrestricted access and use.",
+  "dims": "1920x1251",
+  "alts": [
+   "File:242-HF-0804 001 Beginnings of the Nazi Movement Deutscher Tag Coburg 14-15 Oct 1922 NSDAP Hitlerbewegung SA Sturmabteilung Graf Alfarth Rosenberg Schaub Esser Feder Dietrich Weber Alpers etc Swastika armbands Deutschvölkisch NARA.jpg"
+  ]
+ },
+ {
+  "tag": "38",
+  "status": "ok",
+  "file": "38.jpg",
+  "query": "Beer Hall Putsch march Munich 1923",
+  "title": "File:3 1 0 17 12306 2 1 34215 Commemoration 15th Anniversary Munich Putsch 1923 1938-11-09 NSDAP Nazi propaganda event Muenchen Bürgerbräukeller Beer Hall Lammers Lutze Goebbels Brückner Graf Hitler Hess brownshirts. Narodowe Archiwum.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:3_1_0_17_12306_2_1_34215_Commemoration_15th_Anniversary_Munich_Putsch_1923_1938-11-09_NSDAP_Nazi_propaganda_event_Muenchen_B%C3%BCrgerbr%C3%A4ukeller_Beer_Hall_Lammers_Lutze_Goebbels_Br%C3%BCckner_Graf_Hitler_Hess_brownshirts._Narodowe_Archiwum.jpg",
+  "license": "Public domain",
+  "attribution": "Press photograph by an unidentified photographer, distributed through a news agency.",
+  "dims": "1920x1410",
+  "alts": [
+   "File:3 1 0 17 12306 1 1 34214 Commemoration Munich Putsch 1923 1938-11-09 NSDAP Nazi propaganda Königplatz Ceremony Parade Hühnlein Amann Hess Goering Hitler Streicher Himmler brownshirts Blutfahne SS guards Swastikas HJ NAC PD-Poland.jpg",
+   "File:242-HF-0767 001 Totenfeier 1923-11-04 Anfange d Bewegung Münchener Trauertag Parade völkischen Kampfverbände Kronprinz Rupprecht Prinz Leopold v Bayern NSDAP SA Nationalist Mourning Day Armeemuseum Denkmal NARA cropped.jpg",
+   "File:Organisationsbuch der NSDAP 1938 - 16 Ehrezeichend er NSDAP. Ehrenzeichen am Band vom 9. November 1923 Blutorden Official Nazi Party handbook Golden Party Badge Blood Order Hitler Putsch medal Third Reich Propaganda No copyright.jpg"
+  ]
+ },
+ {
+  "tag": "39",
+  "status": "ok",
+  "file": "39.jpg",
+  "query": "Feldherrnhalle Muenchen 1923",
+  "title": "File:242-HF-0204 001 Braunes Haus Muenchen Fahnenhalle Empfangsraum mit Fahnen SA battalion flags standards swastikas ca 1931-34 NSDAP Nazi party HQ lobby propaganda NARA id 162121603 Unrestricted No known copyright.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:242-HF-0204_001_Braunes_Haus_Muenchen_Fahnenhalle_Empfangsraum_mit_Fahnen_SA_battalion_flags_standards_swastikas_ca_1931-34_NSDAP_Nazi_party_HQ_lobby_propaganda_NARA_id_162121603_Unrestricted_No_known_copyright.jpg",
+  "license": "CC BY-SA 4.0",
+  "attribution": "This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+  "dims": "1920x1431",
+  "alts": [
+   "File:242-HF-0396 001 SS Fuehrer der Standarte I Muenchen im Braunen Haus Schutzstaffel leaders uniforms Deutschland erwache Fahnen standards NSDAP Nazi propaganda ca 1931-32 NARA id 162122167 Unrestricted No known copyright.jpg",
+   "File:242-HF-0428 001 SS Fuehrer der Standarte I Muenchen im Braunen Haus Schutzstaffel leaders uniforms Deutschland erwache Fahnen standards NSDAP Nazi propaganda ca 1931-32 NARA id 162122257 Unrestricted No known copyright.jpg",
+   "File:242-HF-0108 001 Braunes Haus Muenchen Ehrenwache SA SS Ehrentafeln Blutzeuge Kraenze Deutschland erwache Fahnen Heldentafeln Uniformen standards Honor Guard NSDAP Nazi propaganda ca 1932-1934 NARA id 162121447 Unrestricted No known copy.jpg"
+  ]
+ },
+ {
+  "tag": "41",
+  "status": "ok",
+  "file": "41.jpg",
+  "query": "Adolf Hitler 1924 portrait",
+  "title": "File:Löwenstamm Emma - Adolf Hitler hraje šachy s Leninem (1909).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:L%C3%B6wenstamm_Emma_-_Adolf_Hitler_hraje_%C5%A1achy_s_Leninem_(1909).jpg",
+  "license": "Public domain",
+  "attribution": "Emma Löwenstamm (* 1 July 1879 Náchod - 9 January 1941 Prague) was a Czech painter and graphic artist.",
+  "dims": "1600x765",
+  "alts": [
+   "File:Nasleep Eerste Wereldoorlog, SFA022001459.jpg",
+   "File:Wilhelm Brückner (1884-1954, Adolf Hitler's chief adjutant) Oberleutnant portrait c. 1924 (?) Stahlhelm steel helmet National Archives NARA (US seized WW2 enemy property) 242-HF-0035 001 Unrestricted No known copyright.jpg",
+   "File:Wilhelm Brückner (1884-1954, Adolf Hitler's chief adjutant) Oberleutnant portrait c. 1924 (?) Nazi uniform swastika armband etc National Archives NARA (US seized enemy property) 242-HF-0034 001 Unrestricted No known copyright.jpg"
+  ]
+ },
+ {
+  "tag": "42",
+  "status": "ok",
+  "file": "42.jpg",
+  "query": "Hitler trial 1924 Munich Ludendorff",
+  "title": "File:242-HF-0374 001 Erich Ludendorff (1876-1941) Hitler-Ludendorff Prozess Munich, Weimar Republic 1924. Uniform Pickelhaube. US National Archives NARA (US seized WW2 enemy property) Unrestricted No known copyright.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:242-HF-0374_001_Erich_Ludendorff_(1876-1941)_Hitler-Ludendorff_Prozess_Munich,_Weimar_Republic_1924._Uniform_Pickelhaube._US_National_Archives_NARA_(US_seized_WW2_enemy_property)_Unrestricted_No_known_copyright.jpg",
+  "license": "CC BY-SA 4.0",
+  "attribution": "This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+  "dims": "1920x2645",
+  "alts": [
+   "File:Bundesarchiv Bild 102-00344, München, nach Hitler-Ludendorff Prozess.jpg",
+   "File:Bundesarchiv Bild 102-00344A, München, nach Hitler-Ludendorff Prozess.jpg",
+   "File:Bundesarchiv Bild 102-00344A, München, nach Hitler-Ludendorff Prozess retouched.jpg"
+  ]
+ },
+ {
+  "tag": "43",
+  "status": "ok",
+  "file": "43.jpg",
+  "query": "Hitler treason trial 1924 defendants",
+  "title": "File:Defendents in Hitler Trail - DPLA - 69c5d0875c39789ae053448bd1568848 (page 1).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Defendents_in_Hitler_Trail_-_DPLA_-_69c5d0875c39789ae053448bd1568848_(page_1).jpg",
+  "license": "Public domain",
+  "attribution": "General Services Administration. National Archives and Records Service. Office of the National Archives. (9/19/1966 - 4/1/1985)",
+  "dims": "1920x1433",
+  "alts": [
+   "File:Defendants.jpg"
+  ]
+ },
+ {
+  "tag": "44",
+  "status": "ok",
+  "file": "44.jpg",
+  "query": "Adolf Hitler newspaper 1924",
+  "title": "File:Das Hakenkreuz (Zeitung). Erste Ausgabe vom April 1924.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Das_Hakenkreuz_(Zeitung)._Erste_Ausgabe_vom_April_1924.jpg",
+  "license": "Public domain",
+  "attribution": "Unknown authorUnknown author",
+  "dims": "1920x1340",
+  "alts": []
+ },
+ {
+  "tag": "45",
+  "status": "ok",
+  "file": "45.jpg",
+  "query": "Adolf Hitler Landsberg 1924",
+  "title": "File:Hitler, Maurice, Kriebel, Hess, Weber, prison de Landsberg en 1924.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hitler,_Maurice,_Kriebel,_Hess,_Weber,_prison_de_Landsberg_en_1924.jpg",
+  "license": "Public domain",
+  "attribution": "Unknown authorUnknown author",
+  "dims": "1600x1220",
+  "alts": [
+   "File:Defendents in Hitler Trail - DPLA - 69c5d0875c39789ae053448bd1568848 (page 1).jpg",
+   "File:Museum of World War II Natick Massachusetts 2015. Militaria memorabilia collectables Third Reich etc. 03 Hitler's chair Landsberg Prison.jpg",
+   "File:JVA Landsberg Lech - Eingangsgebäude.JPG"
+  ]
+ },
+ {
+  "tag": "47",
+  "status": "ok",
+  "file": "47.jpg",
+  "query": "Adolf Hitler 1925 portrait",
+  "title": "File:Portrait of Adolf Hitler - DPLA - 37c5c313704caf620480b141bdf9915b (page 1).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Adolf_Hitler_-_DPLA_-_37c5c313704caf620480b141bdf9915b_(page_1).jpg",
+  "license": "Public domain",
+  "attribution": "General Services Administration. National Archives and Records Service. Office of the National Archives. (9/19/1966 - 4/1/1985)",
+  "dims": "1920x2541",
+  "alts": [
+   "File:242-HF-0134 001. Adolf Hitler Nazi leader studio portrait photograph street clothing coat hat in hand 1920s DPLA National Archives NARA Unrestricted No known copyright.jpg",
+   "File:SA-Sturme group portrait Schellingstrasse 50 Munich Germany c 1923 Nazi Party NSDAP Sturmabteilung Bund Oberland paramilitary uniforms Edelweiss Ski caps Early swastika flag Propaganda US National Archives NARA Unrestricted use 242-HF.jpg",
+   "File:SA-Sturme group portrait Schellingstrasse 50 Munich Germany c 1923 Nazi Party NSDAP Sturmabteilung Bund Oberland paramilitary uniforms Edelweiss Ski caps Early swastika flag Propaganda Studio National Archives NARA Unrestricted use 242.jpg"
+  ]
+ },
+ {
+  "tag": "48",
+  "status": "ok",
+  "file": "48.jpg",
+  "query": "Reichstag building Berlin 1920s",
+  "title": "File:Bernard Person Reichstag.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bernard_Person_Reichstag.jpg",
+  "license": "Public domain",
+  "attribution": "Unknown authorUnknown author",
+  "dims": "1920x2688",
+  "alts": [
+   "File:Frank Davison with Marsden Hartley and Rita Matthias in front of the Reichstag. Berlin, 1922.jpg",
+   "File:Bundesarchiv Bild 102-08328, Berlin, Reichstag nach Bomben-Anschlag.jpg",
+   "File:Bundesarchiv Bild 102-00138, Berlin, Reichstag, Verfassungsfeier.jpg"
+  ]
  },
  {
   "tag": "50",
@@ -345,6 +570,22 @@
   "attribution": "US War Department (Frank Capra, Why We Fight)",
   "clip": "712s+6s",
   "note": "soldiers marching in column — the S.A. under Roehm"
+ },
+ {
+  "tag": "54",
+  "status": "ok",
+  "file": "54.jpg",
+  "query": "Schutzstaffel SS 1925 early",
+  "title": "File:Ideen zur SS Uniformierung Nazi Party Schutzstaffel paramilitary test uniform 1925? Kratzschen visorless cap eagle-and-swastika Lederhosen Deutschland Erwache standard etc National Archives NARA Unrestricted No copyright 242-HF-0825 001.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ideen_zur_SS_Uniformierung_Nazi_Party_Schutzstaffel_paramilitary_test_uniform_1925%3F_Kratzschen_visorless_cap_eagle-and-swastika_Lederhosen_Deutschland_Erwache_standard_etc_National_Archives_NARA_Unrestricted_No_copyright_242-HF-0825_001.jpg",
+  "license": "Public domain",
+  "attribution": "Uncredited author. NARA (US National Archives and Records Administration): Unrestricted access and use.",
+  "dims": "1920x2558",
+  "alts": [
+   "File:Ideen zur SS Uniformierung Nazi Party Schutzstaffel paramilitary test uniform 1925? Kratzschen visorless cap eagle-and-swastika Lederhosen Deutschland Erwache standard etc National Archives NARA Unrestricted No copyright 242-HF-0826 001.jpg",
+   "File:242-HF-0396 001 SS Fuehrer der Standarte I Muenchen im Braunen Haus Schutzstaffel leaders uniforms Deutschland erwache Fahnen standards NSDAP Nazi propaganda ca 1931-32 NARA id 162122167 Unrestricted No known copyright.jpg",
+   "File:242-HF-0538 001 SS Fuehrer der Standarte I Muenchen vor dem Sturmfahnen im Braunen Haus Empfangsraum Vestibuel Schutzstaffel leaders uniforms standards NSDAP Nazi propaganda ca 1931-32 NARA id 162122542 Unrestricted No known copyright.jpg"
+  ]
  },
  {
   "tag": "55",
@@ -453,5 +694,281 @@
   "attribution": "US War Department (Frank Capra, Why We Fight)",
   "clip": "427s+5s",
   "note": "uniformed ranks saluting — storm troopers lining the aisles"
+ },
+ {
+  "tag": "Q1",
+  "status": "ok",
+  "file": "Q1.jpg",
+  "query": "Erich Ludendorff World War I",
+  "title": "File:Erich Ludendorff Hugo Vogel.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Erich_Ludendorff_Hugo_Vogel.jpg",
+  "license": "Public domain",
+  "attribution": "Hugo Vogel",
+  "dims": "640x551",
+  "alts": [
+   "File:Erich Ludendorff 1924.jpg",
+   "File:General Ludendorff and Ahmet Tevfik Pasha.jpg",
+   "File:Portret van de Duitse Generaal-kwartiermeester Ludendorff, RP-F-F02907.jpg"
+  ]
+ },
+ {
+  "tag": "Q2",
+  "status": "ok",
+  "file": "Q2.jpg",
+  "query": "Adolf Hitler soldier World War I 1916",
+  "title": "File:Adolf Hitler in World War I Bavarian Army Hitler (later Nazi dictator, second from right top row) and his wounded soldier comrades in Beelitz Lazareth military hospital near Berlin 1916-10-26 Unknown photographer No known copyright.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Adolf_Hitler_in_World_War_I_Bavarian_Army_Hitler_(later_Nazi_dictator,_second_from_right_top_row)_and_his_wounded_soldier_comrades_in_Beelitz_Lazareth_military_hospital_near_Berlin_1916-10-26_Unknown_photographer_No_known_copyright.jpg",
+  "license": "Public domain",
+  "attribution": "Unknown (unidentified) photographer. No known copyright restrictions.",
+  "dims": "920x647",
+  "alts": [
+   "File:724114-000000 Hitler im Felde Ansichtskarte Postkarte propagandakarte Adolf Hitler as soldier in World War I Postcard Nazi propaganda No known copyright restrictions.jpg",
+   "File:859 Hitler im Felde Postkarte Propagandakarte Adolf Hitler as a German soldier in World War I 1914-18 Postcard Nazi propaganda portrait postcard Unknown photographer No known copyright restrictions.jpg",
+   "File:H0171-L314896559 original Adolf Hitler im Kreise der Meldegänger des List-Regiments German World War I soldiers group photograph (7th Division, 16th Bavarian Reserve Regiment) Unknown photographer No known copyright restrictions.jpg"
+  ]
+ },
+ {
+  "tag": "Q3",
+  "status": "ok",
+  "file": "Q3.jpg",
+  "query": "Anton Drexler portrait",
+  "title": "File:Anton Drexler 1901.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Anton_Drexler_1901.jpg",
+  "license": "Public domain",
+  "attribution": "AnonymousUnknown author",
+  "dims": "806x1045",
+  "alts": [
+   "File:SA-Sturme group portrait Schellingstrasse 50 Munich Germany c 1923 Nazi Party NSDAP Sturmabteilung Bund Oberland paramilitary uniforms Edelweiss Ski caps Early swastika flag Propaganda Studio National Archives NARA Unrestricted use 242.jpg",
+   "File:SA-Sturme group portrait Schellingstrasse 50 Munich Germany c 1923 Nazi Party NSDAP Sturmabteilung Bund Oberland paramilitary uniforms Edelweiss Ski caps Early swastika flag Propaganda US National Archives NARA Unrestricted use 242-HF.jpg",
+   "File:SA-Sturm Group portrait Bund Oberland Bavaria Germany circa 1923 NSDAP Sturmabteilung unit Mixed paramilitary Freikorps veteran civilian uniforms Edelweiss Ski caps Nazi swastika flag NARA Unrestricted No known copyright 242-HF-0828 001.jpg"
+  ]
+ },
+ {
+  "tag": "19",
+  "status": "ok",
+  "file": "19.jpg",
+  "query": "Berlin 1920 Unter den Linden street",
+  "title": "File:Berlin - Unter Den Linden, Bibliotek. vº-rº.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Berlin_-_Unter_Den_Linden,_Bibliotek._v%C2%BA-r%C2%BA.jpg",
+  "license": "Public domain",
+  "attribution": "S & G S i B -  Ø N○ 205. (Verlag S. & G. Saulsohn)",
+  "dims": "1920x2463",
+  "alts": [
+   "File:Berlin - Unter Den Linden, Bibliotek - Sous les Tilleuls, Bibliothèque.jpg",
+   "File:Gruss aus Berlin — Unter den Linden - Café Bauer v°-rº.jpg",
+   "File:Gruss aus Berlin — Unter den Linden - Café Bauer.jpg"
+  ]
+ },
+ {
+  "tag": "31",
+  "status": "ok",
+  "file": "31.jpg",
+  "query": "Adolf Hitler 1923 uniform portrait",
+  "title": "File:242-HF-0134 001. Adolf Hitler Nazi leader studio portrait photograph street clothing coat hat in hand 1920s DPLA National Archives NARA Unrestricted No known copyright.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:242-HF-0134_001._Adolf_Hitler_Nazi_leader_studio_portrait_photograph_street_clothing_coat_hat_in_hand_1920s_DPLA_National_Archives_NARA_Unrestricted_No_known_copyright.jpg",
+  "license": "Public domain",
+  "attribution": "Uncredited author. NARA (US National Archives and Records Administration): Unrestricted access and use.",
+  "dims": "1920x2550",
+  "alts": [
+   "File:1923 Photograph of Nazis by Bob Dorman of NEA Service.jpg",
+   "File:Wilhelm Brückner (1884-1954, Adolf Hitler's chief adjutant) Oberleutnant portrait c. 1924 (?) Nazi uniform swastika armband etc National Archives NARA (US seized enemy property) 242-HF-0034 001 Unrestricted No known copyright.jpg",
+   "File:Wilhelm Brückner (1884-1954, Adolf Hitler's chief adjutant) Portrait SS-Gruppenführer uniform late 1930s (?) National Archives NARA (US seized WW2 enemy property) 242-HF-0037 001 Unrestricted No known copyright.jpg"
+  ]
+ },
+ {
+  "tag": "36",
+  "status": "ok",
+  "file": "36.jpg",
+  "query": "Beer Hall Putsch Marienplatz Munich 1923",
+  "title": "File:Bundesarchiv Bild 119-1486, Hitler-Putsch, München, Marienplatz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_119-1486,_Hitler-Putsch,_M%C3%BCnchen,_Marienplatz.jpg",
+  "license": "CC BY-SA 3.0 de",
+  "attribution": "UnknownUnknown",
+  "dims": "790x467",
+  "alts": [
+   "File:20161108 Ratskeller 5327 (35039873061).jpg"
+  ]
+ },
+ {
+  "tag": "Q4",
+  "status": "ok",
+  "file": "Q4.jpg",
+  "query": "Adolf Hitler Weimar portrait 1924",
+  "title": "File:Ernst Röh Portrait (3x4 cropped).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ernst_R%C3%B6h_Portrait_(3x4_cropped).jpg",
+  "license": "Public domain",
+  "attribution": "This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+  "dims": "1920x2561",
+  "alts": [
+   "File:Erich Ludendorff 1924 Portrait (3x4 cropped).jpg",
+   "File:Erich Ludendorff 1924 Portrait (3x4 cropped)(2).jpg"
+  ]
+ },
+ {
+  "tag": "15",
+  "status": "miss",
+  "query": "beer hall Munich Bavaria historic"
+ },
+ {
+  "tag": "20",
+  "status": "ok",
+  "file": "20.jpg",
+  "query": "NSDAP 1923 members Munich",
+  "title": "File:Organisationsbuc00nati orig 0094 ORGANISATIONSBUCH DER NSDAP 1936 Parteigenosse Politische Leiter Symbole Uniformen Tafel 16 Ehrenzeichen der NSDAP Ehrenz. am Band vom 9. November 1923 Blutorden No known copyright restrictions.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Organisationsbuc00nati_orig_0094_ORGANISATIONSBUCH_DER_NSDAP_1936_Parteigenosse_Politische_Leiter_Symbole_Uniformen_Tafel_16_Ehrenzeichen_der_NSDAP_Ehrenz._am_Band_vom_9._November_1923_Blutorden_No_known_copyright_restrictions.jpg",
+  "license": "Public domain",
+  "attribution": "Uncredited illustrator/designer",
+  "dims": "1920x2688",
+  "alts": [
+   "File:Organisationsbuch der NSDAP 1938 - 16 Ehrezeichend er NSDAP. Ehrenzeichen am Band vom 9. November 1923 Blutorden Official Nazi Party handbook Golden Party Badge Blood Order Hitler Putsch medal Third Reich Propaganda No copyright.jpg",
+   "File:UND IHR HABT DOCH GESIEGT Elk Eber 1938 NSDAP Propagandakarte Postkarte Ansichtskarte Nazi propaganda postcard painting Lederhosen Swastika flag SA Sturmabteilung Hitler Putsch 1923 martyrs members Feldherrnhalle München No known cop.jpg",
+   "File:242-HF-0767 001 Totenfeier 1923-11-04 Anfange d Bewegung Münchener Trauertag Parade völkischen Kampfverbände Kronprinz Rupprecht Prinz Leopold v Bayern NSDAP SA Nationalist Mourning Day Armeemuseum Denkmal NARA cropped.jpg"
+  ]
+ },
+ {
+  "tag": "22",
+  "status": "miss",
+  "query": "Voelkischer Beobachter newspaper Nazi"
+ },
+ {
+  "tag": "24",
+  "status": "ok",
+  "file": "24.jpg",
+  "query": "Palace of Justice Munich building",
+  "title": "File:Justizpalast at dusk 2.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Justizpalast_at_dusk_2.JPG",
+  "license": "CC BY-SA 3.0",
+  "attribution": "Martin Falbisoner",
+  "dims": "1920x1190",
+  "alts": [
+   "File:Justizpalast at dusk.JPG",
+   "File:Palacio de Justicia, Stachus, Múnich, Alemania, 2015-07-04, DD 11.JPG",
+   "File:Lichthof Justizpalast Muenchen.jpg"
+  ]
+ },
+ {
+  "tag": "26",
+  "status": "miss",
+  "query": "German courtroom 1920s judges"
+ },
+ {
+  "tag": "32",
+  "status": "ok",
+  "file": "32.jpg",
+  "query": "Bürgerbräukeller",
+  "title": "File:Buergerbraeukeller.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Buergerbraeukeller.jpg",
+  "license": "Public domain",
+  "attribution": "Fotoarchiv Hoffmann",
+  "dims": "800x503",
+  "alts": [
+   "File:Val 147 6.jpg",
+   "File:AK - München - Bürgerbräukeller - 1899.jpg",
+   "File:Beer Hall Putsch (Hitlerputsch) medal by Karl Goetz, 1923, reverse.jpg"
+  ]
+ },
+ {
+  "tag": "33",
+  "status": "miss",
+  "query": "beer hall interior Germany 1920s"
+ },
+ {
+  "tag": "35",
+  "status": "ok",
+  "file": "35.jpg",
+  "query": "Sturmabteilung 1923",
+  "title": "File:Hermann Göring as leader of the SA in 1923.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hermann_G%C3%B6ring_as_leader_of_the_SA_in_1923.jpg",
+  "license": "Public domain",
+  "attribution": "Unknown authorUnknown author",
+  "dims": "504x800",
+  "alts": [
+   "File:UND IHR HABT DOCH GESIEGT Elk Eber 1938 NSDAP Propagandakarte Postkarte Ansichtskarte Nazi propaganda postcard painting Lederhosen Swastika flag SA Sturmabteilung Hitler Putsch 1923 martyrs members Feldherrnhalle München No known cop.jpg",
+   "File:Organisationsbuc00nati 0 orig 0579 ORGANISATIONSBUCH DER NSDAP 1943 Tafel 30-33 Sturmabteilung SA Fahnen (flags, banners) SA.-Standarte SA.-Sturmfahne (public domain) EDITED.jpg",
+   "File:SA-Sturme group portrait Schellingstrasse 50 Munich Germany c 1923 Nazi Party NSDAP Sturmabteilung Bund Oberland paramilitary uniforms Edelweiss Ski caps Early swastika flag Propaganda US National Archives NARA Unrestricted use 242-HF-0.jpg"
+  ]
+ },
+ {
+  "tag": "37",
+  "status": "ok",
+  "file": "37.jpg",
+  "query": "Weimar Germany police officers 1920s",
+  "title": "File:Bundesarchiv Bild 102-00327A, Berlin, Verkehrsposten der Schutzpolizei (cropped).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-00327A,_Berlin,_Verkehrsposten_der_Schutzpolizei_(cropped).jpg",
+  "license": "CC BY-SA 3.0 de",
+  "attribution": "Unknown authorUnknown author",
+  "dims": "581x800",
+  "alts": [
+   "File:242-HF-0428 001 SS Fuehrer der Standarte I Muenchen im Braunen Haus Schutzstaffel leaders uniforms Deutschland erwache Fahnen standards NSDAP Nazi propaganda ca 1931-32 NARA id 162122257 Unrestricted No known copyright.jpg",
+   "File:242-HF-0396 001 SS Fuehrer der Standarte I Muenchen im Braunen Haus Schutzstaffel leaders uniforms Deutschland erwache Fahnen standards NSDAP Nazi propaganda ca 1931-32 NARA id 162122167 Unrestricted No known copyright.jpg",
+   "File:242-HF-0538 001 SS Fuehrer der Standarte I Muenchen vor dem Sturmfahnen im Braunen Haus Empfangsraum Vestibuel Schutzstaffel leaders uniforms standards NSDAP Nazi propaganda ca 1931-32 NARA id 162122542 Unrestricted No known copyright.jpg"
+  ]
+ },
+ {
+  "tag": "40",
+  "status": "ok",
+  "file": "40.jpg",
+  "query": "Feldherrnhalle Munich",
+  "title": "File:Tilly Feldherrnhalle Munich.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tilly_Feldherrnhalle_Munich.jpg",
+  "license": "CC0",
+  "attribution": "Jebulon",
+  "dims": "1920x3202",
+  "alts": [
+   "File:Monument Bavarian army Feldherrnhalle Munich.jpg",
+   "File:Feldherrnhalle on Odeonsplatz, Munich..jpg",
+   "File:Feldherrnhalle München13.jpg"
+  ]
+ },
+ {
+  "tag": "46",
+  "status": "ok",
+  "file": "46.jpg",
+  "query": "Rudolf Hess",
+  "title": "File:Rudolf Hess in Landsberg Prison.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Rudolf_Hess_in_Landsberg_Prison.jpg",
+  "license": "Public domain",
+  "attribution": "Photo by U.S. Army Signal Corps",
+  "dims": "879x1002",
+  "alts": [
+   "File:Rudolf Hess 1933 and 1945.jpg",
+   "File:Rudolf Hess at Nuremberg prison.jpg",
+   "File:Rudolf Hess podczas wizytacji jednostki nad kanałem La Manche (2-320).jpg"
+  ]
+ },
+ {
+  "tag": "49",
+  "status": "miss",
+  "query": "Reichstag plenary chamber session"
+ },
+ {
+  "tag": "Q5",
+  "status": "ok",
+  "file": "Q5.jpg",
+  "query": "Adolf Hitler speech crowd",
+  "title": "File:Danzigers cheer for Adolf Hitler 2.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Danzigers_cheer_for_Adolf_Hitler_2.jpg",
+  "license": "Public domain",
+  "attribution": "Unknown authorUnknown author",
+  "dims": "1563x1200",
+  "alts": [
+   "File:Tag von Potsdam, Rede Hitler in Garnisonkirche - LoC 3c06471v.jpg",
+   "File:3 1 0 17 12495 3 1 34564 Erster Mai Der Feiertag der nationalen Arbeit May Day Celebrations Berlin Nazi Germany 1933-05-01 President von Hindenburg, Reich Chancellor Hitler in car arrive to ceremony (R Sennecke) NAC Public domain.jpg",
+   "File:3 1 0 17 12005 2 1 32829 Presidential Election Germany Reichspräsidentenwahl 1932-04-10 Hitler giving speech Nazi rally Lustgarten next to Berliner Stadtschloss 1932-04-04 v Helldorf, Goebbels (uniform ban?) NAC, Poland PD.jpg"
+  ]
+ },
+ {
+  "tag": "Q6",
+  "status": "ok",
+  "file": "Q6.jpg",
+  "query": "Adolf Hitler portrait 1927",
+  "title": "File:Primeira Matéria sobre Adolf Hitler na Imprensa Brasileira.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Primeira_Mat%C3%A9ria_sobre_Adolf_Hitler_na_Imprensa_Brasileira.jpg",
+  "license": "Public domain",
+  "attribution": "Revista antiga",
+  "dims": "640x902",
+  "alts": [
+   "File:Bundesarchiv Bild 102-13774, Adolf Hitler.jpg"
+  ]
  }
 ]

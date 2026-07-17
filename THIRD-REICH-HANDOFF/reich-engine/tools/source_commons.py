@@ -60,7 +60,7 @@ def clean(txt):
     txt = re.sub(r"<[^>]+>", "", txt)
     return html.unescape(txt).strip()
 
-def search(query, limit=12):
+def search(query, limit=25):
     d = api_get({
         "action": "query", "generator": "search", "gsrnamespace": 6,
         "gsrsearch": query, "gsrlimit": limit,
@@ -80,7 +80,7 @@ def search(query, limit=12):
         if rank == 99:
             continue
         w = ii.get("width", 0) or 0
-        if w and w < 640:  # too small to be useful
+        if w and w < 450:  # too small to be useful
             continue
         out.append({
             "title": title,
@@ -113,17 +113,23 @@ def main():
     queries = json.load(open(sys.argv[1]))
     manifest = load_manifest()
     have = {row["tag"] for row in manifest if row.get("status") == "ok"}
+    # global de-dup: title -> tag that already uses it (across images AND video sources)
+    used = {row["title"]: row["tag"] for row in manifest
+            if row.get("status") == "ok" and row.get("title")}
     for q in queries:
         tag, query = q["tag"], q["query"]
         if tag in have and "--force" not in sys.argv:
             print(f"[{tag}] skip (already sourced)"); continue
         cands = search(query)
+        # drop any candidate already used by a DIFFERENT tag (enforce variety)
+        cands = [c for c in cands if used.get(c["title"], tag) == tag]
         if not cands:
             print(f"[{tag}] MISS  q='{query}'")
             manifest = [r for r in manifest if r["tag"] != tag]
             manifest.append({"tag": tag, "status": "miss", "query": query})
             time.sleep(1.5); continue
         c = cands[0]
+        used[c["title"]] = tag
         ext = os.path.splitext(c["full"] or c["thumb"])[1].lower() or ".jpg"
         if ext not in (".jpg", ".jpeg", ".png", ".webp"): ext = ".jpg"
         fname = f"{tag}{ext}"
