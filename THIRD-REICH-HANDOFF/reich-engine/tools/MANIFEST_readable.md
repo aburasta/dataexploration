@@ -1,25 +1,57 @@
 # Legal Coup - Media Sourcing Manifest
 
-**122 beats sourced** (95 images, 27 video) - **7 pending**
+**163 beats sourced** (99 images, 64 video) - **0 pending**
 
 ## Video clips
 | Beat | File | Source | Clip | Shows |
 |---|---|---|---|---|
+| 15 | 15.mp4 | TheNazisStrike | 505s+4s | SUBSTITUTE: gathered men — the German Workers' Party beer-hall meeting |
 | 18 | 18.mp4 | TheNazisStrike | 104s+6s | aerial Nuremberg rally columns — packed beer-hall rallies / propaganda wing |
+| 33 | 33.mp4 | TheNazisStrike | 168s+5s | SUBSTITUTE: packed rally hall — the trap set at the Buergerbraeukeller |
 | 50 | 50.mp4 | TheNazisStrike | 180s+6s | vast flag-filled crowd — party districts / shadow state |
 | 51 | 51.mp4 | TheNazisStrike | 244s+6s | officials at desk with documents — parallel party bureaucracy |
 | 52 | 52.mp4 | TheNazisStrike | 808s+6s | women marching in formation — women's league / youth wings |
 | 53 | 53.mp4 | TheNazisStrike | 712s+6s | soldiers marching in column — the S.A. under Roehm |
 | 55 | 55.mp4 | TheNazisStrike | 680s+5s | Himmler in SS uniform (captioned) — Himmler handed the SS, 1929 |
+| 56 | 56.mp4 | TheNazisStrike | 116s+5s | massed party formation — the fight inside the party |
+| 59 | 59.mp4 | TheNazisStrike | 470s+5s | officials at a desk — Hanover conference |
+| 61 | 61.mp4 | TheNazisStrike | 228s+5s | party HQ interior with standards — Bamberg conference |
+| 62 | 62.mp4 | TheNazisStrike | 530s+5s | figures at a rostrum — Strasser/Goebbels steamrolled |
+| 64 | 64.mp4 | TheNazisStrike | 515s+5s | street scene — consoling Strasser at the station |
+| 65 | 65.mp4 | TheNazisStrike | 440s+5s | Hitler addressing followers — turning Goebbels |
+| 66 | 66.mp4 | TheNazisStrike | 500s+4s | young SA men in profile — devotion to the Fuehrer |
+| 68 | 68.mp4 | TheNazisStrike | 140s+5s | crowd with raised arms — the 1928 ballot box |
 | 70 | 70.mp4 | TheNazisStrike | 648s+5s | industrial forge interior — 1929 crash / industry collapse |
+| 71 | 71.mp4 | PreludeToWar | 376s+5s | German inflation banknotes — mass desperation after the crash |
+| 72 | 72.mp4 | PreludeToWar | 380s+5s | inflation banknote — courting the men with money |
 | 76 | 76.mp4 | TheNazisStrike | 751s+5s | aircraft on field — chartered aircraft / private armies funded |
 | 79 | 79.mp4 | GermanNewsreel1933 | 73s+6s | Kroll Opera assembly hall, deputies seated — Reichstag voting |
+| 80 | 80.mp4 | GermanNewsreel1933 | 270s+5s | Berlin government buildings — Reichstag dissolved |
+| 81 | 81.mp4 | TheNazisStrike | 560s+5s | officers with flags — the army officer corps reacts |
 | 82 | 82.mp4 | TheNazisStrike | 1077s+6s | Hitler speaking forcefully in open car — courting the generals |
+| 85 | 85.mp4 | PreludeToWar | 455s+5s | officers marching — money flowing to the army |
+| 86 | 86.mp4 | GermanNewsreel1933 | 162s+5s | massed flags/standards — the conservative 'National Opposition' |
 | 87 | 87.mp4 | TheNazisStrike | 172s+6s | rally grandstand with swastika banners — Harzburg mass demonstration |
+| 88 | 88.mp4 | TheNazisStrike | 185s+4s | Hitler with officers, turning away — leaving early, contemptuous |
+| 90 | 90.mp4 | TheNazisStrike | 545s+5s | crowd surging in the street — Harzburg Front collapses into infighting |
+| 91 | 91.mp4 | TheNazisStrike | 220s+4s | lone figure saluting — Hitler emerges the winner |
 | 95 | 95.mp4 | TheNazisStrike | 975s+7s | Hitler motorcade through crowd — national campaign tour |
+| 96 | 96.mp4 | GermanNewsreel1933 | 216s+5s | crowd with banners — a decisive rejection at the polls |
 | 98 | 98.mp4 | HitleritesParade1933 | 8s+6s | SA columns marching at the Brandenburg Gate — brownshirts outnumber the army / coup scare |
 | 103 | 103.mp4 | HitleritesParade1933 | 26s+5s | SA street column in the rain — the S.A. ban lifted |
+| 104 | 104.mp4 | TheNazisStrike | 548s+5s | crowd surging in the street — political killings spike |
+| 105 | 105.mp4 | GermanNewsreel1933 | 252s+5s | aerial view of Berlin — Prussia deposed by decree |
+| 107 | 107.mp4 | TheNazisStrike | 704s+5s | cavalry riding — no organized force left to defend democracy |
+| 112 | 112.mp4 | PreludeToWar | 395s+5s | massed party standards — the movement despite losses |
+| 120 | 120.mp4 | TheNazisStrike | 768s+5s | ranks on the move — seizing the party machinery / loyalty oath |
+| 123 | 123.mp4 | TheNazisStrike | 476s+4s | SUBSTITUTE: officials conferring — Papen reaches out to Schroeder |
+| 124 | 124.mp4 | TheNazisStrike | 410s+4s | standard bearer — the Papen-Hitler pact |
+| 127 | 127.mp4 | TheNazisStrike | 524s+5s | figures conferring at a rostrum — Hitler's private hour with Oskar |
+| 129 | 129.mp4 | GermanNewsreel1933 | 108s+5s | landscape/estate — the quiet estate bribe |
+| 130 | 130.mp4 | PreludeToWar | 440s+5s | cavalry/mounted troops — Schleicher's bid for emergency powers |
+| 131 | 131.mp4 | GermanNewsreel1933 | 290s+5s | government building — Schleicher resigns |
 | 132 | 132.mp4 | TheNazisStrike | 736s+5s | assembled uniformed ranks, faces up — Berlin S.A. mobilized |
+| 133 | 133.mp4 | TheNazisStrike | 244s+5s | officials gathered — the morning cabinet forms at Papen's house |
 | 135 | 135.mp4 | GermanNewsreel1933 | 449s+6s | Hindenburg at podium addressing crowd — Hindenburg's speech, cabinet sworn in |
 | 136 | 136.mp4 | GermanNewsreel1933 | 485s+6s | Hitler at podium — Hitler as Chancellor |
 | 137 | 137.mp4 | GermanNewsreel1933 | 38s+6s | Reichstag fire wreckage/rubble — the Reichstag building caught fire |
@@ -30,8 +62,13 @@
 | 145 | 145.mp4 | GermanNewsreel1933 | 521s+5s | cheering crowd with flags — majority still said no |
 | 146 | 146.mp4 | TheNazisStrike | 188s+6s | Hitler with officers at ceremony — Day of Potsdam |
 | 147 | 147.mp4 | GermanNewsreel1933 | 89s+6s | assembly hall under swastika banners — the Enabling Act |
+| 148 | 148.mp4 | TheNazisStrike | 143s+5s | seated deputies/crowd — Communist deputies barred, SDs arrested |
 | 149 | 149.mp4 | TheNazisStrike | 427s+5s | uniformed ranks saluting — storm troopers lining the aisles |
 | 151 | 151.mp4 | HitleritesParade1933 | 34s+6s | storm troopers saluting at reviewing stand — storm troopers seize the state governments |
+| 152 | 152.mp4 | HitleritesParade1933 | 12s+5s | SA columns at the Brandenburg Gate — states' governments erased |
+| 153 | 153.mp4 | PreludeToWar | 262s+5s | massed crowd — trade unions seized |
+| 154 | 154.mp4 | HitleritesParade1933 | 26s+5s | SA street column — every other party banned |
+| 156 | 156.mp4 | TheNazisStrike | 182s+6s | vast flag-filled crowd — closing montage |
 
 ## Images
 | Beat | File | License | Source page | Title |
@@ -110,17 +147,21 @@
 | 114 | 114.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Gregor_Strasser_by_Emil_Stumpp,_1932.jpg | File:Gregor Strasser by Emil Stumpp, 1932.jpg |
 | 115 | 115.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Berlin_Hotel_Kaiserhof_Empfangssalon_(BerlLeben_1904-03).jpg | File:Berlin Hotel Kaiserhof Empfangssalon (BerlLeben 19 |
 | 117 | 117.jpg | Public domain | https://commons.wikimedia.org/wiki/File:De_gauche_%C3%A0_droite,_Dr._Goebbels_et_M._G._Strasser,_hitl%C3%A9riens_-_btv1b90526256.jpg | File:De gauche à droite, Dr. Goebbels et M. G. Strasser |
+| 118 | 118.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Adolf_Hitler_-_Portrait_-_Close_Up_-_DPLA_-_(cropped).jpg | File:Adolf Hitler - Portrait - Close Up - DPLA - (cropp |
 | 119 | 119.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Dr_Frick_(%C3%A0_gauche)_et_Gregor_Strasser_se_rendant_en_uniforme_%C3%A0_la_s%C3%A9ance_d%27ouverture_du_Reichstag_-_btv1b9035691k.jpg | File:Dr Frick (à gauche) et Gregor Strasser se rendant  |
 | 121 | 121.jpg | Public domain | https://commons.wikimedia.org/wiki/File:PapenSchleicher0001.jpg | File:PapenSchleicher0001.jpg |
 | 125 | 125.jpg | CC BY-SA 3.0 de | https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-H12947,_M%C3%BCnchener_Abkommen,_Ankunft_von_Chamberlain.jpg | File:Bundesarchiv Bild 183-H12947, Münchener Abkommen,  |
 | 126 | 126.jpeg | Public domain | https://commons.wikimedia.org/wiki/File:ElPresidenteHindenburgYSuHijoAcudenAUnaCompetici%C3%B3nDeH%C3%ADpica1933.jpeg | File:ElPresidenteHindenburgYSuHijoAcudenAUnaCompetición |
 | 128 | 128.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Erich_Salomon_Otto_Boelitz_Conrad_von_Borsig_Otto_Meissner.jpg | File:Erich Salomon Otto Boelitz Conrad von Borsig Otto  |
 | 134 | 134.jpg | Public domain | https://commons.wikimedia.org/wiki/File:3_1_0_17_11968_3_1_32802_Potsdam_Day_1933-03-21_Ceremonial_opening_New_Reichstag_Nazi_propaganda_Prussian_militarism_State_dignitaries_procession_to_Potsdamer_Garnisonkirche_Chancellor_Hitler,_Vice-Chancellor_Franz_von_Papen_Salutes.jpg | File:3 1 0 17 11968 3 1 32802 Potsdam Day 1933-03-21 Ce |
+| 140 | 140.jpg | Public domain | https://commons.wikimedia.org/wiki/File:-VO_zum_Schutz_von_Volk_und_Staat_1933_2.JPG | File:-VO zum Schutz von Volk und Staat 1933 2.JPG |
 | 155 | 155.jpg | Public domain | https://commons.wikimedia.org/wiki/File:3_1_0_17_11954_3_1_32783_Opening_of_the_Reichstag_Session_Berlin_1932-08-30_Members_of_the_Presidium_Reichstag_Vice-Presidents_Walter_Graef_and_Thomas_Esser,_Presidium_member_Hans_Rauch,_President_H_Goering_NSDAP_uniform._NAC_Poland_PD.jpg | File:3 1 0 17 11954 3 1 32783 Opening of the Reichstag  |
 | Q1 | Q1.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Erich_Ludendorff_Hugo_Vogel.jpg | File:Erich Ludendorff Hugo Vogel.jpg |
+| Q10 | Q10.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Der_Rote_Angriff_auf_dem_Prenzlauer_Berg_-_Februar_1931.jpg | File:Der Rote Angriff auf dem Prenzlauer Berg - Februar |
 | Q11 | Q11.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Hjalmar-Horace-Greeley-Schacht.jpg | File:Hjalmar-Horace-Greeley-Schacht.jpg |
 | Q12 | Q12.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Reichsf%C3%BChrerschule_der_NSDAP_Gesch%C3%A4ftsstelle_Schellingstra%C3%9Fe_50_(%3F)_M%C3%BCnchen_SS_Schutzstaffel_members_c._1932_Hitler_Kurt_K%C3%BChme_Adolf_Egeberg_jr_etc_National_Archives_NARA_Unrestricted_No_known_copyright_242-HF-0073_001.jpg | File:Reichsführerschule der NSDAP Geschäftsstelle Schel |
 | Q13 | Q13.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Group_Portrait_with_Hitler_Standing_in_Center_-_DPLA_-_869ffad6a8313912e0d037551be57fba_(page_1).jpg | File:Group Portrait with Hitler Standing in Center - DP |
+| Q14 | Q14.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Joseph_Goebbels-TIME_drawing-1933.jpg | File:Joseph Goebbels-TIME drawing-1933.jpg |
 | Q15 | Q15.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Portrait_du_g%C3%A9n%C3%A9ral_von_Schleicher_-_btv1b90495836.jpg | File:Portrait du général von Schleicher - btv1b90495836 |
 | Q16 | Q16.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Portrait_du_Capitaine_D._Goering,_Pr%C3%A9sident_du_Reichstag,_et_ministre_sans_portefeuille_sous_Hitler_-_btv1b90345537.jpg | File:Portrait du Capitaine D. Goering, Président du Rei |
 | Q2 | Q2.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Adolf_Hitler_in_World_War_I_Bavarian_Army_Hitler_(later_Nazi_dictator,_second_from_right_top_row)_and_his_wounded_soldier_comrades_in_Beelitz_Lazareth_military_hospital_near_Berlin_1916-10-26_Unknown_photographer_No_known_copyright.jpg | File:Adolf Hitler in World War I Bavarian Army Hitler ( |
@@ -131,5 +172,3 @@
 | Q7 | Q7.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Portr%C3%A4t_Joseph_Goebbels.jpg | File:Porträt Joseph Goebbels.jpg |
 | Q8 | Q8.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Adolf_Hitler,Himmler,Frick,Mutschmann,Goebbels,Schaub,Epp,Goering.jpg | File:Adolf Hitler,Himmler,Frick,Mutschmann,Goebbels,Sch |
 | Q9 | Q9.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Goebbels_und_Ulbricht.jpg | File:Goebbels und Ulbricht.jpg |
-
-## Pending: 118, 123, 140, 15, 33, Q10, Q14

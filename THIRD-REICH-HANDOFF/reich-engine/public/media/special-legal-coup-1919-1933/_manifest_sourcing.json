@@ -805,11 +805,6 @@
   ]
  },
  {
-  "tag": "15",
-  "status": "miss",
-  "query": "beer hall Munich Bavaria historic"
- },
- {
   "tag": "20",
   "status": "ok",
   "file": "20.jpg",
@@ -856,11 +851,6 @@
    "File:AK - München - Bürgerbräukeller - 1899.jpg",
    "File:Beer Hall Putsch (Hitlerputsch) medal by Karl Goetz, 1923, reverse.jpg"
   ]
- },
- {
-  "tag": "33",
-  "status": "miss",
-  "query": "beer hall interior Germany 1920s"
  },
  {
   "tag": "35",
@@ -1363,16 +1353,6 @@
   ]
  },
  {
-  "tag": "Q14",
-  "status": "miss",
-  "query": "Joseph Goebbels diary desk"
- },
- {
-  "tag": "118",
-  "status": "miss",
-  "query": "Adolf Hitler 1932 portrait serious"
- },
- {
   "tag": "119",
   "status": "ok",
   "file": "119.jpg",
@@ -1413,11 +1393,6 @@
   "alts": [
    "File:KurtVonScheleicherEn1932.jpeg"
   ]
- },
- {
-  "tag": "123",
-  "status": "miss",
-  "query": "Kurt von Schroeder banker Cologne"
  },
  {
   "tag": "125",
@@ -1496,11 +1471,6 @@
   "alts": [
    "File:Pierre-Auguste Renoir - Mademoiselle Grimprel au ruban rouge (1880).jpg"
   ]
- },
- {
-  "tag": "140",
-  "status": "miss",
-  "query": "Reichstagsbrandverordnung 1933 document"
  },
  {
   "tag": "155",
@@ -1669,11 +1639,6 @@
    "File:Wessel-Parteibuch.jpg",
    "File:Winterhulp, NG-2006-52-5.jpg"
   ]
- },
- {
-  "tag": "Q10",
-  "status": "miss",
-  "query": "Nazi newspaper headline 1930"
  },
  {
   "tag": "137",
@@ -2034,5 +1999,309 @@
   "attribution": "US War Department (Frank Capra, Why We Fight)",
   "clip": "524s+5s",
   "note": "figures conferring at a rostrum — Hitler's private hour with Oskar"
+ },
+ {
+  "tag": "80",
+  "status": "ok",
+  "type": "video",
+  "file": "80.mp4",
+  "source": "GermanNewsreel1933",
+  "page": "https://archive.org/details/90424-german-newsreel-fire-boebbels-hitler-youth-vwr",
+  "license": "Public domain (captured German newsreel, US National Archives, 1933)",
+  "attribution": "German newsreel 1933 (US National Archives, seized enemy property)",
+  "clip": "270s+5s",
+  "note": "Berlin government buildings — Reichstag dissolved"
+ },
+ {
+  "tag": "86",
+  "status": "ok",
+  "type": "video",
+  "file": "86.mp4",
+  "source": "GermanNewsreel1933",
+  "page": "https://archive.org/details/90424-german-newsreel-fire-boebbels-hitler-youth-vwr",
+  "license": "Public domain (captured German newsreel, US National Archives, 1933)",
+  "attribution": "German newsreel 1933 (US National Archives, seized enemy property)",
+  "clip": "162s+5s",
+  "note": "massed flags/standards — the conservative 'National Opposition'"
+ },
+ {
+  "tag": "96",
+  "status": "ok",
+  "type": "video",
+  "file": "96.mp4",
+  "source": "GermanNewsreel1933",
+  "page": "https://archive.org/details/90424-german-newsreel-fire-boebbels-hitler-youth-vwr",
+  "license": "Public domain (captured German newsreel, US National Archives, 1933)",
+  "attribution": "German newsreel 1933 (US National Archives, seized enemy property)",
+  "clip": "216s+5s",
+  "note": "crowd with banners — a decisive rejection at the polls"
+ },
+ {
+  "tag": "105",
+  "status": "ok",
+  "type": "video",
+  "file": "105.mp4",
+  "source": "GermanNewsreel1933",
+  "page": "https://archive.org/details/90424-german-newsreel-fire-boebbels-hitler-youth-vwr",
+  "license": "Public domain (captured German newsreel, US National Archives, 1933)",
+  "attribution": "German newsreel 1933 (US National Archives, seized enemy property)",
+  "clip": "252s+5s",
+  "note": "aerial view of Berlin — Prussia deposed by decree"
+ },
+ {
+  "tag": "129",
+  "status": "ok",
+  "type": "video",
+  "file": "129.mp4",
+  "source": "GermanNewsreel1933",
+  "page": "https://archive.org/details/90424-german-newsreel-fire-boebbels-hitler-youth-vwr",
+  "license": "Public domain (captured German newsreel, US National Archives, 1933)",
+  "attribution": "German newsreel 1933 (US National Archives, seized enemy property)",
+  "clip": "108s+5s",
+  "note": "landscape/estate — the quiet estate bribe"
+ },
+ {
+  "tag": "131",
+  "status": "ok",
+  "type": "video",
+  "file": "131.mp4",
+  "source": "GermanNewsreel1933",
+  "page": "https://archive.org/details/90424-german-newsreel-fire-boebbels-hitler-youth-vwr",
+  "license": "Public domain (captured German newsreel, US National Archives, 1933)",
+  "attribution": "German newsreel 1933 (US National Archives, seized enemy property)",
+  "clip": "290s+5s",
+  "note": "government building — Schleicher resigns"
+ },
+ {
+  "tag": "71",
+  "status": "ok",
+  "type": "video",
+  "file": "71.mp4",
+  "source": "PreludeToWar",
+  "page": "https://archive.org/details/PreludeToWar",
+  "license": "Public domain (US Government / Frank Capra, War Dept.)",
+  "attribution": "US War Department (Frank Capra, Why We Fight)",
+  "clip": "376s+5s",
+  "note": "German inflation banknotes — mass desperation after the crash"
+ },
+ {
+  "tag": "85",
+  "status": "ok",
+  "type": "video",
+  "file": "85.mp4",
+  "source": "PreludeToWar",
+  "page": "https://archive.org/details/PreludeToWar",
+  "license": "Public domain (US Government / Frank Capra, War Dept.)",
+  "attribution": "US War Department (Frank Capra, Why We Fight)",
+  "clip": "455s+5s",
+  "note": "officers marching — money flowing to the army"
+ },
+ {
+  "tag": "112",
+  "status": "ok",
+  "type": "video",
+  "file": "112.mp4",
+  "source": "PreludeToWar",
+  "page": "https://archive.org/details/PreludeToWar",
+  "license": "Public domain (US Government / Frank Capra, War Dept.)",
+  "attribution": "US War Department (Frank Capra, Why We Fight)",
+  "clip": "395s+5s",
+  "note": "massed party standards — the movement despite losses"
+ },
+ {
+  "tag": "130",
+  "status": "ok",
+  "type": "video",
+  "file": "130.mp4",
+  "source": "PreludeToWar",
+  "page": "https://archive.org/details/PreludeToWar",
+  "license": "Public domain (US Government / Frank Capra, War Dept.)",
+  "attribution": "US War Department (Frank Capra, Why We Fight)",
+  "clip": "440s+5s",
+  "note": "cavalry/mounted troops — Schleicher's bid for emergency powers"
+ },
+ {
+  "tag": "153",
+  "status": "ok",
+  "type": "video",
+  "file": "153.mp4",
+  "source": "PreludeToWar",
+  "page": "https://archive.org/details/PreludeToWar",
+  "license": "Public domain (US Government / Frank Capra, War Dept.)",
+  "attribution": "US War Department (Frank Capra, Why We Fight)",
+  "clip": "262s+5s",
+  "note": "massed crowd — trade unions seized"
+ },
+ {
+  "tag": "152",
+  "status": "ok",
+  "type": "video",
+  "file": "152.mp4",
+  "source": "HitleritesParade1933",
+  "page": "https://archive.org/details/1933-03-16_Hitlerites_Parade_In_Rain",
+  "license": "Public domain (Universal Newsreel, 16 March 1933)",
+  "attribution": "Universal Newsreel, 'Hitlerites Parade In Rain', 16 March 1933 (PD)",
+  "clip": "12s+5s",
+  "note": "SA columns at the Brandenburg Gate — states' governments erased"
+ },
+ {
+  "tag": "154",
+  "status": "ok",
+  "type": "video",
+  "file": "154.mp4",
+  "source": "HitleritesParade1933",
+  "page": "https://archive.org/details/1933-03-16_Hitlerites_Parade_In_Rain",
+  "license": "Public domain (Universal Newsreel, 16 March 1933)",
+  "attribution": "Universal Newsreel, 'Hitlerites Parade In Rain', 16 March 1933 (PD)",
+  "clip": "26s+5s",
+  "note": "SA street column — every other party banned"
+ },
+ {
+  "tag": "104",
+  "status": "ok",
+  "type": "video",
+  "file": "104.mp4",
+  "source": "TheNazisStrike",
+  "page": "https://archive.org/details/TheNazisStrike",
+  "license": "Public domain (US Government / Frank Capra, War Dept. 1943)",
+  "attribution": "US War Department (Frank Capra, Why We Fight)",
+  "clip": "548s+5s",
+  "note": "crowd surging in the street — political killings spike"
+ },
+ {
+  "tag": "133",
+  "status": "ok",
+  "type": "video",
+  "file": "133.mp4",
+  "source": "TheNazisStrike",
+  "page": "https://archive.org/details/TheNazisStrike",
+  "license": "Public domain (US Government / Frank Capra, War Dept. 1943)",
+  "attribution": "US War Department (Frank Capra, Why We Fight)",
+  "clip": "244s+5s",
+  "note": "officials gathered — the morning cabinet forms at Papen's house"
+ },
+ {
+  "tag": "148",
+  "status": "ok",
+  "type": "video",
+  "file": "148.mp4",
+  "source": "TheNazisStrike",
+  "page": "https://archive.org/details/TheNazisStrike",
+  "license": "Public domain (US Government / Frank Capra, War Dept. 1943)",
+  "attribution": "US War Department (Frank Capra, Why We Fight)",
+  "clip": "143s+5s",
+  "note": "seated deputies/crowd — Communist deputies barred, SDs arrested"
+ },
+ {
+  "tag": "156",
+  "status": "ok",
+  "type": "video",
+  "file": "156.mp4",
+  "source": "TheNazisStrike",
+  "page": "https://archive.org/details/TheNazisStrike",
+  "license": "Public domain (US Government / Frank Capra, War Dept. 1943)",
+  "attribution": "US War Department (Frank Capra, Why We Fight)",
+  "clip": "182s+6s",
+  "note": "vast flag-filled crowd — closing montage"
+ },
+ {
+  "tag": "118",
+  "status": "ok",
+  "file": "118.jpg",
+  "query": "Adolf Hitler 1932 portrait",
+  "title": "File:Adolf Hitler - Portrait - Close Up - DPLA - (cropped).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Adolf_Hitler_-_Portrait_-_Close_Up_-_DPLA_-_(cropped).jpg",
+  "license": "Public domain",
+  "attribution": "General Services Administration. National Archives and Records Service. Office of the National Archives. (9/19/1966 - 4/1/1985)",
+  "dims": "1920x2632",
+  "alts": [
+   "File:Adolf Hitler - Portrait - Close Up - DPLA - 275cc5a2f4e662500a8def549d686e19 (page 1).jpg",
+   "File:Portrait de Hitler - btv1b90493912.jpg",
+   "File:Portrait de Hitler - btv1b9049466b.jpg"
+  ]
+ },
+ {
+  "tag": "140",
+  "status": "ok",
+  "file": "140.jpg",
+  "query": "Reichstagsbrandverordnung 1933",
+  "title": "File:-VO zum Schutz von Volk und Staat 1933 2.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:-VO_zum_Schutz_von_Volk_und_Staat_1933_2.JPG",
+  "license": "Public domain",
+  "attribution": "User:Rob Irgendwer",
+  "dims": "1298x2029",
+  "alts": [
+   "File:VO zum Schutz von Volk und Staat 1933.JPG",
+   "File:Verboten Zeitung 1933.jpg",
+   "File:3 1 0 17 11933 9 1 32675 REICHSTAGSBRAND Reichstag Fire German Parliament Berlin 1933-02-27 Assembly chamber destroyed by the fire. News photo February 1933. Narodowe Archiwum Cyfrowe PDM.jpg"
+  ]
+ },
+ {
+  "tag": "Q10",
+  "status": "ok",
+  "file": "Q10.jpg",
+  "query": "Der Angriff Nazi newspaper",
+  "title": "File:Der Rote Angriff auf dem Prenzlauer Berg - Februar 1931.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Der_Rote_Angriff_auf_dem_Prenzlauer_Berg_-_Februar_1931.jpg",
+  "license": "Public domain",
+  "attribution": "Der Rote Angriff auf dem Prenzlauer Berg, Nr. 1",
+  "dims": "980x1370",
+  "alts": [
+   "File:Charlotte Salomon - JHM 4762 -Kristallnacht.jpg",
+   "File:Medal for Ein Nazi fährt nach Palästina.jpg",
+   "File:Ein Nazi fährt nach Palästina medal.jpg"
+  ]
+ },
+ {
+  "tag": "Q14",
+  "status": "ok",
+  "file": "Q14.jpg",
+  "query": "Joseph Goebbels 1933 portrait",
+  "title": "File:Joseph Goebbels-TIME drawing-1933.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Joseph_Goebbels-TIME_drawing-1933.jpg",
+  "license": "Public domain",
+  "attribution": "Time Inc.",
+  "dims": "559x678",
+  "alts": [
+   "File:(2-9-33,) congrès national socialiste de Nuremberg, discours de Goebbels, Rol - (photographie de presse) - (Agence Rol) - btv1b53279628q.jpg",
+   "File:De gauche à droite - Goebbels, le général von Epp, Allemagne - btv1b9027723f.jpg",
+   "File:Goebbels, Rol - btv1b53283174b.jpg"
+  ]
+ },
+ {
+  "tag": "15",
+  "status": "ok",
+  "type": "video",
+  "file": "15.mp4",
+  "source": "TheNazisStrike",
+  "page": "https://archive.org/details/TheNazisStrike",
+  "license": "Public domain (US Government / Frank Capra, War Dept. 1943)",
+  "attribution": "US War Department (Frank Capra, Why We Fight)",
+  "clip": "505s+4s",
+  "note": "SUBSTITUTE: gathered men — the German Workers' Party beer-hall meeting"
+ },
+ {
+  "tag": "33",
+  "status": "ok",
+  "type": "video",
+  "file": "33.mp4",
+  "source": "TheNazisStrike",
+  "page": "https://archive.org/details/TheNazisStrike",
+  "license": "Public domain (US Government / Frank Capra, War Dept. 1943)",
+  "attribution": "US War Department (Frank Capra, Why We Fight)",
+  "clip": "168s+5s",
+  "note": "SUBSTITUTE: packed rally hall — the trap set at the Buergerbraeukeller"
+ },
+ {
+  "tag": "123",
+  "status": "ok",
+  "type": "video",
+  "file": "123.mp4",
+  "source": "TheNazisStrike",
+  "page": "https://archive.org/details/TheNazisStrike",
+  "license": "Public domain (US Government / Frank Capra, War Dept. 1943)",
+  "attribution": "US War Department (Frank Capra, Why We Fight)",
+  "clip": "476s+4s",
+  "note": "SUBSTITUTE: officials conferring — Papen reaches out to Schroeder"
  }
 ]

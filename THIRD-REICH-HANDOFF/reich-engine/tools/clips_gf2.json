@@ -1,0 +1,12 @@
+{"source_id":"GermanNewsreel1933","source_file":"_srcfilm/GermanFire.mp4",
+ "license":"Public domain (captured German newsreel, US National Archives, 1933)",
+ "attribution":"German newsreel 1933 (US National Archives, seized enemy property)",
+ "page":"https://archive.org/details/90424-german-newsreel-fire-boebbels-hitler-youth-vwr",
+ "clips":[
+  {"tag":"80","start":270,"dur":5,"note":"Berlin government buildings — Reichstag dissolved"},
+  {"tag":"86","start":162,"dur":5,"note":"massed flags/standards — the conservative 'National Opposition'"},
+  {"tag":"96","start":216,"dur":5,"note":"crowd with banners — a decisive rejection at the polls"},
+  {"tag":"105","start":252,"dur":5,"note":"aerial view of Berlin — Prussia deposed by decree"},
+  {"tag":"129","start":108,"dur":5,"note":"landscape/estate — the quiet estate bribe"},
+  {"tag":"131","start":290,"dur":5,"note":"government building — Schleicher resigns"}
+ ]}
