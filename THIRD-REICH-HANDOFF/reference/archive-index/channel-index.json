@@ -1,0 +1,3558 @@
+{
+  "channel": "German WWII Archive",
+  "channelUrl": "https://www.youtube.com/@GermanWWIIArchive",
+  "indexedAt": "2026-07-06",
+  "totalVideos": 233,
+  "enrichmentNote": "title/duration/views/date/keywords extracted from the channel Videos grid in one pass. description/transcriptExcerpt/notes are enriched per-video on demand during Stage 2 media-plan lookups (visiting the video page) - not all 233 have been visited individually yet.",
+  "videos": [
+    {
+      "videoId": "rhOqmExBOEc",
+      "url": "https://www.youtube.com/watch?v=rhOqmExBOEc",
+      "title": "Channel Update: Reduction in Video Output",
+      "duration": "3:53",
+      "views": "1.9k views",
+      "uploadedRelative": "4 days ago",
+      "category": "channel-meta",
+      "dateHint": null,
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "xHlUlZw8P48",
+      "url": "https://www.youtube.com/watch?v=xHlUlZw8P48",
+      "title": "“Me 163 B”- Instructional Film about the Me 163 Rocket Interceptor [Full HD]- ca. late 1944",
+      "duration": "27:46",
+      "views": "26k views",
+      "uploadedRelative": "8 days ago",
+      "category": "instructional",
+      "dateHint": "ca. late 1944",
+      "keywords": [
+        "Rocket",
+        "Me 163"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "hLBOolI6O3k",
+      "url": "https://www.youtube.com/watch?v=hLBOolI6O3k",
+      "title": "Focke-Achgelis Fa 223 Helicopter Testing Footage [Full HD]- ca. August 1943",
+      "duration": "8:51",
+      "views": "4.4k views",
+      "uploadedRelative": "11 days ago",
+      "category": "instructional",
+      "dateHint": "1943",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "cNoHOGMktow",
+      "url": "https://www.youtube.com/watch?v=cNoHOGMktow",
+      "title": "“Tran and Helle”- German Propaganda Short about Donating to Military Hospitals - November 1939",
+      "duration": "2:07",
+      "views": "3.2k views",
+      "uploadedRelative": "2 weeks ago",
+      "category": "propaganda",
+      "dateHint": "1939",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "B0RJp6tcMIM",
+      "url": "https://www.youtube.com/watch?v=B0RJp6tcMIM",
+      "title": "German Newsweek No. 654- 17 March 1943 [Full HD] (Anti-Partisan Operations, Battle of Kharkov)",
+      "duration": "22:02",
+      "views": "13k views",
+      "uploadedRelative": "3 weeks ago",
+      "category": "newsreel",
+      "dateHint": "17 March 1943",
+      "keywords": [
+        "Kharkov"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "ZUD1wvJ_grU",
+      "url": "https://www.youtube.com/watch?v=ZUD1wvJ_grU",
+      "title": "Hungarist Newsreel No. 0- ca. mid-October 1944 (Arrow Cross Party Takeover)",
+      "duration": "6:15",
+      "views": "4.9k views",
+      "uploadedRelative": "1 month ago",
+      "category": "newsreel",
+      "dateHint": "1944",
+      "keywords": [
+        "Newsreel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "39IjEAE4BCo",
+      "url": "https://www.youtube.com/watch?v=39IjEAE4BCo",
+      "title": "80,000 Subscribers Q&A Special",
+      "duration": "30:01",
+      "views": "2.3k views",
+      "uploadedRelative": "1 month ago",
+      "category": "channel-meta",
+      "dateHint": null,
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "npPXFbz4DcI",
+      "url": "https://www.youtube.com/watch?v=npPXFbz4DcI",
+      "title": "“With Marshal Rommel in Africa”- German Propaganda Film about the North Africa Campaign- Oct. 1942",
+      "duration": "1:03:20",
+      "views": "13k views",
+      "uploadedRelative": "1 month ago",
+      "category": "propaganda",
+      "dateHint": "1942",
+      "keywords": [
+        "Rommel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "SqXwFdL9LxI",
+      "url": "https://www.youtube.com/watch?v=SqXwFdL9LxI",
+      "title": "“What Everyone Must Know”- German Propaganda Short about Coal Production and Usage- February 1942",
+      "duration": "7:45",
+      "views": "10k views",
+      "uploadedRelative": "1 month ago",
+      "category": "propaganda",
+      "dateHint": "1942",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "JEZ0JaLVuFY",
+      "url": "https://www.youtube.com/watch?v=JEZ0JaLVuFY",
+      "title": "80,000 Subscribers: Thank You and Q&A Announcement",
+      "duration": "2:37",
+      "views": "1.7k views",
+      "uploadedRelative": "1 month ago",
+      "category": "speech-or-interview",
+      "dateHint": null,
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "8hXwppZnJpM",
+      "url": "https://www.youtube.com/watch?v=8hXwppZnJpM",
+      "title": "German Newsweek No. 712- 26 April 1944 [Full HD] (Aerial Combat against Bombers, Tiger Tanks)",
+      "duration": "22:32",
+      "views": "28k views",
+      "uploadedRelative": "1 month ago",
+      "category": "newsreel",
+      "dateHint": "26 April 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "aEV8XKRZiRk",
+      "url": "https://www.youtube.com/watch?v=aEV8XKRZiRk",
+      "title": "German Newsweek No. 552- 2 April 1941 [Full HD] (Visit Japanese FM, Afrikakorps, German Battleships)",
+      "duration": "28:17",
+      "views": "16k views",
+      "uploadedRelative": "1 month ago",
+      "category": "newsreel",
+      "dateHint": "2 April 1941",
+      "keywords": [
+        "Afrikakorps"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "0Z-I9OVlzRQ",
+      "url": "https://www.youtube.com/watch?v=0Z-I9OVlzRQ",
+      "title": "Propaganda Footage about the Volkssturm Militia- 25 October 1944",
+      "duration": "5:12",
+      "views": "12k views",
+      "uploadedRelative": "2 months ago",
+      "category": "other",
+      "dateHint": "25 October 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "c33AVdR9wzM",
+      "url": "https://www.youtube.com/watch?v=c33AVdR9wzM",
+      "title": "Japan News No. 247- 8 March 1945 (Flying Lessons, Phillipines, Iwo Jima)",
+      "duration": "7:48",
+      "views": "5.4k views",
+      "uploadedRelative": "2 months ago",
+      "category": "other",
+      "dateHint": "8 March 1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "JVWNi11sK_s",
+      "url": "https://www.youtube.com/watch?v=JVWNi11sK_s",
+      "title": "German Newsweek No. 691- 1 Dec. 1943 (Battle of Leros, Combat Footage Italy/Eastern Front)",
+      "duration": "15:13",
+      "views": "52k views",
+      "uploadedRelative": "2 months ago",
+      "category": "newsreel",
+      "dateHint": "1943",
+      "keywords": [
+        "Eastern Front",
+        "Italy"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "RtybR6vW9Po",
+      "url": "https://www.youtube.com/watch?v=RtybR6vW9Po",
+      "title": "“This is London!” - German Propaganda Short about Listening to Foreign Radio- ca. 1944",
+      "duration": "5:06",
+      "views": "22k views",
+      "uploadedRelative": "2 months ago",
+      "category": "propaganda",
+      "dateHint": "ca. 1944",
+      "keywords": [
+        "London",
+        "Radio"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "DauLWPd7DXc",
+      "url": "https://www.youtube.com/watch?v=DauLWPd7DXc",
+      "title": "First Jet-powered Flight of the Messerschmitt Me 262- 28 July 1942",
+      "duration": "10:55",
+      "views": "6.6k views",
+      "uploadedRelative": "2 months ago",
+      "category": "other",
+      "dateHint": "28 July 1942",
+      "keywords": [
+        "Me 262"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "Mj585SVThqA",
+      "url": "https://www.youtube.com/watch?v=Mj585SVThqA",
+      "title": "German Newsweek No. 737- 18 October 1944 (Battle of Aachen, Funeral Helmut Lent, V1 Attack London)",
+      "duration": "12:03",
+      "views": "13k views",
+      "uploadedRelative": "3 months ago",
+      "category": "newsreel",
+      "dateHint": "18 October 1944",
+      "keywords": [
+        "London"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "rSlYRj7whbY",
+      "url": "https://www.youtube.com/watch?v=rSlYRj7whbY",
+      "title": "Hungarian World Newsreel No. 1083- ca. early December 1944 (AT Troops Training, War Reporters)",
+      "duration": "8:57",
+      "views": "9.2k views",
+      "uploadedRelative": "3 months ago",
+      "category": "newsreel",
+      "dateHint": "1944",
+      "keywords": [
+        "Hungarian",
+        "Newsreel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "vwesenuTWKw",
+      "url": "https://www.youtube.com/watch?v=vwesenuTWKw",
+      "title": "German Newsweek No. 684- 13 October 1943 [Full HD] (German Withdrawals, Navy Patrols)",
+      "duration": "21:13",
+      "views": "39k views",
+      "uploadedRelative": "3 months ago",
+      "category": "newsreel",
+      "dateHint": "13 October 1943",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "rogXOeFcUXk",
+      "url": "https://www.youtube.com/watch?v=rogXOeFcUXk",
+      "title": "“Tran and Helle”- German Propaganda Short about Drinking during Wartime - December 1939",
+      "duration": "3:19",
+      "views": "14k views",
+      "uploadedRelative": "3 months ago",
+      "category": "propaganda",
+      "dateHint": "1939",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "-M9zKW4SY5Q",
+      "url": "https://www.youtube.com/watch?v=-M9zKW4SY5Q",
+      "title": "Advertisement Film for the Dornier Do-215 Bomber (silent)- ca. early 1939",
+      "duration": "5:01",
+      "views": "3.6k views",
+      "uploadedRelative": "3 months ago",
+      "category": "advertisement",
+      "dateHint": "ca. early 1939",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "ZXeyTycOs4g",
+      "url": "https://www.youtube.com/watch?v=ZXeyTycOs4g",
+      "title": "German TV Report about Knights Cross Veterans Gathering- 28 October 2004",
+      "duration": "9:15",
+      "views": "9.8k views",
+      "uploadedRelative": "3 months ago",
+      "category": "speech-or-interview",
+      "dateHint": "28 October 2004",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "ajJEi1V_GO0",
+      "url": "https://www.youtube.com/watch?v=ajJEi1V_GO0",
+      "title": "5 Seconds of Stolen Work for 280$: Why I hate YouTube Shorts",
+      "duration": "10:45",
+      "views": "6.8k views",
+      "uploadedRelative": "4 months ago",
+      "category": "other",
+      "dateHint": null,
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "qPGfduok7hw",
+      "url": "https://www.youtube.com/watch?v=qPGfduok7hw",
+      "title": "“Battle for Miggershausen” – German Propaganda Cartoon Promoting the Radio- 1937",
+      "duration": "13:21",
+      "views": "241k views",
+      "uploadedRelative": "4 months ago",
+      "category": "other",
+      "dateHint": "1937",
+      "keywords": [
+        "Radio"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "KUSYnDwQLLE",
+      "url": "https://www.youtube.com/watch?v=KUSYnDwQLLE",
+      "title": "German Newsweek No. 668- 23 June 1943 [Full HD] (U-Boat School, Italian Navy Day, Leningrad, Kuban)",
+      "duration": "24:39",
+      "views": "30k views",
+      "uploadedRelative": "4 months ago",
+      "category": "newsreel",
+      "dateHint": "23 June 1943",
+      "keywords": [
+        "U-Boat"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "t8N7VuwXhCc",
+      "url": "https://www.youtube.com/watch?v=t8N7VuwXhCc",
+      "title": "Japan News No. 221- 24 August 1944 (Youth Organization Rallies, Militia Forces Java/Malay)",
+      "duration": "8:41",
+      "views": "13k views",
+      "uploadedRelative": "4 months ago",
+      "category": "other",
+      "dateHint": "24 August 1944",
+      "keywords": [
+        "Youth"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "GZyE1x1hS8w",
+      "url": "https://www.youtube.com/watch?v=GZyE1x1hS8w",
+      "title": "“Battle for Norway”- Unpublished German Propaganda Film about the Invasion of Norway- 1940",
+      "duration": "1:24:58",
+      "views": "18k views",
+      "uploadedRelative": "4 months ago",
+      "category": "propaganda",
+      "dateHint": "1940",
+      "keywords": [
+        "Norway"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "ySsCjg0qc2A",
+      "url": "https://www.youtube.com/watch?v=ySsCjg0qc2A",
+      "title": "German Newsweek No. 549- 12 March 1941 [Full HD] (Fw 200 Maritime Bombers, Afrikakorps)",
+      "duration": "28:14",
+      "views": "18k views",
+      "uploadedRelative": "5 months ago",
+      "category": "newsreel",
+      "dateHint": "12 March 1941",
+      "keywords": [
+        "Afrikakorps"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "pzqO_Up4Qws",
+      "url": "https://www.youtube.com/watch?v=pzqO_Up4Qws",
+      "title": "“Auschwitz”-Soviet Film about the Concentration Camp Auschwitz (German Version)- June 1945 [Full HD]",
+      "duration": "21:30",
+      "views": "8.8k views",
+      "uploadedRelative": "5 months ago",
+      "category": "other",
+      "dateHint": "1945",
+      "keywords": [
+        "Auschwitz",
+        "Concentration Camp"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "mm-UYznpjo8",
+      "url": "https://www.youtube.com/watch?v=mm-UYznpjo8",
+      "title": "Ufa Sound Week No. 478- 1 Nov. 1939 [Full HD] (Siegfried Line Activities, Seaboat Reconnaissance)",
+      "duration": "16:22",
+      "views": "12k views",
+      "uploadedRelative": "5 months ago",
+      "category": "newsreel",
+      "dateHint": "1939",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "7zU8eei7YCQ",
+      "url": "https://www.youtube.com/watch?v=7zU8eei7YCQ",
+      "title": "Hungarian World Newsreel No. 1082- ca. late Nov. 1944 (Defense of Budapest, Medal Awarding)",
+      "duration": "8:23",
+      "views": "22k views",
+      "uploadedRelative": "5 months ago",
+      "category": "newsreel",
+      "dateHint": "1944",
+      "keywords": [
+        "Hungarian",
+        "Newsreel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "_fSWSA6hHpg",
+      "url": "https://www.youtube.com/watch?v=_fSWSA6hHpg",
+      "title": "Why the German Newsweek Wasn’t Germany’s Main News Source",
+      "duration": "8:47",
+      "views": "5.8k views",
+      "uploadedRelative": "5 months ago",
+      "category": "newsreel",
+      "dateHint": null,
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "KR2iW7qNkpY",
+      "url": "https://www.youtube.com/watch?v=KR2iW7qNkpY",
+      "title": "German Newsweek No. 564- 25 June 1941 [Full HD] (Football Championship, Operation Barbarossa)",
+      "duration": "25:12",
+      "views": "28k views",
+      "uploadedRelative": "5 months ago",
+      "category": "newsreel",
+      "dateHint": "25 June 1941",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "b1brO4i9kG0",
+      "url": "https://www.youtube.com/watch?v=b1brO4i9kG0",
+      "title": "Hungarian World Newsreel No. 1084 (Final Issue)- ca. mid/late December 1944 (Defense of Budapest)",
+      "duration": "8:56",
+      "views": "10k views",
+      "uploadedRelative": "6 months ago",
+      "category": "newsreel",
+      "dateHint": "1944",
+      "keywords": [
+        "Hungarian",
+        "Newsreel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "dvW1Xg_l7HQ",
+      "url": "https://www.youtube.com/watch?v=dvW1Xg_l7HQ",
+      "title": "“German Christmas”- Propaganda Film about German Christmas Tradition- December 1938",
+      "duration": "13:12",
+      "views": "9.4k views",
+      "uploadedRelative": "6 months ago",
+      "category": "propaganda",
+      "dateHint": "1938",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "84oz9nso2Yg",
+      "url": "https://www.youtube.com/watch?v=84oz9nso2Yg",
+      "title": "“Radio During Wartime”- German Short Film about Radio Production- November 1943",
+      "duration": "12:01",
+      "views": "8k views",
+      "uploadedRelative": "6 months ago",
+      "category": "other",
+      "dateHint": "1943",
+      "keywords": [
+        "Radio"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "5uN6Ez2fK5w",
+      "url": "https://www.youtube.com/watch?v=5uN6Ez2fK5w",
+      "title": "German Newsweek No. 743- 30. Nov. 1944 (Winter Combat Footage, Retreat from Balkan)",
+      "duration": "12:36",
+      "views": "64k views",
+      "uploadedRelative": "6 months ago",
+      "category": "newsreel",
+      "dateHint": "1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "vo0nsrNSKgs",
+      "url": "https://www.youtube.com/watch?v=vo0nsrNSKgs",
+      "title": "Unpublished German Propaganda Footage from the Oder Front- ca. March 1945",
+      "duration": "9:41",
+      "views": "56k views",
+      "uploadedRelative": "7 months ago",
+      "category": "raw-footage",
+      "dateHint": "1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "7shB-zugAXs",
+      "url": "https://www.youtube.com/watch?v=7shB-zugAXs",
+      "title": "German Newsweek No. 625- 26 August 1942 [Full HD] (Dieppe Raid, Advance Eastern Front)",
+      "duration": "34:45",
+      "views": "31k views",
+      "uploadedRelative": "7 months ago",
+      "category": "newsreel",
+      "dateHint": "26 August 1942",
+      "keywords": [
+        "Eastern Front"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "0i6D7SYMws0",
+      "url": "https://www.youtube.com/watch?v=0i6D7SYMws0",
+      "title": "Baukommando Becker- Film about the Assault Gun Detachment 200- ca. early 1944",
+      "duration": "34:06",
+      "views": "9.1k views",
+      "uploadedRelative": "7 months ago",
+      "category": "other",
+      "dateHint": "ca. early 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "41Z-CLPSKvk",
+      "url": "https://www.youtube.com/watch?v=41Z-CLPSKvk",
+      "title": "Descheg Monthly Newsreel No. 8- Oct. 1942[Full HD] (Combat Footage Stalingrad/Caucasus, Axis Navies)",
+      "duration": "18:39",
+      "views": "17k views",
+      "uploadedRelative": "7 months ago",
+      "category": "newsreel",
+      "dateHint": "1942",
+      "keywords": [
+        "Stalingrad",
+        "Newsreel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "MJwGfIFwHyY",
+      "url": "https://www.youtube.com/watch?v=MJwGfIFwHyY",
+      "title": "“Roads Bring Joy”- Propaganda Film about the Autobahn- ca. 1939",
+      "duration": "12:26",
+      "views": "9.8k views",
+      "uploadedRelative": "7 months ago",
+      "category": "propaganda",
+      "dateHint": "ca. 1939",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "qXpdy-roBwY",
+      "url": "https://www.youtube.com/watch?v=qXpdy-roBwY",
+      "title": "The Japanese Prime Minister Everyone Ignored: The Story of Kuniaki Koiso",
+      "duration": "30:23",
+      "views": "2.2k views",
+      "uploadedRelative": "7 months ago",
+      "category": "other",
+      "dateHint": null,
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "t_eF9BJA-oo",
+      "url": "https://www.youtube.com/watch?v=t_eF9BJA-oo",
+      "title": "German Newsweek No. 728- 17 August 1944 (Crop Harvest, Eastern Front, Italy, Normandy)",
+      "duration": "13:28",
+      "views": "13k views",
+      "uploadedRelative": "8 months ago",
+      "category": "newsreel",
+      "dateHint": "17 August 1944",
+      "keywords": [
+        "Eastern Front",
+        "Normandy",
+        "Italy"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "naBddSFWGm8",
+      "url": "https://www.youtube.com/watch?v=naBddSFWGm8",
+      "title": "German Newsweek No. 677- 25 August 1943 [Full HD] (SA Sport Festival, Eastern Front Combat Footage)",
+      "duration": "20:38",
+      "views": "16k views",
+      "uploadedRelative": "8 months ago",
+      "category": "newsreel",
+      "dateHint": "25 August 1943",
+      "keywords": [
+        "Eastern Front"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "mL6myJNXIEs",
+      "url": "https://www.youtube.com/watch?v=mL6myJNXIEs",
+      "title": "Ufa Foreign Sound Week (German Version) No. 688- 7 Nov. 1944",
+      "duration": "13:22",
+      "views": "12k views",
+      "uploadedRelative": "8 months ago",
+      "category": "newsreel",
+      "dateHint": "1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "Kio8G8j8tAA",
+      "url": "https://www.youtube.com/watch?v=Kio8G8j8tAA",
+      "title": "Ufa Sound Week No. 502- 17 April 1940 (Operation Weserübung: German Invasion of Denmark& Norway)",
+      "duration": "17:57",
+      "views": "14k views",
+      "uploadedRelative": "8 months ago",
+      "category": "newsreel",
+      "dateHint": "17 April 1940",
+      "keywords": [
+        "Norway",
+        "Denmark"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "BQwhkxfP1bM",
+      "url": "https://www.youtube.com/watch?v=BQwhkxfP1bM",
+      "title": "\"Side by Side\"- Propaganda Film about Wehrmacht Medics during the Battle of Crete- ca. late 1941",
+      "duration": "26:30",
+      "views": "10k views",
+      "uploadedRelative": "9 months ago",
+      "category": "propaganda",
+      "dateHint": "ca. late 1941",
+      "keywords": [
+        "Wehrmacht"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "SBlMaRAlYo0",
+      "url": "https://www.youtube.com/watch?v=SBlMaRAlYo0",
+      "title": "“Degeto Weltspiegel”- Silent Newsreel- June 1939 [Full HD] (Goebbels Visit Danzig, German Navy)",
+      "duration": "4:10",
+      "views": "4.2k views",
+      "uploadedRelative": "9 months ago",
+      "category": "newsreel",
+      "dateHint": "1939",
+      "keywords": [
+        "Goebbels",
+        "Danzig",
+        "Newsreel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "5izjBGnYxgc",
+      "url": "https://www.youtube.com/watch?v=5izjBGnYxgc",
+      "title": "Addressing some false Accusations about trying to get other Channels Deleted",
+      "duration": "9:00",
+      "views": "3.6k views",
+      "uploadedRelative": "9 months ago",
+      "category": "channel-meta",
+      "dateHint": null,
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "-yMTpAwkzvk",
+      "url": "https://www.youtube.com/watch?v=-yMTpAwkzvk",
+      "title": "Japan News No. 130- 1 December 1942 (1st Anniversary War in Pacific, Japanese Arms Industry)",
+      "duration": "11:12",
+      "views": "5.5k views",
+      "uploadedRelative": "9 months ago",
+      "category": "other",
+      "dateHint": "1 December 1942",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "gsmozf3JQOI",
+      "url": "https://www.youtube.com/watch?v=gsmozf3JQOI",
+      "title": "German Newsweek No. 563- 18 June 1941 [Full HD](Combat Footage Crete/Africa, German Merchant Raider)",
+      "duration": "25:03",
+      "views": "28k views",
+      "uploadedRelative": "9 months ago",
+      "category": "newsreel",
+      "dateHint": "18 June 1941",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "js6uPjrIzog",
+      "url": "https://www.youtube.com/watch?v=js6uPjrIzog",
+      "title": "German Propaganda Footage about the Tiger Tank - 21 April 1943 [Full HD]",
+      "duration": "3:16",
+      "views": "8.3k views",
+      "uploadedRelative": "9 months ago",
+      "category": "other",
+      "dateHint": "21 April 1943",
+      "keywords": [
+        "Tank"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "dydwzi-7xZQ",
+      "url": "https://www.youtube.com/watch?v=dydwzi-7xZQ",
+      "title": "German Newsweek No. 744- 7 December 1944 (Combat Footage Western/Eastern Front, GD Regiment)",
+      "duration": "10:52",
+      "views": "18k views",
+      "uploadedRelative": "9 months ago",
+      "category": "newsreel",
+      "dateHint": "7 December 1944",
+      "keywords": [
+        "Eastern Front"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "Xh20eTzLqEI",
+      "url": "https://www.youtube.com/watch?v=Xh20eTzLqEI",
+      "title": "Ufa Sound Week No. 492- 7 February 1940 [Full HD] (Arms Production, Army Exercises, Winter Sport)",
+      "duration": "15:53",
+      "views": "9.7k views",
+      "uploadedRelative": "10 months ago",
+      "category": "newsreel",
+      "dateHint": "7 February 1940",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "TfwcE_W1TkQ",
+      "url": "https://www.youtube.com/watch?v=TfwcE_W1TkQ",
+      "title": "“Enemy Terror Attack”- Classified German Technical Film about Radio Jamming during an Air Raid- 1943",
+      "duration": "13:41",
+      "views": "8.5k views",
+      "uploadedRelative": "10 months ago",
+      "category": "other",
+      "dateHint": "1943",
+      "keywords": [
+        "Air Raid",
+        "Radio"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "U8O9SgEGBF8",
+      "url": "https://www.youtube.com/watch?v=U8O9SgEGBF8",
+      "title": "German Newsweek No. 620- 22 July 1942 (Afrikakorps, U-Boat Warfare against USA, Advance in Ukraine)",
+      "duration": "32:27",
+      "views": "34k views",
+      "uploadedRelative": "10 months ago",
+      "category": "newsreel",
+      "dateHint": "22 July 1942",
+      "keywords": [
+        "Afrikakorps",
+        "U-Boat",
+        "USA"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "rTlpRKIS8M8",
+      "url": "https://www.youtube.com/watch?v=rTlpRKIS8M8",
+      "title": "Capture of Hong Kong- Japanese Propaganda Reel- 6 January 1942 [Full HD]",
+      "duration": "5:29",
+      "views": "4.6k views",
+      "uploadedRelative": "10 months ago",
+      "category": "propaganda",
+      "dateHint": "6 January 1942",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "4W3F_0-DzmY",
+      "url": "https://www.youtube.com/watch?v=4W3F_0-DzmY",
+      "title": "Footage from a Waffen-SS NCO School in Occupied Poland- ca. 1943",
+      "duration": "19:24",
+      "views": "10k views",
+      "uploadedRelative": "10 months ago",
+      "category": "other",
+      "dateHint": "ca. 1943",
+      "keywords": [
+        "Poland",
+        "SS",
+        "Waffen-SS"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "fINpXBPgtrA",
+      "url": "https://www.youtube.com/watch?v=fINpXBPgtrA",
+      "title": "\"Victory in the West\": Why Goebbels banned the Army from Making Films",
+      "duration": "13:27",
+      "views": "7.2k views",
+      "uploadedRelative": "11 months ago",
+      "category": "other",
+      "dateHint": null,
+      "keywords": [
+        "Goebbels"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "UhBJHn-g4Sg",
+      "url": "https://www.youtube.com/watch?v=UhBJHn-g4Sg",
+      "title": "German Newsweek No. 733- 21 Sept. 1944 [Full HD] (Anti-Partisan Fight in Italy, Judo Demonstration)",
+      "duration": "13:45",
+      "views": "24k views",
+      "uploadedRelative": "11 months ago",
+      "category": "newsreel",
+      "dateHint": "1944",
+      "keywords": [
+        "Italy"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "8o-5h46rJZ8",
+      "url": "https://www.youtube.com/watch?v=8o-5h46rJZ8",
+      "title": "“Operation Husky”- German Footage from the Fighting in Sicily- 28 July 1943 [Full HD]",
+      "duration": "5:38",
+      "views": "10k views",
+      "uploadedRelative": "11 months ago",
+      "category": "other",
+      "dateHint": "28 July 1943",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "QtWXLMeHaPs",
+      "url": "https://www.youtube.com/watch?v=QtWXLMeHaPs",
+      "title": "German Raw Combat Footage from Normandy- June/July 1944 [Full HD]",
+      "duration": "8:56",
+      "views": "13k views",
+      "uploadedRelative": "11 months ago",
+      "category": "other",
+      "dateHint": "1944",
+      "keywords": [
+        "Normandy"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "ADB54X6_ZgQ",
+      "url": "https://www.youtube.com/watch?v=ADB54X6_ZgQ",
+      "title": "“Soldiers of Tomorrow”- German Propaganda Film about Youth Education- ca. 1941",
+      "duration": "17:16",
+      "views": "13k views",
+      "uploadedRelative": "11 months ago",
+      "category": "propaganda",
+      "dateHint": "ca. 1941",
+      "keywords": [
+        "Youth"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "djosltQVp6g",
+      "url": "https://www.youtube.com/watch?v=djosltQVp6g",
+      "title": "German Newsweek No. 721- 28 June 1944 (Combat Footage Normandy, Eastern Front,Female AA Auxiliaries)",
+      "duration": "21:35",
+      "views": "23k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "28 June 1944",
+      "keywords": [
+        "Eastern Front",
+        "Normandy"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "iXhX1hcr3CQ",
+      "url": "https://www.youtube.com/watch?v=iXhX1hcr3CQ",
+      "title": "“Tran and Helle”- German Propaganda Short about Denunciation- July 1940 [Full HD]",
+      "duration": "3:06",
+      "views": "14k views",
+      "uploadedRelative": "1 year ago",
+      "category": "propaganda",
+      "dateHint": "1940",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "0OTwCuQ9x-E",
+      "url": "https://www.youtube.com/watch?v=0OTwCuQ9x-E",
+      "title": "Japan News No. 102- 15 May 1942 (Capture of Corregidor, Advance in Burma)",
+      "duration": "11:42",
+      "views": "6.5k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "15 May 1942",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "wZ1bwWR4s0I",
+      "url": "https://www.youtube.com/watch?v=wZ1bwWR4s0I",
+      "title": "German Newsweek No. 627- 9 Sep. 1942 [Full HD] (Afrikakorps, Stalingrad, Caucasus, Mt. Elbrus)",
+      "duration": "26:48",
+      "views": "47k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "1942",
+      "keywords": [
+        "Stalingrad",
+        "Afrikakorps"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "taEt24LNGpw",
+      "url": "https://www.youtube.com/watch?v=taEt24LNGpw",
+      "title": "German Newsweek No. 715- 17 May 1944 (Atlantic Wall Defenses, Evacuation Crimea, GD Division)",
+      "duration": "19:11",
+      "views": "17k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "17 May 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "SSRlHCsGUZY",
+      "url": "https://www.youtube.com/watch?v=SSRlHCsGUZY",
+      "title": "German Raw Color Footage from the Oder Front- February/March 1945 [Full HD]",
+      "duration": "6:40",
+      "views": "11k views",
+      "uploadedRelative": "1 year ago",
+      "category": "raw-footage",
+      "dateHint": "1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "9AUkYlMeOOc",
+      "url": "https://www.youtube.com/watch?v=9AUkYlMeOOc",
+      "title": "Wehrmacht Training Film- “The Group as a Reconnaissance Troop”- 1942/43",
+      "duration": "49:00",
+      "views": "13k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "1942",
+      "keywords": [
+        "Wehrmacht"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "W7kA9PA_ouE",
+      "url": "https://www.youtube.com/watch?v=W7kA9PA_ouE",
+      "title": "Field Marshal Rommel Recounts the North African Campaign- ca. October 1942 [Full HD]",
+      "duration": "21:05",
+      "views": "14k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "1942",
+      "keywords": [
+        "Rommel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "C1dlf2X-gR4",
+      "url": "https://www.youtube.com/watch?v=C1dlf2X-gR4",
+      "title": "Ufa Sound Week No. 495- 28 Feb. 1940 [Full HD] (5th Anniversary Lufwaffe, Battleship Exercise)",
+      "duration": "15:48",
+      "views": "14k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "1940",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "Gjk5MyOy8-c",
+      "url": "https://www.youtube.com/watch?v=Gjk5MyOy8-c",
+      "title": "“World in Film” No. 2- Post-War German Newsreel- 25 May 1945 [Full HD] (German Capitulation)",
+      "duration": "12:19",
+      "views": "10k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "25 May 1945",
+      "keywords": [
+        "Newsreel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "qZv7HPcWUDU",
+      "url": "https://www.youtube.com/watch?v=qZv7HPcWUDU",
+      "title": "“Oil”- German short Movie about Oil Extraction/Fuel Production and Logistics - ca. 1942",
+      "duration": "12:21",
+      "views": "5.6k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "ca. 1942",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "XNQu8X-BNhk",
+      "url": "https://www.youtube.com/watch?v=XNQu8X-BNhk",
+      "title": "German Newsweek No. 523- 12 Sep. 1940 [Full HD] (Battle of Britain, German Export Industry)",
+      "duration": "24:44",
+      "views": "20k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "1940",
+      "keywords": [
+        "Britain"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "8vsHCIgv8v0",
+      "url": "https://www.youtube.com/watch?v=8vsHCIgv8v0",
+      "title": "German Occupation of Italy and Battle of Rome- 22 September 1943 [Full HD]",
+      "duration": "6:54",
+      "views": "18k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "22 September 1943",
+      "keywords": [
+        "Rome",
+        "Italy"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "RvsB8NPrHw4",
+      "url": "https://www.youtube.com/watch?v=RvsB8NPrHw4",
+      "title": "“Purzel, the Dwarf and the Giant from the Mountain”- German Colored Cartoon- 1939 [Full HD]",
+      "duration": "8:38",
+      "views": "4.8k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "1939",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "Vo4ZVWEMto4",
+      "url": "https://www.youtube.com/watch?v=Vo4ZVWEMto4",
+      "title": "Japan News No. 231- 2 November 1944 (Emperor Visit to Shrine, Advance in China, Fleet Exercise)",
+      "duration": "9:13",
+      "views": "6.6k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "2 November 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "f2FmLeaEd-c",
+      "url": "https://www.youtube.com/watch?v=f2FmLeaEd-c",
+      "title": "German Newsweek No. 515- 18 July 1940 [Full HD] (Return of Soldiers from France/Narvik, U-Boats)",
+      "duration": "22:45",
+      "views": "30k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "18 July 1940",
+      "keywords": [
+        "France"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "Y_BkRzmijxI",
+      "url": "https://www.youtube.com/watch?v=Y_BkRzmijxI",
+      "title": "“Tran and Helle”- German Propaganda Short about Public Manners- September 1940 [Full HD]",
+      "duration": "4:00",
+      "views": "22k views",
+      "uploadedRelative": "1 year ago",
+      "category": "propaganda",
+      "dateHint": "1940",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "iga5umsYe0M",
+      "url": "https://www.youtube.com/watch?v=iga5umsYe0M",
+      "title": "Music in the German Newsweek: A Small Overview",
+      "duration": "10:27",
+      "views": "Music in the German Newsweek: A Small Overview",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": null,
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "34W94KXnlek",
+      "url": "https://www.youtube.com/watch?v=34W94KXnlek",
+      "title": "German Newsweek No. 666- 9 June 1943 [Full HD] (AA-Gun School, Kuban Bridgehead, Weapons Production)",
+      "duration": "22:39",
+      "views": "56k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "9 June 1943",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "LPuhhfWjqVY",
+      "url": "https://www.youtube.com/watch?v=LPuhhfWjqVY",
+      "title": "Panorama Color Monthly Newsreel No.2- December 1944 [Full HD]",
+      "duration": "16:44",
+      "views": "55k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "1944",
+      "keywords": [
+        "Newsreel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "PvA_fUKy-yc",
+      "url": "https://www.youtube.com/watch?v=PvA_fUKy-yc",
+      "title": "Giornale Luce- Italian Newsreel No. 336- 3 April 1943 (Tunisia, 20th Anniversary Italian Air Force)",
+      "duration": "8:47",
+      "views": "6.7k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "3 April 1943",
+      "keywords": [
+        "Newsreel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "aDSn77lQd-M",
+      "url": "https://www.youtube.com/watch?v=aDSn77lQd-M",
+      "title": "“The European Week”- Italian Propaganda Newsreel- ca. December 1944 [Full HD]",
+      "duration": "10:02",
+      "views": "9.2k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "1944",
+      "keywords": [
+        "Newsreel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "wT53EPQSUfU",
+      "url": "https://www.youtube.com/watch?v=wT53EPQSUfU",
+      "title": "German Newsweek No. 511- 20 June 1940 [Full HD] (Invasion of France, Capture of Paris)",
+      "duration": "44:20",
+      "views": "31k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "20 June 1940",
+      "keywords": [
+        "France"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "KOS5tVT3jaA",
+      "url": "https://www.youtube.com/watch?v=KOS5tVT3jaA",
+      "title": "Descheg Monthly Newsreel No. 23- January 1944 [Full HD] (Sport Events from Europe, Eastern Front)",
+      "duration": "17:57",
+      "views": "24k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "1944",
+      "keywords": [
+        "Eastern Front",
+        "Newsreel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "XXg2YejwmRQ",
+      "url": "https://www.youtube.com/watch?v=XXg2YejwmRQ",
+      "title": "“Around the Statue of Liberty- A Stroll Through the USA”- German Anti-American Propaganda Film- 1942",
+      "duration": "15:35",
+      "views": "13k views",
+      "uploadedRelative": "1 year ago",
+      "category": "propaganda",
+      "dateHint": "1942",
+      "keywords": [
+        "USA"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "L9Mj8W7hlGU",
+      "url": "https://www.youtube.com/watch?v=L9Mj8W7hlGU",
+      "title": "German Newsweek No. 740- 9 Nov. 1944 (Volkssturm Training, Combat Footage Holland/ Eastern Front)",
+      "duration": "13:02",
+      "views": "64k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "1944",
+      "keywords": [
+        "Eastern Front"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "uk7TQmsgpHM",
+      "url": "https://www.youtube.com/watch?v=uk7TQmsgpHM",
+      "title": "German Newsweek No. 706- 15 March 1944 [Full HD] (Memorial Day, Combat Footage Soviet Union/Italy)",
+      "duration": "17:54",
+      "views": "143k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "15 March 1944",
+      "keywords": [
+        "Italy"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "AU3F-_SLFcQ",
+      "url": "https://www.youtube.com/watch?v=AU3F-_SLFcQ",
+      "title": "Bombing of Darwin in Australia- Japanese Propaganda Reel- 7 April 1942",
+      "duration": "3:10",
+      "views": "7.4k views",
+      "uploadedRelative": "1 year ago",
+      "category": "propaganda",
+      "dateHint": "7 April 1942",
+      "keywords": [
+        "Bombing"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "mrVfq0z-DQc",
+      "url": "https://www.youtube.com/watch?v=mrVfq0z-DQc",
+      "title": "Footage from the Warsaw Ghetto- ca. 1942/43 [Full HD]",
+      "duration": "11:21",
+      "views": "6.2k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "ca. 1942",
+      "keywords": [
+        "Warsaw"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "rjxgQRNP9Tc",
+      "url": "https://www.youtube.com/watch?v=rjxgQRNP9Tc",
+      "title": "German Newsweek No. 662- 15 May 1943 [Full HD] (Japanese Invasion of Burma, Funeral Viktor Lutze)",
+      "duration": "26:06",
+      "views": "69k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "15 May 1943",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "vGIfwECdrAc",
+      "url": "https://www.youtube.com/watch?v=vGIfwECdrAc",
+      "title": "“Tran and Helle”- German Propaganda Short about feeling Empathy for France- August 1940 [Full HD]",
+      "duration": "5:35",
+      "views": "85k views",
+      "uploadedRelative": "1 year ago",
+      "category": "propaganda",
+      "dateHint": "1940",
+      "keywords": [
+        "France"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "kQ-EGthaNtc",
+      "url": "https://www.youtube.com/watch?v=kQ-EGthaNtc",
+      "title": "German Advance in Greece and Occupation of Athens- 30 April 1941 [Full HD]",
+      "duration": "12:53",
+      "views": "20k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "30 April 1941",
+      "keywords": [
+        "Greece",
+        "Athens"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "V1RKZlY-N5M",
+      "url": "https://www.youtube.com/watch?v=V1RKZlY-N5M",
+      "title": "German Newsweek No. 634- 29 Oct. 1942 [Full HD](20th Anniversary March on Rome,Battle of Stalingrad)",
+      "duration": "21:32",
+      "views": "32k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "1942",
+      "keywords": [
+        "Stalingrad",
+        "Rome"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "oFuzCN4XqzU",
+      "url": "https://www.youtube.com/watch?v=oFuzCN4XqzU",
+      "title": "German Instruction Video about V1 Missile Launch- ca. 1943 [Full HD]",
+      "duration": "10:14",
+      "views": "8.5k views",
+      "uploadedRelative": "1 year ago",
+      "category": "instructional",
+      "dateHint": "ca. 1943",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "Us4QLTeYimE",
+      "url": "https://www.youtube.com/watch?v=Us4QLTeYimE",
+      "title": "German Raw Footage from the Middle Section of the Eastern Front- ca. Early to Mid-1942 [Full HD]",
+      "duration": "42:14",
+      "views": "15k views",
+      "uploadedRelative": "1 year ago",
+      "category": "raw-footage",
+      "dateHint": "1942",
+      "keywords": [
+        "Eastern Front"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "r-0wCIqd4xA",
+      "url": "https://www.youtube.com/watch?v=r-0wCIqd4xA",
+      "title": "German Newsweek No. 606-16 April 1942 [Full HD] (Panzer III Production, Combat Footage North Africa)",
+      "duration": "25:11",
+      "views": "49k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "16 April 1942",
+      "keywords": [
+        "Panzer"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "PgiGZpGYmV4",
+      "url": "https://www.youtube.com/watch?v=PgiGZpGYmV4",
+      "title": "“Warsaw Surrenders”- German Silent Newsreel about the Battle of Warsaw- ca. October 1939 [Full HD]",
+      "duration": "3:37",
+      "views": "16k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "1939",
+      "keywords": [
+        "Warsaw",
+        "Newsreel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "vV4lG5Or2Zc",
+      "url": "https://www.youtube.com/watch?v=vV4lG5Or2Zc",
+      "title": "German Newsweek No. 531- 6 Nov. 1940 [Full HD] (Signal Troops Exercise, Bombing of England)",
+      "duration": "23:14",
+      "views": "102k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "1940",
+      "keywords": [
+        "Bombing"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "I3phcWyra3w",
+      "url": "https://www.youtube.com/watch?v=I3phcWyra3w",
+      "title": "Afrikakorps 1941- German Propaganda Footage About the Siege of Tobruk- 4 June 1941 [Full HD]",
+      "duration": "8:56",
+      "views": "21k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "4 June 1941",
+      "keywords": [
+        "Afrikakorps"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "l26CxTzZS8o",
+      "url": "https://www.youtube.com/watch?v=l26CxTzZS8o",
+      "title": "Ufa Sound Week No. 486- 26 Dec. 1939 [Full HD] (Battle of Heligoland Bight, German Seaplanes Patrol)",
+      "duration": "14:46",
+      "views": "20k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "1939",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "AUap7WXTqtE",
+      "url": "https://www.youtube.com/watch?v=AUap7WXTqtE",
+      "title": "German Radio Broadcast from Vienna after the Pogroms against Jews- 10 November 1938",
+      "duration": "2:50",
+      "views": "5.4k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "10 November 1938",
+      "keywords": [
+        "Radio"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "jgAwra8WYkI",
+      "url": "https://www.youtube.com/watch?v=jgAwra8WYkI",
+      "title": "Panorama Color Monthly Newsreel No.4- January/February 1945 [Full HD]",
+      "duration": "9:46",
+      "views": "22k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "1945",
+      "keywords": [
+        "Newsreel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "Df_SvTdq-34",
+      "url": "https://www.youtube.com/watch?v=Df_SvTdq-34",
+      "title": "Preparation and Behavior during a Bombing Raid- German Instruction Video- May 1943",
+      "duration": "4:39",
+      "views": "10k views",
+      "uploadedRelative": "1 year ago",
+      "category": "instructional",
+      "dateHint": "1943",
+      "keywords": [
+        "Bombing"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "7zOSac4leJ8",
+      "url": "https://www.youtube.com/watch?v=7zOSac4leJ8",
+      "title": "Imperial Japanese Army Parade on the Birthday of the Emperor- 29 April 1944",
+      "duration": "3:46",
+      "views": "17k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "29 April 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "jqOcB4Ni5mM",
+      "url": "https://www.youtube.com/watch?v=jqOcB4Ni5mM",
+      "title": "German Newsweek No. 727- 10 August 1944 [Full HD] (U-Boat Arctic Sea, Combat West/ East Front)",
+      "duration": "16:28",
+      "views": "25k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "10 August 1944",
+      "keywords": [
+        "U-Boat"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "OaYL5gQPnP0",
+      "url": "https://www.youtube.com/watch?v=OaYL5gQPnP0",
+      "title": "Japan News No. 237- 15 December 1944 (Kamikaze Pilots, Paratrooper Training, Advance in China)",
+      "duration": "9:59",
+      "views": "6.3k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "15 December 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "lEtoH7xlIug",
+      "url": "https://www.youtube.com/watch?v=lEtoH7xlIug",
+      "title": "Two Years of German WWII Archive: Q&A Special",
+      "duration": "36:39",
+      "views": "6.9k views",
+      "uploadedRelative": "1 year ago",
+      "category": "channel-meta",
+      "dateHint": null,
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "mHmbgGicnnM",
+      "url": "https://www.youtube.com/watch?v=mHmbgGicnnM",
+      "title": "“Real Men”- German Propaganda Short about Paratrooper Training and Combat- February 1942 [Full HD]",
+      "duration": "4:56",
+      "views": "14k views",
+      "uploadedRelative": "1 year ago",
+      "category": "propaganda",
+      "dateHint": "1942",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "IJKAuD0-Hcw",
+      "url": "https://www.youtube.com/watch?v=IJKAuD0-Hcw",
+      "title": "German Newsweek No. 745- 14 December 1944 (King Tiger Footage, 95th Birthday von Mackensen)",
+      "duration": "13:21",
+      "views": "28k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "14 December 1944",
+      "keywords": [
+        "Mackensen"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "s_zIp-blAUs",
+      "url": "https://www.youtube.com/watch?v=s_zIp-blAUs",
+      "title": "German Newsweek No. 729- 23 August 1944 (Warsaw Uprising, Combat Footage Eastern/Western Front)",
+      "duration": "13:13",
+      "views": "85k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "23 August 1944",
+      "keywords": [
+        "Western Front",
+        "Warsaw"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "F1N42CwgHZU",
+      "url": "https://www.youtube.com/watch?v=F1N42CwgHZU",
+      "title": "“Victory in the West”- German Propaganda Film about the Victory over France- January 1941 [Full HD]",
+      "duration": "1:54:28",
+      "views": "85k views",
+      "uploadedRelative": "1 year ago",
+      "category": "propaganda",
+      "dateHint": "1941",
+      "keywords": [
+        "France"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "gERiTrT0KfU",
+      "url": "https://www.youtube.com/watch?v=gERiTrT0KfU",
+      "title": "Two years of German WWII Archive: A small thank you and Q&A Announcement",
+      "duration": "2:57",
+      "views": "3.5k views",
+      "uploadedRelative": "1 year ago",
+      "category": "speech-or-interview",
+      "dateHint": null,
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "OvQFC6nKSOU",
+      "url": "https://www.youtube.com/watch?v=OvQFC6nKSOU",
+      "title": "“Aircraft Border Violation”- Swiss Newsreel about Foreign Planes violating Air Space- 17 Nov. 1944",
+      "duration": "10:30",
+      "views": "6k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "1944",
+      "keywords": [
+        "Newsreel",
+        "Aircraft"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "C-Aj4C93iUw",
+      "url": "https://www.youtube.com/watch?v=C-Aj4C93iUw",
+      "title": "German Newsweek No. 652- 3 March 1943 [Full HD] (Recruit Training, Combat Eastern Front/Tunisia)",
+      "duration": "20:25",
+      "views": "80k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "3 March 1943",
+      "keywords": [
+        "Eastern Front"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "bLsvw7L7AMI",
+      "url": "https://www.youtube.com/watch?v=bLsvw7L7AMI",
+      "title": "German Newsweek No. 598- 19 February 1942 (Funeral Dr. Todt,Eastern Front,Afrikakorps, Channel Dash)",
+      "duration": "30:02",
+      "views": "39k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "19 February 1942",
+      "keywords": [
+        "Afrikakorps",
+        "Eastern Front"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "F9AJ9iGruPM",
+      "url": "https://www.youtube.com/watch?v=F9AJ9iGruPM",
+      "title": "The Front Show No. 5/6- Mountain Troops Attacking a Village- German Training Film- September 1941",
+      "duration": "27:34",
+      "views": "18k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "1941",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "rHqLK1TCgUk",
+      "url": "https://www.youtube.com/watch?v=rHqLK1TCgUk",
+      "title": "15th Anniversary Remembrance Ceremony for WWI Flying Ace Manfred von Richthofen- 26 April 1933",
+      "duration": "1:08",
+      "views": "3.7k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "26 April 1933",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "De9FPAMlqhU",
+      "url": "https://www.youtube.com/watch?v=De9FPAMlqhU",
+      "title": "Japan News No. 89- 17 February 1942 (Japanese Paratrooper Landing on Sumatra, Fall of Singapore)",
+      "duration": "9:55",
+      "views": "7.3k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "17 February 1942",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "8JLoEibLfBM",
+      "url": "https://www.youtube.com/watch?v=8JLoEibLfBM",
+      "title": "German Newsweek No. 708- 29 March 1944(Monte Cassino, U-Boat Training, Eastern Front Combat Footage)",
+      "duration": "18:16",
+      "views": "104k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "29 March 1944",
+      "keywords": [
+        "Eastern Front",
+        "U-Boat"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "_KXmWW6_cmM",
+      "url": "https://www.youtube.com/watch?v=_KXmWW6_cmM",
+      "title": "“A Fairytale”- German Colored Cartoon- 1939",
+      "duration": "12:12",
+      "views": "7.6k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "1939",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "olss1ZKMSlY",
+      "url": "https://www.youtube.com/watch?v=olss1ZKMSlY",
+      "title": "Footage from German Air Force Bomber Training School- 16 January 1941 [Full HD]",
+      "duration": "3:23",
+      "views": "8.9k views",
+      "uploadedRelative": "1 year ago",
+      "category": "other",
+      "dateHint": "16 January 1941",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "WOJLKxAp8pY",
+      "url": "https://www.youtube.com/watch?v=WOJLKxAp8pY",
+      "title": "German Invasion of Belgium and the Netherlands- Ufa Sound Week No. 506- 15 May 1940 [Full HD]",
+      "duration": "17:17",
+      "views": "37k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "15 May 1940",
+      "keywords": [
+        "Belgium",
+        "Netherlands"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "t1Gv_OSYN2A",
+      "url": "https://www.youtube.com/watch?v=t1Gv_OSYN2A",
+      "title": "I may have to stop doing Youtube- A small rant about decline in views and how it affects my channel",
+      "duration": "25:29",
+      "views": "I may have to stop doing Youtube- A small rant about decline in views and how it affects my channel",
+      "uploadedRelative": "1 year ago",
+      "category": "channel-meta",
+      "dateHint": null,
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "dHL8cxpPj1w",
+      "url": "https://www.youtube.com/watch?v=dHL8cxpPj1w",
+      "title": "German Newsweek No. 722- 5 July 1944 [Full HD]",
+      "duration": "12:19",
+      "views": "45k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "5 July 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "q3aBbCspKAo",
+      "url": "https://www.youtube.com/watch?v=q3aBbCspKAo",
+      "title": "“Tran and Helle”- German Propaganda Short about Freedom of Speech- August 1940",
+      "duration": "4:53",
+      "views": "62k views",
+      "uploadedRelative": "1 year ago",
+      "category": "propaganda",
+      "dateHint": "1940",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "nQ-KpoZNkIM",
+      "url": "https://www.youtube.com/watch?v=nQ-KpoZNkIM",
+      "title": "Ufa Sound Week No. 499- 28 March 1940 [Full HD](U-Boat Shipyard, Bf-109 Production, Scapa Flow Raid)",
+      "duration": "12:57",
+      "views": "27k views",
+      "uploadedRelative": "1 year ago",
+      "category": "newsreel",
+      "dateHint": "28 March 1940",
+      "keywords": [
+        "U-Boat"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "GT3u2UJT85E",
+      "url": "https://www.youtube.com/watch?v=GT3u2UJT85E",
+      "title": "Descheg Monthly Newsreel No. 21- November 1943 [Full HD]",
+      "duration": "20:47",
+      "views": "45k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "1943",
+      "keywords": [
+        "Newsreel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "hqewewF-i-Y",
+      "url": "https://www.youtube.com/watch?v=hqewewF-i-Y",
+      "title": "Footage of Japanese Admiral Yamamoto’s State Funeral- 5 June 1943",
+      "duration": "5:11",
+      "views": "9.5k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": "5 June 1943",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "CEdJ2hFQfAs",
+      "url": "https://www.youtube.com/watch?v=CEdJ2hFQfAs",
+      "title": "German Newsweek No. 585- 20 November 1941 [Full HD] (Winter Combat, Romanian Parade, Channel Raids)",
+      "duration": "38:31",
+      "views": "101k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "20 November 1941",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "TCCfJ2ToBMI",
+      "url": "https://www.youtube.com/watch?v=TCCfJ2ToBMI",
+      "title": "Private Color Footage taken by Fighter Ace Kalau v. Hofe of Men and Planes of JG 54- ca. 1941-1944",
+      "duration": "25:40",
+      "views": "53k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": "ca. 1941",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "Z0BwQM0vkjE",
+      "url": "https://www.youtube.com/watch?v=Z0BwQM0vkjE",
+      "title": "German Newsweek No. 567- 17 July 1941 [Full HD] (Eastern Front: Finland, Ukraine, Bialystok-Minsk)",
+      "duration": "39:06",
+      "views": "137k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "17 July 1941",
+      "keywords": [
+        "Eastern Front"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "YROx75rILe0",
+      "url": "https://www.youtube.com/watch?v=YROx75rILe0",
+      "title": "German Newsweek No. 718- 7 June 1944",
+      "duration": "20:08",
+      "views": "65k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "7 June 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "X_WYhFDaaJc",
+      "url": "https://www.youtube.com/watch?v=X_WYhFDaaJc",
+      "title": "One Year of Japanese Conquests- German Propaganda Footage about the War in Asia- 9 December 1942",
+      "duration": "11:04",
+      "views": "61k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": "9 December 1942",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "bWk56EqXSeA",
+      "url": "https://www.youtube.com/watch?v=bWk56EqXSeA",
+      "title": "\"You don't own this\"- A Few Words Regarding Copyright and what my Input Actually is",
+      "duration": "14:47",
+      "views": "6.5k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": null,
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "zDOVmWjtMz0",
+      "url": "https://www.youtube.com/watch?v=zDOVmWjtMz0",
+      "title": "Battle of Kursk- German Propaganda Footage- 21 July 1943 [Full HD]",
+      "duration": "14:28",
+      "views": "76k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": "21 July 1943",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "RAEcNvVxZWI",
+      "url": "https://www.youtube.com/watch?v=RAEcNvVxZWI",
+      "title": "German Newsweek No. 676- 18 August 1943 [Full HD] (Navy Hitler Youth, German Soldiers Leisure Time)",
+      "duration": "20:58",
+      "views": "142k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "18 August 1943",
+      "keywords": [
+        "Hitler",
+        "Youth",
+        "Hitler Youth"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "h_TY32qqLTA",
+      "url": "https://www.youtube.com/watch?v=h_TY32qqLTA",
+      "title": "German Propaganda Footage from a U-Boat under Attack in the Arctic Ocean- 10 August 1944 [Full HD]",
+      "duration": "6:02",
+      "views": "15k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": "10 August 1944",
+      "keywords": [
+        "U-Boat"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "F2NhOddI_Ks",
+      "url": "https://www.youtube.com/watch?v=F2NhOddI_Ks",
+      "title": "German Newsweek No. 693- 17 Dec. 1943 [Full HD] (Re-capture of Zhytomyr, U-Boat Combat Patrol)",
+      "duration": "20:34",
+      "views": "194k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "1943",
+      "keywords": [
+        "U-Boat"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "_SMcP9Mo2R4",
+      "url": "https://www.youtube.com/watch?v=_SMcP9Mo2R4",
+      "title": "German Propaganda Footage about Operation Market Garden- 4 October 1944",
+      "duration": "5:17",
+      "views": "16k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": "4 October 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "v3o4Yo0HMeU",
+      "url": "https://www.youtube.com/watch?v=v3o4Yo0HMeU",
+      "title": "Ufa Foreign Sound Week (Russian Version) No. 700- 3 February 1945",
+      "duration": "12:54",
+      "views": "43k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "3 February 1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "6NulfHHMRIY",
+      "url": "https://www.youtube.com/watch?v=6NulfHHMRIY",
+      "title": "“Tran and Helle”- German Propaganda Short about Listening to Foreign Radio Stations- March 1940",
+      "duration": "2:51",
+      "views": "58k views",
+      "uploadedRelative": "2 years ago",
+      "category": "propaganda",
+      "dateHint": "1940",
+      "keywords": [
+        "Radio"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "WAEVZ3KAgto",
+      "url": "https://www.youtube.com/watch?v=WAEVZ3KAgto",
+      "title": "German Propaganda Footage about the Battle of Dunkirk- 12 June 1940 [Full HD]",
+      "duration": "17:13",
+      "views": "25k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": "12 June 1940",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "jWxWY4rFhTg",
+      "url": "https://www.youtube.com/watch?v=jWxWY4rFhTg",
+      "title": "Last German Newsweek- No. 755- 22 March 1945",
+      "duration": "11:00",
+      "views": "122k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "22 March 1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "OMbi6PFjG-M",
+      "url": "https://www.youtube.com/watch?v=OMbi6PFjG-M",
+      "title": "German Newsweek No. 682- 29 Sep. 1943 [Full HD] (German Raid on Spitzbergen, Combat Footage Italy)",
+      "duration": "21:24",
+      "views": "329k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "1943",
+      "keywords": [
+        "Italy"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "KNe0aC17nRY",
+      "url": "https://www.youtube.com/watch?v=KNe0aC17nRY",
+      "title": "German Newsweek No. 754- 16 March 1945",
+      "duration": "14:17",
+      "views": "111k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "16 March 1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "gN8y9QEUbPY",
+      "url": "https://www.youtube.com/watch?v=gN8y9QEUbPY",
+      "title": "Propaganda Footage from German Paratrooper Exercise- 16 June 1943 [Full HD]",
+      "duration": "3:28",
+      "views": "173k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": "16 June 1943",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "XUoWYlsX6Ps",
+      "url": "https://www.youtube.com/watch?v=XUoWYlsX6Ps",
+      "title": "German Newsweek No. 753- 5 March 1945",
+      "duration": "13:22",
+      "views": "111k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "5 March 1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "i6bXEvPuH7o",
+      "url": "https://www.youtube.com/watch?v=i6bXEvPuH7o",
+      "title": "German Newsweek No. 649- 10 February 1943 [Full HD] (New Factories, Night Combat, North Africa)",
+      "duration": "21:34",
+      "views": "52k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "10 February 1943",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "oOBPyrP1kGU",
+      "url": "https://www.youtube.com/watch?v=oOBPyrP1kGU",
+      "title": "German Newsweek No. 751- 10 February 1945",
+      "duration": "10:37",
+      "views": "48k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "10 February 1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "CXj4GAkf_cU",
+      "url": "https://www.youtube.com/watch?v=CXj4GAkf_cU",
+      "title": "German Propaganda Footage showing Rescue of Italian Dictator Benito Mussolini- 22 September 1943",
+      "duration": "5:49",
+      "views": "113k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": "22 September 1943",
+      "keywords": [
+        "Mussolini"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "wod1WhH76lM",
+      "url": "https://www.youtube.com/watch?v=wod1WhH76lM",
+      "title": "German Newsweek No. 749- 18 January 1945",
+      "duration": "10:39",
+      "views": "128k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "18 January 1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "LSKpJw1DPBw",
+      "url": "https://www.youtube.com/watch?v=LSKpJw1DPBw",
+      "title": "German Newsweek No. 574 - 3 September 1941(German U-Boat deployment, Advance on the Eastern Front)",
+      "duration": "32:17",
+      "views": "117k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "3 September 1941",
+      "keywords": [
+        "Eastern Front",
+        "U-Boat"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "A7gGRSQUNf0",
+      "url": "https://www.youtube.com/watch?v=A7gGRSQUNf0",
+      "title": "German Admiral Schultze talks about his Military Career in WWI and WWII- September 1943",
+      "duration": "10:57",
+      "views": "9.6k views",
+      "uploadedRelative": "2 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "1943",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "c4UkrysYQB8",
+      "url": "https://www.youtube.com/watch?v=c4UkrysYQB8",
+      "title": "Combat Footage from the Panzergrenadier-Division “Großdeutschland” - 17 May 1944",
+      "duration": "5:04",
+      "views": "23k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": "17 May 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "JrwDehP8bzc",
+      "url": "https://www.youtube.com/watch?v=JrwDehP8bzc",
+      "title": "German Newsweek No. 720- 21 June 1944",
+      "duration": "18:44",
+      "views": "226k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "21 June 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "Y9mhtwSFepY",
+      "url": "https://www.youtube.com/watch?v=Y9mhtwSFepY",
+      "title": "German Newsweek No. 577- 24 September 1941 [Full HD] (Advance on Leningrad, Encirclement of Kiev)",
+      "duration": "32:53",
+      "views": "85k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "24 September 1941",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "qMKCXVtzeMk",
+      "url": "https://www.youtube.com/watch?v=qMKCXVtzeMk",
+      "title": "German Newsweek No. 736 - 11 October 1944",
+      "duration": "13:14",
+      "views": "32k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "11 October 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "gu7X0ERRuJE",
+      "url": "https://www.youtube.com/watch?v=gu7X0ERRuJE",
+      "title": "German Newsweek No. 628- 16 Sep. 1942 [Full HD ](U-Boats St. Lawrence river, Caucasus/Stalingrad)",
+      "duration": "27:09",
+      "views": "118k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "1942",
+      "keywords": [
+        "Stalingrad"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "iSMrydqfwyY",
+      "url": "https://www.youtube.com/watch?v=iSMrydqfwyY",
+      "title": "Ufa Sound Week No. 470- 7 Sep. 1939 [Full HD] (Invasion of Poland, Fighting in Danzig, Mobilization)",
+      "duration": "22:23",
+      "views": "91k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "1939",
+      "keywords": [
+        "Poland",
+        "Danzig"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "qyWiT-WGlPs",
+      "url": "https://www.youtube.com/watch?v=qyWiT-WGlPs",
+      "title": "German Newsweek No. 750- 25 January 1945",
+      "duration": "10:30",
+      "views": "191k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "25 January 1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "nO-fUkqSjFY",
+      "url": "https://www.youtube.com/watch?v=nO-fUkqSjFY",
+      "title": "Japan News No. 230- 26 October 1944",
+      "duration": "9:15",
+      "views": "9.3k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": "26 October 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "w9U6F7Ec9RA",
+      "url": "https://www.youtube.com/watch?v=w9U6F7Ec9RA",
+      "title": "German Newsweek No. 748- 11 January 1945",
+      "duration": "13:25",
+      "views": "442k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "11 January 1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "EFSaYiyY8gs",
+      "url": "https://www.youtube.com/watch?v=EFSaYiyY8gs",
+      "title": "Descheg Monthly Newsreel No. 26- April 1944 [Full HD]",
+      "duration": "21:55",
+      "views": "159k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "1944",
+      "keywords": [
+        "Newsreel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "_DBXgZwawOM",
+      "url": "https://www.youtube.com/watch?v=_DBXgZwawOM",
+      "title": "I made a Patreon, if anyone wants to support the channel :)",
+      "duration": "7:13",
+      "views": "3.7k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": null,
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "RsL8KIOysRo",
+      "url": "https://www.youtube.com/watch?v=RsL8KIOysRo",
+      "title": "German Newsweek No. 752- 17 February 1945",
+      "duration": "10:34",
+      "views": "167k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "17 February 1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "oFxU1dMH2E8",
+      "url": "https://www.youtube.com/watch?v=oFxU1dMH2E8",
+      "title": "Radio Speech of Holocaust Survivor Anita Lasker after Liberation from Bergen-Belsen- 16 April 1945",
+      "duration": "3:57",
+      "views": "6.1k views",
+      "uploadedRelative": "2 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "16 April 1945",
+      "keywords": [
+        "Radio"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "luq9c_4TpXk",
+      "url": "https://www.youtube.com/watch?v=luq9c_4TpXk",
+      "title": "German Newsweek No. 680- 15 September 1943 (Funeral King Boris, German  Auxiliary Cruiser in Japan)",
+      "duration": "18:09",
+      "views": "139k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "15 September 1943",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "1S1lnNRlFq8",
+      "url": "https://www.youtube.com/watch?v=1S1lnNRlFq8",
+      "title": "German Newsweek No. 698- 20 January 1944 (General Adelbert Schulz, Defense against American Bomber)",
+      "duration": "20:18",
+      "views": "250k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "20 January 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "bo8EY40X6Hg",
+      "url": "https://www.youtube.com/watch?v=bo8EY40X6Hg",
+      "title": "German Propaganda Footage about the Ardennes Offensive- 4 January 1945 [Full HD]",
+      "duration": "8:16",
+      "views": "32k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": "4 January 1945",
+      "keywords": [
+        "Ardennes"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "sS78yJzQSgs",
+      "url": "https://www.youtube.com/watch?v=sS78yJzQSgs",
+      "title": "Panorama Color Monthly Newsreel No. 3- January 1945 [Full HD]",
+      "duration": "12:36",
+      "views": "108k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "1945",
+      "keywords": [
+        "Newsreel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "RYpc35zDAy4",
+      "url": "https://www.youtube.com/watch?v=RYpc35zDAy4",
+      "title": "German Raw Color Footage from the Eastern Front in Ukraine/Southern Russia- June to September 1942",
+      "duration": "1:04:44",
+      "views": "659k views",
+      "uploadedRelative": "2 years ago",
+      "category": "raw-footage",
+      "dateHint": "1942",
+      "keywords": [
+        "Eastern Front"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "Cmu2YZ7Qwq0",
+      "url": "https://www.youtube.com/watch?v=Cmu2YZ7Qwq0",
+      "title": "German Propaganda Footage about the Dieppe Raid- 26 August 1942 [Full HD]",
+      "duration": "11:01",
+      "views": "19k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": "26 August 1942",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "OK9RRLd0zB8",
+      "url": "https://www.youtube.com/watch?v=OK9RRLd0zB8",
+      "title": "40,000 Subscribers Q&A Special",
+      "duration": "53:07",
+      "views": "4.3k views",
+      "uploadedRelative": "2 years ago",
+      "category": "channel-meta",
+      "dateHint": null,
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "y57pSkJ3bvw",
+      "url": "https://www.youtube.com/watch?v=y57pSkJ3bvw",
+      "title": "Japan News No. 79- 9 December 1941",
+      "duration": "17:56",
+      "views": "15k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": "9 December 1941",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "7NhDClqEuDE",
+      "url": "https://www.youtube.com/watch?v=7NhDClqEuDE",
+      "title": "German Newsweek No. 703- 23 February 1944",
+      "duration": "20:32",
+      "views": "42k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "23 February 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "aCICLz6mBIc",
+      "url": "https://www.youtube.com/watch?v=aCICLz6mBIc",
+      "title": "German Raw Color Footage from the Oder Front- February/March 1945",
+      "duration": "6:04",
+      "views": "259k views",
+      "uploadedRelative": "2 years ago",
+      "category": "raw-footage",
+      "dateHint": "1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "xgnZeDBRW7I",
+      "url": "https://www.youtube.com/watch?v=xgnZeDBRW7I",
+      "title": "Japan News No. 253- 21 June 1945",
+      "duration": "7:17",
+      "views": "11k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": "21 June 1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "s2Pi8reTezU",
+      "url": "https://www.youtube.com/watch?v=s2Pi8reTezU",
+      "title": "German Newsweek No. 512- Special Edition after the Fall of France- 26 June 1940",
+      "duration": "44:48",
+      "views": "429k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "26 June 1940",
+      "keywords": [
+        "France"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "aPPq3Z1BHu0",
+      "url": "https://www.youtube.com/watch?v=aPPq3Z1BHu0",
+      "title": "Interview with an SS-Guard after the Liberation of Concentration Camp Bergen-Belsen - 15 April 1945",
+      "duration": "4:23",
+      "views": "Interview with an SS-Guard after the Liberation of Concentration Camp Bergen-Belsen - 15 April 1945",
+      "uploadedRelative": "2 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "15 April 1945",
+      "keywords": [
+        "SS",
+        "Concentration Camp"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "_R0wYhQo6es",
+      "url": "https://www.youtube.com/watch?v=_R0wYhQo6es",
+      "title": "German Raw Color Footage from the Caucasus - August 1942",
+      "duration": "2:08",
+      "views": "20k views",
+      "uploadedRelative": "2 years ago",
+      "category": "raw-footage",
+      "dateHint": "1942",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "ZAlrb1H4mI8",
+      "url": "https://www.youtube.com/watch?v=ZAlrb1H4mI8",
+      "title": "German Newsweek No. 723- 13 July 1944",
+      "duration": "20:49",
+      "views": "35k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "13 July 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "lBvHLIeEbeE",
+      "url": "https://www.youtube.com/watch?v=lBvHLIeEbeE",
+      "title": "Footage of German Field Marshal von Mackensen’ 95th Birthday - 6 December 1944",
+      "duration": "0:58",
+      "views": "22k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": "6 December 1944",
+      "keywords": [
+        "Mackensen"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "GZPiUjVhj0Q",
+      "url": "https://www.youtube.com/watch?v=GZPiUjVhj0Q",
+      "title": "Color Propaganda Film about 6th State Shooting Competition in Tyrol- September 1943",
+      "duration": "12:42",
+      "views": "15k views",
+      "uploadedRelative": "2 years ago",
+      "category": "propaganda",
+      "dateHint": "1943",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "-aS9YN3tP-E",
+      "url": "https://www.youtube.com/watch?v=-aS9YN3tP-E",
+      "title": "German Animated Propaganda Short about Energy Saving- ca. 1944",
+      "duration": "1:27",
+      "views": "10k views",
+      "uploadedRelative": "2 years ago",
+      "category": "propaganda",
+      "dateHint": "ca. 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "zRnFS-Q3-XE",
+      "url": "https://www.youtube.com/watch?v=zRnFS-Q3-XE",
+      "title": "Japan News No. 252 - 9 June 1945",
+      "duration": "8:15",
+      "views": "10k views",
+      "uploadedRelative": "2 years ago",
+      "category": "other",
+      "dateHint": "9 June 1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "0goqYZTwqZs",
+      "url": "https://www.youtube.com/watch?v=0goqYZTwqZs",
+      "title": "Last Japanese Newsreel - Japan News No. 254 - 1 July 1945",
+      "duration": "8:20",
+      "views": "12k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "1 July 1945",
+      "keywords": [
+        "Newsreel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "qcs9kmkzcfw",
+      "url": "https://www.youtube.com/watch?v=qcs9kmkzcfw",
+      "title": "German Newsweek No. 604 - 1 April 1942 (Shelling of Leningrad, Supplies to North Africa, U-Boats)",
+      "duration": "23:37",
+      "views": "128k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "1 April 1942",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "6svPOq5gJmg",
+      "url": "https://www.youtube.com/watch?v=6svPOq5gJmg",
+      "title": "German Newsweek No. 605 - 8 April 1942 (He-111 Bomber Production, Merchant Raider Indian Ocean)",
+      "duration": "27:00",
+      "views": "149k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "8 April 1942",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "1ir7XCXhE9E",
+      "url": "https://www.youtube.com/watch?v=1ir7XCXhE9E",
+      "title": "German Newsweek No. 593 - 14 January 1942 (MG production, Eastern Front, North Africa)",
+      "duration": "32:58",
+      "views": "322k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "14 January 1942",
+      "keywords": [
+        "Eastern Front"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "rsgV1pmHhpU",
+      "url": "https://www.youtube.com/watch?v=rsgV1pmHhpU",
+      "title": "German Newsweek No. 601 - 11 March 1942 (U-Boat Returns, Combat Footage North Africa/Eastern Front)",
+      "duration": "27:57",
+      "views": "143k views",
+      "uploadedRelative": "2 years ago",
+      "category": "newsreel",
+      "dateHint": "11 March 1942",
+      "keywords": [
+        "Eastern Front",
+        "U-Boat"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "vUuoKelrHvU",
+      "url": "https://www.youtube.com/watch?v=vUuoKelrHvU",
+      "title": "Goebbels Sportpalast Speech - 18 February 1943",
+      "duration": "1:49:07",
+      "views": "231k views",
+      "uploadedRelative": "2 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "18 February 1943",
+      "keywords": [
+        "Goebbels"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "E9jSs4JrhMY",
+      "url": "https://www.youtube.com/watch?v=E9jSs4JrhMY",
+      "title": "Goebbels Speech on the Day of the German Railroad Worker - 7 December 1943",
+      "duration": "26:27",
+      "views": "26k views",
+      "uploadedRelative": "2 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "7 December 1943",
+      "keywords": [
+        "Goebbels"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "7vPSO7qYQ0Y",
+      "url": "https://www.youtube.com/watch?v=7vPSO7qYQ0Y",
+      "title": "Hamburg Gauleiter Karl Kaufmann announcement of Hamburg’s surrender - 3 May 1945",
+      "duration": "4:18",
+      "views": "13k views",
+      "uploadedRelative": "2 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "3 May 1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "BtJQNRyoNv8",
+      "url": "https://www.youtube.com/watch?v=BtJQNRyoNv8",
+      "title": "William Joyce Last English-language Broadcast - 30 April 1945",
+      "duration": "10:14",
+      "views": "30k views",
+      "uploadedRelative": "3 years ago",
+      "category": "other",
+      "dateHint": "30 April 1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "hggmwMO4r50",
+      "url": "https://www.youtube.com/watch?v=hggmwMO4r50",
+      "title": "German Radio Broadcast about the Capture of Paris- 14 June 1940",
+      "duration": "2:23",
+      "views": "39k views",
+      "uploadedRelative": "3 years ago",
+      "category": "other",
+      "dateHint": "14 June 1940",
+      "keywords": [
+        "Radio"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "GuyTUEHLhLM",
+      "url": "https://www.youtube.com/watch?v=GuyTUEHLhLM",
+      "title": "Goebbels Last Public Speech - 10 March 1945",
+      "duration": "5:35",
+      "views": "178k views",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "10 March 1945",
+      "keywords": [
+        "Goebbels"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "q0M1Uvh_uvE",
+      "url": "https://www.youtube.com/watch?v=q0M1Uvh_uvE",
+      "title": "German Newsweek No. 719 - 14 June 1944",
+      "duration": "17:04",
+      "views": "54k views",
+      "uploadedRelative": "3 years ago",
+      "category": "newsreel",
+      "dateHint": "14 June 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "IMuwp1_r_QI",
+      "url": "https://www.youtube.com/watch?v=IMuwp1_r_QI",
+      "title": "German Newsweek No. 699 - 26 January 1944",
+      "duration": "21:34",
+      "views": "106k views",
+      "uploadedRelative": "3 years ago",
+      "category": "newsreel",
+      "dateHint": "26 January 1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "m5iF8U8iadg",
+      "url": "https://www.youtube.com/watch?v=m5iF8U8iadg",
+      "title": "Goebbels Campaign Speech- 25 July 1932",
+      "duration": "5:39",
+      "views": "24k views",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "25 July 1932",
+      "keywords": [
+        "Goebbels"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "0-aahiwfYRo",
+      "url": "https://www.youtube.com/watch?v=0-aahiwfYRo",
+      "title": "Goebbels Speech in the Reichstag- 5 February 1931",
+      "duration": "3:38",
+      "views": "46k views",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "5 February 1931",
+      "keywords": [
+        "Goebbels",
+        "Reichstag"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "exZyizB8o2M",
+      "url": "https://www.youtube.com/watch?v=exZyizB8o2M",
+      "title": "Hans Fritzsche Comment about Winston Churchill and the new British Government - 14 May 1940",
+      "duration": "10:18",
+      "views": "10k views",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "14 May 1940",
+      "keywords": [
+        "Fritzsche",
+        "Churchill"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "pqmyOeTyVO0",
+      "url": "https://www.youtube.com/watch?v=pqmyOeTyVO0",
+      "title": "Goebbels Speech about the State of the War- 28 February 1945",
+      "duration": "1:04:25",
+      "views": "367k views",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "28 February 1945",
+      "keywords": [
+        "Goebbels"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "8QWQW5HmVC8",
+      "url": "https://www.youtube.com/watch?v=8QWQW5HmVC8",
+      "title": "Radio Report about Recruitment of Volkssturm in East Prussia - 23 October 1944",
+      "duration": "4:40",
+      "views": "12k views",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "23 October 1944",
+      "keywords": [
+        "Radio"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "X-lAK-A5QNw",
+      "url": "https://www.youtube.com/watch?v=X-lAK-A5QNw",
+      "title": "German Radio Broadcast about Rocket attacks on England- July 1944",
+      "duration": "2:41",
+      "views": "9.5k views",
+      "uploadedRelative": "3 years ago",
+      "category": "other",
+      "dateHint": "1944",
+      "keywords": [
+        "Radio",
+        "Rocket"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "6firgSxMzzg",
+      "url": "https://www.youtube.com/watch?v=6firgSxMzzg",
+      "title": "Karl Frydag Speech about German Airplane Production - 6 October 1943",
+      "duration": "19:01",
+      "views": "9.4k views",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "6 October 1943",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "qCYJQjDYtmU",
+      "url": "https://www.youtube.com/watch?v=qCYJQjDYtmU",
+      "title": "German Radio Broadcast about the Dunkirk Evacuation - 30 May 1940",
+      "duration": "2:38",
+      "views": "14k views",
+      "uploadedRelative": "3 years ago",
+      "category": "other",
+      "dateHint": "30 May 1940",
+      "keywords": [
+        "Radio"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "b8tXt0buPbA",
+      "url": "https://www.youtube.com/watch?v=b8tXt0buPbA",
+      "title": "Karl Dönitz Announcement of German Capitulation- 8 May 1945",
+      "duration": "4:48",
+      "views": "107k views",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "8 May 1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "JYVY6oycQAQ",
+      "url": "https://www.youtube.com/watch?v=JYVY6oycQAQ",
+      "title": "Benito Mussolini Speech about German-Italian Relations- 28 September 1937",
+      "duration": "8:15",
+      "views": "26k views",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "28 September 1937",
+      "keywords": [
+        "Mussolini"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "TlwprUSHRyg",
+      "url": "https://www.youtube.com/watch?v=TlwprUSHRyg",
+      "title": "Radio Broadcast about the Allied Landing in Normandy - 6 June 1944",
+      "duration": "2:30",
+      "views": "25k views",
+      "uploadedRelative": "3 years ago",
+      "category": "other",
+      "dateHint": "6 June 1944",
+      "keywords": [
+        "Normandy",
+        "Radio"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "_jnP51hv7zs",
+      "url": "https://www.youtube.com/watch?v=_jnP51hv7zs",
+      "title": "Albert Speer Speech about German Wartime Economy- 6 October 1943",
+      "duration": "1:06:34",
+      "views": "82k views",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "6 October 1943",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "AdhKTtrCro4",
+      "url": "https://www.youtube.com/watch?v=AdhKTtrCro4",
+      "title": "Radio announcement of the Defeat in Stalingrad - 3 February 1943",
+      "duration": "1:30",
+      "views": "237k views",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "3 February 1943",
+      "keywords": [
+        "Stalingrad",
+        "Radio"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "YSgjQTPCA1I",
+      "url": "https://www.youtube.com/watch?v=YSgjQTPCA1I",
+      "title": "Wilhelm Keitel Comment about the Armistice with France - 21 June 1940",
+      "duration": "2:33",
+      "views": "29k views",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "21 June 1940",
+      "keywords": [
+        "France"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "czS0lNHBcoI",
+      "url": "https://www.youtube.com/watch?v=czS0lNHBcoI",
+      "title": "Interview with Night Fighter Ace Reinhold Knacke - June 1942",
+      "duration": "6:21",
+      "views": "Interview with Night Fighter Ace Reinhold Knacke - June 1942",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "1942",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "aZAXE576EnM",
+      "url": "https://www.youtube.com/watch?v=aZAXE576EnM",
+      "title": "Propaganda Broadcast from Upper Silesia - January/March 1945",
+      "duration": "2:20",
+      "views": "24k views",
+      "uploadedRelative": "3 years ago",
+      "category": "other",
+      "dateHint": "1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "x3b8RIWftSo",
+      "url": "https://www.youtube.com/watch?v=x3b8RIWftSo",
+      "title": "Hans Fritzsche Comment about German Air Raid on the Shetland Islands - 14 November 1939",
+      "duration": "3:16",
+      "views": "10k views",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "14 November 1939",
+      "keywords": [
+        "Fritzsche",
+        "Air Raid"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "62scd-sIPFc",
+      "url": "https://www.youtube.com/watch?v=62scd-sIPFc",
+      "title": "German Report about Urban Fighting in Stalingrad - October 1942",
+      "duration": "3:17",
+      "views": "21k views",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "1942",
+      "keywords": [
+        "Stalingrad"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "MAxrdMByA5g",
+      "url": "https://www.youtube.com/watch?v=MAxrdMByA5g",
+      "title": "Radio Broadcast about German Air Raids on Moscow - July 1941",
+      "duration": "4:47",
+      "views": "23k views",
+      "uploadedRelative": "3 years ago",
+      "category": "other",
+      "dateHint": "1941",
+      "keywords": [
+        "Moscow",
+        "Radio"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "JPwFKT47Nw8",
+      "url": "https://www.youtube.com/watch?v=JPwFKT47Nw8",
+      "title": "Interview with Hans-Ulrich Rudel - March 1945",
+      "duration": "1:56",
+      "views": "Interview with Hans-Ulrich Rudel - March 1945",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "fQe2wWSnrCo",
+      "url": "https://www.youtube.com/watch?v=fQe2wWSnrCo",
+      "title": "Goebbels Last Speech - 21 April 1945",
+      "duration": "2:57",
+      "views": "2.3m views",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "21 April 1945",
+      "keywords": [
+        "Goebbels"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "XBLinomKUBs",
+      "url": "https://www.youtube.com/watch?v=XBLinomKUBs",
+      "title": "Funeral Eulogy for Erwin Rommel - 18 October 1944",
+      "duration": "2:07",
+      "views": "46k views",
+      "uploadedRelative": "3 years ago",
+      "category": "other",
+      "dateHint": "18 October 1944",
+      "keywords": [
+        "Rommel"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "Ba50W47L_1w",
+      "url": "https://www.youtube.com/watch?v=Ba50W47L_1w",
+      "title": "Hans Fritzsche Radio Broadcast from Berlin - 28 April 1945",
+      "duration": "3:35",
+      "views": "106k views",
+      "uploadedRelative": "3 years ago",
+      "category": "other",
+      "dateHint": "28 April 1945",
+      "keywords": [
+        "Fritzsche",
+        "Berlin",
+        "Radio"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "P7U4n02S3Xc",
+      "url": "https://www.youtube.com/watch?v=P7U4n02S3Xc",
+      "title": "Werner Naumann Speech at Party Congress - 23 March 1945",
+      "duration": "7:33",
+      "views": "72k views",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "23 March 1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "NyOQHgZ8QvM",
+      "url": "https://www.youtube.com/watch?v=NyOQHgZ8QvM",
+      "title": "German Propaganda Report from Danzig - 15 March 1945",
+      "duration": "1:59",
+      "views": "41k views",
+      "uploadedRelative": "3 years ago",
+      "category": "other",
+      "dateHint": "15 March 1945",
+      "keywords": [
+        "Danzig"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "vOvqkC24mkA",
+      "url": "https://www.youtube.com/watch?v=vOvqkC24mkA",
+      "title": "Karl Dönitz Speech to the German People - 1 May 1945",
+      "duration": "4:23",
+      "views": "565k views",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "1 May 1945",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "UxfsZ99bWPY",
+      "url": "https://www.youtube.com/watch?v=UxfsZ99bWPY",
+      "title": "Radio Werwolf - German Propaganda Broadcast - 4 April 1945",
+      "duration": "3:02",
+      "views": "69k views",
+      "uploadedRelative": "3 years ago",
+      "category": "other",
+      "dateHint": "4 April 1945",
+      "keywords": [
+        "Radio"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "2kS4PZlF_BM",
+      "url": "https://www.youtube.com/watch?v=2kS4PZlF_BM",
+      "title": "Last Wehrmacht Report - 9 May 1945",
+      "duration": "3:03",
+      "views": "398k views",
+      "uploadedRelative": "3 years ago",
+      "category": "other",
+      "dateHint": "9 May 1945",
+      "keywords": [
+        "Wehrmacht"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "RhjTJrjDMZY",
+      "url": "https://www.youtube.com/watch?v=RhjTJrjDMZY",
+      "title": "Interview with Michael Wittmann - June 1944",
+      "duration": "6:21",
+      "views": "Interview with Michael Wittmann - June 1944",
+      "uploadedRelative": "3 years ago",
+      "category": "speech-or-interview",
+      "dateHint": "1944",
+      "keywords": [],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    },
+    {
+      "videoId": "zZrGBTOhPIs",
+      "url": "https://www.youtube.com/watch?v=zZrGBTOhPIs",
+      "title": "General Jodl about the Military Situation - 24 February 1944",
+      "duration": "10:08",
+      "views": "150k views",
+      "uploadedRelative": "3 years ago",
+      "category": "other",
+      "dateHint": "24 February 1944",
+      "keywords": [
+        "Jodl"
+      ],
+      "description": null,
+      "transcriptExcerpt": null,
+      "notes": null
+    }
+  ]
+}

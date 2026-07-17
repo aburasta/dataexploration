@@ -1,0 +1,8 @@
+{
+  "title": "placeholder — no active episode",
+  "slug": "placeholder",
+  "mediaDir": "placeholder",
+  "scenes": [
+    { "n": 1, "type": "outro", "durationSec": 5.0, "transition": "cut" }
+  ]
+}
