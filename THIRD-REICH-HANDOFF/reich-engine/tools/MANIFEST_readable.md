@@ -1,0 +1,79 @@
+# Legal Coup — Media Sourcing Manifest
+
+**64 beats sourced** (50 images, 14 video clips) · **5 pending**  
+Files live on the git branch at `reich-engine/public/media/special-legal-coup-1919-1933/`. All sources public-domain / CC. Review a beat by opening its `page` link.
+
+## Video clips (motion)
+| Beat | File | Source | Clip | What it shows |
+|---|---|---|---|---|
+| 18 | 18.mp4 | TheNazisStrike | 104s+6s | aerial Nuremberg rally columns — packed beer-hall rallies / propaganda wing |
+| 50 | 50.mp4 | TheNazisStrike | 180s+6s | vast flag-filled crowd — party districts / shadow state |
+| 51 | 51.mp4 | TheNazisStrike | 244s+6s | officials at desk with documents — parallel party bureaucracy |
+| 52 | 52.mp4 | TheNazisStrike | 808s+6s | women marching in formation — women's league / youth wings |
+| 53 | 53.mp4 | TheNazisStrike | 712s+6s | soldiers marching in column — the S.A. under Roehm |
+| 55 | 55.mp4 | TheNazisStrike | 680s+5s | Himmler in SS uniform (captioned) — Himmler handed the SS, 1929 |
+| 70 | 70.mp4 | TheNazisStrike | 648s+5s | industrial forge interior — 1929 crash / industry collapse |
+| 76 | 76.mp4 | TheNazisStrike | 751s+5s | aircraft on field — chartered aircraft / private armies funded |
+| 82 | 82.mp4 | TheNazisStrike | 1077s+6s | Hitler speaking forcefully in open car — courting the generals |
+| 87 | 87.mp4 | TheNazisStrike | 172s+6s | rally grandstand with swastika banners — Harzburg mass demonstration |
+| 95 | 95.mp4 | TheNazisStrike | 975s+7s | Hitler motorcade through crowd — national campaign tour |
+| 132 | 132.mp4 | TheNazisStrike | 736s+5s | assembled uniformed ranks, faces up — Berlin S.A. mobilized |
+| 146 | 146.mp4 | TheNazisStrike | 188s+6s | Hitler with officers at ceremony — Day of Potsdam |
+| 149 | 149.mp4 | TheNazisStrike | 427s+5s | uniformed ranks saluting — storm troopers lining the aisles |
+
+## Images (stills)
+| Beat | File | License | Source page | File title |
+|---|---|---|---|---|
+| 1 | 1.jpg | Public domain | https://commons.wikimedia.org/wiki/File:3_1_0_17_11968_12_1_32811_Potsdam_Day_1933-03-21_Ceremonial_opening_New_Reichstag_Nazi_propaganda_Prussian_militarism_Garnisonkirche_Chancellor_of_the_Reich_Adolf_Hitler_shaking_hands_with_President_Paul_von_Hindenburg._retouched_NAC.jpg | File:3 1 0 17 11968 12 1 32811 Potsdam Day 1933-03-21 Ceremo |
+| 2 | 2.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Wir_w%C3%A4hlen_Hindenburg!_Hitler!_NSDAP_Wahlplakat_Reichspr%C3%A4sidentenwahl_1932_Pseudo-Hebraic_Fraktur_lette.jpg | File:Wir wählen Hindenburg! Hitler! NSDAP Wahlplakat Reichsp |
+| 3 | 3.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Hitler%27s_officers.jpg | File:Hitler's officers.jpg |
+| 4 | 4.jpeg | Public domain | https://commons.wikimedia.org/wiki/File:Adolf_Hitler_1933_Portrait_(3x4_cropped).jpeg | File:Adolf Hitler 1933 Portrait (3x4 cropped).jpeg |
+| 5 | 5.jpg | CC0 | https://commons.wikimedia.org/wiki/File:Plaque_remembering_Police_victims_Hitlers_1923_putsch_Feldherrnhalle_Munich.jpg | File:Plaque remembering Police victims Hitlers 1923 putsch F |
+| 6 | 6.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:JVA_Landsberg_Lech_-_Eingangsgeb%C3%A4ude.JPG | File:JVA Landsberg Lech - Eingangsgebäude.JPG |
+| 7 | 7.jpg | Public domain | https://commons.wikimedia.org/wiki/File:SA-Sturme_group_portrait_Schellingstrasse_50_Munich_Germany_c_1923_Nazi_Party_NSDAP_Sturmabteilung_Bund_Oberland_paramilitary_uniforms_Edelweiss_Ski_caps_Early_swastika_flag_Propaganda_US_National_Archives_NARA_Unrestricted_use_242-HF.jpg | File:SA-Sturme group portrait Schellingstrasse 50 Munich Ger |
+| 8 | 8.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Hermann_Ei%C3%9Ffeldt_-_Portrait_Erich_Ludendorff,_sitzend.JPG | File:Hermann Eißfeldt - Portrait Erich Ludendorff, sitzend.J |
+| 9 | 9.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Hindenburg_and_Ludendorff.jpg | File:Hindenburg and Ludendorff.jpg |
+| 10 | 10.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Ernst_R%C3%B6hm_(1887-1934)_M%C3%BCnchen,_Germany_(Weimar_Republic)_1924_Hauptmann_Bund_Freikorps_Epp_uniform_Iron_cross_etc_242-HF-0377_001_Unrestricted_No_known_copyright_(cropped).jpg | File:Ernst Röhm (1887-1934) München, Germany (Weimar Republi |
+| 11 | 11.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Waffenstillstand_gr.jpg | File:Waffenstillstand gr.jpg |
+| 12 | 12.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Drills_-_Engineer_Corps_-_Pioneer_Work_-_Soldiers_lay_track._British_soldiers_hurriedly_building_railways_in_order_that_the_Allied_Army_can_keep_up_with_the_German_retreat_-_NARA_-_31477364.jpg | File:Drills - Engineer Corps - Pioneer Work - Soldiers lay t |
+| 13 | 13.jpeg | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Soldaten_in_einer_mobilen_Lazarett-Baracke_-_LABW_-_Staatsarchiv_Sigmaringen_N_1-68_Nr._1699.jpeg | File:Soldaten in einer mobilen Lazarett-Baracke - LABW - Sta |
+| 14 | 14.jpg | Public domain | https://commons.wikimedia.org/wiki/File:AK_-_M%C3%BCnchen_-_Stiglmaierplatz_-_1919.jpg | File:AK - München - Stiglmaierplatz - 1919.jpg |
+| 16 | 16.jpg | CC0 | https://commons.wikimedia.org/wiki/File:242-HF-0767_001_Totenfeier_1923-11-04_Anfange_d_Bewegung_M%C3%BCnchener_Trauertag_Parade_v%C3%B6lkischen_Kampfverb%C3%A4nde_Kronprinz_Rupprecht_Prinz_Leopold_v_Bayern_NSDAP_SA_Nationalist_Mourning_Day_Armeemuseum_Denkmal_NARA.jpg | File:242-HF-0767 001 Totenfeier 1923-11-04 Anfange d Bewegun |
+| 17 | 17.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Anton_Drexler_at_desk.jpg | File:Anton Drexler at desk.jpg |
+| 19 | 19.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Berlin_-_Unter_Den_Linden,_Bibliotek._v%C2%BA-r%C2%BA.jpg | File:Berlin - Unter Den Linden, Bibliotek. vº-rº.jpg |
+| 20 | 20.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Organisationsbuc00nati_orig_0094_ORGANISATIONSBUCH_DER_NSDAP_1936_Parteigenosse_Politische_Leiter_Symbole_Uniformen_Tafel_16_Ehrenzeichen_der_NSDAP_Ehrenz._am_Band_vom_9._November_1923_Blutorden_No_known_copyright_restrictions.jpg | File:Organisationsbuc00nati orig 0094 ORGANISATIONSBUCH DER  |
+| 21 | 21.jpg | Public domain | https://commons.wikimedia.org/wiki/File:SA-Sturme_group_portrait_Schellingstrasse_50_Munich_Germany_c_1923_Nazi_Party_NSDAP_Sturmabteilung_Bund_Oberland_paramilitary_uniforms_Edelweiss_Ski_caps_Early_swastika_flag_Propaganda_Studio_National_Archives_NARA_Unrestricted_use_242.jpg | File:SA-Sturme group portrait Schellingstrasse 50 Munich Ger |
+| 23 | 23.jpg | Public domain | https://commons.wikimedia.org/wiki/File:3_2_0_-_14882_186256_NSDAP-Parteitag_Nurnberg_Nazi_Rally_1933-09-02_Opening_Ceremony_Luitpoldhalle_Roehm_SA_speaks_Axmann_Frank_Schirach_Fiehler_Darre_Goebbels_Ley_Buch_Schwartz_Hitler_Hess_Epp_Heines_Leaders_stand_SS_guards_Blutfahne.jpg | File:3 2 0 - 14882 186256 NSDAP-Parteitag Nurnberg Nazi Rall |
+| 24 | 24.jpg | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Justizpalast_at_dusk_2.JPG | File:Justizpalast at dusk 2.JPG |
+| 25 | 25.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Organisationsbuc00nati_0_orig_0119_ORGANISATIONSBUCH_DER_NSDAP_1943_Tafel_17_Deutsche_Arbeitsfront_DAF_Uniform_Werkscharf%C3%BChrer_als_politischer_Leiter_DAF.-Festanzug._No_known_copyright_Cropped.jpg | File:Organisationsbuc00nati 0 orig 0119 ORGANISATIONSBUCH DE |
+| 27 | 27.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Walther_Rathenau.jpg | File:Walther Rathenau.jpg |
+| 28 | 28.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Soldiers_the_Brandenburger_Tor_during_the_Spartacist_uprising_Jan_7_1919.jpg | File:Soldiers the Brandenburger Tor during the Spartacist up |
+| 29 | 29.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Strassenk%C3%A4mpfe_in_Berlin_Sturmtrupp_Fotopostkarte_1919_Freikorps_soldiers_during_German_November_Revolution_1919_Ehrhardt_EV4_armored_truck_Totenkopf_emblem_Flame_thrower_Uncredited_photo_postcard_PD-old_H22785-L376967726_original.jpg | File:Strassenkämpfe in Berlin Sturmtrupp Fotopostkarte 1919  |
+| 30 | 30.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Munich,_f%C3%AAte_de_tir_de_la_garde_(civique,_K%C3%B6nigsplatz,_26-9-20,_dans_la_tribune,_le_pr%C3%A9sident_du_conseil_bavarois_von_Kahr,_devant_Georg_Escherich_et_le_colonel_von_Epp)_-_btv1b53052222x.jpg | File:Munich, fête de tir de la garde (civique, Königsplatz,  |
+| 31 | 31.jpg | Public domain | https://commons.wikimedia.org/wiki/File:242-HF-0134_001._Adolf_Hitler_Nazi_leader_studio_portrait_photograph_street_clothing_coat_hat_in_hand_1920s_DPLA_National_Archives_NARA_Unrestricted_No_known_copyright.jpg | File:242-HF-0134 001. Adolf Hitler Nazi leader studio portra |
+| 32 | 32.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Buergerbraeukeller.jpg | File:Buergerbraeukeller.jpg |
+| 34 | 34.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:242-HF-0804_001_Beginnings_of_the_Nazi_Movement_Deutscher_Tag_Coburg_14-15_Oct_1922_NSDAP_Hitlerbewegung_SA_Sturmabteilung_Graf_Alfarth_Rosenberg_Schaub_Esser_Feder_Dietrich_Weber_Alpers_etc_Swastikas_Deutschv%C3%B6lkisch_NARA_Cropped.jpg | File:242-HF-0804 001 Beginnings of the Nazi Movement Deutsch |
+| 35 | 35.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Hermann_G%C3%B6ring_as_leader_of_the_SA_in_1923.jpg | File:Hermann Göring as leader of the SA in 1923.jpg |
+| 36 | 36.jpg | CC BY-SA 3.0 de | https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_119-1486,_Hitler-Putsch,_M%C3%BCnchen,_Marienplatz.jpg | File:Bundesarchiv Bild 119-1486, Hitler-Putsch, München, Mar |
+| 37 | 37.jpg | CC BY-SA 3.0 de | https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-00327A,_Berlin,_Verkehrsposten_der_Schutzpolizei_(cropped).jpg | File:Bundesarchiv Bild 102-00327A, Berlin, Verkehrsposten de |
+| 38 | 38.jpg | Public domain | https://commons.wikimedia.org/wiki/File:3_1_0_17_12306_2_1_34215_Commemoration_15th_Anniversary_Munich_Putsch_1923_1938-11-09_NSDAP_Nazi_propaganda_event_Muenchen_B%C3%BCrgerbr%C3%A4ukeller_Beer_Hall_Lammers_Lutze_Goebbels_Br%C3%BCckner_Graf_Hitler_Hess_brownshirts._Narodowe_Archiwum.jpg | File:3 1 0 17 12306 2 1 34215 Commemoration 15th Anniversary |
+| 39 | 39.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:242-HF-0204_001_Braunes_Haus_Muenchen_Fahnenhalle_Empfangsraum_mit_Fahnen_SA_battalion_flags_standards_swastikas_ca_1931-34_NSDAP_Nazi_party_HQ_lobby_propaganda_NARA_id_162121603_Unrestricted_No_known_copyright.jpg | File:242-HF-0204 001 Braunes Haus Muenchen Fahnenhalle Empfa |
+| 40 | 40.jpg | CC0 | https://commons.wikimedia.org/wiki/File:Tilly_Feldherrnhalle_Munich.jpg | File:Tilly Feldherrnhalle Munich.jpg |
+| 41 | 41.jpg | Public domain | https://commons.wikimedia.org/wiki/File:L%C3%B6wenstamm_Emma_-_Adolf_Hitler_hraje_%C5%A1achy_s_Leninem_(1909).jpg | File:Löwenstamm Emma - Adolf Hitler hraje šachy s Leninem (1 |
+| 42 | 42.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:242-HF-0374_001_Erich_Ludendorff_(1876-1941)_Hitler-Ludendorff_Prozess_Munich,_Weimar_Republic_1924._Uniform_Pickelhaube._US_National_Archives_NARA_(US_seized_WW2_enemy_property)_Unrestricted_No_known_copyright.jpg | File:242-HF-0374 001 Erich Ludendorff (1876-1941) Hitler-Lud |
+| 43 | 43.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Defendents_in_Hitler_Trail_-_DPLA_-_69c5d0875c39789ae053448bd1568848_(page_1).jpg | File:Defendents in Hitler Trail - DPLA - 69c5d0875c39789ae05 |
+| 44 | 44.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Das_Hakenkreuz_(Zeitung)._Erste_Ausgabe_vom_April_1924.jpg | File:Das Hakenkreuz (Zeitung). Erste Ausgabe vom April 1924. |
+| 45 | 45.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Hitler,_Maurice,_Kriebel,_Hess,_Weber,_prison_de_Landsberg_en_1924.jpg | File:Hitler, Maurice, Kriebel, Hess, Weber, prison de Landsb |
+| 46 | 46.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Rudolf_Hess_in_Landsberg_Prison.jpg | File:Rudolf Hess in Landsberg Prison.jpg |
+| 47 | 47.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Portrait_of_Adolf_Hitler_-_DPLA_-_37c5c313704caf620480b141bdf9915b_(page_1).jpg | File:Portrait of Adolf Hitler - DPLA - 37c5c313704caf620480b |
+| 48 | 48.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Bernard_Person_Reichstag.jpg | File:Bernard Person Reichstag.jpg |
+| 54 | 54.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Ideen_zur_SS_Uniformierung_Nazi_Party_Schutzstaffel_paramilitary_test_uniform_1925%3F_Kratzschen_visorless_cap_eagle-and-swastika_Lederhosen_Deutschland_Erwache_standard_etc_National_Archives_NARA_Unrestricted_No_copyright_242-HF-0825_001.jpg | File:Ideen zur SS Uniformierung Nazi Party Schutzstaffel par |
+| Q1 | Q1.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Erich_Ludendorff_Hugo_Vogel.jpg | File:Erich Ludendorff Hugo Vogel.jpg |
+| Q2 | Q2.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Adolf_Hitler_in_World_War_I_Bavarian_Army_Hitler_(later_Nazi_dictator,_second_from_right_top_row)_and_his_wounded_soldier_comrades_in_Beelitz_Lazareth_military_hospital_near_Berlin_1916-10-26_Unknown_photographer_No_known_copyright.jpg | File:Adolf Hitler in World War I Bavarian Army Hitler (later |
+| Q3 | Q3.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Anton_Drexler_1901.jpg | File:Anton Drexler 1901.jpg |
+| Q4 | Q4.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Ernst_R%C3%B6h_Portrait_(3x4_cropped).jpg | File:Ernst Röh Portrait (3x4 cropped).jpg |
+| Q5 | Q5.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Danzigers_cheer_for_Adolf_Hitler_2.jpg | File:Danzigers cheer for Adolf Hitler 2.jpg |
+| Q6 | Q6.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Primeira_Mat%C3%A9ria_sobre_Adolf_Hitler_na_Imprensa_Brasileira.jpg | File:Primeira Matéria sobre Adolf Hitler na Imprensa Brasile |
+
+## Pending (to cover with video substitutes)
+15, 22, 26, 33, 49
