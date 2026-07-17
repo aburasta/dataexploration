@@ -142,7 +142,7 @@
 | 102 | 102.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Von_Papen_Wahlkampf_1933.jpg | File:Von Papen Wahlkampf 1933.jpg |
 | 106 | 106.jpg | CC BY-SA 3.0 de | https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-10168,_Koblenz,_Hindenburg_am_Deutschen_Eck.jpg | File:Bundesarchiv Bild 102-10168, Koblenz, Hindenburg a |
 | 109 | 109.jpg | CC BY-SA 3.0 de | https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-13774,_Adolf_Hitler.jpg | File:Bundesarchiv Bild 102-13774, Adolf Hitler.jpg |
-| 111 | 111.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Joseph_Goebbels_Rede_im_Berliner_Sportpalast_1943.ogg | File:Joseph Goebbels Rede im Berliner Sportpalast 1943. |
+| 111 | 111.jpg | Public domain | https://commons.wikimedia.org/wiki/File:3_1_0_17_12005_1_1_32828_Presidential_Election_Germany_Reichspr%C3%A4sidentenwahl_1932-04-10_Hitler_Nazi_rally_Lustgarten_next_to_Berliner_Palace_1932-04-04_v_Helldorf_Goebbels_Br%C3%BCckner_NSDAP_Deutschland_erwache_banners_NAC,_Poland_PD.jpg | File:3 1 0 17 12005 1 1 32828 Presidential Election Ger |
 | 113 | 113.jpg | Public domain | https://commons.wikimedia.org/wiki/File:G%C3%A9n%C3%A9ral_Von_Schleicher_quittant_le_Reichstag_apr%C3%A8s_la_dissolution_-_btv1b9036039v.jpg | File:Général Von Schleicher quittant le Reichstag après |
 | 114 | 114.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Gregor_Strasser_by_Emil_Stumpp,_1932.jpg | File:Gregor Strasser by Emil Stumpp, 1932.jpg |
 | 115 | 115.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Berlin_Hotel_Kaiserhof_Empfangssalon_(BerlLeben_1904-03).jpg | File:Berlin Hotel Kaiserhof Empfangssalon (BerlLeben 19 |

@@ -1,0 +1,174 @@
+LEGAL COUP (1919-1933) - COMPLETE MEDIA SOURCING MANIFEST
+ALL 163 beats sourced: 99 images + 64 video clips. Zero gaps.
+(7 hemicycle graphics H1-H7 computed in-engine - no media needed.)
+Files: reich-engine/public/media/special-legal-coup-1919-1933/  (<tag>.jpg / <tag>.mp4)
+All public-domain / CC. Full source URLs: tools/MANIFEST_readable.md on the branch.
+
+VIDEO SOURCES (all PD): TheNazisStrike x37, PreludeToWar x6, GermanNewsreel1933 x15, HitleritesParade1933 x6
+
+VIDEO CLIPS (64)
+    15  [TheNazisStrike  ] SUBSTITUTE: gathered men — the German Workers' Party beer-hall mee
+    18  [TheNazisStrike  ] aerial Nuremberg rally columns — packed beer-hall rallies / propag
+    33  [TheNazisStrike  ] SUBSTITUTE: packed rally hall — the trap set at the Buergerbraeuke
+    50  [TheNazisStrike  ] vast flag-filled crowd — party districts / shadow state
+    51  [TheNazisStrike  ] officials at desk with documents — parallel party bureaucracy
+    52  [TheNazisStrike  ] women marching in formation — women's league / youth wings
+    53  [TheNazisStrike  ] soldiers marching in column — the S.A. under Roehm
+    55  [TheNazisStrike  ] Himmler in SS uniform (captioned) — Himmler handed the SS, 1929
+    56  [TheNazisStrike  ] massed party formation — the fight inside the party
+    59  [TheNazisStrike  ] officials at a desk — Hanover conference
+    61  [TheNazisStrike  ] party HQ interior with standards — Bamberg conference
+    62  [TheNazisStrike  ] figures at a rostrum — Strasser/Goebbels steamrolled
+    64  [TheNazisStrike  ] street scene — consoling Strasser at the station
+    65  [TheNazisStrike  ] Hitler addressing followers — turning Goebbels
+    66  [TheNazisStrike  ] young SA men in profile — devotion to the Fuehrer
+    68  [TheNazisStrike  ] crowd with raised arms — the 1928 ballot box
+    70  [TheNazisStrike  ] industrial forge interior — 1929 crash / industry collapse
+    71  [PreludeToWar    ] German inflation banknotes — mass desperation after the crash
+    72  [PreludeToWar    ] inflation banknote — courting the men with money
+    76  [TheNazisStrike  ] aircraft on field — chartered aircraft / private armies funded
+    79  [GermanNewsreel19] Kroll Opera assembly hall, deputies seated — Reichstag voting
+    80  [GermanNewsreel19] Berlin government buildings — Reichstag dissolved
+    81  [TheNazisStrike  ] officers with flags — the army officer corps reacts
+    82  [TheNazisStrike  ] Hitler speaking forcefully in open car — courting the generals
+    85  [PreludeToWar    ] officers marching — money flowing to the army
+    86  [GermanNewsreel19] massed flags/standards — the conservative 'National Opposition'
+    87  [TheNazisStrike  ] rally grandstand with swastika banners — Harzburg mass demonstrati
+    88  [TheNazisStrike  ] Hitler with officers, turning away — leaving early, contemptuous
+    90  [TheNazisStrike  ] crowd surging in the street — Harzburg Front collapses into infigh
+    91  [TheNazisStrike  ] lone figure saluting — Hitler emerges the winner
+    95  [TheNazisStrike  ] Hitler motorcade through crowd — national campaign tour
+    96  [GermanNewsreel19] crowd with banners — a decisive rejection at the polls
+    98  [HitleritesParade] SA columns marching at the Brandenburg Gate — brownshirts outnumbe
+   103  [HitleritesParade] SA street column in the rain — the S.A. ban lifted
+   104  [TheNazisStrike  ] crowd surging in the street — political killings spike
+   105  [GermanNewsreel19] aerial view of Berlin — Prussia deposed by decree
+   107  [TheNazisStrike  ] cavalry riding — no organized force left to defend democracy
+   112  [PreludeToWar    ] massed party standards — the movement despite losses
+   120  [TheNazisStrike  ] ranks on the move — seizing the party machinery / loyalty oath
+   123  [TheNazisStrike  ] SUBSTITUTE: officials conferring — Papen reaches out to Schroeder
+   124  [TheNazisStrike  ] standard bearer — the Papen-Hitler pact
+   127  [TheNazisStrike  ] figures conferring at a rostrum — Hitler's private hour with Oskar
+   129  [GermanNewsreel19] landscape/estate — the quiet estate bribe
+   130  [PreludeToWar    ] cavalry/mounted troops — Schleicher's bid for emergency powers
+   131  [GermanNewsreel19] government building — Schleicher resigns
+   132  [TheNazisStrike  ] assembled uniformed ranks, faces up — Berlin S.A. mobilized
+   133  [TheNazisStrike  ] officials gathered — the morning cabinet forms at Papen's house
+   135  [GermanNewsreel19] Hindenburg at podium addressing crowd — Hindenburg's speech, cabin
+   136  [GermanNewsreel19] Hitler at podium — Hitler as Chancellor
+   137  [GermanNewsreel19] Reichstag fire wreckage/rubble — the Reichstag building caught fir
+   138  [GermanNewsreel19] Nazi minister (Goebbels) at podium shouting — Goering on the Commu
+   139  [GermanNewsreel19] burned Reichstag interior debris — evidence of Nazi planning
+   141  [HitleritesParade] aerial view of SA march through Brandenburg Gate — mass roundup of
+   143  [GermanNewsreel19] vast crowd in the Lustgarten Berlin — March 5 election under state
+   145  [GermanNewsreel19] cheering crowd with flags — majority still said no
+   146  [TheNazisStrike  ] Hitler with officers at ceremony — Day of Potsdam
+   147  [GermanNewsreel19] assembly hall under swastika banners — the Enabling Act
+   148  [TheNazisStrike  ] seated deputies/crowd — Communist deputies barred, SDs arrested
+   149  [TheNazisStrike  ] uniformed ranks saluting — storm troopers lining the aisles
+   151  [HitleritesParade] storm troopers saluting at reviewing stand — storm troopers seize 
+   152  [HitleritesParade] SA columns at the Brandenburg Gate — states' governments erased
+   153  [PreludeToWar    ] massed crowd — trade unions seized
+   154  [HitleritesParade] SA street column — every other party banned
+   156  [TheNazisStrike  ] vast flag-filled crowd — closing montage
+
+IMAGES (99)  beat | license | title
+     1  Public domain  File:3 1 0 17 11968 12 1 32811 Potsdam Day 1933-03-21 Ceremo
+     2  Public domain  File:Wir wählen Hindenburg! Hitler! NSDAP Wahlplakat Reichsp
+     3  Public domain  File:Hitler's officers.jpg
+     4  Public domain  File:Adolf Hitler 1933 Portrait (3x4 cropped).jpeg
+     5  CC0            File:Plaque remembering Police victims Hitlers 1923 putsch F
+     6  CC BY-SA 4.0   File:JVA Landsberg Lech - Eingangsgebäude.JPG
+     7  Public domain  File:SA-Sturme group portrait Schellingstrasse 50 Munich Ger
+     8  Public domain  File:Hermann Eißfeldt - Portrait Erich Ludendorff, sitzend.J
+     9  Public domain  File:Hindenburg and Ludendorff.jpg
+    10  Public domain  File:Ernst Röhm (1887-1934) München, Germany (Weimar Republi
+    11  Public domain  File:Waffenstillstand gr.jpg
+    12  Public domain  File:Drills - Engineer Corps - Pioneer Work - Soldiers lay t
+    13  CC BY 4.0      File:Soldaten in einer mobilen Lazarett-Baracke - LABW - Sta
+    14  Public domain  File:AK - München - Stiglmaierplatz - 1919.jpg
+    16  CC0            File:242-HF-0767 001 Totenfeier 1923-11-04 Anfange d Bewegun
+    17  Public domain  File:Anton Drexler at desk.jpg
+    19  Public domain  File:Berlin - Unter Den Linden, Bibliotek. vº-rº.jpg
+    20  Public domain  File:Organisationsbuc00nati orig 0094 ORGANISATIONSBUCH DER 
+    21  Public domain  File:SA-Sturme group portrait Schellingstrasse 50 Munich Ger
+    22  Public domain  File:Völkischer Beobachter - ausgabe vom 25. Dezember 1920.j
+    23  Public domain  File:3 2 0 - 14882 186256 NSDAP-Parteitag Nurnberg Nazi Rall
+    24  CC BY-SA 3.0   File:Justizpalast at dusk 2.JPG
+    25  Public domain  File:Organisationsbuc00nati 0 orig 0119 ORGANISATIONSBUCH DE
+    26  Public domain  File:Leipzig Reichsgericht Grundriss.jpg
+    27  Public domain  File:Walther Rathenau.jpg
+    28  Public domain  File:Soldiers the Brandenburger Tor during the Spartacist up
+    29  Public domain  File:Strassenkämpfe in Berlin Sturmtrupp Fotopostkarte 1919 
+    30  Public domain  File:Munich, fête de tir de la garde (civique, Königsplatz, 
+    31  Public domain  File:242-HF-0134 001. Adolf Hitler Nazi leader studio portra
+    32  Public domain  File:Buergerbraeukeller.jpg
+    34  CC BY-SA 4.0   File:242-HF-0804 001 Beginnings of the Nazi Movement Deutsch
+    35  Public domain  File:Hermann Göring as leader of the SA in 1923.jpg
+    36  CC BY-SA 3.0 d File:Bundesarchiv Bild 119-1486, Hitler-Putsch, München, Mar
+    37  CC BY-SA 3.0 d File:Bundesarchiv Bild 102-00327A, Berlin, Verkehrsposten de
+    38  Public domain  File:3 1 0 17 12306 2 1 34215 Commemoration 15th Anniversary
+    39  CC BY-SA 4.0   File:242-HF-0204 001 Braunes Haus Muenchen Fahnenhalle Empfa
+    40  CC0            File:Tilly Feldherrnhalle Munich.jpg
+    41  Public domain  File:Löwenstamm Emma - Adolf Hitler hraje šachy s Leninem (1
+    42  CC BY-SA 4.0   File:242-HF-0374 001 Erich Ludendorff (1876-1941) Hitler-Lud
+    43  Public domain  File:Defendents in Hitler Trail - DPLA - 69c5d0875c39789ae05
+    44  Public domain  File:Das Hakenkreuz (Zeitung). Erste Ausgabe vom April 1924.
+    45  Public domain  File:Hitler, Maurice, Kriebel, Hess, Weber, prison de Landsb
+    46  Public domain  File:Rudolf Hess in Landsberg Prison.jpg
+    47  Public domain  File:Portrait of Adolf Hitler - DPLA - 37c5c313704caf620480b
+    48  Public domain  File:Bernard Person Reichstag.jpg
+    49  CC BY-SA 4.0   File:Präsidium, Regierungsbank, Bundesratsbank.jpg
+    54  Public domain  File:Ideen zur SS Uniformierung Nazi Party Schutzstaffel par
+    57  Public domain  File:Portrait de Gregor Strasser - btv1b9051011s.jpg
+    58  Public domain  File:Joseph Goebbels and Kintomo Mushanokōji.jpg
+    60  Public domain  File:Tag von Potsdam, Rede Hitler in Garnisonkirche - LoC 3c
+    63  CC0            File:Goebbels Diary Excerpt November 2, 1943.png
+    67  Public domain  File:3 1 0 17 12005 2 1 32829 Presidential Election Germany 
+    69  Public domain  File:Reichsführerschule der NSDAP Geschäftsstelle Schellings
+    73  Public domain  File:Fritz Thyssen LCCN2014715645.jpg
+    74  Public domain  File:Porträt Emil Kirdorf.jpg
+    75  Public domain  File:Hjalmar Schacht with Sumitro Djojohadikusumo and Jusuf 
+    77  Public domain  File:Weimarer Verfassung.JPG
+    78  Public domain  File:Erich Salomon Heinrich Brüning Reichstag 1930.jpg
+    83  Public domain  File:The staff of the German Southern Army in the Carpathian
+    84  Public domain  File:Df ktgmf 0002504 Karl Theodor Gremmler (1909-1941) Ein 
+    89  Public domain  File:Bundesarchiv Bild 183-1989-0322-506, Adolf Hitler, Kind
+    92  Public domain  File:Adolf Hitler - Portrait - Close Up - DPLA - (3x4 croppe
+    93  Public domain  File:Norddeutsche Backsteingotik 1919 (150234736).jpg
+    97  Public domain  File:Gross-kerder 1935 10 0322 Der Große Herder Nachschlagew
+    99  Public domain  File:Von Schleicher, général allemand - btv1b9045893c.jpg
+   100  Public domain  File:Groener, Reichswehroffiziere.jpg
+   102  Public domain  File:Von Papen Wahlkampf 1933.jpg
+   106  CC BY-SA 3.0 d File:Bundesarchiv Bild 102-10168, Koblenz, Hindenburg am Deu
+   109  CC BY-SA 3.0 d File:Bundesarchiv Bild 102-13774, Adolf Hitler.jpg
+   111  Public domain  File:3 1 0 17 12005 1 1 32828 Presidential Election Germany 
+   113  Public domain  File:Général Von Schleicher quittant le Reichstag après la d
+   114  Public domain  File:Gregor Strasser by Emil Stumpp, 1932.jpg
+   115  Public domain  File:Berlin Hotel Kaiserhof Empfangssalon (BerlLeben 1904-03
+   117  Public domain  File:De gauche à droite, Dr. Goebbels et M. G. Strasser, hit
+   118  Public domain  File:Adolf Hitler - Portrait - Close Up - DPLA - (cropped).j
+   119  Public domain  File:Dr Frick (à gauche) et Gregor Strasser se rendant en un
+   121  Public domain  File:PapenSchleicher0001.jpg
+   125  CC BY-SA 3.0 d File:Bundesarchiv Bild 183-H12947, Münchener Abkommen, Ankun
+   126  Public domain  File:ElPresidenteHindenburgYSuHijoAcudenAUnaCompeticiónDeHíp
+   128  Public domain  File:Erich Salomon Otto Boelitz Conrad von Borsig Otto Meiss
+   134  Public domain  File:3 1 0 17 11968 3 1 32802 Potsdam Day 1933-03-21 Ceremon
+   140  Public domain  File:-VO zum Schutz von Volk und Staat 1933 2.JPG
+   155  Public domain  File:3 1 0 17 11954 3 1 32783 Opening of the Reichstag Sessi
+    Q1  Public domain  File:Erich Ludendorff Hugo Vogel.jpg
+   Q10  Public domain  File:Der Rote Angriff auf dem Prenzlauer Berg - Februar 1931
+   Q11  Public domain  File:Hjalmar-Horace-Greeley-Schacht.jpg
+   Q12  Public domain  File:Reichsführerschule der NSDAP Geschäftsstelle Schellings
+   Q13  Public domain  File:Group Portrait with Hitler Standing in Center - DPLA - 
+   Q14  Public domain  File:Joseph Goebbels-TIME drawing-1933.jpg
+   Q15  Public domain  File:Portrait du général von Schleicher - btv1b90495836.jpg
+   Q16  Public domain  File:Portrait du Capitaine D. Goering, Président du Reichsta
+    Q2  Public domain  File:Adolf Hitler in World War I Bavarian Army Hitler (later
+    Q3  Public domain  File:Anton Drexler 1901.jpg
+    Q4  Public domain  File:Ernst Röh Portrait (3x4 cropped).jpg
+    Q5  Public domain  File:Danzigers cheer for Adolf Hitler 2.jpg
+    Q6  Public domain  File:Primeira Matéria sobre Adolf Hitler na Imprensa Brasile
+    Q7  Public domain  File:Porträt Joseph Goebbels.jpg
+    Q8  Public domain  File:Adolf Hitler,Himmler,Frick,Mutschmann,Goebbels,Schaub,E
+    Q9  Public domain  File:Goebbels und Ulbricht.jpg

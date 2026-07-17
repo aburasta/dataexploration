@@ -29,7 +29,7 @@ def license_rank(short):
         return 2
     return 99  # non-free / unknown -> reject
 
-BAD_EXT = (".svg", ".gif", ".tif", ".tiff", ".ogv", ".webm", ".pdf", ".djvu")
+BAD_EXT = (".svg", ".gif", ".tif", ".tiff", ".ogv", ".webm", ".pdf", ".djvu", ".ogg", ".oga", ".wav", ".flac", ".mp3", ".mid")
 
 def fetch(url, timeout=60, tries=6):
     """GET with exponential backoff, honoring Retry-After on 429/503."""

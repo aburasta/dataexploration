@@ -1273,22 +1273,6 @@
   "alts": []
  },
  {
-  "tag": "111",
-  "status": "ok",
-  "file": "111.jpg",
-  "query": "Joseph Goebbels 1932",
-  "title": "File:Joseph Goebbels Rede im Berliner Sportpalast 1943.ogg",
-  "page": "https://commons.wikimedia.org/wiki/File:Joseph_Goebbels_Rede_im_Berliner_Sportpalast_1943.ogg",
-  "license": "Public domain",
-  "attribution": "Joseph Goebbels",
-  "dims": "1920x1920",
-  "alts": [
-   "File:Von Keller, Goebbels, Von Neurath, 1933.jpg",
-   "File:De gauche à droite, Dr. Goebbels et M. G. Strasser, hitlériens - btv1b90526256.jpg",
-   "File:De gauche à droite - Goebbels, le général von Epp, Allemagne - btv1b9027723f.jpg"
-  ]
- },
- {
   "tag": "113",
   "status": "ok",
   "file": "113.jpg",
@@ -2303,5 +2287,21 @@
   "attribution": "US War Department (Frank Capra, Why We Fight)",
   "clip": "476s+4s",
   "note": "SUBSTITUTE: officials conferring — Papen reaches out to Schroeder"
+ },
+ {
+  "tag": "111",
+  "status": "ok",
+  "file": "111.jpg",
+  "query": "Joseph Goebbels 1932 Berlin",
+  "title": "File:3 1 0 17 12005 1 1 32828 Presidential Election Germany Reichspräsidentenwahl 1932-04-10 Hitler Nazi rally Lustgarten next to Berliner Palace 1932-04-04 v Helldorf Goebbels Brückner NSDAP Deutschland erwache banners NAC, Poland PD.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:3_1_0_17_12005_1_1_32828_Presidential_Election_Germany_Reichspr%C3%A4sidentenwahl_1932-04-10_Hitler_Nazi_rally_Lustgarten_next_to_Berliner_Palace_1932-04-04_v_Helldorf_Goebbels_Br%C3%BCckner_NSDAP_Deutschland_erwache_banners_NAC,_Poland_PD.jpg",
+  "license": "Public domain",
+  "attribution": "Press photograph by an unidentified photographer, distributed through a news agency.",
+  "dims": "1920x1503",
+  "alts": [
+   "File:3 1 0 17 11968 7 1 32806 Potsdam Day 1933-03-21 Ceremonial opening New Reichstag Nazi propaganda Prussian militarism State dignitaries procession to Garnisonkirche Hitler v Papen Eltz-Rübenach Goebbels etc Ceremonial company NAC.jpg",
+   "File:Reichsparteitag NSDAP Parade Nürnberg 1933 Adolf Hitler, Parade, Nazi Party rally, Nuremberg, Robert Sennecke, Intern. Illustrations-Verlag Narodowe Archiwum Cyfrowe 3 1 0 17 12270 33708 Marked as Public domain.jpg",
+   "File:3 1 0 17 11968 4 1 32803 Potsdam Day 1933-03-21 Ceremonial opening New Reichstag Nazi propaganda Prussian militarism State dignitaries procession to Potsdamer Garnisonkirche Chancellor Hitler, Vice-Chancellor von Papen, Police (NAC PD).jpg"
+  ]
  }
 ]
