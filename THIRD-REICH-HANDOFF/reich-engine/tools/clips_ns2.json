@@ -1,0 +1,25 @@
+{
+ "source_id":"TheNazisStrike","source_file":"_srcfilm/TheNazisStrike.mp4",
+ "license":"Public domain (US Government / Frank Capra, War Dept. 1943)",
+ "attribution":"US War Department (Frank Capra, Why We Fight)",
+ "page":"https://archive.org/details/TheNazisStrike",
+ "clips":[
+  {"tag":"56","start":116,"dur":5,"note":"massed party formation — the fight inside the party"},
+  {"tag":"59","start":470,"dur":5,"note":"officials at a desk — Hanover conference"},
+  {"tag":"61","start":228,"dur":5,"note":"party HQ interior with standards — Bamberg conference"},
+  {"tag":"62","start":530,"dur":5,"note":"figures at a rostrum — Strasser/Goebbels steamrolled"},
+  {"tag":"64","start":515,"dur":5,"note":"street scene — consoling Strasser at the station"},
+  {"tag":"65","start":440,"dur":5,"note":"Hitler addressing followers — turning Goebbels"},
+  {"tag":"66","start":500,"dur":4,"note":"young SA men in profile — devotion to the Fuehrer"},
+  {"tag":"68","start":140,"dur":5,"note":"crowd with raised arms — the 1928 ballot box"},
+  {"tag":"72","start":590,"dur":5,"note":"factory smokestacks — courting the men with money"},
+  {"tag":"81","start":560,"dur":5,"note":"officers with flags — the army officer corps reacts"},
+  {"tag":"88","start":395,"dur":4,"note":"Hitler saluting, then turning away — leaving early, contemptuous"},
+  {"tag":"90","start":545,"dur":5,"note":"crowd surging in the street — Harzburg Front collapses into infighting"},
+  {"tag":"91","start":220,"dur":4,"note":"lone figure saluting — Hitler emerges the winner"},
+  {"tag":"107","start":704,"dur":5,"note":"cavalry riding — no organized force left to defend democracy"},
+  {"tag":"120","start":768,"dur":5,"note":"ranks on the move — seizing the party machinery / loyalty oath"},
+  {"tag":"124","start":410,"dur":4,"note":"standard bearer — the Papen-Hitler pact"},
+  {"tag":"127","start":524,"dur":5,"note":"figures conferring at a rostrum — Hitler's private hour with Oskar"}
+ ]
+}
