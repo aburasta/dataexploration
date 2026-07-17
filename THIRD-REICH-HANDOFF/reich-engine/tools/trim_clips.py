@@ -32,7 +32,7 @@ def main():
         manifest = [r for r in manifest if r["tag"] != tag]
         manifest.append({"tag":tag,"status":"ok","type":"video","file":f"{tag}.mp4",
                          "source":spec["source_id"],"page":spec["page"],
-                         "license":spec["license"],"attribution":"US War Department (Frank Capra, Why We Fight)",
+                         "license":spec["license"],"attribution":spec.get("attribution",spec["source_id"]),
                          "clip":f"{c['start']}s+{c['dur']}s","note":c["note"]})
         print(f"[{tag}] OK  {tag}.mp4  {size}KB  ({c['start']}s+{c['dur']}s)  {c['note'][:48]}")
         json.dump(manifest, open(MANIFEST,"w"), indent=1, ensure_ascii=False)

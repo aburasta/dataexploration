@@ -1,0 +1,18 @@
+{
+ "source_id":"GermanNewsreel1933",
+ "source_file":"_srcfilm/GermanFire.mp4",
+ "license":"Public domain (captured German newsreel, US National Archives, 1933)",
+ "attribution":"German newsreel 1933 (US National Archives, seized enemy property)",
+ "page":"https://archive.org/details/90424-german-newsreel-fire-boebbels-hitler-youth-vwr",
+ "clips":[
+  {"tag":"137","start":38,"dur":6,"note":"Reichstag fire wreckage/rubble — the Reichstag building caught fire"},
+  {"tag":"139","start":52,"dur":5,"note":"burned Reichstag interior debris — evidence of Nazi planning"},
+  {"tag":"79","start":73,"dur":6,"note":"Kroll Opera assembly hall, deputies seated — Reichstag voting"},
+  {"tag":"147","start":89,"dur":6,"note":"assembly hall under swastika banners — the Enabling Act"},
+  {"tag":"135","start":449,"dur":6,"note":"Hindenburg at podium addressing crowd — Hindenburg's speech, cabinet sworn in"},
+  {"tag":"136","start":485,"dur":6,"note":"Hitler at podium — Hitler as Chancellor"},
+  {"tag":"138","start":413,"dur":5,"note":"Nazi minister (Goebbels) at podium shouting — Goering on the Communist uprising"},
+  {"tag":"143","start":343,"dur":6,"note":"vast crowd in the Lustgarten Berlin — March 5 election under state control"},
+  {"tag":"145","start":521,"dur":5,"note":"cheering crowd with flags — majority still said no"}
+ ]
+}

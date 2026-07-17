@@ -1,6 +1,6 @@
 # Legal Coup - Media Sourcing Manifest
 
-**110 beats sourced** (96 images, 14 video) - **9 pending**
+**122 beats sourced** (95 images, 27 video) - **7 pending**
 
 ## Video clips
 | Beat | File | Source | Clip | Shows |
@@ -13,12 +13,25 @@
 | 55 | 55.mp4 | TheNazisStrike | 680s+5s | Himmler in SS uniform (captioned) — Himmler handed the SS, 1929 |
 | 70 | 70.mp4 | TheNazisStrike | 648s+5s | industrial forge interior — 1929 crash / industry collapse |
 | 76 | 76.mp4 | TheNazisStrike | 751s+5s | aircraft on field — chartered aircraft / private armies funded |
+| 79 | 79.mp4 | GermanNewsreel1933 | 73s+6s | Kroll Opera assembly hall, deputies seated — Reichstag voting |
 | 82 | 82.mp4 | TheNazisStrike | 1077s+6s | Hitler speaking forcefully in open car — courting the generals |
 | 87 | 87.mp4 | TheNazisStrike | 172s+6s | rally grandstand with swastika banners — Harzburg mass demonstration |
 | 95 | 95.mp4 | TheNazisStrike | 975s+7s | Hitler motorcade through crowd — national campaign tour |
+| 98 | 98.mp4 | HitleritesParade1933 | 8s+6s | SA columns marching at the Brandenburg Gate — brownshirts outnumber the army / coup scare |
+| 103 | 103.mp4 | HitleritesParade1933 | 26s+5s | SA street column in the rain — the S.A. ban lifted |
 | 132 | 132.mp4 | TheNazisStrike | 736s+5s | assembled uniformed ranks, faces up — Berlin S.A. mobilized |
+| 135 | 135.mp4 | GermanNewsreel1933 | 449s+6s | Hindenburg at podium addressing crowd — Hindenburg's speech, cabinet sworn in |
+| 136 | 136.mp4 | GermanNewsreel1933 | 485s+6s | Hitler at podium — Hitler as Chancellor |
+| 137 | 137.mp4 | GermanNewsreel1933 | 38s+6s | Reichstag fire wreckage/rubble — the Reichstag building caught fire |
+| 138 | 138.mp4 | GermanNewsreel1933 | 413s+5s | Nazi minister (Goebbels) at podium shouting — Goering on the Communist uprising |
+| 139 | 139.mp4 | GermanNewsreel1933 | 52s+5s | burned Reichstag interior debris — evidence of Nazi planning |
+| 141 | 141.mp4 | HitleritesParade1933 | 20s+6s | aerial view of SA march through Brandenburg Gate — mass roundup of opponents |
+| 143 | 143.mp4 | GermanNewsreel1933 | 343s+6s | vast crowd in the Lustgarten Berlin — March 5 election under state control |
+| 145 | 145.mp4 | GermanNewsreel1933 | 521s+5s | cheering crowd with flags — majority still said no |
 | 146 | 146.mp4 | TheNazisStrike | 188s+6s | Hitler with officers at ceremony — Day of Potsdam |
+| 147 | 147.mp4 | GermanNewsreel1933 | 89s+6s | assembly hall under swastika banners — the Enabling Act |
 | 149 | 149.mp4 | TheNazisStrike | 427s+5s | uniformed ranks saluting — storm troopers lining the aisles |
+| 151 | 151.mp4 | HitleritesParade1933 | 34s+6s | storm troopers saluting at reviewing stand — storm troopers seize the state governments |
 
 ## Images
 | Beat | File | License | Source page | Title |
@@ -103,7 +116,6 @@
 | 126 | 126.jpeg | Public domain | https://commons.wikimedia.org/wiki/File:ElPresidenteHindenburgYSuHijoAcudenAUnaCompetici%C3%B3nDeH%C3%ADpica1933.jpeg | File:ElPresidenteHindenburgYSuHijoAcudenAUnaCompetición |
 | 128 | 128.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Erich_Salomon_Otto_Boelitz_Conrad_von_Borsig_Otto_Meissner.jpg | File:Erich Salomon Otto Boelitz Conrad von Borsig Otto  |
 | 134 | 134.jpg | Public domain | https://commons.wikimedia.org/wiki/File:3_1_0_17_11968_3_1_32802_Potsdam_Day_1933-03-21_Ceremonial_opening_New_Reichstag_Nazi_propaganda_Prussian_militarism_State_dignitaries_procession_to_Potsdamer_Garnisonkirche_Chancellor_Hitler,_Vice-Chancellor_Franz_von_Papen_Salutes.jpg | File:3 1 0 17 11968 3 1 32802 Potsdam Day 1933-03-21 Ce |
-| 136 | 136.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Adolf_Hitler%27s_speech_in_the_Reichstag,_30_January_1939.jpg | File:Adolf Hitler's speech in the Reichstag, 30 January |
 | 155 | 155.jpg | Public domain | https://commons.wikimedia.org/wiki/File:3_1_0_17_11954_3_1_32783_Opening_of_the_Reichstag_Session_Berlin_1932-08-30_Members_of_the_Presidium_Reichstag_Vice-Presidents_Walter_Graef_and_Thomas_Esser,_Presidium_member_Hans_Rauch,_President_H_Goering_NSDAP_uniform._NAC_Poland_PD.jpg | File:3 1 0 17 11954 3 1 32783 Opening of the Reichstag  |
 | Q1 | Q1.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Erich_Ludendorff_Hugo_Vogel.jpg | File:Erich Ludendorff Hugo Vogel.jpg |
 | Q11 | Q11.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Hjalmar-Horace-Greeley-Schacht.jpg | File:Hjalmar-Horace-Greeley-Schacht.jpg |
@@ -120,4 +132,4 @@
 | Q8 | Q8.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Adolf_Hitler,Himmler,Frick,Mutschmann,Goebbels,Schaub,Epp,Goering.jpg | File:Adolf Hitler,Himmler,Frick,Mutschmann,Goebbels,Sch |
 | Q9 | Q9.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Goebbels_und_Ulbricht.jpg | File:Goebbels und Ulbricht.jpg |
 
-## Pending: 118, 123, 139, 140, 147, 15, 33, Q10, Q14
+## Pending: 118, 123, 140, 15, 33, Q10, Q14

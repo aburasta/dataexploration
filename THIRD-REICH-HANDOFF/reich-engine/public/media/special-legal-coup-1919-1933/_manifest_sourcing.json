@@ -1484,27 +1484,6 @@
   ]
  },
  {
-  "tag": "136",
-  "status": "ok",
-  "file": "136.jpg",
-  "query": "Adolf Hitler Chancellor January 1933",
-  "title": "File:Adolf Hitler's speech in the Reichstag, 30 January 1939.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Adolf_Hitler%27s_speech_in_the_Reichstag,_30_January_1939.jpg",
-  "license": "Public domain",
-  "attribution": "UnknownUnknown",
-  "dims": "1920x1381",
-  "alts": [
-   "File:3 1 0 17 12495 3 1 34564 Erster Mai Der Feiertag der nationalen Arbeit May Day Celebrations Berlin Nazi Germany 1933-05-01 President von Hindenburg, Reich Chancellor Hitler in car arrive to ceremony (R Sennecke) NAC Public domain.jpg",
-   "File:3 1 0 17 11968 4 1 32803 Potsdam Day 1933-03-21 Ceremonial opening New Reichstag Nazi propaganda Prussian militarism State dignitaries procession to Potsdamer Garnisonkirche Chancellor Hitler, Vice-Chancellor von Papen, Police (NAC PD).jpg",
-   "File:3 1 0 17 11933 14 1 32680 REICHSTAGSBRAND Reichstag Fire German Parliament Berlin 1933-02-27 Chancellor Hitler, Reichstag President Göring, Minister Goebbels, Prince August Wilhelm of Hohenzollern Narodowe Archiwum Cyfrowe PDM.jpg"
-  ]
- },
- {
-  "tag": "139",
-  "status": "miss",
-  "query": "Reichstag fire ruins interior 1933"
- },
- {
   "tag": "Q16",
   "status": "ok",
   "file": "Q16.jpg",
@@ -1522,11 +1501,6 @@
   "tag": "140",
   "status": "miss",
   "query": "Reichstagsbrandverordnung 1933 document"
- },
- {
-  "tag": "147",
-  "status": "miss",
-  "query": "Ermaechtigungsgesetz 1933 Enabling Act"
  },
  {
   "tag": "155",
@@ -1700,5 +1674,161 @@
   "tag": "Q10",
   "status": "miss",
   "query": "Nazi newspaper headline 1930"
+ },
+ {
+  "tag": "137",
+  "status": "ok",
+  "type": "video",
+  "file": "137.mp4",
+  "source": "GermanNewsreel1933",
+  "page": "https://archive.org/details/90424-german-newsreel-fire-boebbels-hitler-youth-vwr",
+  "license": "Public domain (captured German newsreel, US National Archives, 1933)",
+  "attribution": "German newsreel 1933 (US National Archives, seized enemy property)",
+  "clip": "38s+6s",
+  "note": "Reichstag fire wreckage/rubble — the Reichstag building caught fire"
+ },
+ {
+  "tag": "139",
+  "status": "ok",
+  "type": "video",
+  "file": "139.mp4",
+  "source": "GermanNewsreel1933",
+  "page": "https://archive.org/details/90424-german-newsreel-fire-boebbels-hitler-youth-vwr",
+  "license": "Public domain (captured German newsreel, US National Archives, 1933)",
+  "attribution": "German newsreel 1933 (US National Archives, seized enemy property)",
+  "clip": "52s+5s",
+  "note": "burned Reichstag interior debris — evidence of Nazi planning"
+ },
+ {
+  "tag": "79",
+  "status": "ok",
+  "type": "video",
+  "file": "79.mp4",
+  "source": "GermanNewsreel1933",
+  "page": "https://archive.org/details/90424-german-newsreel-fire-boebbels-hitler-youth-vwr",
+  "license": "Public domain (captured German newsreel, US National Archives, 1933)",
+  "attribution": "German newsreel 1933 (US National Archives, seized enemy property)",
+  "clip": "73s+6s",
+  "note": "Kroll Opera assembly hall, deputies seated — Reichstag voting"
+ },
+ {
+  "tag": "147",
+  "status": "ok",
+  "type": "video",
+  "file": "147.mp4",
+  "source": "GermanNewsreel1933",
+  "page": "https://archive.org/details/90424-german-newsreel-fire-boebbels-hitler-youth-vwr",
+  "license": "Public domain (captured German newsreel, US National Archives, 1933)",
+  "attribution": "German newsreel 1933 (US National Archives, seized enemy property)",
+  "clip": "89s+6s",
+  "note": "assembly hall under swastika banners — the Enabling Act"
+ },
+ {
+  "tag": "135",
+  "status": "ok",
+  "type": "video",
+  "file": "135.mp4",
+  "source": "GermanNewsreel1933",
+  "page": "https://archive.org/details/90424-german-newsreel-fire-boebbels-hitler-youth-vwr",
+  "license": "Public domain (captured German newsreel, US National Archives, 1933)",
+  "attribution": "German newsreel 1933 (US National Archives, seized enemy property)",
+  "clip": "449s+6s",
+  "note": "Hindenburg at podium addressing crowd — Hindenburg's speech, cabinet sworn in"
+ },
+ {
+  "tag": "136",
+  "status": "ok",
+  "type": "video",
+  "file": "136.mp4",
+  "source": "GermanNewsreel1933",
+  "page": "https://archive.org/details/90424-german-newsreel-fire-boebbels-hitler-youth-vwr",
+  "license": "Public domain (captured German newsreel, US National Archives, 1933)",
+  "attribution": "German newsreel 1933 (US National Archives, seized enemy property)",
+  "clip": "485s+6s",
+  "note": "Hitler at podium — Hitler as Chancellor"
+ },
+ {
+  "tag": "138",
+  "status": "ok",
+  "type": "video",
+  "file": "138.mp4",
+  "source": "GermanNewsreel1933",
+  "page": "https://archive.org/details/90424-german-newsreel-fire-boebbels-hitler-youth-vwr",
+  "license": "Public domain (captured German newsreel, US National Archives, 1933)",
+  "attribution": "German newsreel 1933 (US National Archives, seized enemy property)",
+  "clip": "413s+5s",
+  "note": "Nazi minister (Goebbels) at podium shouting — Goering on the Communist uprising"
+ },
+ {
+  "tag": "143",
+  "status": "ok",
+  "type": "video",
+  "file": "143.mp4",
+  "source": "GermanNewsreel1933",
+  "page": "https://archive.org/details/90424-german-newsreel-fire-boebbels-hitler-youth-vwr",
+  "license": "Public domain (captured German newsreel, US National Archives, 1933)",
+  "attribution": "German newsreel 1933 (US National Archives, seized enemy property)",
+  "clip": "343s+6s",
+  "note": "vast crowd in the Lustgarten Berlin — March 5 election under state control"
+ },
+ {
+  "tag": "145",
+  "status": "ok",
+  "type": "video",
+  "file": "145.mp4",
+  "source": "GermanNewsreel1933",
+  "page": "https://archive.org/details/90424-german-newsreel-fire-boebbels-hitler-youth-vwr",
+  "license": "Public domain (captured German newsreel, US National Archives, 1933)",
+  "attribution": "German newsreel 1933 (US National Archives, seized enemy property)",
+  "clip": "521s+5s",
+  "note": "cheering crowd with flags — majority still said no"
+ },
+ {
+  "tag": "98",
+  "status": "ok",
+  "type": "video",
+  "file": "98.mp4",
+  "source": "HitleritesParade1933",
+  "page": "https://archive.org/details/1933-03-16_Hitlerites_Parade_In_Rain",
+  "license": "Public domain (Universal Newsreel, 16 March 1933)",
+  "attribution": "Universal Newsreel, 'Hitlerites Parade In Rain', 16 March 1933 (PD)",
+  "clip": "8s+6s",
+  "note": "SA columns marching at the Brandenburg Gate — brownshirts outnumber the army / coup scare"
+ },
+ {
+  "tag": "141",
+  "status": "ok",
+  "type": "video",
+  "file": "141.mp4",
+  "source": "HitleritesParade1933",
+  "page": "https://archive.org/details/1933-03-16_Hitlerites_Parade_In_Rain",
+  "license": "Public domain (Universal Newsreel, 16 March 1933)",
+  "attribution": "Universal Newsreel, 'Hitlerites Parade In Rain', 16 March 1933 (PD)",
+  "clip": "20s+6s",
+  "note": "aerial view of SA march through Brandenburg Gate — mass roundup of opponents"
+ },
+ {
+  "tag": "103",
+  "status": "ok",
+  "type": "video",
+  "file": "103.mp4",
+  "source": "HitleritesParade1933",
+  "page": "https://archive.org/details/1933-03-16_Hitlerites_Parade_In_Rain",
+  "license": "Public domain (Universal Newsreel, 16 March 1933)",
+  "attribution": "Universal Newsreel, 'Hitlerites Parade In Rain', 16 March 1933 (PD)",
+  "clip": "26s+5s",
+  "note": "SA street column in the rain — the S.A. ban lifted"
+ },
+ {
+  "tag": "151",
+  "status": "ok",
+  "type": "video",
+  "file": "151.mp4",
+  "source": "HitleritesParade1933",
+  "page": "https://archive.org/details/1933-03-16_Hitlerites_Parade_In_Rain",
+  "license": "Public domain (Universal Newsreel, 16 March 1933)",
+  "attribution": "Universal Newsreel, 'Hitlerites Parade In Rain', 16 March 1933 (PD)",
+  "clip": "34s+6s",
+  "note": "storm troopers saluting at reviewing stand — storm troopers seize the state governments"
  }
 ]

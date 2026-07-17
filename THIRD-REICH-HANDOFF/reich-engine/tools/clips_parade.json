@@ -1,0 +1,13 @@
+{
+ "source_id":"HitleritesParade1933",
+ "source_file":"_srcfilm/HitleritesParade.mp4",
+ "license":"Public domain (Universal Newsreel, 16 March 1933)",
+ "attribution":"Universal Newsreel, 'Hitlerites Parade In Rain', 16 March 1933 (PD)",
+ "page":"https://archive.org/details/1933-03-16_Hitlerites_Parade_In_Rain",
+ "clips":[
+  {"tag":"98","start":8,"dur":6,"note":"SA columns marching at the Brandenburg Gate — brownshirts outnumber the army / coup scare"},
+  {"tag":"141","start":20,"dur":6,"note":"aerial view of SA march through Brandenburg Gate — mass roundup of opponents"},
+  {"tag":"103","start":26,"dur":5,"note":"SA street column in the rain — the S.A. ban lifted"},
+  {"tag":"151","start":34,"dur":6,"note":"storm troopers saluting at reviewing stand — storm troopers seize the state governments"}
+ ]
+}
