@@ -1,0 +1,8 @@
+# heavy / transient sourcing artifacts — not committed
+tools/_srcfilm/
+tools/_clips/
+tools/*.log
+# node + render output
+node_modules/
+out.mp4
+public/media/**/_review/
