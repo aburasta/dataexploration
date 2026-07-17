@@ -826,11 +826,6 @@
   ]
  },
  {
-  "tag": "22",
-  "status": "miss",
-  "query": "Voelkischer Beobachter newspaper Nazi"
- },
- {
   "tag": "24",
   "status": "ok",
   "file": "24.jpg",
@@ -845,11 +840,6 @@
    "File:Palacio de Justicia, Stachus, Múnich, Alemania, 2015-07-04, DD 11.JPG",
    "File:Lichthof Justizpalast Muenchen.jpg"
   ]
- },
- {
-  "tag": "26",
-  "status": "miss",
-  "query": "German courtroom 1920s judges"
  },
  {
   "tag": "32",
@@ -937,11 +927,6 @@
   ]
  },
  {
-  "tag": "49",
-  "status": "miss",
-  "query": "Reichstag plenary chamber session"
- },
- {
   "tag": "Q5",
   "status": "ok",
   "file": "Q5.jpg",
@@ -970,5 +955,750 @@
   "alts": [
    "File:Bundesarchiv Bild 102-13774, Adolf Hitler.jpg"
   ]
+ },
+ {
+  "tag": "57",
+  "status": "ok",
+  "file": "57.jpg",
+  "query": "Gregor Strasser portrait",
+  "title": "File:Portrait de Gregor Strasser - btv1b9051011s.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_de_Gregor_Strasser_-_btv1b9051011s.jpg",
+  "license": "Public domain",
+  "attribution": "Robert Sennecke Internationaler Illustrations Verlag. Agence photographique (commanditaire)",
+  "dims": "1920x2565",
+  "alts": [
+   "File:Portrait de M. Gregor Strasser - btv1b9050184q.jpg",
+   "File:Paul und Gregor Strasser 1897.jpg",
+   "File:Gregor Strasser by Emil Stumpp, 1932.jpg"
+  ]
+ },
+ {
+  "tag": "63",
+  "status": "ok",
+  "file": "63.png",
+  "query": "Joseph Goebbels Tagebuch diary",
+  "title": "File:Goebbels Diary Excerpt November 2, 1943.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Goebbels_Diary_Excerpt_November_2,_1943.png",
+  "license": "CC0",
+  "attribution": "Joseph Goebbels",
+  "dims": "1920x1200",
+  "alts": [
+   "File:Tagebucheinträge Joseph Goebbels vom 10. und 11. November 1938 p1.jpg",
+   "File:Tagebucheinträge Joseph Goebbels vom 10. und 11. November 1938 p7.jpg",
+   "File:Tagebucheinträge Joseph Goebbels vom 10. und 11. November 1938 p5.jpg"
+  ]
+ },
+ {
+  "tag": "Q9",
+  "status": "ok",
+  "file": "Q9.jpg",
+  "query": "Joseph Goebbels Gauleiter portrait",
+  "title": "File:Goebbels und Ulbricht.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Goebbels_und_Ulbricht.jpg",
+  "license": "Public domain",
+  "attribution": "Unknown authorUnknown author",
+  "dims": "663x513",
+  "alts": [
+   "File:Joseph Goebbels Side Portrait (3x4 cropped).jpg",
+   "File:Bundesarchiv Bild 146-1978-086-03, Joseph Goebbels mit Familie.jpg",
+   "File:Bundesarchiv Bild 102-01888A, Joseph Goebbels.jpg"
+  ]
+ },
+ {
+  "tag": "67",
+  "status": "ok",
+  "file": "67.jpg",
+  "query": "Joseph Goebbels Gauleiter Berlin 1926",
+  "title": "File:3 1 0 17 12005 2 1 32829 Presidential Election Germany Reichspräsidentenwahl 1932-04-10 Hitler giving speech Nazi rally Lustgarten next to Berliner Stadtschloss 1932-04-04 v Helldorf, Goebbels (uniform ban?) NAC, Poland PD.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:3_1_0_17_12005_2_1_32829_Presidential_Election_Germany_Reichspr%C3%A4sidentenwahl_1932-04-10_Hitler_giving_speech_Nazi_rally_Lustgarten_next_to_Berliner_Stadtschloss_1932-04-04_v_Helldorf,_Goebbels_(uniform_ban%3F)_NAC,_Poland_PD.jpg",
+  "license": "Public domain",
+  "attribution": "Press photograph by an unidentified photographer, distributed through a news agency.",
+  "dims": "1920x1533",
+  "alts": [
+   "File:3 1 0 17 12005 1 1 32828 Presidential Election Germany Reichspräsidentenwahl 1932-04-10 Hitler Nazi rally Lustgarten next to Berliner Palace 1932-04-04 v Helldorf Goebbels Brückner NSDAP Deutschland erwache banners NAC, Poland PD.jpg"
+  ]
+ },
+ {
+  "tag": "69",
+  "status": "ok",
+  "file": "69.jpg",
+  "query": "Adolf Hitler 1928 portrait",
+  "title": "File:Reichsführerschule der NSDAP Geschäftsstelle Schellingstraße 50 (?) München SS Schutzstaffel members kepis c. 1932 Hitler Kurt Kühme Adolf Egeberg jr etc National Archives NARA Unrestricted No known copyright 242-HF-0072 001.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Reichsf%C3%BChrerschule_der_NSDAP_Gesch%C3%A4ftsstelle_Schellingstra%C3%9Fe_50_(%3F)_M%C3%BCnchen_SS_Schutzstaffel_members_kepis_c._1932_Hitler_Kurt_K%C3%BChme_Adolf_Egeberg_jr_etc_National_Archives_NARA_Unrestricted_No_known_copyright_242-HF-0072_001.jpg",
+  "license": "Public domain",
+  "attribution": "This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+  "dims": "1920x1451",
+  "alts": [
+   "File:Reichsführerschule der NSDAP Geschäftsstelle Schellingstraße 50 (?) München SS Schutzstaffel members c. 1932 Hitler Kurt Kühme Adolf Egeberg jr etc National Archives NARA Unrestricted No known copyright 242-HF-0073 001.jpg",
+   "File:Reichsführerschule der NSDAP Geschäftsstelle Schellingstraße 50 (?) München SS Schutzstaffel members c. 1932 Hitler Heinrich Himmler Kurt Kühme Adolf Egeberg jr etc National Archives NARA Unrestricted No known copyright 242-HF-.jpg",
+   "File:Hitler and Himmler with SS members of the Reichsführerschule, Munich (cropped).jpg"
+  ]
+ },
+ {
+  "tag": "74",
+  "status": "ok",
+  "file": "74.jpg",
+  "query": "Emil Kirdorf",
+  "title": "File:Porträt Emil Kirdorf.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Portr%C3%A4t_Emil_Kirdorf.jpg",
+  "license": "Public domain",
+  "attribution": "Unknown authorUnknown author",
+  "dims": "484x604",
+  "alts": [
+   "File:Emil Kirdorf.jpg",
+   "File:Emil Kirdorf – Radierung.jpg",
+   "File:Emil Kirdorf (1922) Antwerp AS.1968.001.0402 (cropped).jpg"
+  ]
+ },
+ {
+  "tag": "75",
+  "status": "ok",
+  "file": "75.jpg",
+  "query": "Hjalmar Schacht portrait",
+  "title": "File:Hjalmar Schacht with Sumitro Djojohadikusumo and Jusuf Wibisono in 1951.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hjalmar_Schacht_with_Sumitro_Djojohadikusumo_and_Jusuf_Wibisono_in_1951.jpg",
+  "license": "Public domain",
+  "attribution": "A.P. Archive",
+  "dims": "663x382",
+  "alts": [
+   "File:Dr. Hjalmar Schacht tijdens het denazificatieproces in 1950, RP-F-F01645.jpg",
+   "File:M. Hjalmar Schacht, président de la Reichsbank, à l'hôtel Astoria à Paris, lors de la commission d'experts du 21-01-1924 - btv1b53124426h.jpg",
+   "File:(De g. à d.) M. Schacht (président de la Reichsbank), Dr Meyer, 21-1-24 (à l'hôtel Astoria à Paris, lors de la) conférence (des) experts - btv1b53124427z.jpg"
+  ]
+ },
+ {
+  "tag": "Q11",
+  "status": "ok",
+  "file": "Q11.jpg",
+  "query": "Hjalmar Schacht 1933",
+  "title": "File:Hjalmar-Horace-Greeley-Schacht.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hjalmar-Horace-Greeley-Schacht.jpg",
+  "license": "Public domain",
+  "attribution": "",
+  "dims": "608x661",
+  "alts": [
+   "File:28-4-33, départ du Dr Schacht (en présence du gouverneur de la banque de France Clément Moret, gare Saint-Lazare) - btv1b53273759q.jpg",
+   "File:242-HB-3835 001 Reichskabinett Berlin 1934-01-30 Funk Lammers Darre Seldte Guertner Goebbels Eltz-Ruebenach Hitler Goering Schmitt Blomberg Frick Neurath Schacht Krosigk Popitz Papen Meissner NARA Unrestricted access and use (cropped e.jpg",
+   "File:242-HB-3835 001 Reichskabinett Berlin 1934-01-30 Reich Chancellor Hitler with his cabinet. Goebbels, Goering Blomberg Paapen Darre etc Photo Hoffmann NARA Unrestricted access use.jpg"
+  ]
+ },
+ {
+  "tag": "78",
+  "status": "ok",
+  "file": "78.jpg",
+  "query": "Heinrich Bruening chancellor",
+  "title": "File:Erich Salomon Heinrich Brüning Reichstag 1930.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Erich_Salomon_Heinrich_Br%C3%BCning_Reichstag_1930.jpg",
+  "license": "Public domain",
+  "attribution": "Erich Salomon",
+  "dims": "1095x1638",
+  "alts": [
+   "File:Erich Salomon Julius Curtius Heinrich Brüning 1931.jpg",
+   "File:Erich Salomon Patrick McGilligan Heinrich Brüning 1931.jpg",
+   "File:Erich Salomon Hans Luther Heinrich Brüning.jpg"
+  ]
+ },
+ {
+  "tag": "Q12",
+  "status": "ok",
+  "file": "Q12.jpg",
+  "query": "Adolf Hitler 1929 portrait",
+  "title": "File:Reichsführerschule der NSDAP Geschäftsstelle Schellingstraße 50 (?) München SS Schutzstaffel members c. 1932 Hitler Kurt Kühme Adolf Egeberg jr etc National Archives NARA Unrestricted No known copyright 242-HF-0073 001.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Reichsf%C3%BChrerschule_der_NSDAP_Gesch%C3%A4ftsstelle_Schellingstra%C3%9Fe_50_(%3F)_M%C3%BCnchen_SS_Schutzstaffel_members_c._1932_Hitler_Kurt_K%C3%BChme_Adolf_Egeberg_jr_etc_National_Archives_NARA_Unrestricted_No_known_copyright_242-HF-0073_001.jpg",
+  "license": "Public domain",
+  "attribution": "This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+  "dims": "1920x1430",
+  "alts": [
+   "File:Reichsführerschule der NSDAP Geschäftsstelle Schellingstraße 50 (?) München SS Schutzstaffel members c. 1932 Hitler Heinrich Himmler Kurt Kühme Adolf Egeberg jr etc National Archives NARA Unrestricted No known copyright 242-HF-.jpg",
+   "File:Nasleep Eerste Wereldoorlog, SFA022001459.jpg",
+   "File:Hitler and Himmler with SS members of the Reichsführerschule, Munich (cropped).jpg"
+  ]
+ },
+ {
+  "tag": "83",
+  "status": "ok",
+  "file": "83.png",
+  "query": "Reichswehr officers 1930",
+  "title": "File:The staff of the German Southern Army in the Carpathians with the commander-in-chief, 1915.png",
+  "page": "https://commons.wikimedia.org/wiki/File:The_staff_of_the_German_Southern_Army_in_the_Carpathians_with_the_commander-in-chief,_1915.png",
+  "license": "Public domain",
+  "attribution": "Eduard Frankl",
+  "dims": "1511x1191",
+  "alts": [
+   "File:Generalmajor von Stolzmann.jpg",
+   "File:German Commanders awarded Iron Cross- Gen. Stolzman, Lt. Purtscher, Maj. Klette, Capt. V. Boeh u Polach, Capt. Muff, Capt. Kalcio, Capt. V. Karaisl LCCN2014699480.jpg",
+   "File:Groener, Reichswehroffiziere.jpg"
+  ]
+ },
+ {
+  "tag": "84",
+  "status": "ok",
+  "file": "84.jpg",
+  "query": "Adolf Hitler 1930 portrait",
+  "title": "File:Df ktgmf 0002504 Karl Theodor Gremmler (1909-1941) Ein Mann retuschiert ein Portrait von Adolf Hitler um 1933-1940 (German craftsman manually retouching a paper photographic copy 1930s) Deutsche Fotothek SLUB Public domain.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Df_ktgmf_0002504_Karl_Theodor_Gremmler_(1909-1941)_Ein_Mann_retuschiert_ein_Portrait_von_Adolf_Hitler_um_1933-1940_(German_craftsman_manually_retouching_a_paper_photographic_copy_1930s)_Deutsche_Fotothek_SLUB_Public_domain.jpg",
+  "license": "Public domain",
+  "attribution": "Karl Theodor Gremmler",
+  "dims": "1188x1600",
+  "alts": [
+   "File:859 Hitler im Felde Postkarte Propagandakarte Adolf Hitler as a German soldier in World War I 1914-18 Postcard Nazi propaganda portrait postcard Unknown photographer No known copyright restrictions.jpg",
+   "File:Group Portrait with Hitler Standing in Center - DPLA - 869ffad6a8313912e0d037551be57fba (page 1).jpg",
+   "File:Potsdam première journée des jeunesses nationales-socialistes (21 mars 1933) - défilé devant Hitler au stade - btv1b90365066.jpg"
+  ]
+ },
+ {
+  "tag": "Q13",
+  "status": "ok",
+  "file": "Q13.jpg",
+  "query": "Adolf Hitler close portrait 1930",
+  "title": "File:Group Portrait with Hitler Standing in Center - DPLA - 869ffad6a8313912e0d037551be57fba (page 1).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Group_Portrait_with_Hitler_Standing_in_Center_-_DPLA_-_869ffad6a8313912e0d037551be57fba_(page_1).jpg",
+  "license": "Public domain",
+  "attribution": "General Services Administration. National Archives and Records Service. Office of the National Archives. (9/19/1966 - 4/1/1985)",
+  "dims": "1920x1443",
+  "alts": [
+   "File:Winifred Wagner (1897–1980) 1931.jpg",
+   "File:ARKIVET Peace and Human Rights Centre Kristiansand Norway. Museum WWII Exhibition. Gestapo office during occupation by Nazi Germany. Kontoret. Phone, radio, desk and sofa made 1935, Hitler by Knirr, Swastika flag, Enigma machine, etc (.jpg",
+   "File:242-HF-0396 001 SS Fuehrer der Standarte I Muenchen im Braunen Haus Schutzstaffel leaders uniforms Deutschland erwache Fahnen standards NSDAP Nazi propaganda ca 1931-32 NARA id 162122167 Unrestricted No known copyright.jpg"
+  ]
+ },
+ {
+  "tag": "89",
+  "status": "ok",
+  "file": "89.jpg",
+  "query": "Adolf Hitler 1931 portrait",
+  "title": "File:Bundesarchiv Bild 183-1989-0322-506, Adolf Hitler, Kinderbild retouched.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1989-0322-506,_Adolf_Hitler,_Kinderbild_retouched.jpg",
+  "license": "Public domain",
+  "attribution": "Josef Franz Klinger (active from 1864 to 1906)",
+  "dims": "524x800",
+  "alts": [
+   "File:Adolf Hitler - Portrait - Close Up - DPLA - (3x4 cropped).jpg",
+   "File:Adolf Hitler infant photo (3x4 cropped).jpg",
+   "File:Adolf Hitler - Portrait - Close Up - DPLA - (cropped).jpg"
+  ]
+ },
+ {
+  "tag": "92",
+  "status": "ok",
+  "file": "92.jpg",
+  "query": "Adolf Hitler 1932 portrait",
+  "title": "File:Adolf Hitler - Portrait - Close Up - DPLA - (3x4 cropped).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Adolf_Hitler_-_Portrait_-_Close_Up_-_DPLA_-_(3x4_cropped).jpg",
+  "license": "Public domain",
+  "attribution": "General Services Administration. National Archives and Records Service. Office of the National Archives. (9/19/1966 - 4/1/1985)",
+  "dims": "1920x2558",
+  "alts": [
+   "File:Adolf Hitler - Portrait - Close Up - DPLA - (cropped).jpg",
+   "File:Adolf Hitler - Portrait - Close Up - DPLA - 275cc5a2f4e662500a8def549d686e19 (page 1).jpg",
+   "File:Portrait de Hitler - btv1b90493912.jpg"
+  ]
+ },
+ {
+  "tag": "97",
+  "status": "ok",
+  "file": "97.jpg",
+  "query": "Sturmabteilung SA ban 1932",
+  "title": "File:Gross-kerder 1935 10 0322 Der Große Herder Nachschlagewerk Vol 11 1935 German encyclopedia SA Sturmabteilung brownshirt uniforms Motor-SA Flieger Marine-SA Nazi Germany Uncredited unsigned artwork No known copyright Brighter.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gross-kerder_1935_10_0322_Der_Gro%C3%9Fe_Herder_Nachschlagewerk_Vol_11_1935_German_encyclopedia_SA_Sturmabteilung_brownshirt_uniforms_Motor-SA_Flieger_Marine-SA_Nazi_Germany_Uncredited_unsigned_artwork_No_known_copyright_Brighter.jpg",
+  "license": "Public domain",
+  "attribution": "Unknown authorUnknown author",
+  "dims": "1782x743",
+  "alts": [
+   "File:Gross-kerder 1935 10 0322 Der Große Herder Nachschlagewerk Vol 11 1935 German encyclopedia SA Sturmabteilung brownshirt uniforms Motor-SA Flieger Marine-SA early Nazi Germany Uncredited unsigned artwork No known copyright.jpg",
+   "File:G Lebrecht Uniformen Abzeichen Fahnen der NSDAP Stahlhelmbund usw ca 1932 04 Seite 07 Dienstgradabzeichen der SA, SS und Wehrsta Sturmabteilung Schnüre Achselstücke Propaganda booklet Nazi Party paramilitary ranks etc No copyright C.jpg",
+   "File:Gross-kerder 1935 10 0323 Der Große Herder Nachschlagewerk Vol 11 1935 German encyclopedia SA Sturmabteilung uniform insignia swastika flags early Nazi Germany Uncredited unsigned artwork No known copyright.jpg"
+  ]
+ },
+ {
+  "tag": "99",
+  "status": "ok",
+  "file": "99.jpg",
+  "query": "Kurt von Schleicher general",
+  "title": "File:Von Schleicher, général allemand - btv1b9045893c.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Von_Schleicher,_g%C3%A9n%C3%A9ral_allemand_-_btv1b9045893c.jpg",
+  "license": "Public domain",
+  "attribution": "Agence de presse Meurisse. Agence photographique (commanditaire)",
+  "dims": "1920x2659",
+  "alts": [
+   "File:Portrait du général von Schleicher - btv1b90495836.jpg",
+   "File:KurtVonScheleicherEn1932.jpeg",
+   "File:Général Von Schleicher quittant le Reichstag après la dissolution - btv1b9036039v.jpg"
+  ]
+ },
+ {
+  "tag": "100",
+  "status": "ok",
+  "file": "100.jpg",
+  "query": "Wilhelm Groener",
+  "title": "File:Groener, Reichswehroffiziere.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Groener,_Reichswehroffiziere.jpg",
+  "license": "Public domain",
+  "attribution": "Oscar Tellgmann",
+  "dims": "578x387",
+  "alts": [
+   "File:Taufe-Ruthard-Groener-13.JPG",
+   "File:GeneralWilhelmGroener--nsillustratedwar03londuoft.jpeg",
+   "File:General Groener.jpg"
+  ]
+ },
+ {
+  "tag": "102",
+  "status": "ok",
+  "file": "102.jpg",
+  "query": "Franz von Papen portrait",
+  "title": "File:Von Papen Wahlkampf 1933.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Von_Papen_Wahlkampf_1933.jpg",
+  "license": "Public domain",
+  "attribution": "Robert Sennecke",
+  "dims": "605x919",
+  "alts": [
+   "File:Manifestation Casques d'acier - Von Schleicher et Von Papen, au milieu d'un groupe - btv1b90358095.jpg",
+   "File:15-6-32 (Lausanne, de g. à d.) von Papen et von Neurath - btv1b53256307n.jpg",
+   "File:FranzVonPapenEn1933.jpeg"
+  ]
+ },
+ {
+  "tag": "106",
+  "status": "ok",
+  "file": "106.jpg",
+  "query": "Otto Braun Prussia minister",
+  "title": "File:Bundesarchiv Bild 102-10168, Koblenz, Hindenburg am Deutschen Eck.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-10168,_Koblenz,_Hindenburg_am_Deutschen_Eck.jpg",
+  "license": "CC BY-SA 3.0 de",
+  "attribution": "UnknownUnknown",
+  "dims": "800x542",
+  "alts": []
+ },
+ {
+  "tag": "109",
+  "status": "ok",
+  "file": "109.jpg",
+  "query": "Adolf Hitler 1932 speech portrait",
+  "title": "File:Bundesarchiv Bild 102-13774, Adolf Hitler.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-13774,_Adolf_Hitler.jpg",
+  "license": "CC BY-SA 3.0 de",
+  "attribution": "Heinrich Hoffmann",
+  "dims": "545x798",
+  "alts": []
+ },
+ {
+  "tag": "111",
+  "status": "ok",
+  "file": "111.jpg",
+  "query": "Joseph Goebbels 1932",
+  "title": "File:Joseph Goebbels Rede im Berliner Sportpalast 1943.ogg",
+  "page": "https://commons.wikimedia.org/wiki/File:Joseph_Goebbels_Rede_im_Berliner_Sportpalast_1943.ogg",
+  "license": "Public domain",
+  "attribution": "Joseph Goebbels",
+  "dims": "1920x1920",
+  "alts": [
+   "File:Von Keller, Goebbels, Von Neurath, 1933.jpg",
+   "File:De gauche à droite, Dr. Goebbels et M. G. Strasser, hitlériens - btv1b90526256.jpg",
+   "File:De gauche à droite - Goebbels, le général von Epp, Allemagne - btv1b9027723f.jpg"
+  ]
+ },
+ {
+  "tag": "113",
+  "status": "ok",
+  "file": "113.jpg",
+  "query": "Kurt von Schleicher 1932",
+  "title": "File:Général Von Schleicher quittant le Reichstag après la dissolution - btv1b9036039v.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:G%C3%A9n%C3%A9ral_Von_Schleicher_quittant_le_Reichstag_apr%C3%A8s_la_dissolution_-_btv1b9036039v.jpg",
+  "license": "Public domain",
+  "attribution": "Atlantic Photo Company. Agence photographique (commanditaire)",
+  "dims": "1920x2578",
+  "alts": [
+   "File:Portrait du général von Schleicher - btv1b90495836.jpg",
+   "File:Le cabinet allemand démissionnaire - 1er plan M.M. von Neurath, Affaires étrangères, von Papen, chancelier, von Gayls, intérieur et von Braun (Agr.) 2ème plan - von Schleicher, guerre, Wormbold, Instruction... - btv1b90493341.jpg",
+   "File:VonPapenYVonSchleicherEn1932.jpeg"
+  ]
+ },
+ {
+  "tag": "114",
+  "status": "ok",
+  "file": "114.jpg",
+  "query": "Gregor Strasser 1932",
+  "title": "File:Gregor Strasser by Emil Stumpp, 1932.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gregor_Strasser_by_Emil_Stumpp,_1932.jpg",
+  "license": "Public domain",
+  "attribution": "Emil Stumpp",
+  "dims": "800x1084",
+  "alts": [
+   "File:Portrait de M. Gregor Strasser - btv1b9050184q.jpg",
+   "File:Dr Frick (à gauche) et Gregor Strasser se rendant en uniforme à la séance d'ouverture du Reichstag - btv1b9035691k.jpg",
+   "File:3 1 0 17 12960 1 1 45927 Trial against Nazis Edmund Heines, Gregor Strasser, Wilhelm Stegmann, Fritz Weitzel Berlin May 1932 On their way to the Criminal court Narodowe Archiwum Cyfrowe szukajwarchiwach.gov.pl Public domain.jpg"
+  ]
+ },
+ {
+  "tag": "115",
+  "status": "ok",
+  "file": "115.jpg",
+  "query": "Hotel Kaiserhof Berlin",
+  "title": "File:Berlin Hotel Kaiserhof Empfangssalon (BerlLeben 1904-03).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Berlin_Hotel_Kaiserhof_Empfangssalon_(BerlLeben_1904-03).jpg",
+  "license": "Public domain",
+  "attribution": "Unbekannter Fotograf der Epoche.",
+  "dims": "936x734",
+  "alts": [
+   "File:Berlin Hotel Kaiserhof Festsaal (BerlLeben 1904-03).jpg",
+   "File:Berlin Hotel Kaiserhof Schlafzimmer (BerlLeben 1904-03).jpg",
+   "File:Berlin Hotel Kaiserhof Restaurant Lichthof (BerlLeben 1904-03).jpg"
+  ]
+ },
+ {
+  "tag": "117",
+  "status": "ok",
+  "file": "117.jpg",
+  "query": "Joseph Goebbels 1932 portrait",
+  "title": "File:De gauche à droite, Dr. Goebbels et M. G. Strasser, hitlériens - btv1b90526256.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:De_gauche_%C3%A0_droite,_Dr._Goebbels_et_M._G._Strasser,_hitl%C3%A9riens_-_btv1b90526256.jpg",
+  "license": "Public domain",
+  "attribution": "Agence de presse Mondial Photo-Presse. Agence photographique (commanditaire)",
+  "dims": "1920x2600",
+  "alts": [
+   "File:De gauche à droite - Goebbels, le général von Epp, Allemagne - btv1b9027723f.jpg",
+   "File:De gauche à droite, Dr. Goebbels et M. G. Strasser, hitlériens - avec des officiers supérieurs - btv1b90526575.jpg",
+   "File:De gauche à droite, Dr. Goebbels et M. G. Strasser, hitlériens - saluant le drapeau - btv1b90526486.jpg"
+  ]
+ },
+ {
+  "tag": "Q14",
+  "status": "miss",
+  "query": "Joseph Goebbels diary desk"
+ },
+ {
+  "tag": "118",
+  "status": "miss",
+  "query": "Adolf Hitler 1932 portrait serious"
+ },
+ {
+  "tag": "119",
+  "status": "ok",
+  "file": "119.jpg",
+  "query": "Gregor Strasser 1933",
+  "title": "File:Dr Frick (à gauche) et Gregor Strasser se rendant en uniforme à la séance d'ouverture du Reichstag - btv1b9035691k.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dr_Frick_(%C3%A0_gauche)_et_Gregor_Strasser_se_rendant_en_uniforme_%C3%A0_la_s%C3%A9ance_d%27ouverture_du_Reichstag_-_btv1b9035691k.jpg",
+  "license": "Public domain",
+  "attribution": "Agence de presse Mondial Photo-Presse. Agence photographique (commanditaire)",
+  "dims": "1920x2568",
+  "alts": [
+   "File:3 1 0 17 12960 1 1 45927 Trial against Nazis Edmund Heines, Gregor Strasser, Wilhelm Stegmann, Fritz Weitzel Berlin May 1932 On their way to the Criminal court Narodowe Archiwum Cyfrowe szukajwarchiwach.gov.pl Public domain.jpg",
+   "File:3 1 0 17 12960 2 1 45939 Trial against Nazis Gregor Strasser, Wilhelm F. Stegmann, Fritz Weitzel, Edmund Heines Berlin May 1932 defendants bench in Criminal court Narodowe Archiwum Cyfrowe szukajwarchiwach.gov.pl Public d.jpg",
+   "File:3 1 0 17 12960 3 1 45940 Trial against Nazis Gregor Strasser, Wilhelm F. Stegmann, Fritz Weitzel, Edmund Heines Berlin May 1932 defendants bench in Criminal court Narodowe Archiwum Cyfrowe szukajwarchiwach.gov.pl Public d.jpg"
+  ]
+ },
+ {
+  "tag": "121",
+  "status": "ok",
+  "file": "121.jpg",
+  "query": "Kurt von Schleicher chancellor 1932",
+  "title": "File:PapenSchleicher0001.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:PapenSchleicher0001.jpg",
+  "license": "Public domain",
+  "attribution": "Mr. von der Deckter (+1934)",
+  "dims": "533x500",
+  "alts": []
+ },
+ {
+  "tag": "Q15",
+  "status": "ok",
+  "file": "Q15.jpg",
+  "query": "Kurt von Schleicher portrait uniform",
+  "title": "File:Portrait du général von Schleicher - btv1b90495836.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_du_g%C3%A9n%C3%A9ral_von_Schleicher_-_btv1b90495836.jpg",
+  "license": "Public domain",
+  "attribution": "Robert Sennecke Internationaler Illustrations Verlag. Agence photographique (commanditaire)",
+  "dims": "1920x2573",
+  "alts": [
+   "File:KurtVonScheleicherEn1932.jpeg"
+  ]
+ },
+ {
+  "tag": "123",
+  "status": "miss",
+  "query": "Kurt von Schroeder banker Cologne"
+ },
+ {
+  "tag": "125",
+  "status": "ok",
+  "file": "125.jpg",
+  "query": "Joachim von Ribbentrop 1933",
+  "title": "File:Bundesarchiv Bild 183-H12947, Münchener Abkommen, Ankunft von Chamberlain.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-H12947,_M%C3%BCnchener_Abkommen,_Ankunft_von_Chamberlain.jpg",
+  "license": "CC BY-SA 3.0 de",
+  "attribution": "Unknown authorUnknown author",
+  "dims": "800x601",
+  "alts": [
+   "File:Bundesarchiv Bild 183-H13013, Münchener Abkommen, Abreise Chamberlains.jpg",
+   "File:Bundesarchiv Bild 183-H13009, Münchener Abkommen, Abreise Daladier.jpg",
+   "File:Bundesarchiv Bild 183-1988-0526-500, Münchener Abkommen, Ankunft Chamberlain.jpg"
+  ]
+ },
+ {
+  "tag": "126",
+  "status": "ok",
+  "file": "126.jpeg",
+  "query": "Oskar von Hindenburg",
+  "title": "File:ElPresidenteHindenburgYSuHijoAcudenAUnaCompeticiónDeHípica1933.jpeg",
+  "page": "https://commons.wikimedia.org/wiki/File:ElPresidenteHindenburgYSuHijoAcudenAUnaCompetici%C3%B3nDeH%C3%ADpica1933.jpeg",
+  "license": "Public domain",
+  "attribution": "Robert Sennecke",
+  "dims": "1920x1442",
+  "alts": [
+   "File:3 1 0 17 12495 4 1 34566 Erster Mai Der Feiertag der nationalen Arbeit May Day Celebrations Berlin Nazi Germany 1933-05-01 Paul von Hindenburg, Hitler, Oskar von Hindeburg, Goebbels Crowds greeting (New York Times) Narodowe Archiwum Cy.jpg",
+   "File:Neudeck0002.jpg",
+   "File:3 1 0 17 11968 11 1 32810 Potsdam Day 1933-03-21 Ceremonial opening New Reichstag Nazi propaganda Prussian militarism Garnisonkirche Reich President Paul von Hindenburg goes to the church. SS Stahlhelm Soldiers and onlookers (NAC PDM).jpg"
+  ]
+ },
+ {
+  "tag": "128",
+  "status": "ok",
+  "file": "128.jpg",
+  "query": "Otto Meissner",
+  "title": "File:Erich Salomon Otto Boelitz Conrad von Borsig Otto Meissner.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Erich_Salomon_Otto_Boelitz_Conrad_von_Borsig_Otto_Meissner.jpg",
+  "license": "Public domain",
+  "attribution": "Erich Salomon",
+  "dims": "1523x1062",
+  "alts": [
+   "File:Meissner Chancellor19320001.jpg",
+   "File:Erich Salomon Hermann Pünder Robert Weismann Otto Meissner.jpg",
+   "File:Meissner and Ebert0001.jpg"
+  ]
+ },
+ {
+  "tag": "134",
+  "status": "ok",
+  "file": "134.jpg",
+  "query": "Franz von Papen cabinet 1933",
+  "title": "File:3 1 0 17 11968 3 1 32802 Potsdam Day 1933-03-21 Ceremonial opening New Reichstag Nazi propaganda Prussian militarism State dignitaries procession to Potsdamer Garnisonkirche Chancellor Hitler, Vice-Chancellor Franz von Papen Salutes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:3_1_0_17_11968_3_1_32802_Potsdam_Day_1933-03-21_Ceremonial_opening_New_Reichstag_Nazi_propaganda_Prussian_militarism_State_dignitaries_procession_to_Potsdamer_Garnisonkirche_Chancellor_Hitler,_Vice-Chancellor_Franz_von_Papen_Salutes.jpg",
+  "license": "Public domain",
+  "attribution": "Press photograph by an unidentified photographer, distributed through a news agency. For details, see the catalogue comments for the image file in the Narodowe Archiwum Cyfrowe (National Digital Archives of Poland).",
+  "dims": "1920x1522",
+  "alts": [
+   "File:3 1 0 17 11968 9 1 32808 Potsdam Day 1933-03-21 Ceremonial opening New Reichstag Nazi propaganda Prussian militarism Potsdamer Garnisonkirche State digintaries F Seldte, Hammerstein-Equord, Hugenberg, von Blomberg, von Papen (NAC PDM).jpg",
+   "File:3 1 0 17 11968 4 1 32803 Potsdam Day 1933-03-21 Ceremonial opening New Reichstag Nazi propaganda Prussian militarism State dignitaries procession to Potsdamer Garnisonkirche Chancellor Hitler, Vice-Chancellor von Papen, Police (NAC PD).jpg",
+   "File:3 1 0 17 11968 7 1 32806 Potsdam Day 1933-03-21 Ceremonial opening New Reichstag Nazi propaganda Prussian militarism State dignitaries procession to Garnisonkirche Hitler v Papen Eltz-Rübenach Goebbels etc Ceremonial company NAC.jpg"
+  ]
+ },
+ {
+  "tag": "136",
+  "status": "ok",
+  "file": "136.jpg",
+  "query": "Adolf Hitler Chancellor January 1933",
+  "title": "File:Adolf Hitler's speech in the Reichstag, 30 January 1939.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Adolf_Hitler%27s_speech_in_the_Reichstag,_30_January_1939.jpg",
+  "license": "Public domain",
+  "attribution": "UnknownUnknown",
+  "dims": "1920x1381",
+  "alts": [
+   "File:3 1 0 17 12495 3 1 34564 Erster Mai Der Feiertag der nationalen Arbeit May Day Celebrations Berlin Nazi Germany 1933-05-01 President von Hindenburg, Reich Chancellor Hitler in car arrive to ceremony (R Sennecke) NAC Public domain.jpg",
+   "File:3 1 0 17 11968 4 1 32803 Potsdam Day 1933-03-21 Ceremonial opening New Reichstag Nazi propaganda Prussian militarism State dignitaries procession to Potsdamer Garnisonkirche Chancellor Hitler, Vice-Chancellor von Papen, Police (NAC PD).jpg",
+   "File:3 1 0 17 11933 14 1 32680 REICHSTAGSBRAND Reichstag Fire German Parliament Berlin 1933-02-27 Chancellor Hitler, Reichstag President Göring, Minister Goebbels, Prince August Wilhelm of Hohenzollern Narodowe Archiwum Cyfrowe PDM.jpg"
+  ]
+ },
+ {
+  "tag": "139",
+  "status": "miss",
+  "query": "Reichstag fire ruins interior 1933"
+ },
+ {
+  "tag": "Q16",
+  "status": "ok",
+  "file": "Q16.jpg",
+  "query": "Hermann Goering portrait 1933",
+  "title": "File:Portrait du Capitaine D. Goering, Président du Reichstag, et ministre sans portefeuille sous Hitler - btv1b90345537.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_du_Capitaine_D._Goering,_Pr%C3%A9sident_du_Reichstag,_et_ministre_sans_portefeuille_sous_Hitler_-_btv1b90345537.jpg",
+  "license": "Public domain",
+  "attribution": "Robert Sennecke Internationaler Illustrations Verlag. Agence photographique (commanditaire)",
+  "dims": "1920x1449",
+  "alts": [
+   "File:Pierre-Auguste Renoir - Mademoiselle Grimprel au ruban rouge (1880).jpg"
+  ]
+ },
+ {
+  "tag": "140",
+  "status": "miss",
+  "query": "Reichstagsbrandverordnung 1933 document"
+ },
+ {
+  "tag": "147",
+  "status": "miss",
+  "query": "Ermaechtigungsgesetz 1933 Enabling Act"
+ },
+ {
+  "tag": "155",
+  "status": "ok",
+  "file": "155.jpg",
+  "query": "NSDAP 1933 Reichstag Nazi deputies",
+  "title": "File:3 1 0 17 11954 3 1 32783 Opening of the Reichstag Session Berlin 1932-08-30 Members of the Presidium Reichstag Vice-Presidents Walter Graef and Thomas Esser, Presidium member Hans Rauch, President H Goering NSDAP uniform. NAC Poland PD.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:3_1_0_17_11954_3_1_32783_Opening_of_the_Reichstag_Session_Berlin_1932-08-30_Members_of_the_Presidium_Reichstag_Vice-Presidents_Walter_Graef_and_Thomas_Esser,_Presidium_member_Hans_Rauch,_President_H_Goering_NSDAP_uniform._NAC_Poland_PD.jpg",
+  "license": "Public domain",
+  "attribution": "Uncredited photographer. Press photo distributed through a news agency.",
+  "dims": "1920x1465",
+  "alts": [
+   "File:3 1 0 17 12960 1 1 45927 Trial against Nazis Edmund Heines, Gregor Strasser, Wilhelm Stegmann, Fritz Weitzel Berlin May 1932 On their way to the Criminal court Narodowe Archiwum Cyfrowe szukajwarchiwach.gov.pl Public domain.jpg",
+   "File:3 1 0 17 12960 2 1 45939 Trial against Nazis Gregor Strasser, Wilhelm F. Stegmann, Fritz Weitzel, Edmund Heines Berlin May 1932 defendants bench in Criminal court Narodowe Archiwum Cyfrowe szukajwarchiwach.gov.pl Public d.jpg",
+   "File:3 1 0 17 12960 3 1 45940 Trial against Nazis Gregor Strasser, Wilhelm F. Stegmann, Fritz Weitzel, Edmund Heines Berlin May 1932 defendants bench in Criminal court Narodowe Archiwum Cyfrowe szukajwarchiwach.gov.pl Public d.jpg"
+  ]
+ },
+ {
+  "tag": "22",
+  "status": "ok",
+  "file": "22.jpg",
+  "query": "Völkischer Beobachter",
+  "title": "File:Völkischer Beobachter - ausgabe vom 25. Dezember 1920.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:V%C3%B6lkischer_Beobachter_-_ausgabe_vom_25._Dezember_1920.jpg",
+  "license": "Public domain",
+  "attribution": "AnonymousUnknown author",
+  "dims": "512x191",
+  "alts": [
+   "File:Völkischer Beobachter, self-promotion.jpg",
+   "File:Völkischer Beobachter, South German, imprint.jpg",
+   "File:Ein Jahr Atlantik-Schwindel — Artikel von Helmut Sündermann 1942.jpg"
+  ]
+ },
+ {
+  "tag": "26",
+  "status": "ok",
+  "file": "26.jpg",
+  "query": "Reichsgericht Leipzig building",
+  "title": "File:Leipzig Reichsgericht Grundriss.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Leipzig_Reichsgericht_Grundriss.jpg",
+  "license": "Public domain",
+  "attribution": "Unknown authorUnknown author",
+  "dims": "1004x775",
+  "alts": [
+   "File:Leipzig Reichsgericht außen Detail 002.jpg",
+   "File:Leipzig Reichsgericht außen Detail 001.jpg",
+   "File:Leipzig Reichsgericht außen Statuen 1 Eike von Repgow.jpg"
+  ]
+ },
+ {
+  "tag": "49",
+  "status": "ok",
+  "file": "49.jpg",
+  "query": "Reichstag Plenarsaal Sitzung",
+  "title": "File:Präsidium, Regierungsbank, Bundesratsbank.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pr%C3%A4sidium,_Regierungsbank,_Bundesratsbank.jpg",
+  "license": "CC BY-SA 4.0",
+  "attribution": "Birne1993",
+  "dims": "1280x960",
+  "alts": []
+ },
+ {
+  "tag": "58",
+  "status": "ok",
+  "file": "58.jpg",
+  "query": "Joseph Goebbels",
+  "title": "File:Joseph Goebbels and Kintomo Mushanokōji.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Joseph_Goebbels_and_Kintomo_Mushanok%C5%8Dji.jpg",
+  "license": "Public domain",
+  "attribution": "Unknown photographer",
+  "dims": "612x432",
+  "alts": [
+   "File:Goebbels Maul Greiser.png",
+   "File:Joseph Goebbels and Richard Strauss.jpg",
+   "File:Tagebucheinträge Joseph Goebbels vom 10. und 11. November 1938 p1.jpg"
+  ]
+ },
+ {
+  "tag": "60",
+  "status": "ok",
+  "file": "60.jpg",
+  "query": "Joseph Goebbels Rede",
+  "title": "File:Tag von Potsdam, Rede Hitler in Garnisonkirche - LoC 3c06471v.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tag_von_Potsdam,_Rede_Hitler_in_Garnisonkirche_-_LoC_3c06471v.jpg",
+  "license": "Public domain",
+  "attribution": "Unknown authorUnknown author",
+  "dims": "912x688",
+  "alts": [
+   "File:3 1 0 17 12005 1 1 32828 Presidential Election Germany Reichspräsidentenwahl 1932-04-10 Hitler Nazi rally Lustgarten next to Berliner Palace 1932-04-04 v Helldorf Goebbels Brückner NSDAP Deutschland erwache banners NAC, Poland PD.jpg",
+   "File:Bundesarchiv Bild 102-17049, Joseph Goebbels spricht.jpg",
+   "File:Bundesarchiv Bild 119-2406-01, Berlin-Lustgarten, Rede Joseph Goebbels.jpg"
+  ]
+ },
+ {
+  "tag": "73",
+  "status": "ok",
+  "file": "73.jpg",
+  "query": "Fritz Thyssen",
+  "title": "File:Fritz Thyssen LCCN2014715645.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Fritz_Thyssen_LCCN2014715645.jpg",
+  "license": "Public domain",
+  "attribution": "Bain News Service, publisher",
+  "dims": "1920x2633",
+  "alts": [
+   "File:Duits zakenman Fritz Thijssen (1873-1951), SFA022004744.jpg",
+   "File:Steinkohlenbergwerk Lippermulde Kuxschein 1923 August Thyssen Autograph.jpg",
+   "File:Fritz Thyssen Stiftung Köln. Innenhof Apostelnkloster 13-15.jpg"
+  ]
+ },
+ {
+  "tag": "77",
+  "status": "ok",
+  "file": "77.jpg",
+  "query": "Weimarer Verfassung",
+  "title": "File:Weimarer Verfassung.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Weimarer_Verfassung.JPG",
+  "license": "Public domain",
+  "attribution": "Azador",
+  "dims": "643x454",
+  "alts": [
+   "File:3 RM Verfassung RS.jpg",
+   "File:3 RM Verfassung VS.jpg",
+   "File:Memorial coin for the German national assembly 1919.jpg"
+  ]
+ },
+ {
+  "tag": "93",
+  "status": "ok",
+  "file": "93.jpg",
+  "query": "Braunschweig Rathaus 1932",
+  "title": "File:Norddeutsche Backsteingotik 1919 (150234736).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Norddeutsche_Backsteingotik_1919_(150234736).jpg",
+  "license": "Public domain",
+  "attribution": "Hans Much",
+  "dims": "1920x1203",
+  "alts": []
+ },
+ {
+  "tag": "Q7",
+  "status": "ok",
+  "file": "Q7.jpg",
+  "query": "Joseph Goebbels Porträt",
+  "title": "File:Porträt Joseph Goebbels.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Portr%C3%A4t_Joseph_Goebbels.jpg",
+  "license": "Public domain",
+  "attribution": "Unknown authorUnknown author",
+  "dims": "918x1477",
+  "alts": [
+   "File:Joseph Goebbels Side Portrait (3x4 cropped).jpg",
+   "File:Bundesarchiv Bild 146-1968-101-20A, Joseph Goebbels (cropped)(b).jpg",
+   "File:Bundesarchiv Bild 146-1968-101-20A, Joseph Goebbels.jpg"
+  ]
+ },
+ {
+  "tag": "Q8",
+  "status": "ok",
+  "file": "Q8.jpg",
+  "query": "Joseph Goebbels 1930",
+  "title": "File:Adolf Hitler,Himmler,Frick,Mutschmann,Goebbels,Schaub,Epp,Goering.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Adolf_Hitler,Himmler,Frick,Mutschmann,Goebbels,Schaub,Epp,Goering.jpg",
+  "license": "Public domain",
+  "attribution": "Unknown authorUnknown author",
+  "dims": "653x738",
+  "alts": [
+   "File:The graphic 1930 nazi report.jpg",
+   "File:Wessel-Parteibuch.jpg",
+   "File:Winterhulp, NG-2006-52-5.jpg"
+  ]
+ },
+ {
+  "tag": "Q10",
+  "status": "miss",
+  "query": "Nazi newspaper headline 1930"
  }
 ]
