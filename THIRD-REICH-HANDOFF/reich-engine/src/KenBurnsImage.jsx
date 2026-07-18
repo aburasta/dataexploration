@@ -1,13 +1,6 @@
 import { AbsoluteFill, Img, staticFile, useCurrentFrame } from "remotion";
 import { imageMotion } from "./config";
 
-// A source within this band of 16:9 (1.778) gets the plain full-bleed `cover`
-// treatment — the crop is small and the Ken Burns push/pull sells it as
-// intentional framing. Outside the band (portraits, extreme panoramas) cover
-// would discard too much of the actual photo, so those get a letterbox instead.
-const COVER_MIN_RATIO = 1.5; // e.g. 3:2
-const COVER_MAX_RATIO = 2.1; // e.g. ~21:9
-
 // ── Still image with documentary Ken Burns motion ────────────────────────────
 // A monotonic pan/zoom across the whole scene (see config.imageMotion) plus a
 // faint idle float, so archival photographs never sit perfectly still.
@@ -27,12 +20,9 @@ export function KenBurnsImage({ scene = {}, mediaDir, durationInFrames }) {
     );
   }
 
-  // aspectRatio is precomputed by the assembly stage (build_spec_*.py) and
-  // written into active-episode.json alongside durationSec — probing natural
-  // image size at render time is async/unreliable under headless Chrome.
-  const ratio = scene.aspectRatio;
-  const isOffRatio = typeof ratio === "number" && (ratio < COVER_MIN_RATIO || ratio > COVER_MAX_RATIO);
-
+  // Every still is scaled to fill the 16:9 frame (cover / center-crop) — no
+  // letterboxing, ever. Off-ratio sources are resized to fit and the Ken Burns
+  // push/pull sells the crop as intentional framing.
   return (
     <AbsoluteFill style={{ overflow: "hidden", background: "#000" }}>
       <AbsoluteFill
@@ -42,45 +32,14 @@ export function KenBurnsImage({ scene = {}, mediaDir, durationInFrames }) {
           transformOrigin: "center center",
         }}
       >
-        {isOffRatio ? (
-          <>
-            {/* Blurred, darkened full-bleed backdrop so the frame is never empty. */}
-            <Img
-              src={src}
-              style={{
-                position: "absolute",
-                top: 0,
-                left: 0,
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-                filter: "blur(40px) brightness(0.45)",
-                transform: "scale(1.15)", // hide blur edge artifacts
-              }}
-            />
-            {/* Full, uncropped image on top — nothing lost. */}
-            <Img
-              src={src}
-              style={{
-                position: "absolute",
-                top: 0,
-                left: 0,
-                width: "100%",
-                height: "100%",
-                objectFit: "contain",
-              }}
-            />
-          </>
-        ) : (
-          <Img
-            src={src}
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-            }}
-          />
-        )}
+        <Img
+          src={src}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+          }}
+        />
       </AbsoluteFill>
     </AbsoluteFill>
   );
