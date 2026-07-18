@@ -1572,20 +1572,164 @@
   {
    "src": "music/music-A.mp3",
    "from": 0,
-   "durationInFrames": 1500,
+   "durationInFrames": 960,
    "startFrom": 0,
    "volume": 0.166,
    "fadeIn": 45,
-   "fadeOut": 70
+   "fadeOut": 75
+  },
+  {
+   "src": "music/music-B.mp3",
+   "from": 960,
+   "durationInFrames": 4500,
+   "startFrom": 0,
+   "volume": 0.129,
+   "fadeIn": 45,
+   "fadeOut": 75
+  },
+  {
+   "src": "music/music-D.mp3",
+   "from": 6300,
+   "durationInFrames": 1950,
+   "startFrom": 0,
+   "volume": 0.107,
+   "fadeIn": 45,
+   "fadeOut": 75
   },
   {
    "src": "music/music-C.mp3",
-   "from": 27150,
-   "durationInFrames": 2100,
-   "startFrom": 12,
+   "from": 9660,
+   "durationInFrames": 2790,
+   "startFrom": 0,
    "volume": 0.084,
-   "fadeIn": 50,
-   "fadeOut": 70
+   "fadeIn": 45,
+   "fadeOut": 75
+  },
+  {
+   "src": "music/music-B.mp3",
+   "from": 13440,
+   "durationInFrames": 2160,
+   "startFrom": 10,
+   "volume": 0.129,
+   "fadeIn": 45,
+   "fadeOut": 75
+  },
+  {
+   "src": "music/music-A.mp3",
+   "from": 15690,
+   "durationInFrames": 960,
+   "startFrom": 0,
+   "volume": 0.166,
+   "fadeIn": 45,
+   "fadeOut": 75
+  },
+  {
+   "src": "music/music-D.mp3",
+   "from": 16950,
+   "durationInFrames": 1740,
+   "startFrom": 20,
+   "volume": 0.107,
+   "fadeIn": 45,
+   "fadeOut": 75
+  },
+  {
+   "src": "music/music-D.mp3",
+   "from": 18960,
+   "durationInFrames": 2550,
+   "startFrom": 70,
+   "volume": 0.09,
+   "fadeIn": 45,
+   "fadeOut": 75
+  },
+  {
+   "src": "music/music-C.mp3",
+   "from": 24000,
+   "durationInFrames": 2850,
+   "startFrom": 5,
+   "volume": 0.084,
+   "fadeIn": 45,
+   "fadeOut": 75
+  },
+  {
+   "src": "music/music-C.mp3",
+   "from": 27000,
+   "durationInFrames": 3000,
+   "startFrom": 0,
+   "volume": 0.084,
+   "fadeIn": 45,
+   "fadeOut": 75
+  },
+  {
+   "src": "music/music-D.mp3",
+   "from": 30750,
+   "durationInFrames": 3000,
+   "startFrom": 0,
+   "volume": 0.107,
+   "fadeIn": 45,
+   "fadeOut": 75
+  },
+  {
+   "src": "music/music-D.mp3",
+   "from": 35100,
+   "durationInFrames": 1950,
+   "startFrom": 90,
+   "volume": 0.107,
+   "fadeIn": 45,
+   "fadeOut": 75
+  },
+  {
+   "src": "music/music-B.mp3",
+   "from": 38400,
+   "durationInFrames": 1650,
+   "startFrom": 90,
+   "volume": 0.129,
+   "fadeIn": 45,
+   "fadeOut": 75
+  },
+  {
+   "src": "music/music-D.mp3",
+   "from": 40200,
+   "durationInFrames": 4500,
+   "startFrom": 0,
+   "volume": 0.107,
+   "fadeIn": 45,
+   "fadeOut": 75
+  },
+  {
+   "src": "music/music-C.mp3",
+   "from": 44850,
+   "durationInFrames": 2040,
+   "startFrom": 10,
+   "volume": 0.084,
+   "fadeIn": 45,
+   "fadeOut": 75
+  },
+  {
+   "src": "music/music-C.mp3",
+   "from": 49740,
+   "durationInFrames": 1620,
+   "startFrom": 0,
+   "volume": 0.095,
+   "fadeIn": 45,
+   "fadeOut": 75
+  },
+  {
+   "src": "music/music-D.mp3",
+   "from": 51390,
+   "durationInFrames": 4440,
+   "startFrom": 0,
+   "volume": 0.107,
+   "fadeIn": 45,
+   "fadeOut": 75
+  },
+  {
+   "src": "music/music-B.mp3",
+   "from": 55890,
+   "durationInFrames": 1440,
+   "startFrom": 0,
+   "volume": 0.1,
+   "fadeIn": 45,
+   "fadeOut": 75
   }
  ]
 }
