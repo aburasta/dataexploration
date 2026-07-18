@@ -1,8 +1,1570 @@
 {
-  "title": "placeholder — no active episode",
-  "slug": "placeholder",
-  "mediaDir": "placeholder",
-  "scenes": [
-    { "n": 1, "type": "outro", "durationSec": 5.0, "transition": "cut" }
-  ]
+ "title": "The Legal Coup (1919-1933)",
+ "slug": "special-legal-coup-1919-1933",
+ "mediaDir": "special-legal-coup-1919-1933",
+ "narration": "narration.mp3",
+ "music": false,
+ "scenes": [
+  {
+   "n": "1",
+   "type": "image",
+   "src": "1.jpg",
+   "durationSec": 13.812,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "2",
+   "type": "image",
+   "src": "2.jpg",
+   "durationSec": 13.812,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": "3",
+   "type": "image",
+   "src": "3.jpg",
+   "durationSec": 5.226,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": "4",
+   "type": "image",
+   "src": "4.jpeg",
+   "durationSec": 14.932,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "5",
+   "type": "image",
+   "src": "5.jpg",
+   "durationSec": 8.959,
+   "motion": "settle",
+   "transition": "xfade"
+  },
+  {
+   "n": "6",
+   "type": "image",
+   "src": "6.jpg",
+   "durationSec": 4.479,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": "7",
+   "type": "image",
+   "src": "7.jpg",
+   "durationSec": 25.01,
+   "motion": "pan-left",
+   "transition": "cut"
+  },
+  {
+   "n": "8",
+   "type": "image",
+   "src": "8.jpg",
+   "durationSec": 17.171,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": "9",
+   "type": "image",
+   "src": "9.jpg",
+   "durationSec": 5.599,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "Q1",
+   "type": "image",
+   "src": "Q1.jpg",
+   "durationSec": 4.106,
+   "motion": "settle",
+   "transition": "xfade"
+  },
+  {
+   "n": "10",
+   "type": "image",
+   "src": "10.jpg",
+   "durationSec": 1.493,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": "11",
+   "type": "image",
+   "src": "11.jpg",
+   "durationSec": 11.577,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": "12",
+   "type": "image",
+   "src": "12.jpg",
+   "durationSec": 9.045,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": "13",
+   "type": "image",
+   "src": "13.jpeg",
+   "durationSec": 9.406,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "Q2",
+   "type": "image",
+   "src": "Q2.jpg",
+   "durationSec": 6.512,
+   "motion": "settle",
+   "transition": "xfade"
+  },
+  {
+   "n": "14",
+   "type": "image",
+   "src": "14.jpg",
+   "durationSec": 16.642,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": "15",
+   "type": "clip",
+   "src": "15.mp4",
+   "durationSec": 18.089,
+   "startTrim": 0,
+   "playbackRate": 0.25,
+   "transition": "xfade"
+  },
+  {
+   "n": "16",
+   "type": "image",
+   "src": "16.jpg",
+   "durationSec": 7.236,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": "17",
+   "type": "image",
+   "src": "17.jpg",
+   "durationSec": 13.748,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": "18",
+   "type": "clip",
+   "src": "18.mp4",
+   "durationSec": 8.321,
+   "startTrim": 0,
+   "playbackRate": 0.722,
+   "transition": "xfade"
+  },
+  {
+   "n": "19",
+   "type": "image",
+   "src": "19.jpg",
+   "durationSec": 17.004,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "20",
+   "type": "image",
+   "src": "20.jpg",
+   "durationSec": 11.346,
+   "motion": "settle",
+   "transition": "xfade"
+  },
+  {
+   "n": "21",
+   "type": "image",
+   "src": "21.jpg",
+   "durationSec": 6.533,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": "22",
+   "type": "image",
+   "src": "22.jpg",
+   "durationSec": 4.126,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": "Q3",
+   "type": "image",
+   "src": "Q3.jpg",
+   "durationSec": 2.407,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": "23",
+   "type": "image",
+   "src": "23.jpg",
+   "durationSec": 1.375,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "Q4",
+   "type": "image",
+   "src": "Q4.jpg",
+   "durationSec": 2.751,
+   "motion": "settle",
+   "transition": "xfade"
+  },
+  {
+   "n": "24",
+   "type": "image",
+   "src": "24.jpg",
+   "durationSec": 11.002,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": "25",
+   "type": "image",
+   "src": "25.jpg",
+   "durationSec": 7.908,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": "26",
+   "type": "image",
+   "src": "26.jpg",
+   "durationSec": 10.315,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": "27",
+   "type": "image",
+   "src": "27.jpg",
+   "durationSec": 14.785,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "28",
+   "type": "image",
+   "src": "28.jpg",
+   "durationSec": 7.908,
+   "motion": "settle",
+   "transition": "cut"
+  },
+  {
+   "n": "29",
+   "type": "image",
+   "src": "29.jpg",
+   "durationSec": 7.564,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": "30",
+   "type": "image",
+   "src": "30.jpg",
+   "durationSec": 11.69,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": "31",
+   "type": "image",
+   "src": "31.jpg",
+   "durationSec": 18.786,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": "32",
+   "type": "image",
+   "src": "32.jpg",
+   "durationSec": 11.741,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "33",
+   "type": "clip",
+   "src": "33.mp4",
+   "durationSec": 4.305,
+   "startTrim": 0,
+   "playbackRate": 1.164,
+   "transition": "xfade"
+  },
+  {
+   "n": "34",
+   "type": "image",
+   "src": "34.jpg",
+   "durationSec": 17.22,
+   "motion": "settle",
+   "transition": "xfade"
+  },
+  {
+   "n": "Q5",
+   "type": "image",
+   "src": "Q5.jpg",
+   "durationSec": 2.74,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": "35",
+   "type": "image",
+   "src": "35.jpg",
+   "durationSec": 11.35,
+   "motion": "pan-left",
+   "transition": "cut"
+  },
+  {
+   "n": "36",
+   "type": "image",
+   "src": "36.jpg",
+   "durationSec": 4.696,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": "37",
+   "type": "image",
+   "src": "37.jpg",
+   "durationSec": 13.307,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "38",
+   "type": "image",
+   "src": "38.jpg",
+   "durationSec": 13.698,
+   "motion": "settle",
+   "transition": "xfade"
+  },
+  {
+   "n": "39",
+   "type": "image",
+   "src": "39.jpg",
+   "durationSec": 5.479,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": "40",
+   "type": "image",
+   "src": "40.jpg",
+   "durationSec": 8.219,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": "41",
+   "type": "image",
+   "src": "41.jpg",
+   "durationSec": 14.639,
+   "motion": "slow-pull",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "42",
+   "type": "image",
+   "src": "42.jpg",
+   "durationSec": 12.011,
+   "motion": "pan-right",
+   "transition": "cut"
+  },
+  {
+   "n": "43",
+   "type": "image",
+   "src": "43.jpg",
+   "durationSec": 6.756,
+   "motion": "settle",
+   "transition": "xfade"
+  },
+  {
+   "n": "44",
+   "type": "image",
+   "src": "44.jpg",
+   "durationSec": 11.636,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": "45",
+   "type": "image",
+   "src": "45.jpg",
+   "durationSec": 7.507,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": "46",
+   "type": "image",
+   "src": "46.jpg",
+   "durationSec": 11.261,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": "47",
+   "type": "image",
+   "src": "47.jpg",
+   "durationSec": 16.14,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "48",
+   "type": "image",
+   "src": "48.jpg",
+   "durationSec": 15.39,
+   "motion": "settle",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "49",
+   "type": "image",
+   "src": "49.jpg",
+   "durationSec": 5.255,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": "Q6",
+   "type": "image",
+   "src": "Q6.jpg",
+   "durationSec": 21.395,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": "50",
+   "type": "clip",
+   "src": "50.mp4",
+   "durationSec": 18.542,
+   "startTrim": 0,
+   "playbackRate": 0.324,
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "51",
+   "type": "clip",
+   "src": "51.mp4",
+   "durationSec": 7.101,
+   "startTrim": 0,
+   "playbackRate": 0.846,
+   "transition": "xfade"
+  },
+  {
+   "n": "52",
+   "type": "clip",
+   "src": "52.mp4",
+   "durationSec": 11.047,
+   "startTrim": 0,
+   "playbackRate": 0.544,
+   "transition": "xfade"
+  },
+  {
+   "n": "53",
+   "type": "clip",
+   "src": "53.mp4",
+   "durationSec": 9.863,
+   "startTrim": 0,
+   "playbackRate": 0.609,
+   "transition": "xfade"
+  },
+  {
+   "n": "54",
+   "type": "image",
+   "src": "54.jpg",
+   "durationSec": 5.523,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": "55",
+   "type": "clip",
+   "src": "55.mp4",
+   "durationSec": 6.312,
+   "startTrim": 0,
+   "playbackRate": 0.794,
+   "transition": "xfade"
+  },
+  {
+   "n": "56",
+   "type": "clip",
+   "src": "56.mp4",
+   "durationSec": 7.101,
+   "startTrim": 0,
+   "playbackRate": 0.706,
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "57",
+   "type": "image",
+   "src": "57.jpg",
+   "durationSec": 15.781,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "58",
+   "type": "image",
+   "src": "58.jpg",
+   "durationSec": 9.074,
+   "motion": "settle",
+   "transition": "xfade"
+  },
+  {
+   "n": "59",
+   "type": "clip",
+   "src": "59.mp4",
+   "durationSec": 18.148,
+   "startTrim": 0,
+   "playbackRate": 0.276,
+   "transition": "xfade"
+  },
+  {
+   "n": "60",
+   "type": "image",
+   "src": "60.jpg",
+   "durationSec": 6.707,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": "61",
+   "type": "clip",
+   "src": "61.mp4",
+   "durationSec": 12.556,
+   "startTrim": 0,
+   "playbackRate": 0.399,
+   "transition": "xfade"
+  },
+  {
+   "n": "62",
+   "type": "clip",
+   "src": "62.mp4",
+   "durationSec": 8.022,
+   "startTrim": 0,
+   "playbackRate": 0.625,
+   "transition": "xfade"
+  },
+  {
+   "n": "63",
+   "type": "image",
+   "src": "63.png",
+   "durationSec": 9.417,
+   "motion": "pan-left",
+   "transition": "cut"
+  },
+  {
+   "n": "Q7",
+   "type": "image",
+   "src": "Q7.jpg",
+   "durationSec": 9.417,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": "64",
+   "type": "clip",
+   "src": "64.mp4",
+   "durationSec": 4.185,
+   "startTrim": 0,
+   "playbackRate": 1.197,
+   "transition": "xfade"
+  },
+  {
+   "n": "65",
+   "type": "clip",
+   "src": "65.mp4",
+   "durationSec": 16.742,
+   "startTrim": 0,
+   "playbackRate": 0.299,
+   "transition": "xfade"
+  },
+  {
+   "n": "Q8",
+   "type": "image",
+   "src": "Q8.jpg",
+   "durationSec": 5.232,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "66",
+   "type": "clip",
+   "src": "66.mp4",
+   "durationSec": 5.232,
+   "startTrim": 0,
+   "playbackRate": 0.765,
+   "transition": "xfade"
+  },
+  {
+   "n": "Q9",
+   "type": "image",
+   "src": "Q9.jpg",
+   "durationSec": 2.79,
+   "motion": "settle",
+   "transition": "xfade"
+  },
+  {
+   "n": "67",
+   "type": "image",
+   "src": "67.jpg",
+   "durationSec": 10.115,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": "68",
+   "type": "clip",
+   "src": "68.mp4",
+   "durationSec": 6.278,
+   "startTrim": 0,
+   "playbackRate": 0.798,
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "H1",
+   "type": "hemicycle",
+   "durationSec": 16.742,
+   "transition": "xfade",
+   "segments": [
+    {
+     "count": 12,
+     "color": "#b03028",
+     "label": "NSDAP 12"
+    },
+    {
+     "count": 479,
+     "color": "#4a4a4a"
+    }
+   ],
+   "total": 491,
+   "showLabels": true,
+   "caption": "May 1928 \u2014 12 / 491"
+  },
+  {
+   "n": "69",
+   "type": "image",
+   "src": "69.jpg",
+   "durationSec": 6.627,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": "70",
+   "type": "clip",
+   "src": "70.mp4",
+   "durationSec": 9.766,
+   "startTrim": 0,
+   "playbackRate": 0.513,
+   "transition": "cut"
+  },
+  {
+   "n": "71",
+   "type": "clip",
+   "src": "71.mp4",
+   "durationSec": 11.039,
+   "startTrim": 0,
+   "playbackRate": 0.454,
+   "transition": "xfade"
+  },
+  {
+   "n": "Q10",
+   "type": "image",
+   "src": "Q10.jpg",
+   "durationSec": 8.755,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": "72",
+   "type": "clip",
+   "src": "72.mp4",
+   "durationSec": 8.374,
+   "startTrim": 0,
+   "playbackRate": 0.598,
+   "transition": "xfade"
+  },
+  {
+   "n": "73",
+   "type": "image",
+   "src": "73.jpg",
+   "durationSec": 9.897,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "74",
+   "type": "image",
+   "src": "74.jpg",
+   "durationSec": 10.658,
+   "motion": "settle",
+   "transition": "xfade"
+  },
+  {
+   "n": "75",
+   "type": "image",
+   "src": "75.jpg",
+   "durationSec": 12.942,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": "Q11",
+   "type": "image",
+   "src": "Q11.jpg",
+   "durationSec": 12.562,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": "76",
+   "type": "clip",
+   "src": "76.mp4",
+   "durationSec": 17.13,
+   "startTrim": 0,
+   "playbackRate": 0.292,
+   "transition": "xfade"
+  },
+  {
+   "n": "77",
+   "type": "image",
+   "src": "77.jpg",
+   "durationSec": 11.8,
+   "motion": "slow-pull",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "78",
+   "type": "image",
+   "src": "78.jpg",
+   "durationSec": 12.181,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "79",
+   "type": "clip",
+   "src": "79.mp4",
+   "durationSec": 3.045,
+   "startTrim": 0,
+   "playbackRate": 1.97,
+   "transition": "xfade"
+  },
+  {
+   "n": "80",
+   "type": "clip",
+   "src": "80.mp4",
+   "durationSec": 8.755,
+   "startTrim": 0,
+   "playbackRate": 0.571,
+   "transition": "xfade"
+  },
+  {
+   "n": "H2",
+   "type": "hemicycle",
+   "durationSec": 22.451,
+   "transition": "xfade",
+   "segments": [
+    {
+     "count": 107,
+     "color": "#b03028",
+     "label": "NSDAP 107"
+    },
+    {
+     "count": 384,
+     "color": "#4a4a4a"
+    }
+   ],
+   "total": 491,
+   "showLabels": true,
+   "caption": "Sept 1930 \u2014 107 / 491"
+  },
+  {
+   "n": "81",
+   "type": "clip",
+   "src": "81.mp4",
+   "durationSec": 3.939,
+   "startTrim": 0,
+   "playbackRate": 1.272,
+   "transition": "xfade"
+  },
+  {
+   "n": "82",
+   "type": "clip",
+   "src": "82.mp4",
+   "durationSec": 11.422,
+   "startTrim": 0,
+   "playbackRate": 0.526,
+   "transition": "xfade"
+  },
+  {
+   "n": "Q12",
+   "type": "image",
+   "src": "Q12.jpg",
+   "durationSec": 6.302,
+   "motion": "settle",
+   "transition": "xfade"
+  },
+  {
+   "n": "83",
+   "type": "image",
+   "src": "83.png",
+   "durationSec": 24.42,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": "84",
+   "type": "image",
+   "src": "84.jpg",
+   "durationSec": 6.302,
+   "motion": "pan-left",
+   "transition": "cut"
+  },
+  {
+   "n": "Q13",
+   "type": "image",
+   "src": "Q13.jpg",
+   "durationSec": 0.394,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": "85",
+   "type": "clip",
+   "src": "85.mp4",
+   "durationSec": 16.149,
+   "startTrim": 0,
+   "playbackRate": 0.31,
+   "transition": "xfade"
+  },
+  {
+   "n": "86",
+   "type": "clip",
+   "src": "86.mp4",
+   "durationSec": 9.847,
+   "startTrim": 0,
+   "playbackRate": 0.508,
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "87",
+   "type": "clip",
+   "src": "87.mp4",
+   "durationSec": 19.694,
+   "startTrim": 0,
+   "playbackRate": 0.305,
+   "transition": "xfade"
+  },
+  {
+   "n": "88",
+   "type": "clip",
+   "src": "88.mp4",
+   "durationSec": 11.069,
+   "startTrim": 0,
+   "playbackRate": 0.361,
+   "transition": "xfade"
+  },
+  {
+   "n": "89",
+   "type": "image",
+   "src": "89.jpg",
+   "durationSec": 9.767,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "90",
+   "type": "clip",
+   "src": "90.mp4",
+   "durationSec": 6.837,
+   "startTrim": 0,
+   "playbackRate": 0.733,
+   "transition": "xfade"
+  },
+  {
+   "n": "91",
+   "type": "clip",
+   "src": "91.mp4",
+   "durationSec": 11.72,
+   "startTrim": 0,
+   "playbackRate": 0.341,
+   "transition": "cut"
+  },
+  {
+   "n": "92",
+   "type": "image",
+   "src": "92.jpg",
+   "durationSec": 10.093,
+   "motion": "settle",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "93",
+   "type": "image",
+   "src": "93.jpg",
+   "durationSec": 9.116,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": "94",
+   "type": "image",
+   "src": "94.jpg",
+   "durationSec": 7.814,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": "95",
+   "type": "clip",
+   "src": "95.mp4",
+   "durationSec": 18.883,
+   "startTrim": 0,
+   "playbackRate": 0.371,
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "H3",
+   "type": "hemicycle",
+   "durationSec": 5.86,
+   "transition": "xfade",
+   "segments": [
+    {
+     "count": 53,
+     "color": "#4a4a4a",
+     "label": "Hindenburg 53%"
+    },
+    {
+     "count": 37,
+     "color": "#b03028",
+     "label": "Hitler 37%"
+    },
+    {
+     "count": 10,
+     "color": "#6f6f6f",
+     "label": "other 10%"
+    }
+   ],
+   "total": 100,
+   "showLabels": true,
+   "caption": "1932 runoff"
+  },
+  {
+   "n": "96",
+   "type": "clip",
+   "src": "96.mp4",
+   "durationSec": 8.139,
+   "startTrim": 0,
+   "playbackRate": 0.614,
+   "transition": "xfade"
+  },
+  {
+   "n": "97",
+   "type": "image",
+   "src": "97.jpg",
+   "durationSec": 12.371,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": "98",
+   "type": "clip",
+   "src": "98.mp4",
+   "durationSec": 6.511,
+   "startTrim": 0,
+   "playbackRate": 0.923,
+   "transition": "cut"
+  },
+  {
+   "n": "99",
+   "type": "image",
+   "src": "99.jpg",
+   "durationSec": 21.714,
+   "motion": "pan-right",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "100",
+   "type": "image",
+   "src": "100.jpg",
+   "durationSec": 15.397,
+   "motion": "settle",
+   "transition": "xfade"
+  },
+  {
+   "n": "101",
+   "type": "image",
+   "src": "101.jpg",
+   "durationSec": 5.527,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": "102",
+   "type": "image",
+   "src": "102.jpg",
+   "durationSec": 9.08,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": "103",
+   "type": "clip",
+   "src": "103.mp4",
+   "durationSec": 9.08,
+   "startTrim": 0,
+   "playbackRate": 0.552,
+   "transition": "xfade"
+  },
+  {
+   "n": "104",
+   "type": "clip",
+   "src": "104.mp4",
+   "durationSec": 7.106,
+   "startTrim": 0,
+   "playbackRate": 0.705,
+   "transition": "xfade"
+  },
+  {
+   "n": "105",
+   "type": "clip",
+   "src": "105.mp4",
+   "durationSec": 20.924,
+   "startTrim": 0,
+   "playbackRate": 0.25,
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "106",
+   "type": "image",
+   "src": "106.jpg",
+   "durationSec": 10.265,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": "107",
+   "type": "clip",
+   "src": "107.mp4",
+   "durationSec": 8.686,
+   "startTrim": 0,
+   "playbackRate": 0.577,
+   "transition": "xfade"
+  },
+  {
+   "n": "H4",
+   "type": "hemicycle",
+   "durationSec": 10.168,
+   "transition": "xfade",
+   "segments": [
+    {
+     "count": 230,
+     "color": "#b03028",
+     "label": "NSDAP 230"
+    },
+    {
+     "count": 378,
+     "color": "#4a4a4a"
+    }
+   ],
+   "total": 608,
+   "showLabels": true,
+   "caption": "July 1932 \u2014 230 / 608"
+  },
+  {
+   "n": "109",
+   "type": "image",
+   "src": "109.jpg",
+   "durationSec": 15.252,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "H5",
+   "type": "hemicycle",
+   "durationSec": 7.477,
+   "transition": "xfade",
+   "segments": [
+    {
+     "count": 196,
+     "color": "#b03028",
+     "label": "NSDAP 196"
+    },
+    {
+     "count": 388,
+     "color": "#4a4a4a"
+    }
+   ],
+   "total": 584,
+   "showLabels": true,
+   "caption": "Nov 1932 \u2014 196 / 584"
+  },
+  {
+   "n": "111",
+   "type": "image",
+   "src": "111.jpg",
+   "durationSec": 8.374,
+   "motion": "settle",
+   "transition": "xfade"
+  },
+  {
+   "n": "112",
+   "type": "clip",
+   "src": "112.mp4",
+   "durationSec": 17.346,
+   "startTrim": 0,
+   "playbackRate": 0.289,
+   "transition": "cut"
+  },
+  {
+   "n": "113",
+   "type": "image",
+   "src": "113.jpg",
+   "durationSec": 16.15,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "114",
+   "type": "image",
+   "src": "114.jpg",
+   "durationSec": 16.449,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": "115",
+   "type": "image",
+   "src": "115.jpg",
+   "durationSec": 9.271,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": "116",
+   "type": "image",
+   "src": "116.jpg",
+   "durationSec": 5.682,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "117",
+   "type": "image",
+   "src": "117.jpg",
+   "durationSec": 2.093,
+   "motion": "settle",
+   "transition": "xfade"
+  },
+  {
+   "n": "Q14",
+   "type": "image",
+   "src": "Q14.jpg",
+   "durationSec": 1.794,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": "118",
+   "type": "image",
+   "src": "118.jpg",
+   "durationSec": 8.673,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": "119",
+   "type": "image",
+   "src": "119.jpg",
+   "durationSec": 9.654,
+   "motion": "slow-pull",
+   "transition": "cut"
+  },
+  {
+   "n": "120",
+   "type": "clip",
+   "src": "120.mp4",
+   "durationSec": 11.971,
+   "startTrim": 0,
+   "playbackRate": 0.419,
+   "transition": "xfade"
+  },
+  {
+   "n": "121",
+   "type": "image",
+   "src": "121.jpg",
+   "durationSec": 10.426,
+   "motion": "pan-right",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "122",
+   "type": "image",
+   "src": "122.jpg",
+   "durationSec": 1.931,
+   "motion": "settle",
+   "transition": "xfade"
+  },
+  {
+   "n": "Q15",
+   "type": "image",
+   "src": "Q15.jpg",
+   "durationSec": 8.495,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": "123",
+   "type": "clip",
+   "src": "123.mp4",
+   "durationSec": 18.536,
+   "startTrim": 0,
+   "playbackRate": 0.25,
+   "transition": "xfade"
+  },
+  {
+   "n": "124",
+   "type": "clip",
+   "src": "124.mp4",
+   "durationSec": 18.922,
+   "startTrim": 0,
+   "playbackRate": 0.25,
+   "transition": "xfade"
+  },
+  {
+   "n": "125",
+   "type": "image",
+   "src": "125.jpg",
+   "durationSec": 9.268,
+   "motion": "pan-left",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "126",
+   "type": "image",
+   "src": "126.jpeg",
+   "durationSec": 11.199,
+   "motion": "slow-pull",
+   "transition": "cut"
+  },
+  {
+   "n": "127",
+   "type": "clip",
+   "src": "127.mp4",
+   "durationSec": 8.109,
+   "startTrim": 0,
+   "playbackRate": 0.618,
+   "transition": "xfade"
+  },
+  {
+   "n": "128",
+   "type": "image",
+   "src": "128.jpg",
+   "durationSec": 14.75,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "129",
+   "type": "clip",
+   "src": "129.mp4",
+   "durationSec": 15.803,
+   "startTrim": 0,
+   "playbackRate": 0.316,
+   "transition": "xfade"
+  },
+  {
+   "n": "130",
+   "type": "clip",
+   "src": "130.mp4",
+   "durationSec": 28.446,
+   "startTrim": 0,
+   "playbackRate": 0.25,
+   "transition": "xfade"
+  },
+  {
+   "n": "131",
+   "type": "clip",
+   "src": "131.mp4",
+   "durationSec": 2.634,
+   "startTrim": 0,
+   "playbackRate": 1.898,
+   "transition": "xfade"
+  },
+  {
+   "n": "132",
+   "type": "clip",
+   "src": "132.mp4",
+   "durationSec": 26.866,
+   "startTrim": 0,
+   "playbackRate": 0.25,
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "133",
+   "type": "clip",
+   "src": "133.mp4",
+   "durationSec": 9.482,
+   "startTrim": 0,
+   "playbackRate": 0.528,
+   "transition": "cut"
+  },
+  {
+   "n": "134",
+   "type": "image",
+   "src": "134.jpg",
+   "durationSec": 29.5,
+   "motion": "settle",
+   "transition": "xfade"
+  },
+  {
+   "n": "135",
+   "type": "clip",
+   "src": "135.mp4",
+   "durationSec": 8.575,
+   "startTrim": 0,
+   "playbackRate": 0.7,
+   "transition": "xfade"
+  },
+  {
+   "n": "136",
+   "type": "clip",
+   "src": "136.mp4",
+   "durationSec": 20.009,
+   "startTrim": 0,
+   "playbackRate": 0.3,
+   "transition": "xfade"
+  },
+  {
+   "n": "137",
+   "type": "clip",
+   "src": "137.mp4",
+   "durationSec": 11.842,
+   "startTrim": 0,
+   "playbackRate": 0.507,
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "138",
+   "type": "clip",
+   "src": "138.mp4",
+   "durationSec": 17.151,
+   "startTrim": 0,
+   "playbackRate": 0.292,
+   "transition": "xfade"
+  },
+  {
+   "n": "139",
+   "type": "clip",
+   "src": "139.mp4",
+   "durationSec": 6.942,
+   "startTrim": 0,
+   "playbackRate": 0.72,
+   "transition": "xfade"
+  },
+  {
+   "n": "Q16",
+   "type": "image",
+   "src": "Q16.jpg",
+   "durationSec": 15.109,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": "140",
+   "type": "image",
+   "src": "140.jpg",
+   "durationSec": 15.926,
+   "motion": "pan-left",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "141",
+   "type": "clip",
+   "src": "141.mp4",
+   "durationSec": 5.309,
+   "startTrim": 0,
+   "playbackRate": 1.132,
+   "transition": "xfade"
+  },
+  {
+   "n": "142",
+   "type": "image",
+   "src": "142.jpg",
+   "durationSec": 13.476,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": "143",
+   "type": "clip",
+   "src": "143.mp4",
+   "durationSec": 9.453,
+   "startTrim": 0,
+   "playbackRate": 0.635,
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "H6",
+   "type": "hemicycle",
+   "durationSec": 3.912,
+   "transition": "xfade",
+   "segments": [
+    {
+     "count": 288,
+     "color": "#b03028",
+     "label": "NSDAP 288"
+    },
+    {
+     "count": 359,
+     "color": "#4a4a4a"
+    }
+   ],
+   "total": 647,
+   "showLabels": true,
+   "caption": "March 1933 \u2014 288 / 647"
+  },
+  {
+   "n": "145",
+   "type": "clip",
+   "src": "145.mp4",
+   "durationSec": 9.453,
+   "startTrim": 0,
+   "playbackRate": 0.529,
+   "transition": "xfade"
+  },
+  {
+   "n": "146",
+   "type": "clip",
+   "src": "146.mp4",
+   "durationSec": 10.431,
+   "startTrim": 0,
+   "playbackRate": 0.576,
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "147",
+   "type": "clip",
+   "src": "147.mp4",
+   "durationSec": 10.431,
+   "startTrim": 0,
+   "playbackRate": 0.575,
+   "transition": "cut"
+  },
+  {
+   "n": "148",
+   "type": "clip",
+   "src": "148.mp4",
+   "durationSec": 10.431,
+   "startTrim": 0,
+   "playbackRate": 0.48,
+   "transition": "xfade"
+  },
+  {
+   "n": "149",
+   "type": "clip",
+   "src": "149.mp4",
+   "durationSec": 6.194,
+   "startTrim": 0,
+   "playbackRate": 0.809,
+   "transition": "xfade"
+  },
+  {
+   "n": "H7",
+   "type": "hemicycle",
+   "durationSec": 9.779,
+   "transition": "xfade",
+   "segments": [
+    {
+     "count": 84,
+     "color": "#b03028",
+     "label": "Nein 84"
+    },
+    {
+     "count": 441,
+     "color": "#4a4a4a",
+     "label": "Ja 441"
+    }
+   ],
+   "total": 525,
+   "showLabels": true,
+   "caption": "Enabling Act \u2014 441 to 84"
+  },
+  {
+   "n": "151",
+   "type": "clip",
+   "src": "151.mp4",
+   "durationSec": 8.475,
+   "startTrim": 0,
+   "playbackRate": 0.709,
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "152",
+   "type": "clip",
+   "src": "152.mp4",
+   "durationSec": 11.409,
+   "startTrim": 0,
+   "playbackRate": 0.439,
+   "transition": "xfade"
+  },
+  {
+   "n": "153",
+   "type": "clip",
+   "src": "153.mp4",
+   "durationSec": 9.453,
+   "startTrim": 0,
+   "playbackRate": 0.53,
+   "transition": "xfade"
+  },
+  {
+   "n": "154",
+   "type": "clip",
+   "src": "154.mp4",
+   "durationSec": 8.475,
+   "startTrim": 0,
+   "playbackRate": 0.591,
+   "transition": "cut"
+  },
+  {
+   "n": "155",
+   "type": "image",
+   "src": "155.jpg",
+   "durationSec": 7.172,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": "156",
+   "type": "clip",
+   "src": "156.mp4",
+   "durationSec": 48.56,
+   "startTrim": 0,
+   "playbackRate": 0.25,
+   "transition": "dip-to-black"
+  },
+  {
+   "n": "outro",
+   "type": "outro",
+   "durationSec": 6,
+   "transition": "dip-to-black"
+  }
+ ]
 }
