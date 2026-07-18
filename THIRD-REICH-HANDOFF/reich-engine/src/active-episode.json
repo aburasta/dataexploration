@@ -1567,5 +1567,25 @@
    "durationSec": 6,
    "transition": "dip-to-black"
   }
+ ],
+ "musicCues": [
+  {
+   "src": "music/music-A.mp3",
+   "from": 0,
+   "durationInFrames": 1500,
+   "startFrom": 0,
+   "volume": 0.166,
+   "fadeIn": 45,
+   "fadeOut": 70
+  },
+  {
+   "src": "music/music-C.mp3",
+   "from": 27150,
+   "durationInFrames": 2100,
+   "startFrom": 12,
+   "volume": 0.084,
+   "fadeIn": 50,
+   "fadeOut": 70
+  }
  ]
 }

@@ -1,0 +1,26 @@
+{
+ "music-A.mp3": {
+  "name": "In Obscurity Lies the Gate",
+  "mood": "A dark/ominous hook",
+  "lufs": -18.4,
+  "vol": 0.166
+ },
+ "music-B.mp3": {
+  "name": "Oceans Apart",
+  "mood": "B somber/reflective",
+  "lufs": -16.2,
+  "vol": 0.129
+ },
+ "music-C.mp3": {
+  "name": "Tension 2",
+  "mood": "C tension build",
+  "lufs": -12.5,
+  "vol": 0.084
+ },
+ "music-D.mp3": {
+  "name": "Ancient Spells",
+  "mood": "D dark methodical menace",
+  "lufs": -14.6,
+  "vol": 0.107
+ }
+}

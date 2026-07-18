@@ -1,4 +1,4 @@
-import { AbsoluteFill, Audio, Sequence, staticFile } from "remotion";
+import { AbsoluteFill, Audio, Sequence, staticFile, interpolate } from "remotion";
 import { FPS, DEFAULT_SPEC } from "./config";
 import { KenBurnsImage } from "./KenBurnsImage";
 import { ClipScene } from "./ClipScene";
@@ -53,6 +53,25 @@ export function Documentary(props) {
   return (
     <AbsoluteFill style={{ background: "#000" }}>
       {spec.music ? <Audio src={staticFile(`audio/${mediaDir}/${spec.music}`)} volume={spec.musicVolume ?? 0.08} loop /> : null}
+      {/* Per-section music cues: each is a track segment at a fixed level with fades,
+          placed on the global timeline. Music sits well under the narration. */}
+      {(spec.musicCues || []).map((c, i) => (
+        <Sequence key={`mus-${i}`} from={c.from} durationInFrames={c.durationInFrames}>
+          <Audio
+            src={staticFile(`audio/${mediaDir}/${c.src}`)}
+            startFrom={Math.round((c.startFrom || 0) * 30)}
+            volume={(f) => {
+              const vol = c.volume ?? 0.12;
+              const fi = c.fadeIn ?? 30;
+              const fo = c.fadeOut ?? 45;
+              const d = c.durationInFrames;
+              const up = interpolate(f, [0, fi], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+              const down = interpolate(f, [d - fo, d], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+              return vol * Math.min(up, down);
+            }}
+          />
+        </Sequence>
+      ))}
       {spec.narration ? <Audio src={staticFile(`audio/${mediaDir}/${spec.narration}`)} /> : null}
       {visualItems.map((it) => (
         <Sequence key={it.key} from={it.from} durationInFrames={it.dur}>
