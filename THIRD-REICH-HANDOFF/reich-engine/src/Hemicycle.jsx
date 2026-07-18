@@ -64,9 +64,9 @@ export function Hemicycle({ scene = {}, durationInFrames }) {
   const segments = scene.segments && scene.segments.length ? scene.segments : [{ count: total, color: "#c0392b" }];
   const colored = [];
   let cursor = 0;
-  segments.forEach((seg) => {
+  segments.forEach((seg, si) => {
     for (let k = 0; k < seg.count && cursor < points.length; k++, cursor++) {
-      colored.push({ ...points[cursor], color: seg.color, label: seg.label });
+      colored.push({ ...points[cursor], color: seg.color, label: seg.label, seg: si });
     }
   });
 
@@ -82,28 +82,56 @@ export function Hemicycle({ scene = {}, durationInFrames }) {
   const maxX = Math.max(...points.map((p) => p.x));
   const spanX = Math.max(1, maxX - minX);
 
+  // Slow continuous push + faint breathing so the chart never sits glass-still.
+  const t = durationInFrames > 0 ? frame / durationInFrames : 0;
+  const eased = t * t * (3 - 2 * t);
+  const push = 1.0 + 0.05 * eased + 0.004 * Math.sin((frame / 90) * Math.PI * 2);
+  const gTransform = `translate(${cx} ${cy}) scale(${push.toFixed(4)}) translate(${-cx} ${-cy})`;
+
   return (
     <AbsoluteFill style={{ background: "#0c0c0c" }}>
       <svg width="100%" height="100%" viewBox={`0 0 ${width} ${height}`} style={{ position: "absolute", inset: 0 }}>
-        {colored.map((p, i) => {
-          const xt = (p.x - minX) / spanX;
-          const startFrame = xt * sweepFrames * 0.7;
-          const scale = interpolate(frame, [startFrame, startFrame + 10], [0, 1], {
-            extrapolateLeft: "clamp",
-            extrapolateRight: "clamp",
-            easing: Easing.out(Easing.back(1.5)),
-          });
-          return (
-            <circle
-              key={i}
-              cx={cx + p.x}
-              cy={cy + p.y}
-              r={dotR * scale}
-              fill={p.color}
-            />
-          );
-        })}
+        <g transform={gTransform}>
+          {colored.map((p, i) => {
+            const xt = (p.x - minX) / spanX;
+            const startFrame = xt * sweepFrames * 0.7;
+            const pop = interpolate(frame, [startFrame, startFrame + 10], [0, 1], {
+              extrapolateLeft: "clamp",
+              extrapolateRight: "clamp",
+              easing: Easing.out(Easing.back(1.5)),
+            });
+            // highlighted (first) segment keeps a gentle heartbeat pulse after it lands
+            const settled = startFrame + 12;
+            const pulse =
+              p.seg === 0 && frame > settled
+                ? 1 + 0.14 * Math.max(0, Math.sin(((frame - settled) / 26) * Math.PI * 2))
+                : 1;
+            const glow = p.seg === 0 && frame > settled ? 0.5 + 0.5 * Math.abs(Math.sin(((frame - settled) / 26) * Math.PI)) : 0;
+            return (
+              <circle
+                key={i}
+                cx={cx + p.x}
+                cy={cy + p.y}
+                r={dotR * pop * pulse}
+                fill={p.color}
+                style={p.seg === 0 ? { filter: `drop-shadow(0 0 ${(3 * glow).toFixed(1)}px ${p.color})` } : undefined}
+              />
+            );
+          })}
+        </g>
       </svg>
+      {scene.caption ? (
+        <div
+          style={{
+            position: "absolute", top: height * 0.12, left: 0, right: 0, textAlign: "center",
+            fontFamily: SANS, fontWeight: 700, fontSize: 34, letterSpacing: 1, color: "#e8e4dc",
+            opacity: interpolate(frame, [6, 26], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
+            textShadow: "0 2px 12px rgba(0,0,0,0.8)",
+          }}
+        >
+          {scene.caption}
+        </div>
+      ) : null}
       {scene.showLabels ? (
         <div
           style={{
