@@ -61,9 +61,11 @@ for tag in beat_order:
 # closing outro card (standard Like/Subscribe) — brief, after narration
 scenes.append({"n":"outro","type":"outro","durationSec":6,"transition":"dip-to-black"})
 
+has_music = os.path.exists(os.path.join(AUDIO,"music.mp3"))
 spec={"title":"The Legal Coup (1919-1933)","slug":"special-legal-coup-1919-1933",
       "mediaDir":"special-legal-coup-1919-1933","narration":"narration.mp3",
-      "music":False,"scenes":scenes}
+      "music": ("music.mp3" if has_music else False), "musicVolume": 0.09,
+      "scenes":scenes}
 out=os.path.join(BASE,"src","active-episode.json")
 json.dump(spec,open(out,"w"),indent=1)
 tot=sum(s["durationSec"] for s in scenes)

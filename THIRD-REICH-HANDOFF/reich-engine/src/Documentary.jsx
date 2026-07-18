@@ -52,7 +52,7 @@ export function Documentary(props) {
 
   return (
     <AbsoluteFill style={{ background: "#000" }}>
-      {spec.music ? <Audio src={staticFile(`audio/${mediaDir}/${spec.music}`)} volume={0.08} loop /> : null}
+      {spec.music ? <Audio src={staticFile(`audio/${mediaDir}/${spec.music}`)} volume={spec.musicVolume ?? 0.08} loop /> : null}
       {spec.narration ? <Audio src={staticFile(`audio/${mediaDir}/${spec.narration}`)} /> : null}
       {visualItems.map((it) => (
         <Sequence key={it.key} from={it.from} durationInFrames={it.dur}>
