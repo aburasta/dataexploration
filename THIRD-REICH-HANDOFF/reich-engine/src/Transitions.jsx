@@ -4,13 +4,26 @@ import { DUR } from "./config";
 // Crossfade in/out at the edges of a scene — for cuts within a sequence/act.
 export function XFade({ durationInFrames, children }) {
   const frame = useCurrentFrame();
-  const f = Math.min(DUR.xfade, Math.floor(durationInFrames / 2));
-  const opacity = interpolate(
-    frame,
-    [0, f, durationInFrames - f, durationInFrames],
-    [0, 1, 1, 0],
-    { extrapolateLeft: "clamp", extrapolateRight: "clamp" }
-  );
+  const d = durationInFrames;
+  const f = Math.min(DUR.xfade, Math.floor(d / 2));
+  // For a scene long enough to hold a plateau, fade in→hold→out. For a scene
+  // too short (d <= 2f) the in/out points would collide (non-strict range,
+  // which Remotion rejects), so collapse to a triangular in→out instead.
+  let range, out;
+  if (f >= 1 && d - f > f) {
+    range = [0, f, d - f, d];
+    out = [0, 1, 1, 0];
+  } else if (d >= 2) {
+    range = [0, Math.max(1, Math.floor(d / 2)), d];
+    out = [0, 1, 0];
+  } else {
+    range = [0, 1];
+    out = [1, 1];
+  }
+  const opacity = interpolate(frame, range, out, {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
   return <AbsoluteFill style={{ opacity }}>{children}</AbsoluteFill>;
 }
 
@@ -20,14 +33,25 @@ export function XFade({ durationInFrames, children }) {
 // don't need to know about their neighbor.
 export function DipToBlack({ durationInFrames, children }) {
   const frame = useCurrentFrame();
-  const half = Math.min(DUR.dipToBlack, Math.floor(durationInFrames / 2));
+  const d = durationInFrames;
+  const half = Math.max(1, Math.min(DUR.dipToBlack, Math.floor(d / 2)));
   const contentOpacity = interpolate(frame, [0, half], [0, 1], { extrapolateRight: "clamp" });
-  const blackOpacity = interpolate(
-    frame,
-    [0, half, durationInFrames - half, durationInFrames],
-    [1, 0, 0, 1],
-    { extrapolateLeft: "clamp", extrapolateRight: "clamp" }
-  );
+  // Same short-scene guard as XFade: avoid a colliding (non-strict) range.
+  let range, out;
+  if (d - half > half) {
+    range = [0, half, d - half, d];
+    out = [1, 0, 0, 1];
+  } else if (d >= 2) {
+    range = [0, Math.max(1, Math.floor(d / 2)), d];
+    out = [1, 0, 1];
+  } else {
+    range = [0, 1];
+    out = [0, 0];
+  }
+  const blackOpacity = interpolate(frame, range, out, {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
   return (
     <AbsoluteFill>
       <AbsoluteFill style={{ opacity: contentOpacity }}>{children}</AbsoluteFill>

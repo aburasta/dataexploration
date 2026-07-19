@@ -834,17 +834,9 @@
    "n": "84",
    "type": "image",
    "src": "84.jpg",
-   "durationSec": 6.302,
+   "durationSec": 6.696,
    "motion": "pan-left",
    "transition": "cut"
-  },
-  {
-   "n": "Q13",
-   "type": "image",
-   "src": "Q13.jpg",
-   "durationSec": 0.394,
-   "motion": "slow-pull",
-   "transition": "xfade"
   },
   {
    "n": "85",

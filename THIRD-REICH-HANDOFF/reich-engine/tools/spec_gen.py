@@ -58,6 +58,18 @@ for tag in beat_order:
         scenes.append({"n":tag,"type":"image","src":r["file"],"durationSec":dsec,
                        "motion":motion,"transition":trans})
 
+# Merge pathologically short beats (< 1.0s, e.g. one-word quotes like Q13 "Yes.")
+# into the previous scene so its visual simply holds through them — no flash,
+# and the narration stays aligned (total timeline unchanged).
+MIN_SEC = 1.0
+merged = []
+for sc in scenes:
+    if merged and sc["durationSec"] < MIN_SEC:
+        merged[-1]["durationSec"] = round(merged[-1]["durationSec"] + sc["durationSec"], 3)
+    else:
+        merged.append(sc)
+scenes = merged
+
 # closing outro card (standard Like/Subscribe) — brief, after narration
 scenes.append({"n":"outro","type":"outro","durationSec":6,"transition":"dip-to-black"})
 
