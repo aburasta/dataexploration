@@ -144,3 +144,42 @@ far: `183-H30223` (Müller), `183-S38324` (Potsdam), `183-R14128A` (Bormann) —
 - New clips (`vid-sa/radio/potsdam/dc-rally/anschluss/sportpalast`): pull the specific sub-clip;
   confirm PD/BArch and no graphic content.
 - Callback splits **60–64**: confirm which exact variant image each uses.
+
+---
+
+## H. Download pass — RESULTS (2026-07-18, DONE)
+
+All assets fetched into `reich-engine/public/media/war-on-religion/` (49MB). Stills via Wikimedia
+Commons API (1920px); clips via archive.org, verified by frame extraction, trimmed to 14s @1920×1080
+with the imageio full ffmpeg (the bundled Remotion ffmpeg is a shim and can't run filterchains).
+
+**63 stills** present for every spec slot (`1–50`, `52–64` `.jpg`, `53.jpeg`). Notable confirmed
+sources: `6` Müller `BArch 183-H30223` · `9` `BArch 102-15348` · `10` `BArch 146-1969-067-10` ·
+`12` `BArch 183-S33882` · `17` Potsdam `BArch 183-S38324` · `20` Hitler+Müller+Schachleiter, Nürnberg
+1934 (Narodowe Archiwum Cyfrowe, PD) · `21` `BArch 102-02974A` · `22` `BArch 183-1987-0703-506` ·
+`28` Reichskonkordat `BArch 183-R24391` · `29` Niemöller 1917 · `39` Freisler `BArch 151-39-23` ·
+`43` Hans Kerrl · `46` `BArch 102-13533` · `47` Bormann `BArch 183-R14128A` · `48` Schrifterlass 1941 ·
+`49` *Der Mythus* · `53` Mein Kampf dust jacket · `57` `BArch 183-2006-0613-500` · `58` Heldenplatz
+`BArch 183-1987-0922-500` · `59` `BArch 183-H26408`.
+
+**4 clips (all frame-verified):**
+| File | Content | Source | Notes |
+|---|---|---|---|
+| `51.mp4` | 1933 book-burning bonfire | archive.org `book-burning-in-berlin-1933_202304` | trimmed to the burning (no subtitles), **desaturated to B&W** to kill the modern colorize |
+| `11.mp4` | Nuremberg 1934 marching columns (rooftop aerial) | archive.org `hitler-views-final-parade...1934` | clean B&W, no insignia-hero |
+| `vid-nuremberg-crowd.mp4` **new** | massed columns through crowd-lined street | same reel, different segment | distinct angle from `11.mp4` |
+| `vid-torch.mp4` **new** | night torchlight procession, Brandenburg Gate | archive.org `berlin-1935-nazi-torch-parade-hd-2.1` | different texture (night/torches) |
+
+The two `vid-*` clips are **extras not yet in `spec-rendered.json`** — placing them means swapping a
+still or adding a scene in an enhanced spec (do at render step). Candidates rejected for junk/rights:
+an "Anschluss" item that was Italian conspiracy overlays, a "SA" item that was DragonCon 2008, and a
+watermarked Periscope "Roosevelt" reel — flagging that archive.org search is junk-heavy, so every clip
+here was eyeballed.
+
+**Weak matches to eyeball (rest are solid):**
+- `4` grabbed a Deutsche-Christen *flag* (not the Luthertag photo) — swap if you want a stronger image.
+- `2`/`60`/`66` reuse the Sportpalast crowd (`1`, a Reichsbanner rally — right *venue*, different group; no Krause portrait exists).
+- `55` reuses the newspaper-kiosk street (`8`) for "ordinary Germans" — generic; `61` (Hebrew-Bible sgraffito) and `62` (Bible manuscript, for the NT beat) are thematically-adjacent generics.
+
+**Bundesarchiv credits required** (CC-BY-SA) for all `BArch …` files above — collect the Bild numbers
+into the YouTube description / an on-screen credit.
