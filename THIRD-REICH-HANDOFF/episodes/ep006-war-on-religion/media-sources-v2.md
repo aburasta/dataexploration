@@ -27,7 +27,7 @@ US-gov PD**; `catalog.archives.gov` holds ~1,293 seized German newsreel reels (u
 
 | Tag(s) | Clip | Content | Source | Rights | Status |
 |---|---|---|---|---|---|
-| 51 | `51.mp4` **re-source** | May 10 1933 Berlin book-burning | [*The Nazi Plan* — Book Burning (USHMM)](https://encyclopedia.ushmm.org/content/en/film/the-nazi-plan-book-burning) · Paramount/Fox Movietone newsreel | PD-US* | ✓id |
+| 51 | `51.mp4` **KEEP original** | May 10 1933 Berlin book-burning (the exact clip from the finished render — user confirmed it was well done) | [Sandler Film Library — same archive.org item as v1](https://archive.org/details/IA_35000454_1); re-fetch identical footage, keep spec trim `startTrim 0.3` / `playbackRate 2.0062` | see note | keep |
 | 11 | `11.mp4` **re-source** | Reichsparteitag parade / mass salute | [Sandler — Nazi rallies](https://archive.org/details/IA_35000454_1) · [Universal Newsreels](https://archive.org/details/universal_newsreels) | PD-US* | ✓id |
 | 21 | `vid-sa` **NEW** | SA marching / SA as auxiliary police 1933 | *The Nazi Plan* / NARA seized newsreel ([catalog.archives.gov](https://catalog.archives.gov/id/100520)) | PD-US* | ◇check |
 | 22 | `vid-radio` **NEW** | Hitler at the radio microphone, 1933 | Universal Newsreels / NARA | PD-US* | ◇check |
@@ -43,6 +43,8 @@ sensitivity rule. Sober gate/exterior stills only.
 
 **Rights caution (from v1):** "on archive.org ≠ free." A *Triumph of the Will* excerpt was CC-BY-NC-ND
 and rejected for a monetized upload — keep that discipline; confirm each clip's license before publish.
+The kept `51.mp4` came from the Sandler collection with an unstated license in v1 — it stays in the
+cut as the user requested; still worth confirming its license before publish if monetization matters.
 
 ---
 
