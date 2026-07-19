@@ -1,8 +1,689 @@
 {
-  "title": "placeholder — no active episode",
-  "slug": "placeholder",
-  "mediaDir": "placeholder",
+  "title": "ep006 \u2014 The Nazis' War on Religion",
+  "slug": "war-on-religion",
+  "mediaDir": "war-on-religion",
   "scenes": [
-    { "n": 1, "type": "outro", "durationSec": 5.0, "transition": "cut" }
-  ]
+    {
+      "n": 1,
+      "type": "image",
+      "src": "1.jpg",
+      "durationSec": 5.609,
+      "aspectRatio": 1.5105,
+      "motion": "slow-push",
+      "transition": "dip-to-black"
+    },
+    {
+      "n": 2,
+      "type": "image",
+      "src": "60.jpg",
+      "durationSec": 4.572,
+      "aspectRatio": 1.5105,
+      "motion": "slow-pull",
+      "transition": "cut"
+    },
+    {
+      "n": 3,
+      "type": "image",
+      "src": "2.jpg",
+      "durationSec": 3.227,
+      "aspectRatio": 1.5105,
+      "motion": "pan-left",
+      "transition": "xfade"
+    },
+    {
+      "n": 4,
+      "type": "image",
+      "src": "61.jpg",
+      "durationSec": 3.631,
+      "aspectRatio": 1.3333,
+      "motion": "pan-right",
+      "transition": "cut"
+    },
+    {
+      "n": 5,
+      "type": "image",
+      "src": "3.jpg",
+      "durationSec": 3.496,
+      "aspectRatio": 1.3439,
+      "motion": "settle",
+      "transition": "cut"
+    },
+    {
+      "n": 6,
+      "type": "image",
+      "src": "4.jpg",
+      "durationSec": 2.728,
+      "aspectRatio": 1.6652,
+      "motion": "slow-push",
+      "transition": "xfade"
+    },
+    {
+      "n": 7,
+      "type": "image",
+      "src": "62.jpg",
+      "durationSec": 4.668,
+      "aspectRatio": 0.7048,
+      "motion": "slow-pull",
+      "transition": "cut"
+    },
+    {
+      "n": 8,
+      "type": "image",
+      "src": "5.jpg",
+      "durationSec": 3.189,
+      "aspectRatio": 1.4742,
+      "motion": "pan-left",
+      "transition": "xfade"
+    },
+    {
+      "n": 9,
+      "type": "image",
+      "src": "6.jpg",
+      "durationSec": 4.322,
+      "aspectRatio": 0.6869,
+      "motion": "pan-right",
+      "transition": "xfade"
+    },
+    {
+      "n": 10,
+      "type": "image",
+      "src": "63.jpg",
+      "durationSec": 1.94,
+      "aspectRatio": 0.6869,
+      "motion": "settle",
+      "transition": "cut"
+    },
+    {
+      "n": 11,
+      "type": "image",
+      "src": "7.jpg",
+      "durationSec": 4.245,
+      "aspectRatio": 2.6806,
+      "motion": "slow-push",
+      "transition": "xfade"
+    },
+    {
+      "n": 12,
+      "type": "image",
+      "src": "8.jpg",
+      "durationSec": 3.515,
+      "aspectRatio": 0.7132,
+      "motion": "slow-pull",
+      "transition": "xfade"
+    },
+    {
+      "n": 13,
+      "type": "image",
+      "src": "64.jpg",
+      "durationSec": 1.998,
+      "aspectRatio": 0.6415,
+      "motion": "pan-left",
+      "transition": "cut"
+    },
+    {
+      "n": 14,
+      "type": "image",
+      "src": "9.jpg",
+      "durationSec": 5.033,
+      "aspectRatio": 1.4599,
+      "motion": "pan-right",
+      "transition": "xfade"
+    },
+    {
+      "n": 15,
+      "type": "image",
+      "src": "10.jpg",
+      "durationSec": 7.818,
+      "aspectRatio": 0.761,
+      "motion": "settle",
+      "transition": "xfade"
+    },
+    {
+      "n": 16,
+      "type": "clip",
+      "src": "11.mp4",
+      "startTrim": 0.3,
+      "durationSec": 6.358,
+      "playbackRate": 1.221,
+      "transition": "cut"
+    },
+    {
+      "n": 17,
+      "type": "image",
+      "src": "12.jpg",
+      "durationSec": 2.977,
+      "aspectRatio": 0.632,
+      "motion": "slow-pull",
+      "transition": "xfade"
+    },
+    {
+      "n": 18,
+      "type": "image",
+      "src": "13.jpg",
+      "durationSec": 7.357,
+      "aspectRatio": 0.6415,
+      "motion": "pan-left",
+      "transition": "xfade"
+    },
+    {
+      "n": 19,
+      "type": "image",
+      "src": "14.jpg",
+      "durationSec": 8.298,
+      "aspectRatio": 0.6415,
+      "motion": "pan-right",
+      "transition": "xfade"
+    },
+    {
+      "n": 20,
+      "type": "image",
+      "src": "15.jpg",
+      "durationSec": 6.243,
+      "aspectRatio": 0.6614,
+      "motion": "settle",
+      "transition": "xfade"
+    },
+    {
+      "n": 21,
+      "type": "image",
+      "src": "16.jpg",
+      "durationSec": 3.035,
+      "aspectRatio": 1.6215,
+      "motion": "slow-push",
+      "transition": "xfade"
+    },
+    {
+      "n": 22,
+      "type": "image",
+      "src": "17.jpg",
+      "durationSec": 4.898,
+      "aspectRatio": 1.3714,
+      "motion": "slow-pull",
+      "transition": "dip-to-black"
+    },
+    {
+      "n": 23,
+      "type": "image",
+      "src": "18.jpg",
+      "durationSec": 7.05,
+      "aspectRatio": 1.5047,
+      "motion": "pan-left",
+      "transition": "xfade"
+    },
+    {
+      "n": 24,
+      "type": "image",
+      "src": "19.jpg",
+      "durationSec": 2.305,
+      "aspectRatio": 1.4174,
+      "motion": "pan-right",
+      "transition": "xfade"
+    },
+    {
+      "n": 25,
+      "type": "image",
+      "src": "20.jpg",
+      "durationSec": 9.22,
+      "aspectRatio": 1.3196,
+      "motion": "settle",
+      "transition": "xfade"
+    },
+    {
+      "n": 26,
+      "type": "image",
+      "src": "6.jpg",
+      "durationSec": 4.149,
+      "aspectRatio": 0.6869,
+      "motion": "slow-push",
+      "transition": "xfade"
+    },
+    {
+      "n": 27,
+      "type": "image",
+      "src": "21.jpg",
+      "durationSec": 3.842,
+      "aspectRatio": 1.4642,
+      "motion": "slow-pull",
+      "transition": "xfade"
+    },
+    {
+      "n": 28,
+      "type": "image",
+      "src": "22.jpg",
+      "durationSec": 4.572,
+      "aspectRatio": 0.75,
+      "motion": "pan-left",
+      "transition": "xfade"
+    },
+    {
+      "n": 29,
+      "type": "image",
+      "src": "23.jpg",
+      "durationSec": 6.896,
+      "aspectRatio": 1.5,
+      "motion": "pan-right",
+      "transition": "xfade"
+    },
+    {
+      "n": 30,
+      "type": "image",
+      "src": "1.jpg",
+      "durationSec": 6.301,
+      "aspectRatio": 1.5105,
+      "motion": "settle",
+      "transition": "xfade"
+    },
+    {
+      "n": 31,
+      "type": "image",
+      "src": "24.jpg",
+      "durationSec": 2.536,
+      "aspectRatio": 0.6921,
+      "motion": "slow-push",
+      "transition": "xfade"
+    },
+    {
+      "n": 32,
+      "type": "image",
+      "src": "25.jpg",
+      "durationSec": 4.399,
+      "aspectRatio": 0.66,
+      "motion": "slow-pull",
+      "transition": "xfade"
+    },
+    {
+      "n": 33,
+      "type": "image",
+      "src": "26.jpg",
+      "durationSec": 6.281,
+      "aspectRatio": 1.3675,
+      "motion": "pan-left",
+      "transition": "cut"
+    },
+    {
+      "n": 34,
+      "type": "image",
+      "src": "27.jpg",
+      "durationSec": 4.207,
+      "aspectRatio": 1.3675,
+      "motion": "pan-right",
+      "transition": "xfade"
+    },
+    {
+      "n": 35,
+      "type": "image",
+      "src": "28.jpg",
+      "durationSec": 8.183,
+      "aspectRatio": 1.7778,
+      "motion": "settle",
+      "transition": "xfade"
+    },
+    {
+      "n": 36,
+      "type": "image",
+      "src": "29.jpg",
+      "durationSec": 7.588,
+      "aspectRatio": 0.6603,
+      "motion": "slow-push",
+      "transition": "dip-to-black"
+    },
+    {
+      "n": 37,
+      "type": "image",
+      "src": "30.jpg",
+      "durationSec": 5.59,
+      "aspectRatio": 0.6603,
+      "motion": "slow-pull",
+      "transition": "xfade"
+    },
+    {
+      "n": 38,
+      "type": "image",
+      "src": "31.jpg",
+      "durationSec": 3.976,
+      "aspectRatio": 0.6603,
+      "motion": "pan-left",
+      "transition": "xfade"
+    },
+    {
+      "n": 39,
+      "type": "image",
+      "src": "32.jpg",
+      "durationSec": 10.143,
+      "aspectRatio": 1.4742,
+      "motion": "pan-right",
+      "transition": "xfade"
+    },
+    {
+      "n": 40,
+      "type": "image",
+      "src": "33.jpg",
+      "durationSec": 7.626,
+      "aspectRatio": 1.4804,
+      "motion": "settle",
+      "transition": "xfade"
+    },
+    {
+      "n": 41,
+      "type": "image",
+      "src": "34.jpg",
+      "durationSec": 5.667,
+      "aspectRatio": 1.4642,
+      "motion": "slow-push",
+      "transition": "xfade"
+    },
+    {
+      "n": 42,
+      "type": "image",
+      "src": "35.jpg",
+      "durationSec": 4.226,
+      "aspectRatio": 1.3333,
+      "motion": "slow-pull",
+      "transition": "xfade"
+    },
+    {
+      "n": 43,
+      "type": "image",
+      "src": "31.jpg",
+      "durationSec": 2.286,
+      "aspectRatio": 0.6603,
+      "motion": "pan-left",
+      "transition": "dip-to-black"
+    },
+    {
+      "n": 44,
+      "type": "image",
+      "src": "36.jpg",
+      "durationSec": 9.278,
+      "aspectRatio": 1.5047,
+      "motion": "pan-right",
+      "transition": "xfade"
+    },
+    {
+      "n": 45,
+      "type": "image",
+      "src": "37.jpg",
+      "durationSec": 4.841,
+      "aspectRatio": 0.7048,
+      "motion": "settle",
+      "transition": "cut"
+    },
+    {
+      "n": 46,
+      "type": "image",
+      "src": "38.jpg",
+      "durationSec": 2.247,
+      "aspectRatio": 1.4642,
+      "motion": "slow-push",
+      "transition": "xfade"
+    },
+    {
+      "n": 47,
+      "type": "image",
+      "src": "39.jpg",
+      "durationSec": 5.398,
+      "aspectRatio": 1.5779,
+      "motion": "slow-pull",
+      "transition": "xfade"
+    },
+    {
+      "n": 48,
+      "type": "image",
+      "src": "40.jpg",
+      "durationSec": 4.418,
+      "aspectRatio": 1.5779,
+      "motion": "pan-left",
+      "transition": "xfade"
+    },
+    {
+      "n": 49,
+      "type": "image",
+      "src": "41.jpg",
+      "durationSec": 3.496,
+      "aspectRatio": 1.3333,
+      "motion": "pan-right",
+      "transition": "xfade"
+    },
+    {
+      "n": 50,
+      "type": "image",
+      "src": "42.jpg",
+      "durationSec": 4.341,
+      "aspectRatio": 1.3333,
+      "motion": "settle",
+      "transition": "xfade"
+    },
+    {
+      "n": 51,
+      "type": "image",
+      "src": "43.jpg",
+      "durationSec": 12.889,
+      "aspectRatio": 0.7894,
+      "motion": "slow-push",
+      "transition": "dip-to-black"
+    },
+    {
+      "n": 52,
+      "type": "image",
+      "src": "44.jpg",
+      "durationSec": 6.243,
+      "aspectRatio": 1.7778,
+      "motion": "slow-pull",
+      "transition": "xfade"
+    },
+    {
+      "n": 53,
+      "type": "image",
+      "src": "45.jpg",
+      "durationSec": 4.092,
+      "aspectRatio": 0.7856,
+      "motion": "pan-left",
+      "transition": "xfade"
+    },
+    {
+      "n": 54,
+      "type": "image",
+      "src": "12.jpg",
+      "durationSec": 6.243,
+      "aspectRatio": 0.632,
+      "motion": "pan-right",
+      "transition": "xfade"
+    },
+    {
+      "n": 55,
+      "type": "image",
+      "src": "2.jpg",
+      "durationSec": 5.129,
+      "aspectRatio": 1.5105,
+      "motion": "settle",
+      "transition": "xfade"
+    },
+    {
+      "n": 56,
+      "type": "image",
+      "src": "46.jpg",
+      "durationSec": 5.283,
+      "aspectRatio": 1.4109,
+      "motion": "slow-push",
+      "transition": "xfade"
+    },
+    {
+      "n": 57,
+      "type": "image",
+      "src": "47.jpg",
+      "durationSec": 10.738,
+      "aspectRatio": 0.6931,
+      "motion": "slow-pull",
+      "transition": "xfade"
+    },
+    {
+      "n": 58,
+      "type": "image",
+      "src": "48.jpg",
+      "durationSec": 3.535,
+      "aspectRatio": 0.626,
+      "motion": "pan-left",
+      "transition": "cut"
+    },
+    {
+      "n": 59,
+      "type": "image",
+      "src": "10.jpg",
+      "durationSec": 11.007,
+      "aspectRatio": 0.761,
+      "motion": "pan-right",
+      "transition": "xfade"
+    },
+    {
+      "n": 60,
+      "type": "image",
+      "src": "49.jpg",
+      "durationSec": 5.532,
+      "aspectRatio": 0.6991,
+      "motion": "settle",
+      "transition": "xfade"
+    },
+    {
+      "n": 61,
+      "type": "image",
+      "src": "50.jpg",
+      "durationSec": 7.645,
+      "aspectRatio": 1.3474,
+      "motion": "slow-push",
+      "transition": "dip-to-black"
+    },
+    {
+      "n": 62,
+      "type": "clip",
+      "src": "51.mp4",
+      "startTrim": 0.3,
+      "durationSec": 4.668,
+      "playbackRate": 2.0062,
+      "transition": "cut"
+    },
+    {
+      "n": 63,
+      "type": "image",
+      "src": "52.jpg",
+      "durationSec": 5.321,
+      "aspectRatio": 1.2549,
+      "motion": "pan-left",
+      "transition": "xfade"
+    },
+    {
+      "n": 64,
+      "type": "image",
+      "src": "53.jpeg",
+      "durationSec": 8.126,
+      "aspectRatio": 0.906,
+      "motion": "pan-right",
+      "transition": "xfade"
+    },
+    {
+      "n": 65,
+      "type": "image",
+      "src": "54.jpg",
+      "durationSec": 6.397,
+      "aspectRatio": 1.3196,
+      "motion": "settle",
+      "transition": "xfade"
+    },
+    {
+      "n": 66,
+      "type": "image",
+      "src": "1.jpg",
+      "durationSec": 4.898,
+      "aspectRatio": 1.5105,
+      "motion": "slow-push",
+      "transition": "dip-to-black"
+    },
+    {
+      "n": 67,
+      "type": "image",
+      "src": "2.jpg",
+      "durationSec": 3.208,
+      "aspectRatio": 1.5105,
+      "motion": "slow-pull",
+      "transition": "xfade"
+    },
+    {
+      "n": 68,
+      "type": "image",
+      "src": "9.jpg",
+      "durationSec": 4.476,
+      "aspectRatio": 1.4599,
+      "motion": "pan-left",
+      "transition": "xfade"
+    },
+    {
+      "n": 69,
+      "type": "image",
+      "src": "55.jpg",
+      "durationSec": 3.631,
+      "aspectRatio": 0.7132,
+      "motion": "pan-right",
+      "transition": "dip-to-black"
+    },
+    {
+      "n": 70,
+      "type": "image",
+      "src": "34.jpg",
+      "durationSec": 3.957,
+      "aspectRatio": 1.4642,
+      "motion": "settle",
+      "transition": "xfade"
+    },
+    {
+      "n": 71,
+      "type": "image",
+      "src": "56.jpg",
+      "durationSec": 2.67,
+      "aspectRatio": 0.715,
+      "motion": "slow-push",
+      "transition": "xfade"
+    },
+    {
+      "n": 72,
+      "type": "image",
+      "src": "57.jpg",
+      "durationSec": 6.032,
+      "aspectRatio": 1.4184,
+      "motion": "slow-pull",
+      "transition": "xfade"
+    },
+    {
+      "n": 73,
+      "type": "image",
+      "src": "58.jpg",
+      "durationSec": 3.899,
+      "aspectRatio": 1.4189,
+      "motion": "pan-left",
+      "transition": "xfade"
+    },
+    {
+      "n": 74,
+      "type": "image",
+      "src": "59.jpg",
+      "durationSec": 6.243,
+      "aspectRatio": 1.4778,
+      "motion": "pan-right",
+      "transition": "xfade"
+    },
+    {
+      "n": 75,
+      "type": "image",
+      "src": "49.jpg",
+      "durationSec": 3.842,
+      "aspectRatio": 0.6991,
+      "motion": "settle",
+      "transition": "xfade"
+    },
+    {
+      "n": 76,
+      "type": "outro",
+      "durationSec": 6.896,
+      "transition": "dip-to-black"
+    }
+  ],
+  "narration": "narration.mp3"
 }
