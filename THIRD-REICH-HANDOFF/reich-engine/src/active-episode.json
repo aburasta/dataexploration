@@ -685,5 +685,6 @@
       "transition": "cut"
     }
   ],
-  "narration": "narration.mp3"
+  "narration": "narration.mp3",
+  "music": "music-bed.mp3"
 }
