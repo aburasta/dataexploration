@@ -21,12 +21,15 @@ export const DUR = {
 // character-portrait engine): s0/s1 = scale endpoints, x0/x1 & y0/y1 = translate
 // endpoints in % of the image layer. Kept subtle — max ~1.15x zoom — so archival
 // stills read as documentary evidence, not a Ken-Burns cliché.
+// Motion amplitudes were roughly halved (2026-07-20) — the narration re-time
+// shortened many scenes, which made the previous 1.15 zoom / ±4% pan read as
+// too fast. Kept subtle: max ~1.07x zoom, ±2% pan.
 export const IMAGE_MOTIONS = {
-  "slow-push": { s0: 1.0, s1: 1.15, x0: 0, x1: 0, y0: 0, y1: 0 },
-  "slow-pull": { s0: 1.15, s1: 1.0, x0: 0, x1: 0, y0: 0, y1: 0 },
-  "pan-left": { s0: 1.1, s1: 1.1, x0: 4, x1: -4, y0: 0, y1: 0 },
-  "pan-right": { s0: 1.1, s1: 1.1, x0: -4, x1: 4, y0: 0, y1: 0 },
-  settle: { s0: 1.12, s1: 1.0, x0: 0, x1: 0, y0: -3, y1: 3 },
+  "slow-push": { s0: 1.0, s1: 1.07, x0: 0, x1: 0, y0: 0, y1: 0 },
+  "slow-pull": { s0: 1.07, s1: 1.0, x0: 0, x1: 0, y0: 0, y1: 0 },
+  "pan-left": { s0: 1.05, s1: 1.05, x0: 2, x1: -2, y0: 0, y1: 0 },
+  "pan-right": { s0: 1.05, s1: 1.05, x0: -2, x1: 2, y0: 0, y1: 0 },
+  settle: { s0: 1.06, s1: 1.0, x0: 0, x1: 0, y0: -1.5, y1: 1.5 },
 };
 export const DEFAULT_IMAGE_MOTION = "slow-push";
 
