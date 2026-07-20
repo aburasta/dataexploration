@@ -55,8 +55,16 @@ for tag in beat_order:
                        "playbackRate":pr,"transition":trans})
     else:
         motion=MOTIONS[mi%len(MOTIONS)]; mi+=1
-        scenes.append({"n":tag,"type":"image","src":r["file"],"durationSec":dsec,
-                       "motion":motion,"transition":trans})
+        try:
+            from PIL import Image
+            with Image.open(os.path.join(MEDIA, r["file"])) as im:
+                ar = round(im.width/im.height, 4)
+        except Exception:
+            ar = None
+        sc={"n":tag,"type":"image","src":r["file"],"durationSec":dsec,
+            "motion":motion,"transition":trans}
+        if ar: sc["aspectRatio"]=ar
+        scenes.append(sc)
 
 # Merge pathologically short beats (< 1.0s, e.g. one-word quotes like Q13 "Yes.")
 # into the previous scene so its visual simply holds through them — no flash,
