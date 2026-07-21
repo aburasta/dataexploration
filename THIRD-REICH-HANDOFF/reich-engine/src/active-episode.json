@@ -260,7 +260,7 @@
       "n": 30,
       "type": "image",
       "src": "1.jpg",
-      "durationSec": 5.407,
+      "durationSec": 5.808,
       "aspectRatio": 1.5105,
       "motion": "settle",
       "transition": "cut"
@@ -269,7 +269,7 @@
       "n": 31,
       "type": "image",
       "src": "24.jpg",
-      "durationSec": 2.176,
+      "durationSec": 2.112,
       "aspectRatio": 0.6921,
       "motion": "slow-push",
       "transition": "cut"
@@ -278,7 +278,7 @@
       "n": 32,
       "type": "image",
       "src": "25.jpg",
-      "durationSec": 3.775,
+      "durationSec": 3.696,
       "aspectRatio": 0.66,
       "motion": "slow-pull",
       "transition": "cut"
@@ -287,7 +287,7 @@
       "n": 33,
       "type": "image",
       "src": "26.jpg",
-      "durationSec": 5.39,
+      "durationSec": 5.28,
       "aspectRatio": 1.3675,
       "motion": "pan-left",
       "transition": "cut"
@@ -296,7 +296,7 @@
       "n": 34,
       "type": "image",
       "src": "27.jpg",
-      "durationSec": 3.61,
+      "durationSec": 3.432,
       "aspectRatio": 1.3675,
       "motion": "pan-right",
       "transition": "cut"
@@ -305,7 +305,7 @@
       "n": 35,
       "type": "image",
       "src": "28.jpg",
-      "durationSec": 7.022,
+      "durationSec": 8.184,
       "aspectRatio": 1.7778,
       "motion": "settle",
       "transition": "cut"
@@ -314,7 +314,7 @@
       "n": 36,
       "type": "image",
       "src": "29.jpg",
-      "durationSec": 6.511,
+      "durationSec": 5.808,
       "aspectRatio": 0.6603,
       "motion": "slow-push",
       "transition": "cut"
@@ -323,7 +323,7 @@
       "n": 37,
       "type": "image",
       "src": "30.jpg",
-      "durationSec": 4.797,
+      "durationSec": 6.072,
       "aspectRatio": 0.6603,
       "motion": "slow-pull",
       "transition": "cut"
@@ -332,7 +332,7 @@
       "n": 38,
       "type": "image",
       "src": "31.jpg",
-      "durationSec": 3.412,
+      "durationSec": 3.168,
       "aspectRatio": 0.6603,
       "motion": "pan-left",
       "transition": "cut"
@@ -341,7 +341,7 @@
       "n": 39,
       "type": "image",
       "src": "32.jpg",
-      "durationSec": 8.704,
+      "durationSec": 9.24,
       "aspectRatio": 1.4742,
       "motion": "pan-right",
       "transition": "cut"
@@ -350,7 +350,7 @@
       "n": 40,
       "type": "image",
       "src": "33.jpg",
-      "durationSec": 6.544,
+      "durationSec": 6.336,
       "aspectRatio": 1.4804,
       "motion": "settle",
       "transition": "cut"
@@ -359,7 +359,7 @@
       "n": 41,
       "type": "image",
       "src": "34.jpg",
-      "durationSec": 4.863,
+      "durationSec": 3.96,
       "aspectRatio": 1.4642,
       "motion": "slow-push",
       "transition": "cut"
@@ -368,7 +368,7 @@
       "n": 42,
       "type": "image",
       "src": "35.jpg",
-      "durationSec": 3.627,
+      "durationSec": 3.96,
       "aspectRatio": 1.3333,
       "motion": "slow-pull",
       "transition": "cut"
@@ -377,7 +377,7 @@
       "n": 43,
       "type": "image",
       "src": "31.jpg",
-      "durationSec": 1.962,
+      "durationSec": 1.056,
       "aspectRatio": 0.6603,
       "motion": "pan-left",
       "transition": "cut"
@@ -386,7 +386,7 @@
       "n": 44,
       "type": "image",
       "src": "36.jpg",
-      "durationSec": 7.962,
+      "durationSec": 8.184,
       "aspectRatio": 1.5047,
       "motion": "pan-right",
       "transition": "cut"
@@ -395,7 +395,7 @@
       "n": 45,
       "type": "image",
       "src": "37.jpg",
-      "durationSec": 4.154,
+      "durationSec": 4.488,
       "aspectRatio": 0.7048,
       "motion": "settle",
       "transition": "cut"
@@ -404,7 +404,7 @@
       "n": 46,
       "type": "image",
       "src": "38.jpg",
-      "durationSec": 1.929,
+      "durationSec": 1.584,
       "aspectRatio": 1.4642,
       "motion": "slow-push",
       "transition": "cut"
@@ -413,7 +413,7 @@
       "n": 47,
       "type": "image",
       "src": "39.jpg",
-      "durationSec": 4.632,
+      "durationSec": 5.016,
       "aspectRatio": 1.5779,
       "motion": "slow-pull",
       "transition": "cut"
@@ -422,7 +422,7 @@
       "n": 48,
       "type": "image",
       "src": "40.jpg",
-      "durationSec": 3.791,
+      "durationSec": 4.488,
       "aspectRatio": 1.5779,
       "motion": "pan-left",
       "transition": "cut"
@@ -431,7 +431,7 @@
       "n": 49,
       "type": "image",
       "src": "41.jpg",
-      "durationSec": 3.0,
+      "durationSec": 2.904,
       "aspectRatio": 1.3333,
       "motion": "pan-right",
       "transition": "cut"
@@ -440,7 +440,7 @@
       "n": 50,
       "type": "image",
       "src": "42.jpg",
-      "durationSec": 3.726,
+      "durationSec": 3.168,
       "aspectRatio": 1.3333,
       "motion": "settle",
       "transition": "cut"
@@ -449,7 +449,7 @@
       "n": 51,
       "type": "image",
       "src": "43.jpg",
-      "durationSec": 11.061,
+      "durationSec": 10.824,
       "aspectRatio": 0.7894,
       "motion": "slow-push",
       "transition": "cut"
@@ -458,7 +458,7 @@
       "n": 52,
       "type": "image",
       "src": "44.jpg",
-      "durationSec": 5.358,
+      "durationSec": 4.752,
       "aspectRatio": 1.7778,
       "motion": "slow-pull",
       "transition": "cut"
@@ -467,7 +467,7 @@
       "n": 53,
       "type": "image",
       "src": "45.jpg",
-      "durationSec": 3.511,
+      "durationSec": 3.96,
       "aspectRatio": 0.7856,
       "motion": "pan-left",
       "transition": "cut"
@@ -476,7 +476,7 @@
       "n": 54,
       "type": "image",
       "src": "12.jpg",
-      "durationSec": 5.358,
+      "durationSec": 5.016,
       "aspectRatio": 0.632,
       "motion": "pan-right",
       "transition": "cut"
@@ -485,7 +485,7 @@
       "n": 55,
       "type": "image",
       "src": "2.jpg",
-      "durationSec": 4.401,
+      "durationSec": 4.752,
       "aspectRatio": 1.5105,
       "motion": "settle",
       "transition": "cut"
@@ -494,7 +494,7 @@
       "n": 56,
       "type": "image",
       "src": "46.jpg",
-      "durationSec": 4.533,
+      "durationSec": 5.016,
       "aspectRatio": 1.4109,
       "motion": "slow-push",
       "transition": "cut"
@@ -503,7 +503,7 @@
       "n": 57,
       "type": "image",
       "src": "47.jpg",
-      "durationSec": 9.215,
+      "durationSec": 8.976,
       "aspectRatio": 0.6931,
       "motion": "slow-pull",
       "transition": "cut"
@@ -512,7 +512,7 @@
       "n": 58,
       "type": "image",
       "src": "48.jpg",
-      "durationSec": 3.033,
+      "durationSec": 1.584,
       "aspectRatio": 0.626,
       "motion": "pan-left",
       "transition": "cut"
@@ -521,7 +521,7 @@
       "n": 59,
       "type": "image",
       "src": "10.jpg",
-      "durationSec": 9.446,
+      "durationSec": 9.24,
       "aspectRatio": 0.761,
       "motion": "pan-right",
       "transition": "cut"
@@ -530,7 +530,7 @@
       "n": 60,
       "type": "image",
       "src": "49.jpg",
-      "durationSec": 4.748,
+      "durationSec": 5.28,
       "aspectRatio": 0.6991,
       "motion": "settle",
       "transition": "cut"
@@ -539,7 +539,7 @@
       "n": 61,
       "type": "image",
       "src": "50.jpg",
-      "durationSec": 6.561,
+      "durationSec": 6.072,
       "aspectRatio": 1.3474,
       "motion": "slow-push",
       "transition": "cut"
@@ -549,7 +549,7 @@
       "type": "clip",
       "src": "51.mp4",
       "startTrim": 0.3,
-      "durationSec": 4.006,
+      "durationSec": 3.96,
       "playbackRate": 2.0062,
       "transition": "cut"
     },
@@ -557,7 +557,7 @@
       "n": 63,
       "type": "image",
       "src": "52.jpg",
-      "durationSec": 4.566,
+      "durationSec": 3.96,
       "aspectRatio": 1.2549,
       "motion": "pan-left",
       "transition": "cut"
@@ -566,7 +566,7 @@
       "n": 64,
       "type": "image",
       "src": "53.jpeg",
-      "durationSec": 6.973,
+      "durationSec": 7.656,
       "aspectRatio": 0.906,
       "motion": "pan-right",
       "transition": "cut"
@@ -575,7 +575,7 @@
       "n": 65,
       "type": "image",
       "src": "54.jpg",
-      "durationSec": 5.489,
+      "durationSec": 6.072,
       "aspectRatio": 1.3196,
       "motion": "settle",
       "transition": "cut"
@@ -584,7 +584,7 @@
       "n": 66,
       "type": "image",
       "src": "1.jpg",
-      "durationSec": 4.204,
+      "durationSec": 4.224,
       "aspectRatio": 1.5105,
       "motion": "slow-push",
       "transition": "cut"
@@ -593,7 +593,7 @@
       "n": 67,
       "type": "image",
       "src": "2.jpg",
-      "durationSec": 2.753,
+      "durationSec": 2.112,
       "aspectRatio": 1.5105,
       "motion": "slow-pull",
       "transition": "cut"
@@ -602,7 +602,7 @@
       "n": 68,
       "type": "image",
       "src": "9.jpg",
-      "durationSec": 3.841,
+      "durationSec": 5.016,
       "aspectRatio": 1.4599,
       "motion": "pan-left",
       "transition": "cut"
@@ -611,7 +611,7 @@
       "n": 69,
       "type": "image",
       "src": "55.jpg",
-      "durationSec": 3.116,
+      "durationSec": 3.432,
       "aspectRatio": 0.7132,
       "motion": "pan-right",
       "transition": "cut"
@@ -620,7 +620,7 @@
       "n": 70,
       "type": "image",
       "src": "34.jpg",
-      "durationSec": 3.396,
+      "durationSec": 3.696,
       "aspectRatio": 1.4642,
       "motion": "settle",
       "transition": "cut"
@@ -629,7 +629,7 @@
       "n": 71,
       "type": "image",
       "src": "56.jpg",
-      "durationSec": 2.291,
+      "durationSec": 2.376,
       "aspectRatio": 0.715,
       "motion": "slow-push",
       "transition": "cut"
@@ -638,7 +638,7 @@
       "n": 72,
       "type": "image",
       "src": "57.jpg",
-      "durationSec": 5.176,
+      "durationSec": 5.016,
       "aspectRatio": 1.4184,
       "motion": "slow-pull",
       "transition": "cut"
@@ -647,7 +647,7 @@
       "n": 73,
       "type": "image",
       "src": "58.jpg",
-      "durationSec": 3.346,
+      "durationSec": 3.432,
       "aspectRatio": 1.4189,
       "motion": "pan-left",
       "transition": "cut"
@@ -656,7 +656,7 @@
       "n": 74,
       "type": "image",
       "src": "59.jpg",
-      "durationSec": 5.358,
+      "durationSec": 4.752,
       "aspectRatio": 1.4778,
       "motion": "pan-right",
       "transition": "cut"
@@ -665,7 +665,7 @@
       "n": 75,
       "type": "image",
       "src": "49.jpg",
-      "durationSec": 3.297,
+      "durationSec": 2.904,
       "aspectRatio": 0.6991,
       "motion": "settle",
       "transition": "cut"

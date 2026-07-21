@@ -52,12 +52,14 @@ export function imageMotion(frame, motionName, durationInFrames) {
   const yBase = lerp(m.y0, m.y1);
   const yFloat = Math.sin((frame / FLOAT.period) * Math.PI * 2) * FLOAT.ampPct;
 
-  // brief fade-in on arrival
-  const opacity = Math.min(1, frame / 10);
-
+  // No per-scene fade-in from opacity 0. With hard-cut transitions, that
+  // 10-frame fade-in produces a visible dark flash at every scene start,
+  // most obvious on callbacks (the same image appearing to briefly go dark
+  // and come back), which is the effect the creative direction explicitly
+  // rejected. Full opacity from frame 0.
   return {
     transform: `scale(${scale}) translate(${x}%, ${(yBase + yFloat).toFixed(3)}%)`,
-    opacity,
+    opacity: 1,
   };
 }
 
