@@ -66,6 +66,9 @@ python cli.py export          # -> corpus/export/entries.jsonl
 python cli.py serve           # -> http://127.0.0.1:5000
 # 6b. …or build one self-contained HTML file you can open offline / share
 python cli.py page            # -> corpus/export/reading-room.html
+
+# 7. Export each journal as its own text file (+ index.csv) and a single zip
+python cli.py journals        # -> corpus/export/journals/ + corpus/export/journals.zip
 ```
 
 `harvest --limit N` accepts N works; because many candidates are rejected (not public

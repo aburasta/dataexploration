@@ -49,6 +49,11 @@ def main(argv=None) -> int:
     p_page = sub.add_parser("page", help="build a self-contained static reading-room HTML")
     p_page.add_argument("--out", default=None, help="output path (default: corpus/export/reading-room.html)")
 
+    p_journals = sub.add_parser(
+        "journals", help="write one text file per curated journal (+ index + zip)")
+    p_journals.add_argument("--all", action="store_true",
+                            help="include every work, not just curated ones")
+
     args = parser.parse_args(argv)
     config = Config.load(args.config)
 
@@ -72,6 +77,9 @@ def main(argv=None) -> int:
     elif args.command == "page":
         from diarycorpus.staticpage import build_page
         build_page(config, out_path=args.out)
+    elif args.command == "journals":
+        from diarycorpus.journals import export_journals
+        export_journals(config, selected_only=not args.all)
     else:  # pragma: no cover
         parser.print_help()
         return 1
