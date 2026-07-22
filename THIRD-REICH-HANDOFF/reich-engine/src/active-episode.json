@@ -9,7 +9,7 @@
       "n": 1,
       "type": "image",
       "src": "img36.jpg",
-      "durationSec": 5.085,
+      "durationSec": 8.308,
       "aspectRatio": 0.7425,
       "motion": "slow-push",
       "transition": "cut"
@@ -18,7 +18,7 @@
       "n": 2,
       "type": "clip",
       "src": "vid-berlin-ruins.mp4",
-      "durationSec": 6.459,
+      "durationSec": 2.778,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -27,7 +27,7 @@
       "n": 3,
       "type": "image",
       "src": "img35.jpg",
-      "durationSec": 5.642,
+      "durationSec": 5.418,
       "aspectRatio": 0.7425,
       "motion": "slow-pull",
       "transition": "cut"
@@ -36,7 +36,7 @@
       "n": 4,
       "type": "image",
       "src": "img2.jpg",
-      "durationSec": 2.631,
+      "durationSec": 5.381,
       "aspectRatio": 1.3333,
       "motion": "pan-left",
       "transition": "cut"
@@ -45,7 +45,7 @@
       "n": 5,
       "type": "image",
       "src": "img27.jpg",
-      "durationSec": 10.386,
+      "durationSec": 12.463,
       "aspectRatio": 0.7529,
       "motion": "pan-right",
       "transition": "cut"
@@ -54,7 +54,7 @@
       "n": 6,
       "type": "image",
       "src": "occult1.jpg",
-      "durationSec": 2.291,
+      "durationSec": 3.227,
       "aspectRatio": 0.6991,
       "motion": "settle",
       "transition": "cut"
@@ -63,7 +63,7 @@
       "n": 7,
       "type": "image",
       "src": "occult2.jpg",
-      "durationSec": 2.291,
+      "durationSec": 5.159,
       "aspectRatio": 1.2584,
       "motion": "slow-push",
       "transition": "cut"
@@ -72,7 +72,7 @@
       "n": 8,
       "type": "image",
       "src": "occult3.jpg",
-      "durationSec": 2.291,
+      "durationSec": 5.524,
       "aspectRatio": 5.6875,
       "motion": "slow-pull",
       "transition": "cut"
@@ -81,7 +81,7 @@
       "n": 9,
       "type": "image",
       "src": "occult4.jpg",
-      "durationSec": 2.291,
+      "durationSec": 3.255,
       "aspectRatio": 0.657,
       "motion": "pan-left",
       "transition": "cut"
@@ -90,7 +90,7 @@
       "n": 10,
       "type": "image",
       "src": "img3.jpg",
-      "durationSec": 9.903,
+      "durationSec": 12.542,
       "aspectRatio": 0.8562,
       "motion": "pan-right",
       "transition": "cut"
@@ -99,7 +99,7 @@
       "n": 11,
       "type": "image",
       "src": "img49.jpg",
-      "durationSec": 3.85,
+      "durationSec": 12.542,
       "aspectRatio": 1.4201,
       "motion": "settle",
       "transition": "cut"
@@ -108,7 +108,7 @@
       "n": 12,
       "type": "image",
       "src": "img5.jpg",
-      "durationSec": 12.561,
+      "durationSec": 11.93,
       "aspectRatio": 0.6307,
       "motion": "slow-push",
       "transition": "cut"
@@ -117,7 +117,7 @@
       "n": 13,
       "type": "image",
       "src": "keep-a11.jpg",
-      "durationSec": 14.937,
+      "durationSec": 11.587,
       "aspectRatio": 0.8921,
       "motion": "slow-pull",
       "transition": "cut"
@@ -126,7 +126,7 @@
       "n": 14,
       "type": "image",
       "src": "keep-a13.jpg",
-      "durationSec": 11.279,
+      "durationSec": 16.573,
       "aspectRatio": 1.5673,
       "motion": "pan-left",
       "transition": "cut"
@@ -135,7 +135,7 @@
       "n": 15,
       "type": "image",
       "src": "iron-cross.jpg",
-      "durationSec": 19.551,
+      "durationSec": 13.035,
       "aspectRatio": 1.8842,
       "motion": "pan-right",
       "transition": "cut"
@@ -144,7 +144,7 @@
       "n": 16,
       "type": "image",
       "src": "keep-a17.jpg",
-      "durationSec": 13.803,
+      "durationSec": 13.255,
       "aspectRatio": 1.3398,
       "motion": "settle",
       "transition": "cut"
@@ -153,7 +153,7 @@
       "n": 17,
       "type": "image",
       "src": "img51.jpg",
-      "durationSec": 13.85,
+      "durationSec": 13.301,
       "aspectRatio": 1.0637,
       "motion": "slow-push",
       "transition": "cut"
@@ -162,7 +162,7 @@
       "n": 18,
       "type": "image",
       "src": "new-winifred-wagner.jpg",
-      "durationSec": 12.268,
+      "durationSec": 13.73,
       "aspectRatio": 0.8619,
       "motion": "slow-pull",
       "transition": "cut"
@@ -171,7 +171,7 @@
       "n": 19,
       "type": "image",
       "src": "img52.jpg",
-      "durationSec": 15.332,
+      "durationSec": 12.774,
       "aspectRatio": 2.0,
       "motion": "pan-left",
       "transition": "cut"
@@ -180,7 +180,7 @@
       "n": 20,
       "type": "image",
       "src": "new-haus-wachenfeld.jpg",
-      "durationSec": 13.678,
+      "durationSec": 13.135,
       "aspectRatio": 1.6985,
       "motion": "pan-right",
       "transition": "cut"
@@ -189,7 +189,7 @@
       "n": 21,
       "type": "image",
       "src": "img4.jpg",
-      "durationSec": 9.178,
+      "durationSec": 12.221,
       "aspectRatio": 1.4183,
       "motion": "settle",
       "transition": "cut"
@@ -198,7 +198,7 @@
       "n": 22,
       "type": "image",
       "src": "img19.jpg",
-      "durationSec": 16.909,
+      "durationSec": 12.831,
       "aspectRatio": 0.6667,
       "motion": "slow-push",
       "transition": "cut"
@@ -207,7 +207,7 @@
       "n": 23,
       "type": "image",
       "src": "img34.jpg",
-      "durationSec": 18.369,
+      "durationSec": 19.791,
       "aspectRatio": 0.6913,
       "motion": "slow-pull",
       "transition": "cut"
@@ -216,7 +216,7 @@
       "n": 24,
       "type": "image",
       "src": "img41.jpg",
-      "durationSec": 21.586,
+      "durationSec": 18.578,
       "aspectRatio": 1.5193,
       "motion": "pan-left",
       "transition": "cut"
@@ -225,7 +225,7 @@
       "n": 25,
       "type": "image",
       "src": "img22.jpg",
-      "durationSec": 11.605,
+      "durationSec": 14.531,
       "aspectRatio": 0.7229,
       "motion": "pan-right",
       "transition": "cut"
@@ -234,7 +234,7 @@
       "n": 26,
       "type": "image",
       "src": "img23.jpg",
-      "durationSec": 14.766,
+      "durationSec": 11.909,
       "aspectRatio": 0.7019,
       "motion": "settle",
       "transition": "cut"
@@ -243,7 +243,7 @@
       "n": 27,
       "type": "image",
       "src": "new-strasser.jpg",
-      "durationSec": 13.745,
+      "durationSec": 13.823,
       "aspectRatio": 2.8855,
       "motion": "slow-push",
       "transition": "cut"
@@ -252,7 +252,7 @@
       "n": 28,
       "type": "image",
       "src": "img24.jpg",
-      "durationSec": 14.588,
+      "durationSec": 12.27,
       "aspectRatio": 1.5,
       "motion": "slow-pull",
       "transition": "cut"
@@ -261,7 +261,7 @@
       "n": 29,
       "type": "image",
       "src": "img26.jpg",
-      "durationSec": 18.386,
+      "durationSec": 20.147,
       "aspectRatio": 1.1111,
       "motion": "pan-left",
       "transition": "cut"
@@ -270,7 +270,7 @@
       "n": 30,
       "type": "image",
       "src": "img39.jpg",
-      "durationSec": 21.721,
+      "durationSec": 18.369,
       "aspectRatio": 1.6,
       "motion": "pan-right",
       "transition": "cut"
@@ -279,7 +279,7 @@
       "n": 31,
       "type": "image",
       "src": "keep-a30.jpg",
-      "durationSec": 20.955,
+      "durationSec": 20.124,
       "aspectRatio": 0.6246,
       "motion": "settle",
       "transition": "cut"
@@ -288,7 +288,7 @@
       "n": 32,
       "type": "image",
       "src": "img30.jpg",
-      "durationSec": 19.225,
+      "durationSec": 22.21,
       "aspectRatio": 1.3241,
       "motion": "slow-push",
       "transition": "cut"
@@ -297,7 +297,7 @@
       "n": 33,
       "type": "image",
       "src": "img29.jpg",
-      "durationSec": 13.116,
+      "durationSec": 11.4,
       "aspectRatio": 1.3783,
       "motion": "slow-pull",
       "transition": "cut"
@@ -306,7 +306,7 @@
       "n": 34,
       "type": "image",
       "src": "img43.jpg",
-      "durationSec": 13.821,
+      "durationSec": 10.721,
       "aspectRatio": 1.4221,
       "motion": "pan-left",
       "transition": "cut"
@@ -315,7 +315,7 @@
       "n": 35,
       "type": "image",
       "src": "img31.jpg",
-      "durationSec": 6.583,
+      "durationSec": 9.103,
       "aspectRatio": 1.5202,
       "motion": "pan-right",
       "transition": "cut"
@@ -324,7 +324,7 @@
       "n": 36,
       "type": "image",
       "src": "img32.jpg",
-      "durationSec": 10.355,
+      "durationSec": 9.214,
       "aspectRatio": 0.7243,
       "motion": "settle",
       "transition": "cut"
@@ -333,7 +333,7 @@
       "n": 37,
       "type": "clip",
       "src": "vid-eva-03.mp4",
-      "durationSec": 9.732,
+      "durationSec": 7.295,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -342,7 +342,7 @@
       "n": 38,
       "type": "clip",
       "src": "vid-eva-12.mp4",
-      "durationSec": 2.516,
+      "durationSec": 5.639,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -351,7 +351,7 @@
       "n": 39,
       "type": "clip",
       "src": "vid-eva-11.mp4",
-      "durationSec": 3.356,
+      "durationSec": 1.935,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -360,7 +360,7 @@
       "n": 40,
       "type": "clip",
       "src": "vid-eva-14.mp4",
-      "durationSec": 4.567,
+      "durationSec": 2.452,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -369,7 +369,7 @@
       "n": 41,
       "type": "clip",
       "src": "vid-eva-13.mp4",
-      "durationSec": 4.56,
+      "durationSec": 4.379,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -378,7 +378,7 @@
       "n": 42,
       "type": "clip",
       "src": "vid-eva-05.mp4",
-      "durationSec": 2.725,
+      "durationSec": 2.617,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -387,7 +387,7 @@
       "n": 43,
       "type": "image",
       "src": "img38.jpg",
-      "durationSec": 3.484,
+      "durationSec": 2.816,
       "aspectRatio": 1.2947,
       "motion": "slow-push",
       "transition": "cut"
@@ -396,7 +396,7 @@
       "n": 44,
       "type": "image",
       "src": "keep-a20.jpg",
-      "durationSec": 2.557,
+      "durationSec": 2.986,
       "aspectRatio": 1.2947,
       "motion": "slow-pull",
       "transition": "cut"
@@ -405,7 +405,7 @@
       "n": 45,
       "type": "image",
       "src": "img17.jpg",
-      "durationSec": 10.693,
+      "durationSec": 11.469,
       "aspectRatio": 0.9432,
       "motion": "pan-left",
       "transition": "cut"
@@ -414,7 +414,7 @@
       "n": 46,
       "type": "image",
       "src": "img46.jpg",
-      "durationSec": 9.374,
+      "durationSec": 10.587,
       "aspectRatio": 1.5453,
       "motion": "pan-right",
       "transition": "cut"
@@ -423,7 +423,7 @@
       "n": 47,
       "type": "clip",
       "src": "vid-berlin-c.mp4",
-      "durationSec": 10.124,
+      "durationSec": 6.936,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -432,7 +432,7 @@
       "n": 48,
       "type": "clip",
       "src": "vid-eva-10.mp4",
-      "durationSec": 3.285,
+      "durationSec": 9.809,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -441,7 +441,7 @@
       "n": 49,
       "type": "clip",
       "src": "vid-eva-15.mp4",
-      "durationSec": 10.548,
+      "durationSec": 3.476,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -450,7 +450,7 @@
       "n": 50,
       "type": "clip",
       "src": "vid-eva-04.mp4",
-      "durationSec": 6.883,
+      "durationSec": 6.61,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -459,7 +459,7 @@
       "n": 51,
       "type": "clip",
       "src": "vid-eva-07.mp4",
-      "durationSec": 6.372,
+      "durationSec": 8.941,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -468,7 +468,7 @@
       "n": 52,
       "type": "clip",
       "src": "vid-eva-08.mp4",
-      "durationSec": 6.747,
+      "durationSec": 6.505,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -477,7 +477,7 @@
       "n": 53,
       "type": "clip",
       "src": "vid-eva-09.mp4",
-      "durationSec": 6.981,
+      "durationSec": 7.021,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -486,7 +486,7 @@
       "n": 54,
       "type": "clip",
       "src": "vid-eva-02.mp4",
-      "durationSec": 7.776,
+      "durationSec": 4.302,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -495,7 +495,7 @@
       "n": 55,
       "type": "clip",
       "src": "vid-nuremberg-crowd.mp4",
-      "durationSec": 6.89,
+      "durationSec": 6.617,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -504,7 +504,7 @@
       "n": 56,
       "type": "image",
       "src": "img40.jpg",
-      "durationSec": 4.387,
+      "durationSec": 7.657,
       "aspectRatio": 1.4087,
       "motion": "settle",
       "transition": "cut"
@@ -513,7 +513,7 @@
       "n": 57,
       "type": "clip",
       "src": "vid-torch.mp4",
-      "durationSec": 9.912,
+      "durationSec": 6.075,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -522,7 +522,7 @@
       "n": 58,
       "type": "clip",
       "src": "vid-nuremberg-aerial.mp4",
-      "durationSec": 3.428,
+      "durationSec": 8.904,
       "startTrim": 0.4,
       "playbackRate": 1.0,
       "transition": "cut"
@@ -530,7 +530,7 @@
     {
       "n": 59,
       "type": "outro",
-      "durationSec": 9.856,
+      "durationSec": 3.852,
       "transition": "cut"
     }
   ]
