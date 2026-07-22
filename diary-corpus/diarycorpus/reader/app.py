@@ -23,8 +23,8 @@ def create_app(config: Config | None = None) -> Flask:
     @app.route("/")
     def index():
         with store() as s:
-            works = s.list_works()
-            stats = s.stats()
+            works = s.list_works(selected_only=True)
+            stats = s.stats(selected_only=True)
         return render_template("index.html", works=works, stats=stats)
 
     @app.route("/work/<int:work_id>")
@@ -44,7 +44,7 @@ def create_app(config: Config | None = None) -> Flask:
         if query:
             with store() as s:
                 try:
-                    results = s.search_entries(query, limit=100)
+                    results = s.search_entries(query, limit=100, selected_only=True)
                 except Exception as exc:  # FTS syntax errors -> friendly message
                     error = f"Search error: {exc}"
         return render_template("search.html", query=query, results=results, error=error)

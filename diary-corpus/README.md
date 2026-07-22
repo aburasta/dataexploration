@@ -15,16 +15,27 @@ behind the same interface.
 search (advancedsearch.php)  ->  fetch (metadata + OCR download)  ->  raw/*.txt cache
         │                                                                   │
         └── public-domain + OCR filters                     segment (date headings)
-                                                                            │
+            + retargeted away from naturalist material                      │
                                                               SQLite (works + entries + FTS5)
-                                                              ├── export -> entries.jsonl (NLP)
-                                                              └── serve  -> web reader (browse/search)
+                                                                            │
+                                                              curate (NLP scoring + select)
+                                                              ├── export -> entries.jsonl (NLP, curated)
+                                                              ├── serve  -> web reader (curated)
+                                                              └── page   -> self-contained HTML (curated)
 ```
 
-Only works whose Internet Archive metadata reports `possible-copyright-status`
-starting with **"Public domain"** are accepted, and lending-restricted / access-restricted
-items are excluded at both the search and fetch stages. Harvested text is cached to disk
-and **not committed** (see `.gitignore`) — we version the code, not scraped content.
+**Public-domain filtering.** A work is accepted when its Internet Archive metadata
+reports a public-domain `possible-copyright-status`, or — when that field is missing —
+when its publication year falls inside the pre-1929 window the search already enforces
+(date-based public domain). Anything explicitly marked in-copyright, or
+lending/access-restricted, is rejected. Harvested text is cached to disk and **not
+committed** (see `.gitignore`) — we version the code, not scraped content.
+
+**Retargeting + NLP curation.** The search is steered *away* from naturalists' field
+notebooks (which dominate public-domain diaries via the Biodiversity Heritage Library) by
+excluding that collection and its subjects, and toward personal narratives, English only.
+Then `curate` runs a transparent, dependency-light NLP pass (`diarycorpus/nlp.py`) that
+scores each journal and keeps only the substantial, English, story-like ones — see below.
 
 ## Setup
 
@@ -36,25 +47,50 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-# 1. Fetch N public-domain diary works (resumable; re-running skips cached items)
-python cli.py harvest --limit 20
+# 1. Fetch a pool of public-domain personal diaries (resumable; re-run skips cached)
+python cli.py harvest --limit 150
 
 # 2. Segment cached texts into dated entries and load into SQLite
 python cli.py segment
 
-# 3. See what you have
+# 3. NLP curation: score journals, keep the long English narrative ones
+python cli.py curate
+
+# 4. See what survived (curated by default; --all for everything harvested)
 python cli.py stats
 
-# 4. Export the NLP-ready corpus (one JSON object per entry)
+# 5. Export the NLP-ready corpus (curated only; one JSON object per entry)
 python cli.py export          # -> corpus/export/entries.jsonl
 
-# 5. Browse + full-text search in a local web reader
+# 6a. Browse + full-text search in a local web reader (curated)
 python cli.py serve           # -> http://127.0.0.1:5000
+# 6b. …or build one self-contained HTML file you can open offline / share
+python cli.py page            # -> corpus/export/reading-room.html
 ```
 
 `harvest --limit N` accepts N works; because many candidates are rejected (not public
 domain, or no OCR text), the tool keeps paging through search results until it has N
 accepted works. Run it again later to fetch more — already-cached works are skipped.
+
+### Curation: what gets kept
+
+`curate` concatenates each journal's text and computes lexical features (per 1,000 words):
+first-person density, an **everyday-life** lexicon (home, family, church, letters, work…),
+a **drama** lexicon (death, illness, love, war, fear…), and a **naturalist penalty**
+(field-note vocabulary, Latin binomials, measurements). A work is **selected** when it
+clears every gate in `config.yaml → curate`:
+
+| gate | default | purpose |
+|------|---------|---------|
+| `min_words` | 2000 | drop stray fragments; keep whole journals that tell a story |
+| `english_min` | 0.16 | stopword-density language check (English only) |
+| `naturalist_max` | 12.0 | reject field notebooks |
+| `min_entry_words` | 40 | prune micro-entries inside a kept journal |
+
+No top-N cap — **every** journal passing the gates is kept, ranked by a combined
+`narrative_score` (balanced everyday + drama). Re-tune the numbers and re-run
+`python cli.py curate` **without re-harvesting**. `stats`, `export`, `serve` and `page`
+all show the curated set by default.
 
 ## Output shape
 
@@ -75,18 +111,26 @@ Each line of `entries.jsonl`:
     "year": 1912,
     "language": "eng",
     "copyright_status": "Public domain. …",
-    "url": "https://archive.org/details/diarieswilliamb1912brew"
+    "url": "https://archive.org/details/...",
+    "n_words": 48213,
+    "narrative_score": 74.6,
+    "everyday_score": 41.2,
+    "drama_score": 28.9
   }
 }
 ```
 
 ## Configuration
 
-Edit `config.yaml` to change the search window, languages, rate limits, and paths:
+Edit `config.yaml` to change targeting, curation, rate limits, and paths:
 
+- `internet_archive.subject` / `extra_subjects` — subjects to search (`"Diaries"`,
+  broadened with `"Personal narratives"`).
+- `internet_archive.exclude_collections` / `exclude_subjects` — steer away from
+  naturalist material (default drops `biodiversity` + `Natural history`, `Birds`, …).
 - `internet_archive.year_from` / `year_to` — public-domain window (default 1500–1928).
-- `internet_archive.languages` — e.g. `["eng"]` to restrict; empty = any.
-- `internet_archive.subject` — the Internet Archive subject to search (`"diaries"`).
+- `internet_archive.languages` — `["eng"]` for English only.
+- `curate.*` — the NLP gates and scoring weights (see the table above).
 - `http.request_delay_seconds`, `max_retries`, `backoff_base_seconds` — politeness.
 
 ## A note on segmentation quality

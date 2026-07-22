@@ -19,12 +19,36 @@ http:
 source: internet_archive
 
 internet_archive:
-  subject: "diaries"
+  subject: "Diaries"
   # Public-domain window: US works published before 1929 are PD.
   # Keep the upper bound conservative.
   year_from: 1500
   year_to: 1928
-  languages: []                  # empty = any; e.g. ["eng"] to restrict
+  languages: ["eng"]             # English only (metadata-level; NLP re-checks the text)
+  # Extra subjects OR-ed with `subject` to broaden toward personal narratives.
+  extra_subjects: ["Personal narratives"]
+  # Steer away from naturalists' field notebooks (dominant on the Internet Archive
+  # via the Biodiversity Heritage Library): drop that collection and its subjects.
+  exclude_collections: ["biodiversity"]
+  exclude_subjects: ["Natural history", "Birds", "Botany", "Zoology",
+                     "Ornithology", "Plants", "Entomology"]
   # Only accept works whose metadata copyright status starts with this:
   require_copyright_status_prefix: "Public domain"
   batch_size: 50                 # rows per search page
+
+# NLP curation: score each harvested work and keep only long, English, narrative
+# journals of everyday life or drama (see diarycorpus/nlp.py). Tune and re-run
+# `python cli.py curate` without re-harvesting.
+curate:
+  min_words: 2000          # drop stray fragments / journals too short to tell a story
+  min_entry_words: 40      # drop micro-entries within a kept journal
+  english_min: 0.16        # min core-stopword density among alpha tokens (language gate)
+  naturalist_max: 12.0     # max naturalist field-note score (per 1000 words) to keep
+  narrative_min: 0.0       # min combined narrative score to keep (0 = rely on gates)
+  # Scoring weights for narrative_score = w_everyday*everyday + w_drama*drama
+  #                                       + w_firstperson*firstperson - w_naturalist*naturalist
+  weights:
+    everyday: 1.0
+    drama: 1.0
+    firstperson: 0.5
+    naturalist: 1.0

@@ -11,12 +11,13 @@ from .config import Config
 from .store import Store
 
 
-def export_jsonl(config: Config, filename: str = "entries.jsonl") -> Path:
+def export_jsonl(config: Config, filename: str = "entries.jsonl",
+                 selected_only: bool = True) -> Path:
     config.ensure_dirs()
     out_path = config.export_dir / filename
     n = 0
     with Store(config.db_path) as store, open(out_path, "w", encoding="utf-8") as fh:
-        for row in store.iter_entries_with_work():
+        for row in store.iter_entries_with_work(selected_only=selected_only):
             record = {
                 "entry_id": row["entry_id"],
                 "seq": row["seq"],
@@ -32,6 +33,10 @@ def export_jsonl(config: Config, filename: str = "entries.jsonl") -> Path:
                     "language": row["language"],
                     "copyright_status": row["copyright_status"],
                     "url": row["url"],
+                    "n_words": row["n_words"],
+                    "narrative_score": row["narrative_score"],
+                    "everyday_score": row["everyday_score"],
+                    "drama_score": row["drama_score"],
                 },
             }
             fh.write(json.dumps(record, ensure_ascii=False) + "\n")

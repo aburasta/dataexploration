@@ -31,14 +31,23 @@ def main(argv=None) -> int:
                            help="re-download even if a cached copy exists")
 
     sub.add_parser("segment", help="segment cached texts into entries and load into SQLite")
-    sub.add_parser("stats", help="print corpus statistics")
+    sub.add_parser("curate", help="NLP-score works and select English narrative journals")
 
-    p_export = sub.add_parser("export", help="export corpus to JSONL")
+    p_stats = sub.add_parser("stats", help="print corpus statistics")
+    p_stats.add_argument("--all", action="store_true",
+                         help="include unselected works (default: curated only)")
+
+    p_export = sub.add_parser("export", help="export curated corpus to JSONL")
     p_export.add_argument("--filename", default="entries.jsonl")
+    p_export.add_argument("--all", action="store_true",
+                          help="export every work, not just curated ones")
 
     p_serve = sub.add_parser("serve", help="launch the Flask reader")
     p_serve.add_argument("--host", default="127.0.0.1")
     p_serve.add_argument("--port", type=int, default=5000)
+
+    p_page = sub.add_parser("page", help="build a self-contained static reading-room HTML")
+    p_page.add_argument("--out", default=None, help="output path (default: corpus/export/reading-room.html)")
 
     args = parser.parse_args(argv)
     config = Config.load(args.config)
@@ -49,21 +58,27 @@ def main(argv=None) -> int:
     elif args.command == "segment":
         from diarycorpus.ingest import ingest
         ingest(config)
+    elif args.command == "curate":
+        from diarycorpus.curate import curate
+        curate(config)
     elif args.command == "stats":
-        _print_stats(config)
+        _print_stats(config, selected_only=not args.all)
     elif args.command == "export":
         from diarycorpus.export import export_jsonl
-        export_jsonl(config, filename=args.filename)
+        export_jsonl(config, filename=args.filename, selected_only=not args.all)
     elif args.command == "serve":
         from diarycorpus.reader.app import serve
         serve(config, host=args.host, port=args.port)
+    elif args.command == "page":
+        from diarycorpus.staticpage import build_page
+        build_page(config, out_path=args.out)
     else:  # pragma: no cover
         parser.print_help()
         return 1
     return 0
 
 
-def _print_stats(config: Config) -> None:
+def _print_stats(config: Config, selected_only: bool = True) -> None:
     from pathlib import Path
     from diarycorpus.store import Store
 
@@ -71,14 +86,18 @@ def _print_stats(config: Config) -> None:
         print(f"[stats] no database at {config.db_path} — run harvest + segment first")
         return
     with Store(config.db_path) as s:
-        st = s.stats()
-    print(f"Works:    {st['works']}")
+        st = s.stats(selected_only=selected_only)
+    label = "curated" if selected_only else "all"
+    print(f"Works ({label}):  {st['works']}" +
+          (f"  (of {st['total_works']} harvested)" if selected_only else ""))
     print(f"Entries:  {st['entries']}")
     if st["year_min"]:
         print(f"Years:    {st['year_min']}–{st['year_max']}")
     if st["languages"]:
         langs = ", ".join(f"{lang or '?'} ({n})" for lang, n in st["languages"][:8])
         print(f"Languages: {langs}")
+    if selected_only and st["works"] == 0:
+        print("(nothing curated yet — run `python cli.py curate`)")
 
 
 if __name__ == "__main__":

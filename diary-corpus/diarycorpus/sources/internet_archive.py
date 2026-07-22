@@ -24,10 +24,13 @@ class InternetArchiveSource(DiarySource):
 
     def __init__(self, http_config: Any, options: dict[str, Any]):
         super().__init__(http_config, options)
-        self.subject = self.options.get("subject", "diaries")
+        self.subject = self.options.get("subject", "Diaries")
         self.year_from = int(self.options.get("year_from", 1500))
         self.year_to = int(self.options.get("year_to", 1928))
         self.languages = self.options.get("languages") or []
+        self.extra_subjects = self.options.get("extra_subjects") or []
+        self.exclude_collections = self.options.get("exclude_collections") or []
+        self.exclude_subjects = self.options.get("exclude_subjects") or []
         self.copyright_prefix = self.options.get(
             "require_copyright_status_prefix", "Public domain"
         )
@@ -35,14 +38,25 @@ class InternetArchiveSource(DiarySource):
 
     # -- query construction ------------------------------------------------
     def _query(self) -> str:
+        # Subject clause: the primary subject OR any broadening extra subjects.
+        subject_terms = [f'subject:"{self.subject}"'] + [
+            f'subject:"{s}"' for s in self.extra_subjects
+        ]
+        subject_clause = "(" + " OR ".join(subject_terms) + ")"
+
         parts = [
-            f'subject:"{self.subject}"',
+            subject_clause,
             "mediatype:texts",
             'format:"DjVuTXT"',  # guarantees an OCR text file exists
             f"year:[{self.year_from} TO {self.year_to}]",
             "-collection:inlibrary",          # exclude borrow-only scans
             "-access-restricted-item:true",   # exclude restricted items
         ]
+        # Steer away from naturalist material.
+        for coll in self.exclude_collections:
+            parts.append(f"-collection:{coll}")
+        for subj in self.exclude_subjects:
+            parts.append(f'-subject:"{subj}"')
         if self.languages:
             langs = " OR ".join(f"language:{lang}" for lang in self.languages)
             parts.append(f"({langs})")
@@ -93,7 +107,8 @@ class InternetArchiveSource(DiarySource):
         md = meta.get("metadata", {})
 
         copyright_status = _as_str(md.get("possible-copyright-status"))
-        if not self._is_public_domain(copyright_status):
+        year = _as_int(md.get("year")) or ref.year
+        if not self._is_public_domain(copyright_status, year):
             return None
         if str(md.get("access-restricted-item", "")).lower() == "true":
             return None
@@ -114,12 +129,29 @@ class InternetArchiveSource(DiarySource):
         return RawWork(ref=ref, copyright_status=copyright_status, text=text)
 
     # -- helpers -----------------------------------------------------------
-    def _is_public_domain(self, status: Optional[str]) -> bool:
+    # Explicit in-copyright markers seen in Internet Archive metadata.
+    _COPYRIGHTED_MARKERS = ("in copyright", "under copyright", "copyrighted",
+                            "permission", "rights reserved")
+
+    def _is_public_domain(self, status: Optional[str], year: Optional[int]) -> bool:
+        """Public-domain check.
+
+        Priority:
+          1. status explicitly says "Public domain"           -> accept
+          2. status explicitly says in-copyright               -> reject
+          3. status missing/ambiguous but year is safely old   -> accept (date-based PD;
+             the search already constrains to the PD year window)
+        """
         if not self.copyright_prefix:
             return True
-        if not status:
-            return False
-        return status.strip().lower().startswith(self.copyright_prefix.strip().lower())
+        if status:
+            low = status.strip().lower()
+            if low.startswith(self.copyright_prefix.strip().lower()):
+                return True
+            if any(m in low for m in self._COPYRIGHTED_MARKERS):
+                return False
+        # No usable status: fall back to publication date.
+        return year is not None and year <= self.year_to
 
     @staticmethod
     def _pick_text_file(files: list[dict], identifier: str) -> Optional[str]:

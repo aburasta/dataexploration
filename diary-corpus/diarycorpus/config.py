@@ -34,6 +34,7 @@ class Config:
     source: str
     http: HttpConfig
     source_options: dict[str, Any] = field(default_factory=dict)
+    curate: dict[str, Any] = field(default_factory=dict)
 
     @classmethod
     def load(cls, path: str | os.PathLike | None = None) -> "Config":
@@ -66,6 +67,7 @@ class Config:
             source=source,
             http=http,
             source_options=data.get(source, {}) or {},
+            curate=data.get("curate", {}) or {},
         )
 
     def ensure_dirs(self) -> None:
