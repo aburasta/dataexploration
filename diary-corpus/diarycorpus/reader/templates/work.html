@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}{{ work.title }} — Diary Corpus{% endblock %}
+{% block content %}
+  <p><a href="/">← all works</a></p>
+  <h2>{{ work.title }}</h2>
+  <p class="muted">
+    {% if work.creator %}{{ work.creator }} · {% endif %}
+    {% if work.year %}{{ work.year }} · {% endif %}
+    {{ work.copyright_status or '' }}
+    {% if work.url %}· <a href="{{ work.url }}" target="_blank" rel="noopener">source</a>{% endif %}
+  </p>
+
+  {% for e in entries %}
+  <div class="entry">
+    <div class="date">
+      {% if e.raw_date_heading %}{{ e.raw_date_heading }}{% else %}Entry {{ e.seq + 1 }}{% endif %}
+      {% if e.entry_date %}<span class="muted">({{ e.entry_date }})</span>{% endif %}
+    </div>
+    <div class="body">{{ e.text }}</div>
+  </div>
+  {% endfor %}
+{% endblock %}

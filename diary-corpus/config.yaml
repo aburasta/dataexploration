@@ -1,0 +1,30 @@
+# Diary-corpus configuration.
+# Paths are resolved relative to the diary-corpus/ directory.
+
+paths:
+  raw_dir: corpus/raw
+  db_path: corpus/diary.db
+  export_dir: corpus/export
+  manifest_path: corpus/harvest_manifest.json
+
+# Politeness / networking
+http:
+  user_agent: "diary-corpus/0.1 (public-domain diary research; contact: tafohousemafia@gmail.com)"
+  request_delay_seconds: 1.0     # minimum gap between requests
+  max_retries: 4
+  backoff_base_seconds: 2.0
+  timeout_seconds: 60
+
+# Default source and its search filters
+source: internet_archive
+
+internet_archive:
+  subject: "diaries"
+  # Public-domain window: US works published before 1929 are PD.
+  # Keep the upper bound conservative.
+  year_from: 1500
+  year_to: 1928
+  languages: []                  # empty = any; e.g. ["eng"] to restrict
+  # Only accept works whose metadata copyright status starts with this:
+  require_copyright_status_prefix: "Public domain"
+  batch_size: 50                 # rows per search page

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Search — Diary Corpus{% endblock %}
+{% block content %}
+  {% if error %}<p class="muted">{{ error }}</p>{% endif %}
+  {% if query %}
+    <p class="muted">{{ results|length }} result(s) for <b>{{ query }}</b></p>
+    {% for r in results %}
+    <div class="result">
+      <a href="/work/{{ r.work_id }}">{{ r.title }}</a>
+      <span class="muted">
+        {% if r.creator %}{{ r.creator }} · {% endif %}
+        {% if r.raw_date_heading %}{{ r.raw_date_heading }}{% elif r.entry_date %}{{ r.entry_date }}{% endif %}
+      </span>
+      <div class="snippet">{{ r.snippet }}</div>
+    </div>
+    {% endfor %}
+  {% else %}
+    <p class="muted">Enter a term above. Supports FTS5 syntax:
+       <code>garden</code>, <code>"my dear"</code>, <code>war NOT peace</code>.</p>
+  {% endif %}
+{% endblock %}

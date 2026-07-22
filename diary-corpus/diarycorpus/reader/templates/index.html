@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Diary Corpus — Works{% endblock %}
+{% block content %}
+  <p class="muted">
+    {{ stats.works }} works · {{ stats.entries }} entries
+    {% if stats.year_min %}· {{ stats.year_min }}–{{ stats.year_max }}{% endif %}
+  </p>
+  {% if works %}
+  <ul class="works">
+    {% for w in works %}
+    <li>
+      <a href="/work/{{ w.id }}">{{ w.title }}</a>
+      <div class="muted">
+        {% if w.creator %}{{ w.creator }} · {% endif %}
+        {% if w.year %}{{ w.year }} · {% endif %}
+        {{ w.n_entries }} entries
+        {% if w.language %}· {{ w.language }}{% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>No works yet. Run <code>python cli.py harvest --limit 20</code> then
+     <code>python cli.py segment</code>.</p>
+  {% endif %}
+{% endblock %}

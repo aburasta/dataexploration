@@ -1,0 +1,12 @@
+# Harvested data is not committed — code only.
+corpus/raw/
+corpus/export/
+corpus/*.db
+corpus/*.db-*
+corpus/harvest_manifest.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
