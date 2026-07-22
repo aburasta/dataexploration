@@ -16,7 +16,13 @@ from .store import Store
 
 
 def build_page(config: Config, out_path: str | Path | None = None,
-               selected_only: bool = True) -> Path:
+               selected_only: bool = True, max_entry_chars: int = 6000) -> Path:
+    """Build the self-contained reading-room HTML.
+
+    Entry text is capped at `max_entry_chars` so the page stays a reasonable size
+    even when a journal segments into one enormous whole-work blob; the complete
+    text always lives in the JSONL export, and every entry links to its scan.
+    """
     out = Path(out_path) if out_path else config.export_dir / "reading-room.html"
     out.parent.mkdir(parents=True, exist_ok=True)
 
@@ -27,6 +33,11 @@ def build_page(config: Config, out_path: str | Path | None = None,
             creator = (w["creator"] or "Unknown")
             short = creator.split(",")[0].strip() if creator else "Unknown"
             for e in s.get_entries(w["id"]):
+                text = e["text"]
+                truncated = len(text) > max_entry_chars
+                if truncated:
+                    cut = text.rfind(" ", 0, max_entry_chars)
+                    text = text[: cut if cut > 0 else max_entry_chars]
                 entries.append({
                     "diarist": short,
                     "creator_full": creator,
@@ -36,7 +47,8 @@ def build_page(config: Config, out_path: str | Path | None = None,
                     "score": round(w["narrative_score"], 1) if w["narrative_score"] is not None else None,
                     "heading": e["raw_date_heading"],
                     "date": e["entry_date"],
-                    "text": e["text"],
+                    "text": text,
+                    "truncated": truncated,
                 })
 
     by_diarist: "OrderedDict[str, int]" = OrderedDict()
@@ -124,6 +136,7 @@ main{padding:1.4rem 0 5rem}
 .entry .body:not(.expanded)::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4em;background:linear-gradient(transparent,var(--raised))}
 .entry .foot{display:flex;gap:1rem;align-items:center;margin-top:.7rem}
 .entry .more{font-family:var(--mono);font-size:.72rem;background:none;border:0;color:var(--accent);cursor:pointer;padding:0}
+.entry .trunc{font-family:var(--mono);font-size:.68rem;color:var(--faint);font-style:italic}
 .entry .src{font-family:var(--mono);font-size:.72rem;margin-left:auto}
 mark{background:var(--mark-bg);color:var(--ink);padding:0 .1em;border-radius:1px}
 .empty{text-align:center;color:var(--faint);padding:3rem 0;font-family:var(--mono);font-size:.82rem}
@@ -173,7 +186,7 @@ DATA.diarists.forEach(d=>{const b=document.createElement('button');b.className='
 function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
 function hi(t,q){const e=esc(t);if(!q)return e;try{const re=new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','ig');return e.replace(re,'<mark>$1</mark>');}catch(_){return e;}}
 function render(){const q=query.trim().toLowerCase();let rows=DATA.entries;if(activeDiarist)rows=rows.filter(e=>e.diarist===activeDiarist);if(q)rows=rows.filter(e=>(e.text||'').toLowerCase().includes(q)||(e.heading||'').toLowerCase().includes(q)||(e.creator_full||'').toLowerCase().includes(q)||(e.title||'').toLowerCase().includes(q));countEl.textContent=rows.length+(rows.length===1?' entry':' entries');listEl.innerHTML='';if(!rows.length){listEl.innerHTML='<div class="empty">No entries match &mdash; try another word or clear the filter.</div>';return;}const frag=document.createDocumentFragment();rows.forEach(e=>frag.appendChild(card(e,query.trim())));listEl.appendChild(frag);}
-function card(e,q){const el=document.createElement('article');el.className='entry';const head=e.heading||e.date||'Undated entry';const yr=e.year?' &middot; '+e.year:'';el.innerHTML=`<div class="meta"><span class="date">${esc(head)}</span><span class="who"><b>${esc(e.diarist)}</b>${yr}</span>${e.title?`<span>${esc(e.title).slice(0,60)}</span>`:''}</div><div class="body">${hi(e.text,q)}</div><div class="foot"><button class="more">Read full entry</button>${e.url?`<a class="src" href="${esc(e.url)}" target="_blank" rel="noopener">View original scan &#8599;</a>`:''}</div>`;const body=el.querySelector('.body'),more=el.querySelector('.more');requestAnimationFrame(()=>{if(body.scrollHeight<=body.clientHeight+4)more.style.display='none';});more.onclick=()=>{const x=body.classList.toggle('expanded');more.textContent=x?'Collapse':'Read full entry';};return el;}
+function card(e,q){const el=document.createElement('article');el.className='entry';const head=e.heading||e.date||'Undated entry';const yr=e.year?' &middot; '+e.year:'';const tnote=e.truncated?'<span class="trunc">preview &middot; full text in original scan</span>':'';el.innerHTML=`<div class="meta"><span class="date">${esc(head)}</span><span class="who"><b>${esc(e.diarist)}</b>${yr}</span>${e.title?`<span>${esc(e.title).slice(0,60)}</span>`:''}</div><div class="body">${hi(e.text,q)}</div><div class="foot"><button class="more">Read full entry</button>${tnote}${e.url?`<a class="src" href="${esc(e.url)}" target="_blank" rel="noopener">View original scan &#8599;</a>`:''}</div>`;const body=el.querySelector('.body'),more=el.querySelector('.more');requestAnimationFrame(()=>{if(body.scrollHeight<=body.clientHeight+4)more.style.display='none';});more.onclick=()=>{const x=body.classList.toggle('expanded');more.textContent=x?'Collapse':'Read full entry';};return el;}
 searchEl.addEventListener('input',e=>{query=e.target.value;render();});
 const root=document.documentElement,tbtn=document.getElementById('theme');
 tbtn.onclick=()=>{const cur=root.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');const next=cur==='dark'?'light':'dark';root.setAttribute('data-theme',next);tbtn.textContent=next==='dark'?'☾ Dark':'☀ Light';};
