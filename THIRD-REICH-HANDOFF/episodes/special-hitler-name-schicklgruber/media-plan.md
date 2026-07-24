@@ -31,6 +31,31 @@ the close, Alois's portrait held across beats) have all been replaced with disti
 3. **Beat 45 — name-frequency motion graphic (opt-in).** Only if real surname-frequency data can
    be sourced; otherwise a sober 1945-ruins photo. Prototype for go/no-go before wiring in.
 
+## Sourcing progress — pass 1 (downloaded to `Media/hitler-name/` and visually verified)
+10 identity/place assets are locked and confirmed correct by opening each file:
+
+| Beat | File | What it is |
+|---|---|---|
+| 7 | `7.jpg` | Alois Hitler, older civilian portrait (bow-tie) |
+| 20 | `20.jpeg` | Alois Hitler, full-length in customs uniform |
+| 34 | `34.jpg` | Leonding grave headstone — "Alois Hitler … Klara Hitler" |
+| 30 | `30.jpg` | Statue of St. John of Nepomuk, Charles Bridge |
+| 35 | `35.jpg` | Klara Pölzl (Hitler) portrait |
+| 36 | `36.jpg` | Braunau birth house, historic (c.1934) |
+| 46 | `46.jpg` | Braunau house, present day (2015) |
+| 40 | `40.jpg` | August Kubizek, 1907 |
+| 41 | `41.jpg` | Hitler in his 1901 Leonding class photo |
+| 42 | `42.jpg` | Hitler in his 1899 class photo (distinct) |
+
+**Zero-repeat correction found during verification:** Commons' "Alois Hitler 2" and "…last years 2"
+turned out to be alternate scans of the **same two** Alois photographs, not new images — so only
+**two** distinct Alois photos exist. Beats 22 and 34 were reassigned to keep the no-repeat promise:
+beat 34 now uses the Leonding grave (above), and beat 22 moves to a period customs/Zollamt image
+(TODO). This is exactly the kind of thing the visual-verify step is meant to catch.
+
+Remaining ~34 beats (rally/Prague clips, register scans, Waldviertel/Weitra places, genre
+period images, the map, and the motion graphics) are the next sourcing pass.
+
 ## Sourcing rules (same as ep003/ep006)
 - Real PD / CC-BY-SA media only (Bundesarchiv via Commons, NARA/LOC/USHMM, Internet Archive PD
   newsreels). No AI art.
@@ -93,7 +118,7 @@ pass · **⚠️ NO PHOTO** = no surviving portrait, unique stand-in.
 | 19 | "the probable father… simply disappeared. For the next thirty years." | Empty **forest path** through the Waldviertel (distinct from 9) | Commons Waldviertel woods | 🔎 TODO |
 | 20 | "joins the Austrian border police… the customs service" | **Alois** in **customs uniform** | `File:Alois Hitler.jpeg` (PD) | ✅ VERIFIED |
 | 21 | "and marries, eventually three times" | Period Austrian **wedding portrait** (genre couple) | Commons genre | 🔎 TODO |
-| 22 | "For the first thirty-nine years… he just carries the name Schicklgruber." | **Alois** — third distinct portrait | `File:Alois Hitler in his last years 2.jpg` (PD) | ✅ VERIFIED |
+| 22 | "For the first thirty-nine years… he just carries the name Schicklgruber." | Period Austrian **k.k. customs officer / Zollamt (border post)** — the identity he held for decades | Commons k.u.k. Zollamt / customs uniform | 🔎 TODO (reassigned — see pass-1 note) |
 | 23 | "in 1876, the old miller Hiedler… resurfaces… in the town of Weitra" | **Weitra** town, period view | Commons `Category:Weitra` | 🔎 TODO |
 | 24 | "now spelling his own name not Hiedler but Hitler" | **Name-strike treatment** Hiedler → Hitler | motion treatment (animation 1) | 🔎 TODO |
 | 25 | "walks into a notary's office with three witnesses and swears he is the father" | 19th-c **notary office interior** / signing | Commons genre | 🔎 TODO |
@@ -105,7 +130,7 @@ pass · **⚠️ NO PHOTO** = no surviving portrait, unique stand-in.
 | 31 | "Hitler came from this family with possible Czech ancestry" | Period **Bohemia/Moravia countryside** or Prague panorama | Commons period Czech landscape | 🔎 TODO |
 | 32 | "undying contempt for Czechs and his attempts to remove them from the map" | **`PRG-A`** German troops enter Prague, 1939 (sober) | PD newsreel / Bundesarchiv | 🔎 TODO |
 | 33 | "Alois crossed out 'Alois Schicklgruber'… and wrote 'Alois Hitler.'" | **The altered register entry** (hero doc) | matricula-online.eu Döllersheim; else period register close-up | 🔎 TODO (⚠️ exact page; see note 1) |
-| 34 | *Quote:* "Adolf's father was legally known as Alois Hitler…" | **Typewriter overlay** + **Alois** fourth distinct portrait | `File:Alois Hitler 2.jpeg` (PD) + typewriter | ✅ VERIFIED+treatment |
+| 34 | *Quote:* "Adolf's father was legally known as Alois Hitler…" | **Typewriter overlay** + the **Leonding grave headstone** carved "Alois Hitler … Klara Hitler" (the name made permanent) | `File:The graves of Alois and Klara Hitler, Leonding.jpg` (PD) + typewriter | ✅ DOWNLOADED+treatment |
 | 35 | "marry his third wife, a young cousin named Klara Pölzl" | **Klara Pölzl** portrait | `File:Klara Hitler.jpg` (PD Mark) | ✅ VERIFIED |
 | 36 | "April 20th, 1889… Braunau am Inn… They named him Adolf." | **Braunau birth house**, historic | `File:Hitlers Geburtshaus Braunau am Inn.jpg` (c.1934, PD) | ✅ VERIFIED |
 | 37 | "born Adolf Hitler only because an eighty-four-year-old miller… changed his name" | **Adolf's own Braunau baptismal record** (the name passes on) | Commons / Braunau parish scan | 🔎 TODO |
