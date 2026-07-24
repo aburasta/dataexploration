@@ -31,6 +31,15 @@ the close, Alois's portrait held across beats) have all been replaced with disti
 3. **Beat 45 — name-frequency motion graphic (opt-in).** Only if real surname-frequency data can
    be sourced; otherwise a sober 1945-ruins photo. Prototype for go/no-go before wiring in.
 
+## ✅ FIRST CUT RENDERED (2026-07-24)
+Full 1080p cut rendered via reich-engine: **5:52.98**, 1920×1080, the existing Benjamin narration
+as the soundtrack, **33 distinct real archival stills (zero repeats)**, varied transitions
+(crossfade / hard cut / slide — **no dip-to-black**), Like & Subscribe outro. Master is CRF-18
+(686 MB, session-local); repo carries a ~85 MB 1080p copy and a 25 MB 720p preview under
+`render/`. This is a consolidated fast-cut of the 46-beat plan (some fine document/graphic beats
+folded together for the first pass); the bespoke name-graphics (beats 24/44/45) are still a
+follow-up polish, not yet in this cut.
+
 ## Sourcing progress — pass 1 (downloaded to `Media/hitler-name/` and visually verified)
 10 identity/place assets are locked and confirmed correct by opening each file:
 
