@@ -1,148 +1,146 @@
 # special — "Heil Schicklgruber?" (The Name) — MEDIA PLAN
 
-Beat-indexed per the house standard (ep003/ep006): fast-cut, one distinct image or clip per
-beat, real historical media only — **no AI art**. This is the *plan* for your review; the
-**Status** column shows what I have already verified exists (exact Wikimedia Commons filename)
-versus what still needs a live sourcing pass.
+Beat-indexed per the house standard (ep003/ep006): fast-cut, one distinct asset per beat, real
+historical media only — **no AI art**. Built from your finalized `script-final.md`.
 
-> ✅ **Built from your uploaded final script** (`hitler_name.md`, copied verbatim into this folder
-> as `script-final.md`). This supersedes the earlier draft that was built from `script-rough.md` —
-> your edits changed a lot: Shirer is no longer referenced, the Nepomuk/Czech material moved
-> earlier, and there's a new closing section on why the surname "Hitler" has died out. All beats
-> below are re-cut to match the actual narration.
+## 🚫 ZERO-REPEAT RULE (your top priority — governs everything below)
+**No image or video shot appears more than once in this episode.** Every one of the 46 beats gets
+its own unique asset. Two working rules that follow from that:
+1. **Split multi-usable footage into distinct shots.** When one sourced newsreel contains several
+   usable moments (a wide crowd, a podium shot, a torchlight column), each *distinct shot /
+   timecode* is cut as its own clip and assigned to a different beat. That is encouraged — what's
+   forbidden is the *same* shot reappearing. Split-clip families are labelled below (e.g.
+   `NUR-A`, `NUR-B` = different shots from the same Nuremberg reel).
+2. **Every asset must earn its place in the story.** Each pick advances the specific idea in its
+   beat — no decorative filler, no "close enough" holds. Where the only honest option is a
+   period stand-in (a figure with no surviving photo), the stand-in is chosen to carry the beat's
+   meaning and is captioned as representative.
 
-## Two accuracy notes for your call
-1. **Beat 33 — who altered the register.** Your script says *Alois* "crossed out the name… and
-   wrote 'Alois Hitler.'" Historically the change was made by the **Döllersheim parish priest**
-   (after Johann Georg Hiedler's notarized paternity oath before three witnesses); Alois wasn't
-   present. The visual is the same either way (the altered register entry), so this doesn't affect
-   sourcing — flagging only in case you want to tweak the line. I'll follow the script as written.
-2. **New ending is a strong data-viz spot.** Beat 45 ("his specific variation of the name has…
-   waned… to almost a grinding halt") is a natural place for a small motion graphic of the
-   surname's frequency collapsing after 1945 — cleaner than a literal photo. Marked opt-in below;
-   I'd prototype it for a go/no-go before wiring it in, per house rule. Note: reliable
-   surname-frequency data over time is not guaranteed to exist cleanly, so if we can't source real
-   numbers I'd fall back to a photo beat rather than invent a curve.
+There are **no "reuse" beats anymore** — the earlier draft's callbacks (opening rally reused at
+the close, Alois's portrait held across beats) have all been replaced with distinct assets.
+
+## Accuracy notes for your call
+1. **Beat 33 — who altered the register.** Your script says *Alois* crossed out the entry;
+   historically the **Döllersheim parish priest** did it after the notarized oath. Same visual —
+   flagging only in case you want to adjust the line. I'll follow the script.
+2. **Beat 10 — the map (your request).** Real locator map of the Waldviertel / Zwettl district
+   showing **Strones and Döllersheim**, the **Danube** on the southern edge and the **Bohemia /
+   Moravia (Czech) border** to the north. I'll source a real Commons map as the base and, since
+   Strones is a tiny hamlet, add a clean pin/label overlay on the real map (a light overlay on a
+   genuine map, **not** AI art). One distinct map, used only here.
+3. **Beat 45 — name-frequency motion graphic (opt-in).** Only if real surname-frequency data can
+   be sourced; otherwise a sober 1945-ruins photo. Prototype for go/no-go before wiring in.
 
 ## Sourcing rules (same as ep003/ep006)
-- **Real historical images/footage only, no AI art.** PD / CC-BY-SA tier: Bundesarchiv via
-  Wikimedia Commons, NARA/LOC/USHMM equivalents, Internet Archive PD newsreels.
-- **Never fabricate a portrait for a person with no known photo.** **Maria Anna Schicklgruber,
-  Johann Georg Hiedler (the miller), Johann von Nepomuk Hüttler** all died in the 1840s–50s, before
-  photography reached the rural Waldviertel — **no portrait of any of them exists.** Those beats
-  get an honest, captioned period stand-in (the village, the register, a genre miller image), never
-  an invented face.
-- **No death/atrocity imagery.** The two dark beats — the Czech "remove them from the map" footnote
-  (beat 32) and the fall of the regime (beat 45) — use sober occupation/ruins imagery only:
-  troops, castle, rubble. No suffering.
-- **Nazi insignia incidental, never the hero of the frame.**
-- **Deliberate callbacks are intentional:** the opening Nuremberg rally (beats 1–2) returns at beat
-  39 ("built an entire mythology around the name"); Alois's portrait recurs where the narration
-  returns to him.
+- Real PD / CC-BY-SA media only (Bundesarchiv via Commons, NARA/LOC/USHMM, Internet Archive PD
+  newsreels). No AI art.
+- **No fabricated portraits.** Maria Anna Schicklgruber, Johann Georg Hiedler, Johann von Nepomuk
+  Hüttler died pre-photography — no portrait exists; honest period stand-ins, never an invented face.
+- **No death/atrocity imagery.** The two dark beats (Czech "map" footnote 32, regime's fall 45)
+  use sober troops/castle/rubble only.
+- Nazi insignia incidental, never the hero of the frame.
 
-## Creative treatments (house on-screen-text exceptions apply)
-- **Beat 3 — "Heil Schicklgruber!" (shouted):** comic **speech-bubble variant** — hold the
-  Nuremberg salute crowd, darken part of the frame, white comic bubble with the tail near the
-  podium reading *"Heil Schicklgruber!"* Exactly the case the house style carves out for shouted
-  lines, and it is the episode's thesis image.
-- **Quote typewriter overlays** for the two direct quotations — beat 34 ("Adolf's father was
-  legally known as Alois Hitler…") and beat 41 (Kubizek: "Schicklgruber uncouth… Hitler sounded
-  nice") — each paired with a partial-frame portrait, composition varied per house rule.
-- **Beats 24 / 44 — the name variants** (Hiedler / Hüttler / Hitler; "Schicklgruber → Hitler"):
-  short typewriter/strike-through motion treatment rather than a literal photo.
-- **Beat 45 — optional name-frequency motion graphic** (see accuracy note 2).
+## Creative treatments (house on-screen-text exceptions)
+- **Beat 3 — comic speech-bubble** *"Heil Schicklgruber!"* over its **own** distinct saluting-crowd
+  shot (`NUR-B`, not the beat-1 wide shot).
+- **Typewriter quote overlays** — beat 34 ("Adolf's father was legally known as Alois Hitler…") and
+  beat 41 (Kubizek: "Schicklgruber uncouth… Hitler sounded nice"), each with a distinct portrait,
+  composition varied.
+- **Name-variant strike/typewriter treatments** — beat 24 (Hiedler → Hitler) and beat 44
+  (Hiedler / Hüttler / Hitler side by side); two *different* animations, not the same one twice.
 
-## Video clips wanted (PD newsreel tier — *Why We Fight* / Universal Newsreels, verify per item)
-| For beats | Clip | Rights note |
-|---|---|---|
-| 1–2, 39 | Nuremberg rally: sea of raised arms, Hitler at podium, crowd salute | Capra *Why We Fight* (US War Dept, PD) or Universal Newsreels; preview frames, confirm PD source, no fringe/deemphasize IA collections |
-| 5 | Torchlight rally / night parade (for "synonymous with evil") | PD newsreel, sober |
-| 32 | German troops enter Prague / Hitler at Prague Castle, March 1939 | PD newsreel; occupation only, no atrocity |
-| 45 | Berlin/Reich in ruins, 1945 (for the regime's fall) | PD newsreel / Bundesarchiv rubble; no bodies |
+## Video clips — split into distinct shots (PD newsreel tier, verify per item)
+| Clip ID | Beat | Distinct shot | Source family |
+|---|---|---|---|
+| NUR-A | 1 | Wide sea of raised arms, Zeppelinfeld | Nuremberg reel (Capra *Why We Fight* / Universal Newsreels, PD) |
+| NUR-B | 3 | Tight rows of saluting faces (for the speech bubble) | same reel, different timecode |
+| NUR-C | 2 | Hitler at the podium, mid-speech | same reel / Bundesarchiv still alt |
+| NUR-D | 5 | Torchlight night column (for "synonymous with evil") | same/other rally reel, night footage |
+| NUR-E | 39 | Motorcade through a roaring crowd (cult of personality) | same family, distinct shot |
+| PRG-A | 32 | German troops enter Prague / castle, March 1939 | PD newsreel, occupation only, no atrocity |
+| RUIN-A | 45 (fallback) | Berlin/Reich in ruins, 1945 (no bodies) | PD newsreel / Bundesarchiv rubble |
+
+Each clip above is a **different shot** — none is reused. Preview frames + confirm PD source before
+committing; no fringe/deemphasize IA collections.
 
 ---
 
-## Beat table
+## Beat table — one unique asset per beat
 
-Status: **✅ VERIFIED** = exact Commons file confirmed this session · **🔎 TODO** = needs live
-sourcing pass · **⚠️ NO PHOTO** = subject has no surviving portrait, stand-in proposed.
+Status: **✅ VERIFIED** = exact Commons file confirmed this session · **🔎 TODO** = live sourcing
+pass · **⚠️ NO PHOTO** = no surviving portrait, unique stand-in.
 
-| # | Narration anchor | Subject to depict | Recommended source / query | Status |
+| # | Narration anchor | Unique asset for this beat | Source / query | Status |
 |---|---|---|---|---|
-| 1 | "Picture the Nuremberg rallies. Hundreds of thousands of raised arms, chanting the name of their beloved Führer" | Sea of raised arms at a Nuremberg rally (wide) | Bundesarchiv, `Category:Nuremberg Rallies`; **clip** preferred | 🔎 TODO (category confirmed) |
-| 2 | "the mandatory greeting of an entire nation — replacing 'hello' on the telephone" | Ordinary Germans giving the salute / period telephone | Bundesarchiv everyday-salute street photo | 🔎 TODO |
-| 3 | "Now try the same scene… 'Heil Schicklgruber!' It just doesn't feel the same." | **Speech-bubble treatment** over the beat-1 crowd | reuse beat 1 + comic bubble | reuse+treatment |
-| 4 | "some things from history feel almost so destined… we can no longer imagine something else" | Iconic Nazi banner / the name in monumental print | Bundesarchiv rally banner | 🔎 TODO |
-| 5 | "Hitler's name has become synonymous with evil" | Sober iconic Hitler / torchlight night rally | Bundesarchiv; **clip** option | 🔎 TODO |
-| 6 | "interesting questions have been raised as to how he came to have this name" | Old parish register / question over a document | period Austrian register close-up | 🔎 TODO |
-| 7 | "his own father legally carried the name Schicklgruber" | **Alois Hitler** portrait (customs uniform) | `File:Alois Hitler.jpeg` (Commons, PD) | ✅ VERIFIED |
-| 8 | "one bizarre decision, made by an old man, thirteen years before Adolf Hitler was even born" | Old notary document / register (foreshadow) | period register/notary close-up | 🔎 TODO |
-| 9 | "The story starts in the Waldviertel, a hilly stretch of peasant villages in Lower Austria" | Waldviertel rolling landscape | Commons `Category:Waldviertel` (GuentherZ CC-BY) | 🔎 TODO (category confirmed) |
-| 10 | "wedged between the Danube and the borders of Bohemia and Moravia" | Period map of Lower Austria / Waldviertel | old map, Commons | 🔎 TODO |
-| 11 | "Intermarriage was common there. So was illegitimacy." | Old rural Austrian village / peasants, period | Commons period Waldviertel village | 🔎 TODO |
-| 12 | "Adolf Hitler's family, on both sides, came from here." | Strones / Döllersheim old village view | Commons Döllersheim historic | 🔎 TODO |
-| 13 | "On June 7th, 1837… Maria Anna Schicklgruber gave birth to a son in Strones" | Strones village / period peasant mother-and-infant | **⚠️ NO PHOTO of Maria Anna** — village + honest caption | ⚠️ NO PHOTO |
-| 14 | "She named him Alois. She did not name a father on the record." | **Döllersheim baptismal register** — blank father column / "illegitimate" | Commons / matricula-online.eu register scan | 🔎 TODO (record documented) |
-| 15 | "a wandering miller named Johann Georg Hiedler — drifted from village to village plying his trade" | Period Austrian miller / watermill | **⚠️ NO PHOTO of Hiedler** — genre mill image, flagged | ⚠️ NO PHOTO |
-| 16 | "wouldn't actually marry Maria until five years later, in 1842" | Period Austrian village church / marriage register | Commons | 🔎 TODO |
-| 17 | "he didn't bother to legitimize his own son… Alois Schicklgruber" | Register held on the name "Schicklgruber" | reuse beat 14 | reuse |
-| 18 | "In 1847, Maria Anna died." | Waldviertel cemetery / period gravestone | Commons Döllersheim graveyard | 🔎 TODO |
-| 19 | "the probable father… simply disappeared. For the next thirty years." | Empty road through the Waldviertel (vanishing) | reuse beat 9 landscape, diff. motion | reuse |
-| 20 | "joins the Austrian border police… the customs service" | **Alois** in customs/uniform | reuse `File:Alois Hitler.jpeg` | ✅ VERIFIED (reuse) |
-| 21 | "and marries, eventually three times" | Period Austrian wedding portrait | Commons genre | 🔎 TODO |
-| 22 | "For the first thirty-nine years… he just carries the name Schicklgruber." | Alois portrait held | reuse beat 7 | reuse |
-| 23 | "Then, in 1876, the old miller Hiedler… resurfaces — eighty-four years old, in the town of Weitra" | **Weitra** town, period view | Commons `Category:Weitra` | 🔎 TODO |
-| 24 | "now spelling his own name not Hiedler but Hitler" | Name variants — **typewriter/strike treatment** | motion treatment | 🔎 TODO (treatment) |
-| 25 | "walks into a notary's office with three witnesses and formally swears that he is the father" | 19th-c Austrian notary / legal act, period | Commons genre document/office | 🔎 TODO |
-| 26 | "But why now? There is no concrete answer" | Anonymous elderly Austrian man / question over document | **⚠️ stand-in** (no Hiedler photo), flagged | ⚠️ NO PHOTO |
-| 27 | "biographer Konrad Heiden says he heard… the real motive… money" | **Konrad Heiden** portrait, else his book *Der Fuehrer* cover | Commons `Category:Konrad Heiden` (portrait uncertain) / IA book cover | 🔎 TODO (⚠️ portrait may not exist — book-cover fallback) |
-| 28 | "An inheritance… from Hiedler's brother, the uncle who had actually raised young Alois — claiming paternity was a precondition" | Period coins / Austrian farmhouse (inheritance) | Commons genre | 🔎 TODO |
-| 29 | "The uncle… went by a different version of the family name entirely: Johann von Nepomuk Hüetler" | The name / period document | **⚠️ NO PHOTO of Hüttler** — document stand-in | ⚠️ NO PHOTO |
+| 1 | "Picture the Nuremberg rallies… hundreds of thousands of raised arms" | **`NUR-A`** wide sea of raised arms | Nuremberg reel, PD | 🔎 TODO |
+| 2 | "chanting the name of their beloved Führer… mandatory greeting… replacing 'hello' on the telephone" | **`NUR-C`** Hitler at podium, crowd chanting | Nuremberg reel / Bundesarchiv | 🔎 TODO |
+| 3 | "Now try… 'Heil Schicklgruber!' It just doesn't feel the same." | **`NUR-B`** saluting-faces shot + **speech bubble** | Nuremberg reel, diff. timecode | 🔎 TODO+treatment |
+| 4 | "some things from history feel almost so destined… can no longer imagine something else" | Forest of rally **standards / banners** (still) | Bundesarchiv Reichsparteitag standards | 🔎 TODO |
+| 5 | "Hitler's name has become synonymous with evil" | **`NUR-D`** torchlight night column | PD rally reel, night | 🔎 TODO |
+| 6 | "interesting questions have been raised as to how he came to have this name" | Row of old Austrian **parish register volumes** on a shelf | Commons genre archive | 🔎 TODO |
+| 7 | "his own father legally carried the name Schicklgruber" | **Alois Hitler** — older civilian portrait | `File:Alois Hitler in his last years.jpg` (PD) | ✅ VERIFIED |
+| 8 | "one bizarre decision, made by an old man, thirteen years before Adolf Hitler was even born" | Notary **quill + wax seal** on a period document | Commons genre | 🔎 TODO |
+| 9 | "The story starts in the Waldviertel, a hilly stretch of peasant villages" | Waldviertel **rolling landscape** | Commons `Category:Waldviertel` (GuentherZ CC-BY) | 🔎 TODO |
+| 10 | "wedged between the Danube and the borders of Bohemia and Moravia" | **REAL MAP** — Waldviertel/Zwettl district, Strones + Döllersheim pinned, Danube S, Czech border N | Commons district/region map + pin overlay | 🔎 TODO (your request) |
+| 11 | "Intermarriage was common there. So was illegitimacy." | Period **rural Austrian peasants** (genre) | Commons 19th-c Austrian village life | 🔎 TODO |
+| 12 | "Adolf Hitler's family, on both sides, came from here." | **Döllersheim** old village panorama | Commons Döllersheim historic | 🔎 TODO |
+| 13 | "On June 7th, 1837… Maria Anna Schicklgruber gave birth… in the village of Strones" | **Strones** hamlet view | ⚠️ **NO PHOTO of Maria Anna** — Strones + honest caption | ⚠️ NO PHOTO |
+| 14 | "She named him Alois. She did not name a father on the record." | **Döllersheim baptismal register** — blank father column | Commons / matricula-online.eu scan | 🔎 TODO |
+| 15 | "a wandering miller named Johann Georg Hiedler… plying his trade" | Period Austrian **watermill / miller at work** | ⚠️ **NO PHOTO of Hiedler** — genre mill | ⚠️ NO PHOTO |
+| 16 | "wouldn't actually marry Maria until five years later, in 1842" | Period Austrian **village church** (marriage) | Commons | 🔎 TODO |
+| 17 | "he didn't bother to legitimize his own son… Alois Schicklgruber" | Close-up: handwritten **"Schicklgruber"** in a ledger | Commons register detail | 🔎 TODO |
+| 18 | "In 1847, Maria Anna died." | Waldviertel **cemetery / period gravestone** | Commons Döllersheim graveyard | 🔎 TODO |
+| 19 | "the probable father… simply disappeared. For the next thirty years." | Empty **forest path** through the Waldviertel (distinct from 9) | Commons Waldviertel woods | 🔎 TODO |
+| 20 | "joins the Austrian border police… the customs service" | **Alois** in **customs uniform** | `File:Alois Hitler.jpeg` (PD) | ✅ VERIFIED |
+| 21 | "and marries, eventually three times" | Period Austrian **wedding portrait** (genre couple) | Commons genre | 🔎 TODO |
+| 22 | "For the first thirty-nine years… he just carries the name Schicklgruber." | **Alois** — third distinct portrait | `File:Alois Hitler in his last years 2.jpg` (PD) | ✅ VERIFIED |
+| 23 | "in 1876, the old miller Hiedler… resurfaces… in the town of Weitra" | **Weitra** town, period view | Commons `Category:Weitra` | 🔎 TODO |
+| 24 | "now spelling his own name not Hiedler but Hitler" | **Name-strike treatment** Hiedler → Hitler | motion treatment (animation 1) | 🔎 TODO |
+| 25 | "walks into a notary's office with three witnesses and swears he is the father" | 19th-c **notary office interior** / signing | Commons genre | 🔎 TODO |
+| 26 | "But why now? There is no concrete answer" | Anonymous **elderly Austrian peasant man**, period | ⚠️ stand-in (no Hiedler photo) | ⚠️ NO PHOTO |
+| 27 | "biographer Konrad Heiden… the real motive… money" | **Konrad Heiden** portrait, else *Der Fuehrer* book cover | Commons `Category:Konrad Heiden` / IA cover | 🔎 TODO (⚠️ portrait may not exist) |
+| 28 | "An inheritance… claiming paternity was a precondition to receiving it" | Period **coins / Austrian farmstead** (the estate) | Commons genre | 🔎 TODO |
+| 29 | "The uncle… Johann von Nepomuk Hüetler" | Period Waldviertel **farmhouse** (the uncle who raised Alois) | ⚠️ NO PHOTO of Hüttler — place stand-in | ⚠️ NO PHOTO |
 | 30 | "Saint John of Nepomuk… the national saint of the Czech people" | **Statue of St. John of Nepomuk, Charles Bridge, Prague** | `File:Saint John of Nepomuk statue Charles Bridge Prague.JPG` | ✅ VERIFIED |
-| 31 | "an uncomfortable footnote given that Hitler came from this family with possible Czech ancestry" | Bohemia/Moravia map or Czech landscape | Commons period map | 🔎 TODO |
-| 32 | "undying contempt for Czechs and his attempts to remove them from the map" | **German troops enter Prague / Hitler at Prague Castle, March 1939** (sober) | Commons Bundesarchiv occupation of Prague; **clip** option | 🔎 TODO (documented; no atrocity) |
-| 33 | "On November 23rd, 1876, Alois crossed out 'Alois Schicklgruber' in the church registry, and wrote 'Alois Hitler.'" | **The altered register entry** (hero image) | matricula-online.eu Döllersheim register; else period register close-up | 🔎 TODO (⚠️ exact altered entry may be hard to license — flag; see accuracy note 1) |
-| 34 | *Quote:* "Adolf's father was legally known as Alois Hitler, and the name passed on naturally to his son." | **Quote — typewriter overlay** + Alois portrait | reuse beat 7 + typewriter | reuse+treatment |
-| 35 | "marry his third wife, a young cousin named Klara Pölzl" | **Klara Pölzl** portrait | `File:Klara Hitler.jpg` (Commons, PD Mark) | ✅ VERIFIED |
-| 36 | "April 20th, 1889… Braunau am Inn… They named him Adolf." | **Braunau am Inn birth house** | `File:Hitlers Geburtshaus Braunau am Inn.jpg` (c.1934, PD) | ✅ VERIFIED |
-| 37 | "born Adolf Hitler only because an eighty-four-year-old miller… changed his name" | Register/notary callback + Braunau | reuse beats 33 + 36 | reuse |
-| 38 | "In the 1930s… journalists in Vienna went digging through the same parish archives and found the whole tangled history" | 1930s Vienna / newspaper press / parish archive | Commons Bundesarchiv 1930s | 🔎 TODO |
-| 39 | "the man had already built an entire mythology around the name and his origins" | Nuremberg rally / Hitler myth | reuse beats 1–2 | reuse |
-| 40 | "his only real boyhood friend, August Kubizek, later recorded…" | **August Kubizek** 1907 photo | Kubizek 1907 portrait (Commons) | ✅ VERIFIED (Commons has 1907 photo) |
-| 41 | *Quote:* "'Schicklgruber' uncouth and clumsy… 'Hitler'… 'sounded nice and was easy to remember'" | **Quote — typewriter overlay** + young Hitler + name variants | young Hitler (Linz era) + typewriter | 🔎 TODO (young-Hitler portrait) + treatment |
-| 42 | "a name is a kind of branding" | Young Hitler held | reuse beat 41 | reuse |
-| 43 | "this origin story also directly explains why the name has been lost to history" | Phone directory / name registry / faded nameplate | Commons genre period directory | 🔎 TODO |
-| 44 | "the variations Hiedler and Hüetler in his own family alone" | **Name variants graphic** (Hiedler / Hüttler / Hitler) | motion treatment | 🔎 TODO (treatment) |
-| 45 | "after the fall of the Nazi regime, his specific variation of the name has also waned… to almost a grinding halt" | **Optional name-frequency motion graphic**, else 1945 Reich-in-ruins | prototype graphic (see note 2) / Commons Bundesarchiv 1945 rubble | 🔎 TODO (opt-in) |
-| 46 | "It probably is not worth… having to explain why they are named Hitler." | Wry closer — present-day Braunau house / empty nameplate | reuse beat 36 (or modern Braunau, `File:Braunau Hitlerhaus 2.jpg`) | 🔎 TODO / reuse |
+| 31 | "Hitler came from this family with possible Czech ancestry" | Period **Bohemia/Moravia countryside** or Prague panorama | Commons period Czech landscape | 🔎 TODO |
+| 32 | "undying contempt for Czechs and his attempts to remove them from the map" | **`PRG-A`** German troops enter Prague, 1939 (sober) | PD newsreel / Bundesarchiv | 🔎 TODO |
+| 33 | "Alois crossed out 'Alois Schicklgruber'… and wrote 'Alois Hitler.'" | **The altered register entry** (hero doc) | matricula-online.eu Döllersheim; else period register close-up | 🔎 TODO (⚠️ exact page; see note 1) |
+| 34 | *Quote:* "Adolf's father was legally known as Alois Hitler…" | **Typewriter overlay** + **Alois** fourth distinct portrait | `File:Alois Hitler 2.jpeg` (PD) + typewriter | ✅ VERIFIED+treatment |
+| 35 | "marry his third wife, a young cousin named Klara Pölzl" | **Klara Pölzl** portrait | `File:Klara Hitler.jpg` (PD Mark) | ✅ VERIFIED |
+| 36 | "April 20th, 1889… Braunau am Inn… They named him Adolf." | **Braunau birth house**, historic | `File:Hitlers Geburtshaus Braunau am Inn.jpg` (c.1934, PD) | ✅ VERIFIED |
+| 37 | "born Adolf Hitler only because an eighty-four-year-old miller… changed his name" | **Adolf's own Braunau baptismal record** (the name passes on) | Commons / Braunau parish scan | 🔎 TODO |
+| 38 | "In the 1930s… journalists in Vienna went digging through the same parish archives" | **1930s Vienna** newspaper office / journalists | Commons Bundesarchiv 1930s Vienna press | 🔎 TODO |
+| 39 | "the man had already built an entire mythology around the name and his origins" | **`NUR-E`** motorcade through a roaring crowd (cult) | PD newsreel, distinct shot | 🔎 TODO |
+| 40 | "his only real boyhood friend, August Kubizek, later recorded…" | **August Kubizek** 1907 photo | Kubizek 1907 portrait (Commons) | ✅ VERIFIED |
+| 41 | *Quote:* "'Schicklgruber' uncouth and clumsy… 'Hitler'… 'sounded nice'" | **Typewriter overlay** + young Hitler **1901 class photo** | `File:Hitler at school in 1901.jpg` (PD) + typewriter | ✅ VERIFIED+treatment |
+| 42 | "a name is a kind of branding" | Young Hitler **1899 class photo** (distinct from 41) | `File:Hitler at school 1899.jpg` (PD) | ✅ VERIFIED |
+| 43 | "this origin story also directly explains why the name has been lost to history" | Old **telephone directory / name registry** page | Commons genre period directory | 🔎 TODO |
+| 44 | "the variations Hiedler and Hüetler in his own family alone" | **Name-variants graphic** (Hiedler / Hüttler / Hitler) | motion treatment (animation 2) | 🔎 TODO |
+| 45 | "after the fall of the Nazi regime, his… name has waned… to a grinding halt" | **Name-frequency graphic** (opt-in) — else **`RUIN-A`** 1945 ruins | prototype graphic / PD rubble | 🔎 TODO (opt-in) |
+| 46 | "It probably is not worth… explaining why they are named Hitler." | **Braunau house, present day** (wry closer, distinct from 36) | `File:Braunau Hitlerhaus 2.jpg` (2015, CC-BY-SA) | ✅ VERIFIED |
 
-## Sourcing risks flagged now (before the download pass)
-- **Beats 13, 15, 26, 29 — no surviving portraits.** Maria Anna Schicklgruber, Johann Georg
-  Hiedler, and Johann von Nepomuk Hüttler predate rural-Austrian photography; there is nothing to
-  find and I will not fabricate one. Stand-ins (the village, a period mill, the register, an
-  anonymous period elderly man) captioned honestly, exactly as ep006 handled Krause.
-- **Beat 33 — the altered register entry** is the episode's single most important document image.
-  The event is well documented and the Döllersheim registers are digitized at matricula-online.eu,
-  but a cleanly reusable, rights-clear image of *that exact altered page* may not surface — fallback
-  is a faithful period register close-up, flagged as representative.
-- **Beat 27 — Konrad Heiden portrait** may not exist on Commons; strong fallback is the real cover
-  of his 1944 biography *Der Fuehrer* via the Internet Archive book-cover service.
-- **Beat 41 — young Hitler portrait:** genuine early-life photos exist but a few circulating
-  "baby/schoolboy Hitler" images are of disputed authenticity — I'll use only a well-attributed
-  Commons file and flag if the best available is contested.
-- **Döllersheim irony worth an optional caption (beats 12, 14, 33):** the ancestral village and
-  this very register's parish were **razed on Hitler's own orders in 1938** for the Allentsteig
-  Wehrmacht training ground — historians link the timing to burying these ancestry rumors. Strong
-  optional callback if you want it; the church survives as a "church of peace."
-- **Video rights:** every newsreel clip is "verify per item, not PD by default" — I'll open each
-  Internet Archive item's rights statement and preview frames before committing (no
-  fringe/deemphasize collections), per the standing rule.
+**Repeat check:** 46 beats → 46 distinct assets. The 4 Alois photos are spread across beats 7 / 20 /
+22 / 34; the 2 young-Hitler class photos across 41 / 42; the 2 Braunau photos across 36 (historic) /
+46 (modern); the 5 Nuremberg clips are 5 different shots; each register/document image is a
+different page or object. Nothing appears twice.
+
+## Sourcing risks (unchanged from prior pass)
+- **Beats 13, 15, 26, 29 — no surviving portraits** (Maria Anna, Hiedler, Hüttler): honest,
+  *distinct* period stand-ins (hamlet / mill / elderly man / farmhouse), captioned as representative.
+- **Beat 33 — altered register entry:** exact rights-clear page may not surface (matricula-online.eu
+  is the best lead); fallback is a faithful period register close-up, flagged.
+- **Beat 27 — Konrad Heiden portrait** may not exist on Commons; fallback is his real 1944 *Der
+  Fuehrer* book cover (Internet Archive book-cover service).
+- **Beat 37 — Adolf's Braunau baptismal record:** if no clean scan exists, fallback to a Braunau
+  parish-church interior (still distinct from beat 36's exterior), flagged.
+- **Döllersheim irony (optional caption, beats 12 / 14 / 33):** the ancestral village and this
+  register's parish were **razed on Hitler's own orders in 1938** for the Allentsteig training
+  ground — historians tie it to burying these rumors. Say the word and I'll fold in a caption.
 
 ## Next steps
-1. **You review** this beat↔media mapping — adjust any pick, approve the creative treatments
-   (speech-bubble beat 3, the name-variant strikes, and the opt-in name-frequency graphic at 45),
-   and settle accuracy note 1 (keep "Alois crossed out" or change to the priest).
-2. On approval I run the sourcing/download pass into `Media/hitler-name/`, visually verify every
-   file, and report the final source list + any honest substitutions.
-3. Then bracket-tag `script-final.md`, build per-span TTS timing against the existing 5:47 audio,
-   and render in `reich-engine` with the standard Like & Subscribe end card.
+1. You approve / adjust picks + the two treatments (speech-bubble 3, name graphics 24/44/45) and
+   settle accuracy note 1.
+2. I run the sourcing/download pass into `Media/hitler-name/`, visually verify every file, confirm
+   the zero-repeat set, and report the final source list + any honest substitutions.
+3. Bracket-tag `script-final.md`, build per-span TTS timing against the 5:47 audio, render in
+   `reich-engine` with the standard Like & Subscribe end card.
