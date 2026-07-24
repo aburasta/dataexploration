@@ -1,308 +1,326 @@
 {
- "title": "Heil Schicklgruber? — The Name",
- "slug": "hitler-name",
- "mediaDir": "hitler-name",
- "narration": "ES_Voice_Benjamin-hitler-name.mp3",
+ "title": "The Imitator and the Duce — Hitler & Mussolini",
+ "slug": "hitler-mussolini",
+ "mediaDir": "hitler-mussolini",
+ "narration": "ES_Voice_Benjamin-hitler-mussolini.mp3",
  "scenes": [
   {
    "n": 1,
-   "src": "1.jpg",
+   "src": "s01.jpg",
    "motion": "slow-push",
    "transition": "crossfade",
    "tin": 0,
-   "durationSec": 7.89,
-   "aspectRatio": 1.4035
-  },
-  {
-   "n": 2,
-   "src": "2.jpg",
-   "motion": "slow-pull",
-   "transition": "crossfade",
-   "tin": 18,
-   "durationSec": 7.89,
-   "aspectRatio": 0.6787
-  },
-  {
-   "n": 3,
-   "src": "3.jpg",
-   "motion": "slow-push",
-   "transition": "cut",
-   "tin": 0,
-   "durationSec": 6.753,
-   "aspectRatio": 1.4319
-  },
-  {
-   "n": 4,
-   "src": "4.jpg",
-   "motion": "pan-right",
-   "transition": "crossfade",
-   "tin": 16,
-   "durationSec": 11.8,
-   "aspectRatio": 0.6956
-  },
-  {
-   "n": 5,
-   "src": "5.jpg",
-   "motion": "slow-push",
-   "transition": "crossfade",
-   "tin": 21,
-   "durationSec": 10.307,
-   "aspectRatio": 1.3913
-  },
-  {
-   "n": 6,
-   "src": "7.jpg",
-   "motion": "settle",
-   "transition": "crossfade",
-   "tin": 13,
-   "durationSec": 18.694,
-   "aspectRatio": 0.8
-  },
-  {
-   "n": 7,
-   "src": "9.jpg",
-   "motion": "pan-left",
-   "transition": "slide-left",
-   "tin": 22,
-   "durationSec": 6.398,
-   "aspectRatio": 4.5498
-  },
-  {
-   "n": 8,
-   "src": "10.png",
-   "motion": "slow-push",
-   "transition": "crossfade",
-   "tin": 24,
-   "durationSec": 4.621,
-   "aspectRatio": 1.0909
-  },
-  {
-   "n": 9,
-   "src": "12.jpg",
-   "motion": "pan-right",
-   "transition": "crossfade",
-   "tin": 16,
-   "durationSec": 7.535,
-   "aspectRatio": 2.3256
-  },
-  {
-   "n": 10,
-   "src": "13.JPG",
-   "motion": "slow-push",
-   "transition": "slide-right",
-   "tin": 22,
-   "durationSec": 11.942,
-   "aspectRatio": 1.4942
-  },
-  {
-   "n": 11,
-   "src": "14.jpg",
-   "motion": "slow-push",
-   "transition": "crossfade",
-   "tin": 13,
-   "durationSec": 4.336,
-   "aspectRatio": 1.6481
-  },
-  {
-   "n": 12,
-   "src": "15.JPG",
-   "motion": "pan-left",
-   "transition": "crossfade",
-   "tin": 18,
-   "durationSec": 9.667,
-   "aspectRatio": 1.5012
-  },
-  {
-   "n": 13,
-   "src": "16.JPG",
-   "motion": "slow-pull",
-   "transition": "crossfade",
-   "tin": 24,
-   "durationSec": 13.008,
-   "aspectRatio": 1.4942
-  },
-  {
-   "n": 14,
-   "src": "18.jpg",
-   "motion": "settle",
-   "transition": "crossfade",
-   "tin": 16,
-   "durationSec": 2.99,
-   "aspectRatio": 1.3324
-  },
-  {
-   "n": 15,
-   "src": "19.jpg",
-   "motion": "pan-right",
-   "transition": "crossfade",
-   "tin": 21,
-   "durationSec": 8.886,
-   "aspectRatio": 1.5
-  },
-  {
-   "n": 16,
-   "src": "20.jpeg",
-   "motion": "settle",
-   "transition": "crossfade",
-   "tin": 13,
-   "durationSec": 17.06,
-   "aspectRatio": 0.6387
-  },
-  {
-   "n": 17,
-   "src": "23.jpg",
-   "motion": "pan-left",
-   "transition": "slide-left",
-   "tin": 22,
-   "durationSec": 8.174,
-   "aspectRatio": 0.8511
-  },
-  {
-   "n": 18,
-   "src": "25.jpg",
-   "motion": "slow-push",
-   "transition": "crossfade",
-   "tin": 24,
-   "durationSec": 12.937,
-   "aspectRatio": 3.2378
-  },
-  {
-   "n": 19,
-   "src": "27.jpg",
-   "motion": "settle",
-   "transition": "crossfade",
-   "tin": 16,
-   "durationSec": 19.406,
-   "aspectRatio": 0.7657
-  },
-  {
-   "n": 20,
-   "src": "30.jpg",
-   "motion": "slow-push",
-   "transition": "slide-right",
-   "tin": 22,
-   "durationSec": 17.273,
-   "aspectRatio": 0.6695
-  },
-  {
-   "n": 21,
-   "src": "32.jpg",
-   "motion": "pan-right",
-   "transition": "crossfade",
-   "tin": 13,
-   "durationSec": 13.79,
-   "aspectRatio": 1.3699
-  },
-  {
-   "n": 22,
-   "src": "33.jpg",
-   "motion": "slow-push",
-   "transition": "cut",
-   "tin": 0,
-   "durationSec": 9.526,
-   "aspectRatio": 1.2206
-  },
-  {
-   "n": 23,
-   "src": "34.jpg",
-   "motion": "settle",
-   "transition": "crossfade",
-   "tin": 24,
-   "durationSec": 8.317,
-   "aspectRatio": 0.7444
-  },
-  {
-   "n": 24,
-   "src": "35.jpg",
-   "motion": "slow-push",
-   "transition": "crossfade",
-   "tin": 16,
-   "durationSec": 6.114,
-   "aspectRatio": 0.7191
-  },
-  {
-   "n": 25,
-   "src": "36.jpg",
-   "motion": "slow-pull",
-   "transition": "crossfade",
-   "tin": 21,
-   "durationSec": 17.913,
-   "aspectRatio": 0.964
-  },
-  {
-   "n": 26,
-   "src": "38.jpg",
-   "motion": "pan-left",
-   "transition": "slide-right",
-   "tin": 22,
-   "durationSec": 11.017,
-   "aspectRatio": 1.2657
-  },
-  {
-   "n": 27,
-   "src": "39.jpg",
-   "motion": "slow-push",
-   "transition": "crossfade",
-   "tin": 18,
-   "durationSec": 6.184,
-   "aspectRatio": 1.3629
-  },
-  {
-   "n": 28,
-   "src": "40.jpg",
-   "motion": "settle",
-   "transition": "crossfade",
-   "tin": 24,
-   "durationSec": 10.663,
-   "aspectRatio": 0.6584
-  },
-  {
-   "n": 29,
-   "src": "41.jpg",
-   "motion": "slow-push",
-   "transition": "crossfade",
-   "tin": 16,
-   "durationSec": 9.312,
-   "aspectRatio": 1.4512
-  },
-  {
-   "n": 30,
-   "src": "42.jpg",
-   "motion": "slow-pull",
-   "transition": "crossfade",
-   "tin": 21,
-   "durationSec": 8.886,
-   "aspectRatio": 1.2964
-  },
-  {
-   "n": 31,
-   "src": "29.jpg",
-   "motion": "pan-right",
-   "transition": "slide-left",
-   "tin": 22,
-   "durationSec": 16.491,
-   "aspectRatio": 1.7778
-  },
-  {
-   "n": 32,
-   "src": "45.jpg",
-   "motion": "slow-push",
-   "transition": "crossfade",
-   "tin": 18,
-   "durationSec": 14.785,
+   "durationSec": 8.454,
    "aspectRatio": 1.7021
   },
   {
-   "n": 33,
-   "src": "46.jpg",
-   "motion": "slow-pull",
+   "n": 2,
+   "src": "s03.jpg",
+   "motion": "settle",
    "transition": "cut",
    "tin": 0,
-   "durationSec": 6.398,
-   "aspectRatio": 1.2183
+   "durationSec": 19.179,
+   "aspectRatio": 0.7252
+  },
+  {
+   "n": 3,
+   "src": "s04.jpg",
+   "motion": "pan-right",
+   "transition": "slide-left",
+   "tin": 22,
+   "durationSec": 15.088,
+   "aspectRatio": 1.4124
+  },
+  {
+   "n": 4,
+   "src": "s05.jpg",
+   "motion": "pan-left",
+   "transition": "crossfade",
+   "tin": 16,
+   "durationSec": 11.908,
+   "aspectRatio": 3.1155
+  },
+  {
+   "n": 5,
+   "src": "s06.jpg",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 21,
+   "durationSec": 19.815,
+   "aspectRatio": 1.4975
+  },
+  {
+   "n": 6,
+   "src": "s11.jpg",
+   "motion": "settle",
+   "transition": "crossfade",
+   "tin": 13,
+   "durationSec": 11.908,
+   "aspectRatio": 0.632
+  },
+  {
+   "n": 7,
+   "src": "s14.jpg",
+   "motion": "pan-right",
+   "transition": "slide-right",
+   "tin": 22,
+   "durationSec": 6.726,
+   "aspectRatio": 1.3926
+  },
+  {
+   "n": 8,
+   "src": "s15.jpg",
+   "motion": "pan-left",
+   "transition": "crossfade",
+   "tin": 24,
+   "durationSec": 14.907,
+   "aspectRatio": 1.4815
+  },
+  {
+   "n": 9,
+   "src": "s86.jpg",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 16,
+   "durationSec": 19.724,
+   "aspectRatio": 1.4851
+  },
+  {
+   "n": 10,
+   "src": "s38.jpg",
+   "motion": "settle",
+   "transition": "crossfade",
+   "tin": 21,
+   "durationSec": 11.908,
+   "aspectRatio": 0.7087
+  },
+  {
+   "n": 11,
+   "src": "s19.jpg",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 13,
+   "durationSec": 13.544,
+   "aspectRatio": 1.3813
+  },
+  {
+   "n": 12,
+   "src": "s02.jpg",
+   "motion": "settle",
+   "transition": "crossfade",
+   "tin": 18,
+   "durationSec": 12.907,
+   "aspectRatio": 0.7933
+  },
+  {
+   "n": 13,
+   "src": "s23.jpg",
+   "motion": "slow-push",
+   "transition": "slide-left",
+   "tin": 22,
+   "durationSec": 10.453,
+   "aspectRatio": 0.6597
+  },
+  {
+   "n": 14,
+   "src": "s58.jpg",
+   "motion": "pan-right",
+   "transition": "crossfade",
+   "tin": 16,
+   "durationSec": 31.359,
+   "aspectRatio": 1.5094
+  },
+  {
+   "n": 15,
+   "src": "s31.jpg",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 21,
+   "durationSec": 27.723,
+   "aspectRatio": 0.7093
+  },
+  {
+   "n": 16,
+   "src": "s35.jpg",
+   "motion": "settle",
+   "transition": "crossfade",
+   "tin": 13,
+   "durationSec": 19.724,
+   "aspectRatio": 0.817
+  },
+  {
+   "n": 17,
+   "src": "s45.jpg",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 18,
+   "durationSec": 26.451,
+   "aspectRatio": 1.3362
+  },
+  {
+   "n": 18,
+   "src": "s50.jpg",
+   "motion": "settle",
+   "transition": "slide-right",
+   "tin": 22,
+   "durationSec": 29.268,
+   "aspectRatio": 1.3343
+  },
+  {
+   "n": 19,
+   "src": "s51.jpg",
+   "motion": "pan-right",
+   "transition": "crossfade",
+   "tin": 16,
+   "durationSec": 33.632,
+   "aspectRatio": 1.348
+  },
+  {
+   "n": 20,
+   "src": "s54.jpg",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 21,
+   "durationSec": 26.269,
+   "aspectRatio": 1.0101
+  },
+  {
+   "n": 21,
+   "src": "s56.jpg",
+   "motion": "settle",
+   "transition": "crossfade",
+   "tin": 13,
+   "durationSec": 5.181,
+   "aspectRatio": 0.6351
+  },
+  {
+   "n": 22,
+   "src": "s57.jpg",
+   "motion": "pan-left",
+   "transition": "crossfade",
+   "tin": 18,
+   "durationSec": 18.997,
+   "aspectRatio": 1.5838
+  },
+  {
+   "n": 23,
+   "src": "s61.jpg",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 24,
+   "durationSec": 51.629,
+   "aspectRatio": 1.5571
+  },
+  {
+   "n": 24,
+   "src": "s66.jpg",
+   "motion": "settle",
+   "transition": "crossfade",
+   "tin": 16,
+   "durationSec": 27.814,
+   "aspectRatio": 0.7448
+  },
+  {
+   "n": 25,
+   "src": "s67.jpg",
+   "motion": "slow-push",
+   "transition": "slide-left",
+   "tin": 22,
+   "durationSec": 9.635,
+   "aspectRatio": 0.6775
+  },
+  {
+   "n": 26,
+   "src": "s65.jpg",
+   "motion": "pan-right",
+   "transition": "crossfade",
+   "tin": 13,
+   "durationSec": 2.992,
+   "aspectRatio": 0.6397
+  },
+  {
+   "n": 27,
+   "src": "s69.jpg",
+   "motion": "settle",
+   "transition": "crossfade",
+   "tin": 18,
+   "durationSec": 6.09,
+   "aspectRatio": 0.6226
+  },
+  {
+   "n": 28,
+   "src": "s70.jpg",
+   "motion": "slow-push",
+   "transition": "slide-right",
+   "tin": 22,
+   "durationSec": 4.636,
+   "aspectRatio": 1.5832
+  },
+  {
+   "n": 29,
+   "src": "s71.jpg",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 16,
+   "durationSec": 2.992,
+   "aspectRatio": 1.568
+  },
+  {
+   "n": 30,
+   "src": "s72.jpg",
+   "motion": "pan-left",
+   "transition": "crossfade",
+   "tin": 21,
+   "durationSec": 8.635,
+   "aspectRatio": 1.57
+  },
+  {
+   "n": 31,
+   "src": "s73.jpg",
+   "motion": "settle",
+   "transition": "cut",
+   "tin": 0,
+   "durationSec": 19.543,
+   "aspectRatio": 1.4562
+  },
+  {
+   "n": 32,
+   "src": "s75.jpg",
+   "motion": "pan-right",
+   "transition": "crossfade",
+   "tin": 18,
+   "durationSec": 20.542,
+   "aspectRatio": 1.6233
+  },
+  {
+   "n": 33,
+   "src": "s78.jpg",
+   "motion": "settle",
+   "transition": "crossfade",
+   "tin": 24,
+   "durationSec": 31.814,
+   "aspectRatio": 0.7118
   },
   {
    "n": 34,
+   "src": "s84.jpg",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 16,
+   "durationSec": 13.816,
+   "aspectRatio": 0.9061
+  },
+  {
+   "n": 35,
+   "src": "s68.jpg",
+   "motion": "settle",
+   "transition": "crossfade",
+   "tin": 21,
+   "durationSec": 25.633,
+   "aspectRatio": 0.7013
+  },
+  {
+   "n": 36,
    "type": "outro",
    "durationSec": 6.0,
    "transition": "crossfade",
