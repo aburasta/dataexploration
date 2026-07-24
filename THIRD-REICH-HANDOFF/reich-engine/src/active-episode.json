@@ -1,8 +1,312 @@
 {
-  "title": "placeholder — no active episode",
-  "slug": "placeholder",
-  "mediaDir": "placeholder",
-  "scenes": [
-    { "n": 1, "type": "outro", "durationSec": 5.0, "transition": "cut" }
-  ]
+ "title": "Heil Schicklgruber? — The Name",
+ "slug": "hitler-name",
+ "mediaDir": "hitler-name",
+ "narration": "ES_Voice_Benjamin-hitler-name.mp3",
+ "scenes": [
+  {
+   "n": 1,
+   "src": "1.jpg",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 0,
+   "durationSec": 7.89,
+   "aspectRatio": 1.4035
+  },
+  {
+   "n": 2,
+   "src": "2.jpg",
+   "motion": "slow-pull",
+   "transition": "crossfade",
+   "tin": 18,
+   "durationSec": 7.89,
+   "aspectRatio": 0.6787
+  },
+  {
+   "n": 3,
+   "src": "3.jpg",
+   "motion": "slow-push",
+   "transition": "cut",
+   "tin": 0,
+   "durationSec": 6.753,
+   "aspectRatio": 1.4319
+  },
+  {
+   "n": 4,
+   "src": "4.jpg",
+   "motion": "pan-right",
+   "transition": "crossfade",
+   "tin": 16,
+   "durationSec": 11.8,
+   "aspectRatio": 0.6956
+  },
+  {
+   "n": 5,
+   "src": "5.jpg",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 21,
+   "durationSec": 10.307,
+   "aspectRatio": 1.3913
+  },
+  {
+   "n": 6,
+   "src": "7.jpg",
+   "motion": "settle",
+   "transition": "crossfade",
+   "tin": 13,
+   "durationSec": 18.694,
+   "aspectRatio": 0.8
+  },
+  {
+   "n": 7,
+   "src": "9.jpg",
+   "motion": "pan-left",
+   "transition": "slide-left",
+   "tin": 22,
+   "durationSec": 6.398,
+   "aspectRatio": 4.5498
+  },
+  {
+   "n": 8,
+   "src": "10.png",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 24,
+   "durationSec": 4.621,
+   "aspectRatio": 1.0909
+  },
+  {
+   "n": 9,
+   "src": "12.jpg",
+   "motion": "pan-right",
+   "transition": "crossfade",
+   "tin": 16,
+   "durationSec": 7.535,
+   "aspectRatio": 2.3256
+  },
+  {
+   "n": 10,
+   "src": "13.JPG",
+   "motion": "slow-push",
+   "transition": "slide-right",
+   "tin": 22,
+   "durationSec": 11.942,
+   "aspectRatio": 1.4942
+  },
+  {
+   "n": 11,
+   "src": "14.jpg",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 13,
+   "durationSec": 4.336,
+   "aspectRatio": 1.6481
+  },
+  {
+   "n": 12,
+   "src": "15.JPG",
+   "motion": "pan-left",
+   "transition": "crossfade",
+   "tin": 18,
+   "durationSec": 9.667,
+   "aspectRatio": 1.5012
+  },
+  {
+   "n": 13,
+   "src": "16.JPG",
+   "motion": "slow-pull",
+   "transition": "crossfade",
+   "tin": 24,
+   "durationSec": 13.008,
+   "aspectRatio": 1.4942
+  },
+  {
+   "n": 14,
+   "src": "18.jpg",
+   "motion": "settle",
+   "transition": "crossfade",
+   "tin": 16,
+   "durationSec": 2.99,
+   "aspectRatio": 1.3324
+  },
+  {
+   "n": 15,
+   "src": "19.jpg",
+   "motion": "pan-right",
+   "transition": "crossfade",
+   "tin": 21,
+   "durationSec": 8.886,
+   "aspectRatio": 1.5
+  },
+  {
+   "n": 16,
+   "src": "20.jpeg",
+   "motion": "settle",
+   "transition": "crossfade",
+   "tin": 13,
+   "durationSec": 17.06,
+   "aspectRatio": 0.6387
+  },
+  {
+   "n": 17,
+   "src": "23.jpg",
+   "motion": "pan-left",
+   "transition": "slide-left",
+   "tin": 22,
+   "durationSec": 8.174,
+   "aspectRatio": 0.8511
+  },
+  {
+   "n": 18,
+   "src": "25.jpg",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 24,
+   "durationSec": 12.937,
+   "aspectRatio": 3.2378
+  },
+  {
+   "n": 19,
+   "src": "27.jpg",
+   "motion": "settle",
+   "transition": "crossfade",
+   "tin": 16,
+   "durationSec": 19.406,
+   "aspectRatio": 0.7657
+  },
+  {
+   "n": 20,
+   "src": "30.jpg",
+   "motion": "slow-push",
+   "transition": "slide-right",
+   "tin": 22,
+   "durationSec": 17.273,
+   "aspectRatio": 0.6695
+  },
+  {
+   "n": 21,
+   "src": "32.jpg",
+   "motion": "pan-right",
+   "transition": "crossfade",
+   "tin": 13,
+   "durationSec": 13.79,
+   "aspectRatio": 1.3699
+  },
+  {
+   "n": 22,
+   "src": "33.jpg",
+   "motion": "slow-push",
+   "transition": "cut",
+   "tin": 0,
+   "durationSec": 9.526,
+   "aspectRatio": 1.2206
+  },
+  {
+   "n": 23,
+   "src": "34.jpg",
+   "motion": "settle",
+   "transition": "crossfade",
+   "tin": 24,
+   "durationSec": 8.317,
+   "aspectRatio": 0.7444
+  },
+  {
+   "n": 24,
+   "src": "35.jpg",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 16,
+   "durationSec": 6.114,
+   "aspectRatio": 0.7191
+  },
+  {
+   "n": 25,
+   "src": "36.jpg",
+   "motion": "slow-pull",
+   "transition": "crossfade",
+   "tin": 21,
+   "durationSec": 17.913,
+   "aspectRatio": 0.964
+  },
+  {
+   "n": 26,
+   "src": "38.jpg",
+   "motion": "pan-left",
+   "transition": "slide-right",
+   "tin": 22,
+   "durationSec": 11.017,
+   "aspectRatio": 1.2657
+  },
+  {
+   "n": 27,
+   "src": "39.jpg",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 18,
+   "durationSec": 6.184,
+   "aspectRatio": 1.3629
+  },
+  {
+   "n": 28,
+   "src": "40.jpg",
+   "motion": "settle",
+   "transition": "crossfade",
+   "tin": 24,
+   "durationSec": 10.663,
+   "aspectRatio": 0.6584
+  },
+  {
+   "n": 29,
+   "src": "41.jpg",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 16,
+   "durationSec": 9.312,
+   "aspectRatio": 1.4512
+  },
+  {
+   "n": 30,
+   "src": "42.jpg",
+   "motion": "slow-pull",
+   "transition": "crossfade",
+   "tin": 21,
+   "durationSec": 8.886,
+   "aspectRatio": 1.2964
+  },
+  {
+   "n": 31,
+   "src": "29.jpg",
+   "motion": "pan-right",
+   "transition": "slide-left",
+   "tin": 22,
+   "durationSec": 16.491,
+   "aspectRatio": 1.7778
+  },
+  {
+   "n": 32,
+   "src": "45.jpg",
+   "motion": "slow-push",
+   "transition": "crossfade",
+   "tin": 18,
+   "durationSec": 14.785,
+   "aspectRatio": 1.7021
+  },
+  {
+   "n": 33,
+   "src": "46.jpg",
+   "motion": "slow-pull",
+   "transition": "cut",
+   "tin": 0,
+   "durationSec": 6.398,
+   "aspectRatio": 1.2183
+  },
+  {
+   "n": 34,
+   "type": "outro",
+   "durationSec": 6.0,
+   "transition": "crossfade",
+   "tin": 20
+  }
+ ]
 }

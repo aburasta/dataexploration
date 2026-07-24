@@ -46,3 +46,30 @@ export function wrapTransition(kind, durationInFrames, children) {
   if (kind === "cut") return <Cut>{children}</Cut>;
   return <XFade durationInFrames={durationInFrames}>{children}</XFade>; // default: xfade
 }
+
+// ── Overlap-based transition-IN (no black dip) ───────────────────────────────
+// Used by the overlapping timeline in Documentary.jsx: each scene starts `tin`
+// frames before the previous one ends and animates ONLY its entrance over those
+// frames, on top of the still-fully-opaque outgoing scene. Because the outgoing
+// scene never fades out, the frame is never black between scenes — a true
+// crossfade / slide, not a dip-through-black.
+//   crossfade  — incoming dissolves in over the outgoing shot
+//   slide-left — incoming pushes in from the right edge (used at act breaks)
+//   slide-right— incoming pushes in from the left edge
+//   cut        — hard cut (tin = 0), incoming simply appears
+export function TransitionIn({ kind, tin, children }) {
+  const frame = useCurrentFrame();
+  if (!tin || tin <= 0 || kind === "cut") return <AbsoluteFill>{children}</AbsoluteFill>;
+  const p = interpolate(frame, [0, tin], [0, 1], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
+  const eased = p * p * (3 - 2 * p); // smoothstep
+  if (kind === "slide-left") {
+    return <AbsoluteFill style={{ transform: `translateX(${(1 - eased) * 100}%)` }}>{children}</AbsoluteFill>;
+  }
+  if (kind === "slide-right") {
+    return <AbsoluteFill style={{ transform: `translateX(${-(1 - eased) * 100}%)` }}>{children}</AbsoluteFill>;
+  }
+  return <AbsoluteFill style={{ opacity: eased }}>{children}</AbsoluteFill>; // crossfade
+}

@@ -5,7 +5,11 @@ import { ClipScene } from "./ClipScene";
 import { MapRoute } from "./MapRoute";
 import { LikeSubscribeCard } from "./LikeSubscribeCard";
 import { Hemicycle } from "./Hemicycle";
-import { wrapTransition } from "./Transitions";
+import { wrapTransition, TransitionIn } from "./Transitions";
+
+// Default entrance length (frames) per transition kind for the overlapping
+// timeline. `cut` is instantaneous; slides run a touch longer than dissolves.
+const TIN_DEFAULT = { crossfade: 15, "slide-left": 20, "slide-right": 20, cut: 0, xfade: 15 };
 
 function SceneBody({ scene, mediaDir, durationInFrames }) {
   if (scene.type === "clip") return <ClipScene scene={scene} mediaDir={mediaDir} durationInFrames={durationInFrames} />;
@@ -20,17 +24,26 @@ export function Documentary(props) {
   const mediaDir = spec.mediaDir || spec.slug || "";
   const scenes = spec.scenes || [];
 
-  // Visual timeline — unchanged: one Sequence per scene, each with its own
-  // transition. `starts[i]` is scene i's frame offset, reused below.
+  // Visual timeline — OVERLAPPING. `starts[i]` stays the narration-aligned
+  // offset (cumulative durationSec), so audio timing is unaffected. Each scene's
+  // Sequence, however, begins `tin` frames EARLY (from = start - tin) and runs
+  // its entrance (crossfade / slide) over that overlap, on top of the previous
+  // scene which never fades out — so the frame is never black between scenes.
+  // Scene ends stay put, so total duration and narration sync are unchanged.
   let at = 0;
   const starts = [];
   const visualItems = [];
   scenes.forEach((scene, i) => {
     const dur = Math.round((scene.durationSec || 6) * FPS);
-    starts.push(at);
-    const body = <SceneBody scene={scene} mediaDir={mediaDir} durationInFrames={dur} />;
-    const wrapped = wrapTransition(scene.transition, dur, body);
-    visualItems.push({ from: at, dur, key: `scene-${scene.n ?? i}`, node: wrapped });
+    const start = at;
+    starts.push(start);
+    const kind = scene.transition || "crossfade";
+    const tinReq = scene.tin != null ? scene.tin : (TIN_DEFAULT[kind] ?? 15);
+    const tin = i === 0 ? 0 : Math.max(0, Math.min(tinReq, dur - 1));
+    const from = Math.max(0, start - tin);
+    const total = start + dur - from;
+    const body = <SceneBody scene={scene} mediaDir={mediaDir} durationInFrames={total} />;
+    visualItems.push({ from, dur: total, tin, kind, key: `scene-${scene.n ?? i}`, node: body });
     at += dur;
   });
 
@@ -56,7 +69,7 @@ export function Documentary(props) {
       {spec.narration ? <Audio src={staticFile(`audio/${mediaDir}/${spec.narration}`)} /> : null}
       {visualItems.map((it) => (
         <Sequence key={it.key} from={it.from} durationInFrames={it.dur}>
-          {it.node}
+          <TransitionIn kind={it.kind} tin={it.tin}>{it.node}</TransitionIn>
         </Sequence>
       ))}
       {audioItems.map((it) => (
