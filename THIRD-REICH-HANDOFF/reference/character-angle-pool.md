@@ -25,13 +25,13 @@ case leave a one-line note in the Angle title cell noting it was attempted and s
 | 3 | FACET | Hitler | The Complete Love Life of Adolf Hitler | Geli Raubal, Eva Braun, the minor infatuations, the bunker marriage | 5, 6, 27, 31 | produced |
 | 4 | FACET | Hitler | Hitler the Soldier | The Iron Cross, the "white crow" who never wrote home, the war that forged his worldview | 1 | pending |
 | 5 | FACET | Hitler | Hitler and Money | Unemployed drifter to villa owner — the income tax files that surfaced after the war | 5 | pending |
-| 6 | FACET | Hitler | Hitler's War on the Churches | The plan to paganize Christianity, Niemöller's arc from supporter to prisoner | 8 | pending |
+| 6 | FACET | Hitler | Hitler's War on the Churches | The plan to paganize Christianity, Niemöller's arc from supporter to prisoner | 8 | produced |
 | 7 | FACET | Hitler | Hitler and His Generals | Twelve years of contempt, purges, and the slow death of institutional pushback | 10, 23, 26 | pending |
 | 8 | FACET | Hitler | The Ideas Hitler Stole | Nietzsche, Wagner, and how borrowed philosophy became state ideology | 4 | pending |
 | 9 | FACET | Hitler | Hitler in Prison | The Beer Hall Putsch trial as propaganda victory, writing Mein Kampf behind bars | 2, 3 | pending |
 | 10 | FACET | Hitler | Hitler's Rise Through the Party | Anonymous agitator to Führer, 1919–1923 — the internal takeover | 2 | pending |
 | 11 | FACET | Hitler | Hitler's Table Talk | What he said at headquarters when he thought he was just reminiscing, not making history | 23–26 | pending |
-| 12 | FACET | Hitler | Hitler and Mussolini | Junior partner turned puppet-master, and what the phone call at Munich reveals | 12, 28 | pending |
+| 12 | FACET | Hitler | Hitler and Mussolini | Junior partner turned puppet-master, and what the phone call at Munich reveals | 12, 28 | produced |
 | 13 | FACET | Hitler | Hitler's Last Year | Delusion, phantom armies, and a worldview collapsing faster than the front lines | 30, 31 | pending |
 | 14 | FACET | Goebbels | Goebbels' Diaries: A Neurotic Love Life | Anke, Else, Alma — the private romantic chaos behind the propaganda genius | 5 | pending |
 | 15 | FACET | Goebbels | The Goebbels Family Murder-Suicide | The only senior leader whose apocalyptic ideology extended to his own six children | 31 | pending |
@@ -64,9 +64,9 @@ case leave a one-line note in the Angle title cell noting it was attempted and s
 | 42 | INSTITUTION | — | The Bureaucracy of the Holocaust | From subordinate memos to a killing machine — Wannsee's paper trail | 27 | pending |
 | 43 | INSTITUTION | — | The Formation of the Nazi-Soviet Pact | Ideological enemies, a begging telegram, and a partition deal | 15 | pending |
 | 44 | INSTITUTION | — | The Formation of the Axis | A sham alliance revealed by Mussolini's own backing-out letter | 16 | pending |
-| 45 | EVENT | — | "Canned Goods": The Corpses That Started World War II | Naujocks, Gleiwitz, condemned prisoners in Polish uniforms | 15, 17 | pending |
+| 45 | EVENT | — | "Canned Goods": The Corpses That Started World War II | Naujocks, Gleiwitz, condemned prisoners in Polish uniforms | 15, 17 | scripted |
 | 46 | EVENT | Hitler | Hitler's Most Inexplicable Decision | Declaring war on the US off one casual promise to Matsuoka, zero Pearl Harbor foreknowledge | 25 | pending |
-| 47 | EVENT | Hácha | The 1 A.M. Meeting That Erased a Country | Threatened, fainted, revived by injection, signed away Czechoslovakia | 13 | pending |
+| 47 | EVENT | Hácha | The 1 A.M. Meeting That Erased a Country | Threatened, fainted, revived by injection, signed away Czechoslovakia | 13 | scripted |
 | 48 | EVENT | Drexler/Eckart | The Man Who Founded the Nazi Party and Was Erased for It | The libel suit that handed Hitler a party that wasn't his | 2 | pending |
 | 49 | EVENT | — | Hitler Published the Whole Plan in 1925 | Mein Kampf's explicit Lebensraum blueprint, and the world's willful blindness to it | 4 | pending |
 | 50 | EVENT | Stalin | Stalin Was Warned by Everyone and Believed No One | The intelligence, the TASS denial, the paranoia from the Hess flight | 23 | pending |
@@ -91,3 +91,4 @@ case leave a one-line note in the Angle title cell noting it was attempted and s
 - Backlog 2026-07-10: 0 rough scripts awaiting edit. ep003 (hitler-love-life) rendered end-to-end
   from the user's own bracket-tagged script-rough.md (media-placement markers, no separate
   script-final.md save) — see the media-assembly memory note for the new standard method.
+- Backlog 2026-08-04: 2 new rough scripts written (row #45 Gleiwitz "Canned Goods", row #47 The Ordeal of Dr. Hácha), grounded in ch.15/17 and ch.13. Also corrected stale statuses: #6 war-on-religion and #12 Hitler & Mussolini are produced. Separately produced this period: special-reichstag-fire-1933 and special-hitler-name-schicklgruber (not original pool rows).
