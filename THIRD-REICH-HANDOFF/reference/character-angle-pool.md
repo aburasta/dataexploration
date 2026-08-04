@@ -72,7 +72,7 @@ case leave a one-line note in the Angle title cell noting it was attempted and s
 | 50 | EVENT | Stalin | Stalin Was Warned by Everyone and Believed No One | The intelligence, the TASS denial, the paranoia from the Hess flight | 23 | pending |
 | 51 | EVENT | — | The Mud Defeated Germany Before the Winter Did | Rasputitsa vs. the "General Winter" myth, generals rereading Napoleon in real time | 24 | pending |
 | 52 | EVENT | Paulus | The Field Marshal Promotion Designed as a Suicide Order | Promoted by radio so he'd shoot himself — he surrendered instead | 26 | pending |
-| 53 | EVENT | Rommel | The Island Hitler Forgot | Malta postponed for Russia, and the direct mechanical link to El Alamein | 26 | pending |
+| 53 | EVENT | Rommel | The Island Hitler Forgot | Malta postponed for Russia, and the direct mechanical link to El Alamein | 26 | produced |
 | 54 | EVENT | Brautigam | The Nazi Official Who Told Hitler the Truth | An internal 1942 memo warning German brutality was uniting Russians against the Reich | 27 | pending |
 | 55 | EVENT | — | Horoscopes in the Bunker | Goebbels reading Frederick the Great to Hitler, champagne when Roosevelt died, days before the end | 30, 31 | pending |
 
@@ -92,3 +92,4 @@ case leave a one-line note in the Angle title cell noting it was attempted and s
   from the user's own bracket-tagged script-rough.md (media-placement markers, no separate
   script-final.md save) — see the media-assembly memory note for the new standard method.
 - Backlog 2026-08-04: 2 new rough scripts written (row #45 Gleiwitz "Canned Goods", row #47 The Ordeal of Dr. Hácha), grounded in ch.15/17 and ch.13. Also corrected stale statuses: #6 war-on-religion and #12 Hitler & Mussolini are produced. Separately produced this period: special-reichstag-fire-1933 and special-hitler-name-schicklgruber (not original pool rows).
+- Backlog 2026-08-04 (later): row #53 'The Island Hitler Forgot' scripted (cinematic, ~2.3k words) and produced end-to-end as a 16-min silent visual cut (special-malta-island-hitler-forgot-1942). Also produced this session: special-reichstag-fire-1933 (14.2-min silent cut). Mussolini episode media/spec built but render deferred at user request.
