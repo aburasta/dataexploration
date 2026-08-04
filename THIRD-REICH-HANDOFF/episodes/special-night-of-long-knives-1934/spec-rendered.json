@@ -1,0 +1,733 @@
+{
+ "title": "The Night of the Long Knives: The Weekend Hitler Murdered His Best Friend (1934)",
+ "slug": "night-of-long-knives-1934",
+ "mediaDir": "special-night-of-long-knives-1934",
+ "scenes": [
+  {
+   "n": 1,
+   "type": "image",
+   "src": "01.jpg",
+   "durationSec": 16.59,
+   "aspectRatio": 1.6667,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 2,
+   "type": "image",
+   "src": "02.jpg",
+   "durationSec": 15.76,
+   "aspectRatio": 1.4376,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 3,
+   "type": "image",
+   "src": "03.jpg",
+   "durationSec": 16.59,
+   "aspectRatio": 0.75,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": 4,
+   "type": "image",
+   "src": "04.jpg",
+   "durationSec": 14.93,
+   "aspectRatio": 0.7588,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 5,
+   "type": "image",
+   "src": "05.jpg",
+   "durationSec": 16.59,
+   "aspectRatio": 0.7087,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 6,
+   "type": "clip",
+   "src": "c_march_column.mp4",
+   "durationSec": 15.76,
+   "startTrim": 0,
+   "playbackRate": 0.8883,
+   "transition": "cut"
+  },
+  {
+   "n": 7,
+   "type": "clip",
+   "src": "c_assembly_eagle.mp4",
+   "durationSec": 17.42,
+   "startTrim": 0,
+   "playbackRate": 0.8037,
+   "transition": "xfade"
+  },
+  {
+   "n": 8,
+   "type": "image",
+   "src": "08.jpg",
+   "durationSec": 16.59,
+   "aspectRatio": 4.4568,
+   "motion": "slow-pull",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 9,
+   "type": "image",
+   "src": "09.jpg",
+   "durationSec": 14.1,
+   "aspectRatio": 0.7375,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 10,
+   "type": "image",
+   "src": "10.jpg",
+   "durationSec": 15.76,
+   "aspectRatio": 0.75,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 11,
+   "type": "clip",
+   "src": "c_march_spades.mp4",
+   "durationSec": 16.59,
+   "startTrim": 0,
+   "playbackRate": 0.8439,
+   "transition": "xfade"
+  },
+  {
+   "n": 12,
+   "type": "image",
+   "src": "12.jpg",
+   "durationSec": 17.42,
+   "aspectRatio": 1.3333,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 13,
+   "type": "image",
+   "src": "13.jpg",
+   "durationSec": 14.1,
+   "aspectRatio": 0.6837,
+   "motion": "slow-pull",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 14,
+   "type": "clip",
+   "src": "c_mass_formation.mp4",
+   "durationSec": 14.93,
+   "startTrim": 0,
+   "playbackRate": 0.9377,
+   "transition": "cut"
+  },
+  {
+   "n": 15,
+   "type": "image",
+   "src": "15.jpg",
+   "durationSec": 12.44,
+   "aspectRatio": 1.3378,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 16,
+   "type": "clip",
+   "src": "c_march_town.mp4",
+   "durationSec": 16.59,
+   "startTrim": 0,
+   "playbackRate": 0.8439,
+   "transition": "xfade"
+  },
+  {
+   "n": 17,
+   "type": "image",
+   "src": "17.jpg",
+   "durationSec": 13.27,
+   "aspectRatio": 1.4142,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 18,
+   "type": "clip",
+   "src": "c_himmler.mp4",
+   "durationSec": 11.61,
+   "startTrim": 0,
+   "playbackRate": 1.0336,
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 19,
+   "type": "image",
+   "src": "19.jpg",
+   "durationSec": 15.76,
+   "aspectRatio": 1.4337,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 20,
+   "type": "image",
+   "src": "20.jpg",
+   "durationSec": 14.1,
+   "aspectRatio": 1.1372,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": 21,
+   "type": "image",
+   "src": "21.jpg",
+   "durationSec": 14.93,
+   "aspectRatio": 0.632,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 22,
+   "type": "image",
+   "src": "22.jpg",
+   "durationSec": 12.44,
+   "aspectRatio": 0.7113,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 23,
+   "type": "image",
+   "src": "23.jpg",
+   "durationSec": 13.27,
+   "aspectRatio": 0.7469,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 24,
+   "type": "image",
+   "src": "24.jpg",
+   "durationSec": 14.93,
+   "aspectRatio": 1.4184,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": 25,
+   "type": "image",
+   "src": "25.jpg",
+   "durationSec": 14.1,
+   "aspectRatio": 1.3147,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 26,
+   "type": "image",
+   "src": "26.jpg",
+   "durationSec": 15.76,
+   "aspectRatio": 0.9523,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 27,
+   "type": "image",
+   "src": "27.jpg",
+   "durationSec": 14.1,
+   "aspectRatio": 0.735,
+   "motion": "slow-pull",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 28,
+   "type": "image",
+   "src": "28.jpg",
+   "durationSec": 14.93,
+   "aspectRatio": 0.7523,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 29,
+   "type": "image",
+   "src": "29.jpg",
+   "durationSec": 12.44,
+   "aspectRatio": 0.759,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 30,
+   "type": "image",
+   "src": "30.jpg",
+   "durationSec": 18.25,
+   "aspectRatio": 0.7656,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 31,
+   "type": "image",
+   "src": "31.jpg",
+   "durationSec": 10.78,
+   "aspectRatio": 0.7606,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": 32,
+   "type": "image",
+   "src": "32.jpg",
+   "durationSec": 15.76,
+   "aspectRatio": 0.7531,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 33,
+   "type": "image",
+   "src": "33.jpg",
+   "durationSec": 12.44,
+   "aspectRatio": 0.7102,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 34,
+   "type": "image",
+   "src": "34.jpg",
+   "durationSec": 14.93,
+   "aspectRatio": 1.5224,
+   "motion": "slow-pull",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 35,
+   "type": "clip",
+   "src": "c_hitler_generals.mp4",
+   "durationSec": 13.27,
+   "startTrim": 0,
+   "playbackRate": 0.9043,
+   "transition": "cut"
+  },
+  {
+   "n": 36,
+   "type": "image",
+   "src": "36.jpg",
+   "durationSec": 15.76,
+   "aspectRatio": 0.632,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 37,
+   "type": "image",
+   "src": "37.jpg",
+   "durationSec": 18.25,
+   "aspectRatio": 0.7756,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 38,
+   "type": "image",
+   "src": "38.jpg",
+   "durationSec": 18.25,
+   "aspectRatio": 1.3356,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 39,
+   "type": "image",
+   "src": "39.jpg",
+   "durationSec": 12.44,
+   "aspectRatio": 1.3356,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": 40,
+   "type": "image",
+   "src": "40.jpg",
+   "durationSec": 14.93,
+   "aspectRatio": 0.6863,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 41,
+   "type": "image",
+   "src": "41.jpg",
+   "durationSec": 9.95,
+   "aspectRatio": 1.3734,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 42,
+   "type": "image",
+   "src": "42.jpg",
+   "durationSec": 16.59,
+   "aspectRatio": 1.3423,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": 43,
+   "type": "image",
+   "src": "43.jpg",
+   "durationSec": 17.42,
+   "aspectRatio": 1.5038,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 44,
+   "type": "image",
+   "src": "44.jpg",
+   "durationSec": 17.42,
+   "aspectRatio": 1.4467,
+   "motion": "slow-pull",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 45,
+   "type": "image",
+   "src": "45.jpg",
+   "durationSec": 9.95,
+   "aspectRatio": 2.8235,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 46,
+   "type": "image",
+   "src": "46.jpg",
+   "durationSec": 17.42,
+   "aspectRatio": 1.2618,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 47,
+   "type": "image",
+   "src": "47.jpg",
+   "durationSec": 13.27,
+   "aspectRatio": 1.2618,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": 48,
+   "type": "image",
+   "src": "48.jpg",
+   "durationSec": 14.93,
+   "aspectRatio": 1.6667,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 49,
+   "type": "image",
+   "src": "49.jpg",
+   "durationSec": 14.1,
+   "aspectRatio": 1.4467,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 50,
+   "type": "image",
+   "src": "50.jpg",
+   "durationSec": 9.95,
+   "aspectRatio": 0.6863,
+   "motion": "pan-left",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 51,
+   "type": "image",
+   "src": "51.jpg",
+   "durationSec": 10.78,
+   "aspectRatio": 1.3356,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 52,
+   "type": "image",
+   "src": "52.jpg",
+   "durationSec": 13.27,
+   "aspectRatio": 0.6,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 53,
+   "type": "image",
+   "src": "53.jpg",
+   "durationSec": 12.44,
+   "aspectRatio": 1.3734,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": 54,
+   "type": "image",
+   "src": "54.jpg",
+   "durationSec": 14.1,
+   "aspectRatio": 1.3333,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 55,
+   "type": "image",
+   "src": "55.jpg",
+   "durationSec": 15.76,
+   "aspectRatio": 0.7375,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 56,
+   "type": "image",
+   "src": "56.jpg",
+   "durationSec": 14.1,
+   "aspectRatio": 1.3333,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 57,
+   "type": "image",
+   "src": "57.jpg",
+   "durationSec": 14.1,
+   "aspectRatio": 0.7087,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 58,
+   "type": "image",
+   "src": "58.jpg",
+   "durationSec": 17.42,
+   "aspectRatio": 1.3617,
+   "motion": "slow-pull",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 59,
+   "type": "image",
+   "src": "59.jpg",
+   "durationSec": 12.44,
+   "aspectRatio": 0.7113,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 60,
+   "type": "image",
+   "src": "60.jpg",
+   "durationSec": 16.59,
+   "aspectRatio": 1.3136,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 61,
+   "type": "image",
+   "src": "61.jpg",
+   "durationSec": 14.93,
+   "aspectRatio": 1.5066,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": 62,
+   "type": "image",
+   "src": "62.jpg",
+   "durationSec": 14.93,
+   "aspectRatio": 0.7462,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 63,
+   "type": "image",
+   "src": "63.jpg",
+   "durationSec": 16.59,
+   "aspectRatio": 1.1213,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 64,
+   "type": "image",
+   "src": "64.jpg",
+   "durationSec": 15.76,
+   "aspectRatio": 0.5917,
+   "motion": "slow-pull",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 65,
+   "type": "image",
+   "src": "65.jpg",
+   "durationSec": 14.93,
+   "aspectRatio": 1.3356,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 66,
+   "type": "image",
+   "src": "66.jpg",
+   "durationSec": 16.59,
+   "aspectRatio": 1.0,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 67,
+   "type": "image",
+   "src": "67.jpg",
+   "durationSec": 17.42,
+   "aspectRatio": 0.7656,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": 68,
+   "type": "image",
+   "src": "68.jpg",
+   "durationSec": 22.4,
+   "aspectRatio": 0.7156,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 69,
+   "type": "image",
+   "src": "69.jpg",
+   "durationSec": 14.93,
+   "aspectRatio": 1.3008,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 70,
+   "type": "clip",
+   "src": "c_himmler.mp4",
+   "durationSec": 14.1,
+   "startTrim": 0,
+   "playbackRate": 0.8511,
+   "transition": "xfade"
+  },
+  {
+   "n": 71,
+   "type": "image",
+   "src": "71.jpg",
+   "durationSec": 19.08,
+   "aspectRatio": 0.685,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": 72,
+   "type": "image",
+   "src": "72.jpg",
+   "durationSec": 11.61,
+   "aspectRatio": 0.6637,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 73,
+   "type": "clip",
+   "src": "c_hitler_generals.mp4",
+   "durationSec": 15.76,
+   "startTrim": 0,
+   "playbackRate": 0.7614,
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 74,
+   "type": "clip",
+   "src": "c_assembly_eagle.mp4",
+   "durationSec": 19.08,
+   "startTrim": 0,
+   "playbackRate": 0.7338,
+   "transition": "cut"
+  },
+  {
+   "n": 75,
+   "type": "clip",
+   "src": "c_hitler_speech.mp4",
+   "durationSec": 16.59,
+   "startTrim": 0,
+   "playbackRate": 0.8439,
+   "transition": "xfade"
+  },
+  {
+   "n": 76,
+   "type": "clip",
+   "src": "c_hitler_goring.mp4",
+   "durationSec": 13.27,
+   "startTrim": 0,
+   "playbackRate": 1.055,
+   "transition": "xfade"
+  },
+  {
+   "n": 77,
+   "type": "clip",
+   "src": "c_hitler_car.mp4",
+   "durationSec": 16.59,
+   "startTrim": 0,
+   "playbackRate": 0.8439,
+   "transition": "xfade"
+  },
+  {
+   "n": 78,
+   "type": "image",
+   "src": "78.jpg",
+   "durationSec": 15.76,
+   "aspectRatio": 0.6834,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 79,
+   "type": "image",
+   "src": "79.jpg",
+   "durationSec": 19.08,
+   "aspectRatio": 1.5779,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 80,
+   "type": "clip",
+   "src": "c_rally_night.mp4",
+   "durationSec": 22.4,
+   "startTrim": 0,
+   "playbackRate": 0.625,
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 81,
+   "type": "outro",
+   "durationSec": 8.0,
+   "transition": "dip-to-black"
+  }
+ ]
+}

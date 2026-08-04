@@ -1,0 +1,1000 @@
+[
+ {
+  "id": "01",
+  "text": "On the morning of July 1st 1934, two SS men walk into a bare cell in Stadelheim prison in Munich.",
+  "kind": "IMG",
+  "ref": [
+   "Stadelheim prison Munich",
+   "Stadelheim Gefängnis München"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 20,
+  "durationSec": 16.59
+ },
+ {
+  "id": "02",
+  "text": "One lays a loaded pistol on the table in front of the half-dressed man on the cot, then leaves.",
+  "kind": "IMG",
+  "ref": [
+   "Luger pistol 1930s table",
+   "German pistol 1934"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 19,
+  "durationSec": 15.76
+ },
+ {
+  "id": "03",
+  "text": "The man is Ernst Röhm, chief of staff of the largest private army on earth — three million storm troopers.",
+  "kind": "IMG",
+  "ref": [
+   "Ernst Röhm portrait",
+   "Ernst Roehm SA chief"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 20,
+  "durationSec": 16.59
+ },
+ {
+  "id": "04",
+  "text": "The man who just ordered him to shoot himself is Adolf Hitler. His oldest friend of fourteen years.",
+  "kind": "IMG",
+  "ref": [
+   "Adolf Hitler 1934 portrait",
+   "Hitler 1933 portrait"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 18,
+  "durationSec": 14.93
+ },
+ {
+  "id": "05",
+  "text": "Röhm looks at the pistol and refuses. If I am to be killed, he says, let Adolf do it himself.",
+  "kind": "IMG",
+  "ref": [
+   "Ernst Röhm uniform",
+   "Roehm SA leader portrait"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 20,
+  "durationSec": 16.59
+ },
+ {
+  "id": "06",
+  "text": "This is the story of the weekend Hitler murdered his best friend, and hundreds of others, in seventy-two hours.",
+  "kind": "CLIP",
+  "ref": "c_march_column",
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 19,
+  "durationSec": 15.76
+ },
+ {
+  "id": "07",
+  "text": "By the time it was over, Hitler would stand before parliament and call himself the supreme judge of the German people.",
+  "kind": "CLIP",
+  "ref": "c_assembly_eagle",
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 21,
+  "durationSec": 17.42
+ },
+ {
+  "id": "08",
+  "text": "And the most chilling part is that the President thanked him, the Army congratulated him, and the country breathed relief.",
+  "kind": "IMG",
+  "ref": [
+   "Paul von Hindenburg 1934",
+   "Hindenburg Reichspräsident"
+  ],
+  "motion": "slow-pull",
+  "transition": "dip-to-black",
+  "words": 20,
+  "durationSec": 16.59
+ },
+ {
+  "id": "09",
+  "text": "To understand the killing, you have to understand the friendship. Röhm was there at the very beginning.",
+  "kind": "IMG",
+  "ref": [
+   "Ernst Röhm 1923",
+   "Roehm early Nazi"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 17,
+  "durationSec": 14.1
+ },
+ {
+  "id": "10",
+  "text": "A stocky, scar-faced ex-army captain, shot through the face in the First World War, who never got over it.",
+  "kind": "IMG",
+  "ref": [
+   "Ernst Röhm scar face",
+   "Ernst Roehm captain"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 19,
+  "durationSec": 15.76
+ },
+ {
+  "id": "11",
+  "text": "It was Röhm who brought Hitler the backing of the Army and the muscle of ex-soldiers willing to crack skulls.",
+  "kind": "CLIP",
+  "ref": "c_march_spades",
+  "motion": "pan-right",
+  "transition": "xfade",
+  "words": 20,
+  "durationSec": 16.59
+ },
+ {
+  "id": "12",
+  "text": "He built and led the S.A. — the Sturmabteilung, the brownshirts — who beat Hitler's road to power open with fists.",
+  "kind": "IMG",
+  "ref": [
+   "Sturmabteilung SA 1933 Berlin",
+   "SA brownshirts march 1933"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 21,
+  "durationSec": 17.42
+ },
+ {
+  "id": "13",
+  "text": "Hitler admitted he could not have come to power without them. And that was exactly the problem.",
+  "kind": "IMG",
+  "ref": [
+   "Hitler SA rally 1933",
+   "Hitler storm troopers"
+  ],
+  "motion": "slow-pull",
+  "transition": "dip-to-black",
+  "words": 17,
+  "durationSec": 14.1
+ },
+ {
+  "id": "14",
+  "text": "By 1934 Hitler was Chancellor. But the brownshirts who put him there thought the revolution had barely begun.",
+  "kind": "CLIP",
+  "ref": "c_mass_formation",
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 18,
+  "durationSec": 14.93
+ },
+ {
+  "id": "15",
+  "text": "Röhm called it the second revolution. It terrified everyone who was not a storm trooper.",
+  "kind": "IMG",
+  "ref": [
+   "Ernst Röhm speech SA",
+   "Roehm addressing SA"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 15,
+  "durationSec": 12.44
+ },
+ {
+  "id": "16",
+  "text": "The first revolution only put Hitler in the chair. The second would sweep away the elites and the old Army.",
+  "kind": "CLIP",
+  "ref": "c_march_town",
+  "motion": "pan-left",
+  "transition": "xfade",
+  "words": 20,
+  "durationSec": 16.59
+ },
+ {
+  "id": "17",
+  "text": "Röhm wanted his three million brownshirts to become the new army, with himself as its commander.",
+  "kind": "IMG",
+  "ref": [
+   "SA parade 1934 mass",
+   "Sturmabteilung Aufmarsch"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 16,
+  "durationSec": 13.27
+ },
+ {
+  "id": "18",
+  "text": "To the generals of the regular Army, the Reichswehr, this was an existential threat.",
+  "kind": "CLIP",
+  "ref": "c_himmler",
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 14,
+  "durationSec": 11.61
+ },
+ {
+  "id": "19",
+  "text": "Here is the trap: Hitler owed his street power to Röhm, but needed the loyalty of the professional Army.",
+  "kind": "IMG",
+  "ref": [
+   "Reichswehr soldiers 1934",
+   "German army 1934 parade"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 19,
+  "durationSec": 15.76
+ },
+ {
+  "id": "20",
+  "text": "And of the aging President, Field Marshal Hindenburg — the one man who could still remove him.",
+  "kind": "IMG",
+  "ref": [
+   "Paul von Hindenburg portrait 1933",
+   "Hindenburg field marshal"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 17,
+  "durationSec": 14.1
+ },
+ {
+  "id": "21",
+  "text": "Hitler could not have both. He had to choose: his oldest friend, or the generals and the President.",
+  "kind": "IMG",
+  "ref": [
+   "Adolf Hitler pensive 1934",
+   "Hitler thoughtful portrait"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 18,
+  "durationSec": 14.93
+ },
+ {
+  "id": "22",
+  "text": "Through the spring of 1934, two men made certain the choice would break their way.",
+  "kind": "IMG",
+  "ref": [
+   "Hermann Göring 1934",
+   "Hermann Goering uniform 1933"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 15,
+  "durationSec": 12.44
+ },
+ {
+  "id": "23",
+  "text": "Hermann Göring had traded his brown shirt for the Army caste and sided with the generals.",
+  "kind": "IMG",
+  "ref": [
+   "Hermann Göring general uniform",
+   "Goering 1934 medals"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 16,
+  "durationSec": 13.27
+ },
+ {
+  "id": "24",
+  "text": "And Heinrich Himmler ran the black-coated S.S. — still, at this point, just a branch of Röhm's S.A.",
+  "kind": "IMG",
+  "ref": [
+   "Heinrich Himmler 1934 SS",
+   "Himmler black uniform"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 18,
+  "durationSec": 14.93
+ },
+ {
+  "id": "25",
+  "text": "Both understood: if Röhm fell, everything he controlled was up for grabs. So they went to work.",
+  "kind": "IMG",
+  "ref": [
+   "Himmler Göring together",
+   "Goering Himmler 1934"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 17,
+  "durationSec": 14.1
+ },
+ {
+  "id": "26",
+  "text": "Himmler took the Prussian Gestapo and built a secret-police empire. Together they drew up lists of enemies to kill.",
+  "kind": "IMG",
+  "ref": [
+   "Gestapo headquarters Berlin Prinz Albrecht",
+   "Gestapo 1934"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 19,
+  "durationSec": 15.76
+ },
+ {
+  "id": "27",
+  "text": "They fed Hitler rumors: that Röhm was plotting a coup, conspiring with the disgraced General von Schleicher.",
+  "kind": "IMG",
+  "ref": [
+   "Kurt von Schleicher general",
+   "Schleicher Chancellor"
+  ],
+  "motion": "slow-pull",
+  "transition": "dip-to-black",
+  "words": 17,
+  "durationSec": 14.1
+ },
+ {
+  "id": "28",
+  "text": "Almost none of it was true. But Hitler, Shirer notes, needed little prodding to have his suspicions aroused.",
+  "kind": "IMG",
+  "ref": [
+   "Adolf Hitler suspicious 1934",
+   "Hitler close portrait"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 18,
+  "durationSec": 14.93
+ },
+ {
+  "id": "29",
+  "text": "Then came the ultimatum that forced his hand. Vice-Chancellor Franz von Papen found his voice.",
+  "kind": "IMG",
+  "ref": [
+   "Franz von Papen 1934",
+   "Papen Vice Chancellor"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 15,
+  "durationSec": 12.44
+ },
+ {
+  "id": "30",
+  "text": "At the University of Marburg he gave a stunning speech demanding an end to the terror and the muzzling of the press.",
+  "kind": "IMG",
+  "ref": [
+   "University of Marburg 1934",
+   "Marburg Universität historic"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 22,
+  "durationSec": 18.25
+ },
+ {
+  "id": "31",
+  "text": "It fell, Shirer says, like a bombshell. Goebbels frantically tried to suppress it.",
+  "kind": "IMG",
+  "ref": [
+   "Joseph Goebbels 1934",
+   "Goebbels propaganda minister"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 13,
+  "durationSec": 10.78
+ },
+ {
+  "id": "32",
+  "text": "It emboldened the President. When Hitler flew to see Hindenburg, he was met by his own Defense Minister, Blomberg.",
+  "kind": "IMG",
+  "ref": [
+   "Werner von Blomberg general",
+   "Blomberg defense minister"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 19,
+  "durationSec": 15.76
+ },
+ {
+  "id": "33",
+  "text": "Wearing a face Hitler had never seen — stern, cold, Prussian. The message was plain.",
+  "kind": "IMG",
+  "ref": [
+   "Werner von Blomberg uniform",
+   "Blomberg 1934 general"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 15,
+  "durationSec": 12.44
+ },
+ {
+  "id": "34",
+  "text": "Unless the tension ended fast, the President would declare martial law and hand the country to the Army.",
+  "kind": "IMG",
+  "ref": [
+   "Hindenburg Blomberg 1934",
+   "Hindenburg with generals"
+  ],
+  "motion": "slow-pull",
+  "transition": "dip-to-black",
+  "words": 18,
+  "durationSec": 14.93
+ },
+ {
+  "id": "35",
+  "text": "That was the moment Röhm's fate was sealed. If the Army took over, Hitler was finished.",
+  "kind": "CLIP",
+  "ref": "c_hitler_generals",
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 16,
+  "durationSec": 13.27
+ },
+ {
+  "id": "36",
+  "text": "He had one way to survive: give the generals what they wanted. Destroy the S.A. Kill his oldest friend.",
+  "kind": "IMG",
+  "ref": [
+   "Adolf Hitler grim 1934",
+   "Hitler serious portrait"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 19,
+  "durationSec": 15.76
+ },
+ {
+  "id": "37",
+  "text": "On June 25th the Army went on alert. On the 28th, Röhm was expelled from the Officers' League — a death sentence.",
+  "kind": "IMG",
+  "ref": [
+   "Ernst Röhm SA uniform medals",
+   "Roehm officer portrait"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 22,
+  "durationSec": 18.25
+ },
+ {
+  "id": "38",
+  "text": "And here is the cruelest detail. Röhm had invited Hitler to a friendly S.A. conference at the lakeside resort of Bad Wiessee.",
+  "kind": "IMG",
+  "ref": [
+   "Bad Wiessee Tegernsee 1930s",
+   "Wiessee lake Bavaria"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 22,
+  "durationSec": 18.25
+ },
+ {
+  "id": "39",
+  "text": "Hitler agreed. He even kept the appointment. He just didn't arrive the way Röhm expected.",
+  "kind": "IMG",
+  "ref": [
+   "Hanslbauer Hotel Wiessee",
+   "Wiessee hotel Tegernsee"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 15,
+  "durationSec": 12.44
+ },
+ {
+  "id": "40",
+  "text": "Now the clock starts ticking. Thursday June 28th — Hitler is at a wedding, acting without a care.",
+  "kind": "IMG",
+  "ref": [
+   "Adolf Hitler 1934 crowd",
+   "Hitler public appearance 1934"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 18,
+  "durationSec": 14.93
+ },
+ {
+  "id": "41",
+  "text": "Behind the scenes, Göring and Himmler put their S.S. detachments on standby.",
+  "kind": "IMG",
+  "ref": [
+   "SS men 1934 Leibstandarte",
+   "SS detachment 1934"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 12,
+  "durationSec": 9.95
+ },
+ {
+  "id": "42",
+  "text": "Friday the 29th — Hitler arrives at a hotel on the Rhine at Godesberg. Goebbels shows up with threatening intelligence.",
+  "kind": "IMG",
+  "ref": [
+   "Bad Godesberg Rhine hotel Dreesen",
+   "Godesberg Rheinhotel"
+  ],
+  "motion": "pan-right",
+  "transition": "xfade",
+  "words": 20,
+  "durationSec": 16.59
+ },
+ {
+  "id": "43",
+  "text": "At one in the morning, the trigger: two urgent messages claiming the S.A. was about to rise in Berlin and Munich.",
+  "kind": "IMG",
+  "ref": [
+   "teleprinter 1930s message",
+   "telegram 1934"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 21,
+  "durationSec": 17.42
+ },
+ {
+  "id": "44",
+  "text": "It was almost certainly a fabrication by Göring and Himmler. But it was all Hitler needed. That was mutiny, he said.",
+  "kind": "IMG",
+  "ref": [
+   "Adolf Hitler angry speech",
+   "Hitler shouting"
+  ],
+  "motion": "slow-pull",
+  "transition": "dip-to-black",
+  "words": 21,
+  "durationSec": 17.42
+ },
+ {
+  "id": "45",
+  "text": "At two o'clock in the morning, he said, I flew to Munich.",
+  "kind": "IMG",
+  "ref": [
+   "Junkers Ju 52 night 1934",
+   "1930s aircraft night"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 12,
+  "durationSec": 9.95
+ },
+ {
+  "id": "46",
+  "text": "At that exact moment, the men he was flying to destroy were fast asleep in their beds at the Hanslbauer Hotel.",
+  "kind": "IMG",
+  "ref": [
+   "Hanslbauer Hotel Bad Wiessee",
+   "hotel Tegernsee 1934"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 21,
+  "durationSec": 17.42
+ },
+ {
+  "id": "47",
+  "text": "Röhm had even left his bodyguard in Munich. There was carousing, Shirer records, but no plotting.",
+  "kind": "IMG",
+  "ref": [
+   "Ernst Röhm relaxed portrait",
+   "Roehm SA staff"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 16,
+  "durationSec": 13.27
+ },
+ {
+  "id": "48",
+  "text": "The plane landed in Munich at four in the morning. Hitler stormed into the Ministry of the Interior.",
+  "kind": "IMG",
+  "ref": [
+   "Munich Ministry Interior 1930s",
+   "München Ministerium historic"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 18,
+  "durationSec": 14.93
+ },
+ {
+  "id": "49",
+  "text": "He walked up to an S.A. general and personally tore the insignia off his uniform, screaming traitor.",
+  "kind": "IMG",
+  "ref": [
+   "Adolf Hitler furious 1934",
+   "Hitler enraged"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 17,
+  "durationSec": 14.1
+ },
+ {
+  "id": "50",
+  "text": "Then the column of cars set off for Wiessee, and for Röhm.",
+  "kind": "IMG",
+  "ref": [
+   "1930s German cars motorcade",
+   "Mercedes column 1934"
+  ],
+  "motion": "pan-left",
+  "transition": "dip-to-black",
+  "words": 12,
+  "durationSec": 9.95
+ },
+ {
+  "id": "51",
+  "text": "Shortly after dawn they reached the hotel. The awakening, Shirer writes, was rude.",
+  "kind": "IMG",
+  "ref": [
+   "Bad Wiessee hotel exterior",
+   "Tegernsee hotel dawn"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 13,
+  "durationSec": 10.78
+ },
+ {
+  "id": "52",
+  "text": "In one room they found Edmund Heines, a convicted murderer, in bed with a young man.",
+  "kind": "IMG",
+  "ref": [
+   "Edmund Heines SA",
+   "Heines Silesia SA leader"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 16,
+  "durationSec": 13.27
+ },
+ {
+  "id": "53",
+  "text": "Heines and his companion were dragged outside and shot on the spot, on Hitler's order.",
+  "kind": "IMG",
+  "ref": [
+   "SA arrest 1934",
+   "Sturmabteilung men arrested"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 15,
+  "durationSec": 12.44
+ },
+ {
+  "id": "54",
+  "text": "Hitler walked into Röhm's room, gave his old friend a dressing-down, and ordered him to Stadelheim prison.",
+  "kind": "IMG",
+  "ref": [
+   "Stadelheim prison Munich building",
+   "Stadelheim Gefängnis"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 17,
+  "durationSec": 14.1
+ },
+ {
+  "id": "55",
+  "text": "The same prison where Röhm had served time beside Hitler after the failed Beer Hall Putsch, eleven years before.",
+  "kind": "IMG",
+  "ref": [
+   "Beer Hall Putsch 1923 Feldherrnhalle",
+   "Hitler Putsch trial 1924"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 19,
+  "durationSec": 15.76
+ },
+ {
+  "id": "56",
+  "text": "And so we come back to that cell, and that pistol on the table, and Röhm's refusal.",
+  "kind": "IMG",
+  "ref": [
+   "prison cell 1930s bare",
+   "Stadelheim cell"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 17,
+  "durationSec": 14.1
+ },
+ {
+  "id": "57",
+  "text": "When the ten minutes passed, two S.S. officers entered. Röhm, stripped to the waist, tried to speak.",
+  "kind": "IMG",
+  "ref": [
+   "Ernst Röhm final portrait",
+   "Roehm SA chief face"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 17,
+  "durationSec": 14.1
+ },
+ {
+  "id": "58",
+  "text": "The S.S. man told him to shut up. Then they shot him point-blank. He died with his face full of contempt.",
+  "kind": "IMG",
+  "ref": [
+   "SS officer 1934 portrait",
+   "SS execution 1934"
+  ],
+  "motion": "slow-pull",
+  "transition": "dip-to-black",
+  "words": 21,
+  "durationSec": 17.42
+ },
+ {
+  "id": "59",
+  "text": "But Wiessee was only the beginning. In Berlin, Göring and Himmler had unleashed the lists.",
+  "kind": "IMG",
+  "ref": [
+   "Hermann Göring Berlin 1934",
+   "Goering command 1934"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 15,
+  "durationSec": 12.44
+ },
+ {
+  "id": "60",
+  "text": "At the Cadet School in Lichterfelde, 150 storm troopers were lined against a wall and cut down by firing squads.",
+  "kind": "IMG",
+  "ref": [
+   "Lichterfelde cadet school Berlin",
+   "Kadettenanstalt Lichterfelde"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 20,
+  "durationSec": 16.59
+ },
+ {
+  "id": "61",
+  "text": "Among them Karl Ernst, the Berlin S.A. leader, dragged from his honeymoon, shouting Heil Hitler to the end.",
+  "kind": "IMG",
+  "ref": [
+   "Karl Ernst SA Berlin",
+   "Karl Ernst storm trooper"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 18,
+  "durationSec": 14.93
+ },
+ {
+  "id": "62",
+  "text": "But the guns did not stop at the S.A. S.S. men rang the doorbell of General von Schleicher.",
+  "kind": "IMG",
+  "ref": [
+   "Kurt von Schleicher general portrait",
+   "Schleicher 1934"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 18,
+  "durationSec": 14.93
+ },
+ {
+  "id": "63",
+  "text": "When Schleicher opened his own front door, they shot him dead. His wife stepped forward — they shot her too.",
+  "kind": "IMG",
+  "ref": [
+   "Schleicher villa Berlin",
+   "1930s Berlin villa"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 20,
+  "durationSec": 16.59
+ },
+ {
+  "id": "64",
+  "text": "Gregor Strasser, once the second man in the party, was seized and shot in his cell on Göring's order.",
+  "kind": "IMG",
+  "ref": [
+   "Gregor Strasser Nazi",
+   "Gregor Strasser portrait"
+  ],
+  "motion": "slow-pull",
+  "transition": "dip-to-black",
+  "words": 19,
+  "durationSec": 15.76
+ },
+ {
+  "id": "65",
+  "text": "Papen survived only by luck, under house arrest, while the S.S. gutted his office and murdered his staff.",
+  "kind": "IMG",
+  "ref": [
+   "Franz von Papen 1934 portrait",
+   "Papen vice chancellor"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 18,
+  "durationSec": 14.93
+ },
+ {
+  "id": "66",
+  "text": "Then the old grudges. Gustav von Kahr, who crushed the 1923 putsch, was found in a swamp, hacked to death.",
+  "kind": "IMG",
+  "ref": [
+   "Gustav von Kahr",
+   "Kahr Bavaria 1923"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 20,
+  "durationSec": 16.59
+ },
+ {
+  "id": "67",
+  "text": "A priest who once helped edit Mein Kampf was found in a forest, his neck broken, three bullets in his heart.",
+  "kind": "IMG",
+  "ref": [
+   "Bavarian forest 1930s",
+   "German woodland dark"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 21,
+  "durationSec": 17.42
+ },
+ {
+  "id": "68",
+  "text": "And a music critic named Willi Schmid was taken from his cello while his children played — killed by mistake for a man with a similar name.",
+  "kind": "IMG",
+  "ref": [
+   "cello 1930s study",
+   "1930s music room"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 27,
+  "durationSec": 22.4
+ },
+ {
+  "id": "69",
+  "text": "Was there ever a plot at all? Shirer's verdict is unambiguous: there was not a shred of evidence.",
+  "kind": "IMG",
+  "ref": [
+   "Adolf Hitler Reichstag speech 1934",
+   "Hitler addressing Reichstag"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 18,
+  "durationSec": 14.93
+ },
+ {
+  "id": "70",
+  "text": "The whole justification was manufactured, and the men who could contradict it were dead within the week.",
+  "kind": "CLIP",
+  "ref": "c_himmler",
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 17,
+  "durationSec": 14.1
+ },
+ {
+  "id": "71",
+  "text": "Most of the killing was over by Sunday. And how did Hitler spend that afternoon? He hosted a tea party at the Chancellery.",
+  "kind": "IMG",
+  "ref": [
+   "Reich Chancellery garden 1934",
+   "Reichskanzlei Berlin 1934"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 23,
+  "durationSec": 19.08
+ },
+ {
+  "id": "72",
+  "text": "The next day President Hindenburg sent his thanks, for nipping treason in the bud.",
+  "kind": "IMG",
+  "ref": [
+   "Paul von Hindenburg 1934 portrait",
+   "Hindenburg late portrait"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 14,
+  "durationSec": 11.61
+ },
+ {
+  "id": "73",
+  "text": "The cabinet passed a law declaring the entire massacre legal. And the Army — the Army said thank you.",
+  "kind": "CLIP",
+  "ref": "c_hitler_generals",
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 19,
+  "durationSec": 15.76
+ },
+ {
+  "id": "74",
+  "text": "They had no idea what they had done to themselves. On July 13th, Hitler stood before the Reichstag and said it out loud.",
+  "kind": "CLIP",
+  "ref": "c_assembly_eagle",
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 23,
+  "durationSec": 19.08
+ },
+ {
+  "id": "75",
+  "text": "In this hour I was responsible for the fate of the German people, and thereby I became the supreme judge.",
+  "kind": "CLIP",
+  "ref": "c_hitler_speech",
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 20,
+  "durationSec": 16.59
+ },
+ {
+  "id": "76",
+  "text": "He had killed without trial, without evidence, without law — and had it ratified as law.",
+  "kind": "CLIP",
+  "ref": "c_hitler_goring",
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 16,
+  "durationSec": 13.27
+ },
+ {
+  "id": "77",
+  "text": "Then a promise: everyone must know that if he raises his hand against the State, certain death is his lot.",
+  "kind": "CLIP",
+  "ref": "c_hitler_car",
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 20,
+  "durationSec": 16.59
+ },
+ {
+  "id": "78",
+  "text": "The reward: on July 26th the S.S. was made independent of the S.A., under Himmler, answerable only to Hitler.",
+  "kind": "IMG",
+  "ref": [
+   "Heinrich Himmler SS Reichsführer",
+   "Himmler SS 1934"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 19,
+  "durationSec": 15.76
+ },
+ {
+  "id": "79",
+  "text": "Ten years later, almost to the day, when those same officers finally raised their hands against him, their bodies hung on meat hooks.",
+  "kind": "IMG",
+  "ref": [
+   "July 20 plot 1944 aftermath",
+   "Volksgerichtshof 1944"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 23,
+  "durationSec": 19.08
+ },
+ {
+  "id": "80",
+  "text": "The Night of the Long Knives taught a nation that there was no law but one man's will — and the price of forgetting it was death.",
+  "kind": "CLIP",
+  "ref": "c_rally_night",
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 27,
+  "durationSec": 22.4
+ }
+]
