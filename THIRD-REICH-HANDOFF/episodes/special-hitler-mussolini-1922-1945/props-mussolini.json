@@ -1,0 +1,553 @@
+{
+ "title": "Hitler & Mussolini: The Imitation That Ended in Ashes (1922-1945)",
+ "slug": "hitler-mussolini-1922-1945",
+ "mediaDir": "special-hitler-mussolini-1922-1945",
+ "scenes": [
+  {
+   "n": 1,
+   "type": "image",
+   "src": "01.jpg",
+   "durationSec": 12.21,
+   "aspectRatio": 0.9513,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 2,
+   "type": "image",
+   "src": "02.jpg",
+   "durationSec": 12.21,
+   "aspectRatio": 0.7351,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": 3,
+   "type": "image",
+   "src": "03.jpg",
+   "durationSec": 15.69,
+   "aspectRatio": 1.4072,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 4,
+   "type": "image",
+   "src": "04.jpg",
+   "durationSec": 14.82,
+   "aspectRatio": 0.7588,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 5,
+   "type": "image",
+   "src": "05.jpg",
+   "durationSec": 11.33,
+   "aspectRatio": 1.4975,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 6,
+   "type": "image",
+   "src": "06.jpg",
+   "durationSec": 9.59,
+   "aspectRatio": 1.5308,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": 7,
+   "type": "image",
+   "src": "07.jpg",
+   "durationSec": 13.95,
+   "aspectRatio": 1.2998,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 8,
+   "type": "image",
+   "src": "08.jpg",
+   "durationSec": 16.57,
+   "aspectRatio": 1.6916,
+   "motion": "slow-pull",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 9,
+   "type": "image",
+   "src": "09.jpg",
+   "durationSec": 13.95,
+   "aspectRatio": 0.6462,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 10,
+   "type": "image",
+   "src": "10.jpg",
+   "durationSec": 13.08,
+   "aspectRatio": 1.4615,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 11,
+   "type": "image",
+   "src": "11.jpg",
+   "durationSec": 19.18,
+   "aspectRatio": 0.7351,
+   "motion": "pan-left",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 12,
+   "type": "image",
+   "src": "12.jpg",
+   "durationSec": 14.82,
+   "aspectRatio": 1.3817,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 13,
+   "type": "image",
+   "src": "13.jpg",
+   "durationSec": 16.57,
+   "aspectRatio": 1.3344,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": 14,
+   "type": "image",
+   "src": "14.jpg",
+   "durationSec": 16.57,
+   "aspectRatio": 1.3817,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 15,
+   "type": "image",
+   "src": "15.jpg",
+   "durationSec": 12.21,
+   "aspectRatio": 0.6597,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 16,
+   "type": "image",
+   "src": "16.jpg",
+   "durationSec": 15.69,
+   "aspectRatio": 1.2831,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": 17,
+   "type": "image",
+   "src": "17.jpg",
+   "durationSec": 14.82,
+   "aspectRatio": 1.0376,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 18,
+   "type": "image",
+   "src": "18.jpg",
+   "durationSec": 11.33,
+   "aspectRatio": 1.4754,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 19,
+   "type": "image",
+   "src": "19.jpg",
+   "durationSec": 15.69,
+   "aspectRatio": 1.2583,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": 20,
+   "type": "image",
+   "src": "20.jpg",
+   "durationSec": 13.95,
+   "aspectRatio": 1.2966,
+   "motion": "slow-pull",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 21,
+   "type": "image",
+   "src": "21.jpg",
+   "durationSec": 13.08,
+   "aspectRatio": 0.7096,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 22,
+   "type": "image",
+   "src": "22.jpg",
+   "durationSec": 14.82,
+   "aspectRatio": 1.4531,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": 23,
+   "type": "image",
+   "src": "23.jpg",
+   "durationSec": 13.95,
+   "aspectRatio": 0.7906,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 24,
+   "type": "image",
+   "src": "24.jpg",
+   "durationSec": 16.57,
+   "aspectRatio": 0.655,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 25,
+   "type": "image",
+   "src": "25.jpg",
+   "durationSec": 17.44,
+   "aspectRatio": 0.7056,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": 26,
+   "type": "image",
+   "src": "26.jpg",
+   "durationSec": 17.44,
+   "aspectRatio": 0.7473,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 27,
+   "type": "image",
+   "src": "27.jpg",
+   "durationSec": 19.18,
+   "aspectRatio": 0.655,
+   "motion": "pan-left",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 28,
+   "type": "image",
+   "src": "28.jpg",
+   "durationSec": 15.69,
+   "aspectRatio": 1.3362,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 29,
+   "type": "image",
+   "src": "29.jpg",
+   "durationSec": 14.82,
+   "aspectRatio": 1.4072,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": 30,
+   "type": "image",
+   "src": "30.jpg",
+   "durationSec": 17.44,
+   "aspectRatio": 0.6424,
+   "motion": "slow-pull",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 31,
+   "type": "image",
+   "src": "31.jpg",
+   "durationSec": 15.69,
+   "aspectRatio": 0.7906,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 32,
+   "type": "image",
+   "src": "32.jpg",
+   "durationSec": 15.69,
+   "aspectRatio": 0.6631,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 33,
+   "type": "image",
+   "src": "33.jpg",
+   "durationSec": 15.69,
+   "aspectRatio": 1.0376,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": 34,
+   "type": "image",
+   "src": "34.jpg",
+   "durationSec": 14.82,
+   "aspectRatio": 1.5212,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 35,
+   "type": "image",
+   "src": "35.jpg",
+   "durationSec": 9.59,
+   "aspectRatio": 0.6542,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 36,
+   "type": "image",
+   "src": "36.jpg",
+   "durationSec": 14.82,
+   "aspectRatio": 1.4113,
+   "motion": "pan-right",
+   "transition": "xfade"
+  },
+  {
+   "n": 37,
+   "type": "image",
+   "src": "37.jpg",
+   "durationSec": 12.21,
+   "aspectRatio": 0.6913,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 38,
+   "type": "image",
+   "src": "38.jpg",
+   "durationSec": 14.82,
+   "aspectRatio": 1.4545,
+   "motion": "slow-pull",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 39,
+   "type": "image",
+   "src": "39.jpg",
+   "durationSec": 15.69,
+   "aspectRatio": 1.3559,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 40,
+   "type": "image",
+   "src": "40.jpg",
+   "durationSec": 14.82,
+   "aspectRatio": 0.7906,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 41,
+   "type": "image",
+   "src": "41.jpg",
+   "durationSec": 15.69,
+   "aspectRatio": 0.6117,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": 42,
+   "type": "image",
+   "src": "42.jpg",
+   "durationSec": 15.69,
+   "aspectRatio": 0.7438,
+   "motion": "slow-pull",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 43,
+   "type": "image",
+   "src": "43.jpg",
+   "durationSec": 9.59,
+   "aspectRatio": 1.2432,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 44,
+   "type": "image",
+   "src": "44.jpg",
+   "durationSec": 18.31,
+   "aspectRatio": 1.2432,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 45,
+   "type": "image",
+   "src": "45.jpg",
+   "durationSec": 12.21,
+   "aspectRatio": 1.5023,
+   "motion": "pan-right",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 46,
+   "type": "image",
+   "src": "46.jpg",
+   "durationSec": 13.08,
+   "aspectRatio": 0.7438,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 47,
+   "type": "image",
+   "src": "47.jpg",
+   "durationSec": 14.82,
+   "aspectRatio": 1.3412,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": 48,
+   "type": "image",
+   "src": "48.jpg",
+   "durationSec": 17.44,
+   "aspectRatio": 1.4787,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 49,
+   "type": "image",
+   "src": "49.jpg",
+   "durationSec": 15.69,
+   "aspectRatio": 0.8042,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 50,
+   "type": "image",
+   "src": "50.jpg",
+   "durationSec": 12.21,
+   "aspectRatio": 1.568,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": 51,
+   "type": "image",
+   "src": "51.jpg",
+   "durationSec": 14.82,
+   "aspectRatio": 1.5674,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 52,
+   "type": "image",
+   "src": "52.jpg",
+   "durationSec": 15.69,
+   "aspectRatio": 0.69,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 53,
+   "type": "image",
+   "src": "53.jpg",
+   "durationSec": 16.57,
+   "aspectRatio": 0.7096,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": 54,
+   "type": "image",
+   "src": "54.jpg",
+   "durationSec": 13.08,
+   "aspectRatio": 0.7063,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 55,
+   "type": "image",
+   "src": "55.jpg",
+   "durationSec": 16.57,
+   "aspectRatio": 0.7097,
+   "motion": "slow-push",
+   "transition": "cut"
+  },
+  {
+   "n": 56,
+   "type": "image",
+   "src": "56.jpg",
+   "durationSec": 14.82,
+   "aspectRatio": 0.7118,
+   "motion": "slow-pull",
+   "transition": "xfade"
+  },
+  {
+   "n": 57,
+   "type": "image",
+   "src": "57.jpg",
+   "durationSec": 14.82,
+   "aspectRatio": 1.4072,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 58,
+   "type": "image",
+   "src": "58.jpg",
+   "durationSec": 13.08,
+   "aspectRatio": 1.1066,
+   "motion": "slow-push",
+   "transition": "xfade"
+  },
+  {
+   "n": 59,
+   "type": "image",
+   "src": "59.jpg",
+   "durationSec": 13.08,
+   "aspectRatio": 1.5656,
+   "motion": "pan-left",
+   "transition": "xfade"
+  },
+  {
+   "n": 60,
+   "type": "image",
+   "src": "60.jpg",
+   "durationSec": 14.82,
+   "aspectRatio": 0.69,
+   "motion": "slow-push",
+   "transition": "dip-to-black"
+  },
+  {
+   "n": 61,
+   "type": "outro",
+   "durationSec": 8.0,
+   "transition": "dip-to-black"
+  }
+ ]
+}

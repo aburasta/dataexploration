@@ -1,0 +1,782 @@
+[
+ {
+  "id": "01",
+  "text": "April 29th 1945. In a bunker under Berlin, Adolf Hitler receives news from Italy.",
+  "query": "Führerbunker Berlin 1945",
+  "alts": [
+   "Hitler bunker 1945",
+   "Reich Chancellery ruins 1945"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 14,
+  "durationSec": 12.21
+ },
+ {
+  "id": "02",
+  "text": "His oldest political friend, Benito Mussolini, is dead — shot by his own countrymen.",
+  "query": "Benito Mussolini portrait",
+  "alts": [
+   "Mussolini 1930s portrait",
+   "Mussolini uniform"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 14,
+  "durationSec": 12.21
+ },
+ {
+  "id": "03",
+  "text": "Strung up by the heels from a lamppost in a Milan piazza, a crowd spitting on the body.",
+  "query": "Mussolini death Piazzale Loreto",
+  "alts": [
+   "Mussolini Milan 1945 execution aftermath",
+   "Piazzale Loreto 1945"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 18,
+  "durationSec": 15.69
+ },
+ {
+  "id": "04",
+  "text": "To understand why, go back twenty-two years, to when a failed Austrian painter first looked at Italy.",
+  "query": "Adolf Hitler 1923 Munich",
+  "alts": [
+   "Hitler early 1920s",
+   "Hitler Munich 1923"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 17,
+  "durationSec": 14.82
+ },
+ {
+  "id": "05",
+  "text": "1922. Benito Mussolini marches his Blackshirts into Rome and simply takes the government.",
+  "query": "March on Rome 1922",
+  "alts": [
+   "Marcia su Roma 1922",
+   "Mussolini Blackshirts Rome 1922"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 13,
+  "durationSec": 11.33
+ },
+ {
+  "id": "06",
+  "text": "No real battle, mostly bluff and intimidation — and it works.",
+  "query": "Mussolini Blackshirts squadristi",
+  "alts": [
+   "Camicie nere 1922",
+   "Italian fascist militia 1922"
+  ],
+  "motion": "pan-right",
+  "transition": "xfade",
+  "words": 11,
+  "durationSec": 9.59
+ },
+ {
+  "id": "07",
+  "text": "Hitler, still building a fringe party in Bavaria, watches and takes notes, plotting his own march.",
+  "query": "Adolf Hitler speech 1923",
+  "alts": [
+   "Hitler NSDAP 1923 rally",
+   "Hitler Munich beer hall"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 16,
+  "durationSec": 13.95
+ },
+ {
+  "id": "08",
+  "text": "A year later his own copy collapses outside the Feldherrnhalle — the Beer Hall Putsch, a fiasco, then prison.",
+  "query": "Feldherrnhalle München 1923",
+  "alts": [
+   "Beer Hall Putsch 1923",
+   "Hitler Putsch Munich 1923"
+  ],
+  "motion": "slow-pull",
+  "transition": "dip-to-black",
+  "words": 19,
+  "durationSec": 16.57
+ },
+ {
+  "id": "09",
+  "text": "By 1933, Hitler is Chancellor — and Mussolini, ruling Italy for over a decade, is unimpressed.",
+  "query": "Mussolini 1933 Duce",
+  "alts": [
+   "Mussolini balcony Palazzo Venezia",
+   "Mussolini speech 1933"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 16,
+  "durationSec": 13.95
+ },
+ {
+  "id": "10",
+  "text": "A Germany that strong, right next door, threatened to put the Duce in the shade.",
+  "query": "Adolf Hitler Chancellor 1933",
+  "alts": [
+   "Hitler Reichskanzler 1933",
+   "Hitler 1933 portrait"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 15,
+  "durationSec": 13.08
+ },
+ {
+  "id": "11",
+  "text": "From the start this was never a friendship of equals. Mussolini the established dictator, Hitler the imitator who might become a rival.",
+  "query": "Mussolini Hitler comparison",
+  "alts": [
+   "Mussolini profile 1930s",
+   "Benito Mussolini military"
+  ],
+  "motion": "pan-left",
+  "transition": "dip-to-black",
+  "words": 22,
+  "durationSec": 19.18
+ },
+ {
+  "id": "12",
+  "text": "June 14th 1934 — their first face-to-face meeting, in Venice. It does not go well for Hitler.",
+  "query": "Hitler Mussolini Venice 1934",
+  "alts": [
+   "Venedig 1934 Hitler Mussolini",
+   "Mussolini Hitler Venice meeting"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 17,
+  "durationSec": 14.82
+ },
+ {
+  "id": "13",
+  "text": "He shows up in a soiled raincoat and battered hat. Mussolini receives him resplendent in a bemedaled black uniform.",
+  "query": "Mussolini uniform medals",
+  "alts": [
+   "Mussolini fascist uniform",
+   "Duce full dress uniform"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 19,
+  "durationSec": 16.57
+ },
+ {
+  "id": "14",
+  "text": "Hitler flies home irritated, humiliated in front of the man he'd modeled himself on. It will not stay small.",
+  "query": "Hitler Mussolini Venice 1934 balcony",
+  "alts": [
+   "Hitler Venice 1934",
+   "Mussolini Hitler 1934"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 19,
+  "durationSec": 16.57
+ },
+ {
+  "id": "15",
+  "text": "Six weeks later Austrian Nazis storm the Chancellery in Vienna and murder Chancellor Dollfuss.",
+  "query": "Engelbert Dollfuss",
+  "alts": [
+   "Dollfuss Austria chancellor",
+   "Engelbert Dollfuss 1934"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 14,
+  "durationSec": 12.21
+ },
+ {
+  "id": "16",
+  "text": "Hitler, at the Wagner Festival in Bayreuth, can barely hide his delight. But the coup collapses within hours.",
+  "query": "Bayreuth Festspielhaus 1934",
+  "alts": [
+   "Wagner Festival Bayreuth",
+   "Bayreuth Festspielhaus"
+  ],
+  "motion": "pan-right",
+  "transition": "xfade",
+  "words": 18,
+  "durationSec": 15.69
+ },
+ {
+  "id": "17",
+  "text": "Mussolini mobilizes four divisions to the Brenner Pass. Hitler backs down instantly. A new Sarajevo, Papen warned.",
+  "query": "Brenner Pass Italian troops 1934",
+  "alts": [
+   "Italian army 1934 Brenner",
+   "Alpini soldiers 1934"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 17,
+  "durationSec": 14.82
+ },
+ {
+  "id": "18",
+  "text": "October 1935: Mussolini invades Abyssinia in open defiance of the League of Nations.",
+  "query": "Second Italo-Ethiopian War 1935",
+  "alts": [
+   "Italian invasion Ethiopia 1935",
+   "Abyssinia war 1935"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 13,
+  "durationSec": 11.33
+ },
+ {
+  "id": "19",
+  "text": "Britain and France respond with sanctions — halfhearted, doomed, but enough to poison Mussolini's relations with the West.",
+  "query": "League of Nations Geneva 1935",
+  "alts": [
+   "League of Nations assembly",
+   "Geneva 1935 sanctions"
+  ],
+  "motion": "pan-left",
+  "transition": "xfade",
+  "words": 18,
+  "durationSec": 15.69
+ },
+ {
+  "id": "20",
+  "text": "A German Foreign Office diary note reads like prophecy: either way, Hitler wins. Both things happened.",
+  "query": "Wilhelmstrasse Auswärtiges Amt",
+  "alts": [
+   "German Foreign Office 1930s",
+   "Auswärtiges Amt Berlin"
+  ],
+  "motion": "slow-pull",
+  "transition": "dip-to-black",
+  "words": 16,
+  "durationSec": 13.95
+ },
+ {
+  "id": "21",
+  "text": "Isolated by the West, Mussolini sends his son-in-law Galeazzo Ciano to Berchtesgaden in October 1936.",
+  "query": "Galeazzo Ciano",
+  "alts": [
+   "Galeazzo Ciano foreign minister",
+   "Ciano 1936"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 15,
+  "durationSec": 13.08
+ },
+ {
+  "id": "22",
+  "text": "Hitler tells Ciano that Mussolini is the leading statesman in the world, to whom none may compare.",
+  "query": "Berghof Berchtesgaden Hitler",
+  "alts": [
+   "Berghof Obersalzberg",
+   "Hitler Berchtesgaden 1936"
+  ],
+  "motion": "pan-right",
+  "transition": "xfade",
+  "words": 17,
+  "durationSec": 14.82
+ },
+ {
+  "id": "23",
+  "text": "Days later in Milan, Mussolini names the new arrangement: an Axis, around which Europe would turn.",
+  "query": "Mussolini Milan speech 1936",
+  "alts": [
+   "Mussolini Duomo Milan speech",
+   "Mussolini rally Milan"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 16,
+  "durationSec": 13.95
+ },
+ {
+  "id": "24",
+  "text": "March 11th 1938. Hitler is about to annex Austria, terrified Mussolini will do again what he did in 1934.",
+  "query": "Anschluss 1938 Vienna",
+  "alts": [
+   "Anschluss Österreich 1938",
+   "German troops Vienna 1938"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 19,
+  "durationSec": 16.57
+ },
+ {
+  "id": "25",
+  "text": "He sends Prince Philip of Hesse to Rome to sound out the Duce, then waits by the phone all evening.",
+  "query": "Philipp von Hessen",
+  "alts": [
+   "Prince Philipp of Hesse",
+   "Philipp Landgraf Hessen"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 20,
+  "durationSec": 17.44
+ },
+ {
+  "id": "26",
+  "text": "Mussolini has said Austria is immaterial to him. Hitler is overcome: tell Mussolini I will never forget him for this.",
+  "query": "Hitler telephone 1938",
+  "alts": [
+   "Hitler on telephone",
+   "Hitler phone call 1938"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 20,
+  "durationSec": 17.44
+ },
+ {
+  "id": "27",
+  "text": "Laying a wreath at his parents' grave in Linz, he sends a telegram. Remember that promise. It comes due five years later.",
+  "query": "Hitler Linz 1938",
+  "alts": [
+   "Hitler Linz Anschluss 1938",
+   "Hitler Austria 1938 crowd"
+  ],
+  "motion": "pan-left",
+  "transition": "dip-to-black",
+  "words": 22,
+  "durationSec": 19.18
+ },
+ {
+  "id": "28",
+  "text": "May 1939. Mussolini proposes turning the loose Axis into a full military alliance. Hitler agrees on the spot.",
+  "query": "Pact of Steel 1939 signing",
+  "alts": [
+   "Stahlpakt 1939",
+   "Pact of Steel Ribbentrop Ciano"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 18,
+  "durationSec": 15.69
+ },
+ {
+  "id": "29",
+  "text": "The Pact of Steel is signed in Berlin with pageantry — and nearly upstaged by a tantrum.",
+  "query": "Ribbentrop Ciano 1939",
+  "alts": [
+   "Joachim von Ribbentrop 1939",
+   "Ribbentrop signing 1939"
+  ],
+  "motion": "pan-right",
+  "transition": "xfade",
+  "words": 17,
+  "durationSec": 14.82
+ },
+ {
+  "id": "30",
+  "text": "Goering is so offended at being passed over for an Italian honor it reportedly brings him to tears of rage.",
+  "query": "Hermann Göring 1939 uniform",
+  "alts": [
+   "Hermann Goering 1939",
+   "Göring medals uniform"
+  ],
+  "motion": "slow-pull",
+  "transition": "dip-to-black",
+  "words": 20,
+  "durationSec": 17.44
+ },
+ {
+  "id": "31",
+  "text": "Mussolini sits out the first nine months of the war — Italy isn't ready, and he knows it.",
+  "query": "Mussolini Palazzo Venezia balcony",
+  "alts": [
+   "Mussolini balcony crowd",
+   "Duce Palazzo Venezia"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 18,
+  "durationSec": 15.69
+ },
+ {
+  "id": "32",
+  "text": "Then in June 1940, with France already beaten, he jumps in to claim a share of the spoils.",
+  "query": "Italian declaration of war 1940",
+  "alts": [
+   "Mussolini declares war 1940",
+   "Italy enters war June 1940"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 18,
+  "durationSec": 15.69
+ },
+ {
+  "id": "33",
+  "text": "Thirty-two Italian divisions attack six French ones on the Alpine front — and cannot move them an inch.",
+  "query": "Italian invasion France 1940 Alps",
+  "alts": [
+   "Italian army Alps 1940",
+   "Alpine front 1940"
+  ],
+  "motion": "pan-left",
+  "transition": "xfade",
+  "words": 18,
+  "durationSec": 15.69
+ },
+ {
+  "id": "34",
+  "text": "At Munich to set armistice terms, the German memo is blunt: Hitler will have the last word.",
+  "query": "Hitler Mussolini Munich 1940",
+  "alts": [
+   "Hitler Mussolini meeting 1940",
+   "Munich conference dictators"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 17,
+  "durationSec": 14.82
+ },
+ {
+  "id": "35",
+  "text": "Emboldened anyway, Mussolini invades Greece that October without even warning Hitler.",
+  "query": "Greco-Italian War 1940",
+  "alts": [
+   "Italian invasion Greece 1940",
+   "Greek-Italian war"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 11,
+  "durationSec": 9.59
+ },
+ {
+  "id": "36",
+  "text": "It collapses into a rout within a week. Hitler calls it a regrettable blunder to his generals.",
+  "query": "Greek soldiers 1940",
+  "alts": [
+   "Greek army 1940 Albania",
+   "Hellenic army 1940"
+  ],
+  "motion": "pan-right",
+  "transition": "xfade",
+  "words": 17,
+  "durationSec": 14.82
+ },
+ {
+  "id": "37",
+  "text": "In North Africa it's worse: a British force routs Graziani's army, taking 130,000 prisoners.",
+  "query": "Rodolfo Graziani North Africa",
+  "alts": [
+   "Italian prisoners North Africa 1940",
+   "Operation Compass 1940"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 14,
+  "durationSec": 12.21
+ },
+ {
+  "id": "38",
+  "text": "Hitler diverts the Afrika Korps and an invasion of the Balkans just to keep his ally standing.",
+  "query": "Afrika Korps Rommel 1941",
+  "alts": [
+   "Deutsches Afrikakorps",
+   "Rommel North Africa 1941"
+  ],
+  "motion": "slow-pull",
+  "transition": "dip-to-black",
+  "words": 17,
+  "durationSec": 14.82
+ },
+ {
+  "id": "39",
+  "text": "By the summer of 1943, with Sicily invaded and Rome bombed, even Mussolini's inner circle has had enough.",
+  "query": "Allied invasion Sicily 1943",
+  "alts": [
+   "Sicily landings 1943",
+   "Rome bombing 1943"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 18,
+  "durationSec": 15.69
+ },
+ {
+  "id": "40",
+  "text": "On July 24th his Fascist Grand Council votes 19 to 8 to strip him of military command.",
+  "query": "Fascist Grand Council 1943",
+  "alts": [
+   "Gran Consiglio del Fascismo",
+   "Palazzo Venezia council"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 17,
+  "durationSec": 14.82
+ },
+ {
+  "id": "41",
+  "text": "That evening the King summons him, dismisses him, and has him carted off under arrest in an ambulance.",
+  "query": "Victor Emmanuel III king Italy",
+  "alts": [
+   "Vittorio Emanuele III",
+   "King of Italy 1943"
+  ],
+  "motion": "pan-left",
+  "transition": "xfade",
+  "words": 18,
+  "durationSec": 15.69
+ },
+ {
+  "id": "42",
+  "text": "Shirer's verdict: so fell the modern Roman Caesar, who underneath the gaudy facade was made largely of sawdust.",
+  "query": "Mussolini portrait aging",
+  "alts": [
+   "Mussolini 1943",
+   "Benito Mussolini older"
+  ],
+  "motion": "slow-pull",
+  "transition": "dip-to-black",
+  "words": 18,
+  "durationSec": 15.69
+ },
+ {
+  "id": "43",
+  "text": "The news reaches Hitler's headquarters that night, and the transcript survives.",
+  "query": "Wolfsschanze Hitler headquarters",
+  "alts": [
+   "Wolf's Lair Hitler",
+   "Hitler Rastenburg 1943"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 11,
+  "durationSec": 9.59
+ },
+ {
+  "id": "44",
+  "text": "His first instinct is rage: tomorrow I'll send a man to arrest the whole government, the King and the whole bunch.",
+  "query": "Hitler Jodl generals map",
+  "alts": [
+   "Hitler with generals 1943",
+   "Hitler situation map"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 21,
+  "durationSec": 18.31
+ },
+ {
+  "id": "45",
+  "text": "Someone asks about the Vatican. Hitler doesn't hesitate: I'll go right into the Vatican.",
+  "query": "Vatican St Peters 1940s",
+  "alts": [
+   "Vatican City 1943",
+   "St Peters Basilica Rome"
+  ],
+  "motion": "pan-right",
+  "transition": "dip-to-black",
+  "words": 14,
+  "durationSec": 12.21
+ },
+ {
+  "id": "46",
+  "text": "For weeks German intelligence hunts for Mussolini while his captors move him island to island.",
+  "query": "Italian carabinieri 1943",
+  "alts": [
+   "Italian police 1943",
+   "carabinieri guards"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 15,
+  "durationSec": 13.08
+ },
+ {
+  "id": "47",
+  "text": "In transcripts he's referred to only as the valuable object; even Goebbels doubts he's worth the trouble.",
+  "query": "Joseph Goebbels 1943",
+  "alts": [
+   "Goebbels portrait 1943",
+   "Joseph Goebbels desk"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 17,
+  "durationSec": 14.82
+ },
+ {
+  "id": "48",
+  "text": "He's being held at a hotel on the Gran Sasso, the highest peak in the Apennines, reachable only by funicular.",
+  "query": "Gran Sasso Campo Imperatore hotel",
+  "alts": [
+   "Gran Sasso hotel 1943",
+   "Campo Imperatore"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 20,
+  "durationSec": 17.44
+ },
+ {
+  "id": "49",
+  "text": "On September 12th 1943, an Austrian SS officer named Otto Skorzeny leads a glider assault onto the mountaintop.",
+  "query": "Otto Skorzeny",
+  "alts": [
+   "Otto Skorzeny SS",
+   "Skorzeny 1943"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 18,
+  "durationSec": 15.69
+ },
+ {
+  "id": "50",
+  "text": "The guards scatter. Mussolini shouts down: don't shoot, anybody. Not a shot is fired.",
+  "query": "Gran Sasso raid Mussolini 1943",
+  "alts": [
+   "Mussolini rescue Gran Sasso",
+   "Unternehmen Eiche 1943"
+  ],
+  "motion": "pan-left",
+  "transition": "xfade",
+  "words": 14,
+  "durationSec": 12.21
+ },
+ {
+  "id": "51",
+  "text": "Within minutes he's airborne in a tiny two-seat plane. Hitler had made good on a five-year-old promise.",
+  "query": "Fieseler Storch aircraft",
+  "alts": [
+   "Storch plane Gran Sasso",
+   "Fieseler Fi 156"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 17,
+  "durationSec": 14.82
+ },
+ {
+  "id": "52",
+  "text": "The reunion should have been triumphant. It wasn't. Mussolini embraces Hitler warmly, but he is a broken man.",
+  "query": "Hitler Mussolini reunion 1943",
+  "alts": [
+   "Hitler greets Mussolini 1943",
+   "Mussolini Hitler Rastenburg 1943"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 18,
+  "durationSec": 15.69
+ },
+ {
+  "id": "53",
+  "text": "Hitler wants him to purge the men who betrayed him, starting with his own son-in-law Ciano. Instead he reconciles.",
+  "query": "Galeazzo Ciano 1943",
+  "alts": [
+   "Ciano trial 1944",
+   "Galeazzo Ciano portrait"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 19,
+  "durationSec": 16.57
+ },
+ {
+  "id": "54",
+  "text": "At Hitler's insistence Mussolini proclaims a new Italian Social Republic. It never amounted to anything.",
+  "query": "Italian Social Republic Salo flag",
+  "alts": [
+   "Repubblica Sociale Italiana",
+   "Salo Republic 1943"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 15,
+  "durationSec": 13.08
+ },
+ {
+  "id": "55",
+  "text": "For a year and a half the Salo Republic governs a shrinking sliver of northern Italy at German gunpoint.",
+  "query": "Salo Republic soldiers 1944",
+  "alts": [
+   "RSI soldiers",
+   "Repubblica Sociale Italiana militia"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 19,
+  "durationSec": 16.57
+ },
+ {
+  "id": "56",
+  "text": "On April 27th 1945, Mussolini and his mistress Clara Petacci are caught by partisans near Lake Como.",
+  "query": "Clara Petacci",
+  "alts": [
+   "Claretta Petacci",
+   "Petacci Mussolini mistress"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 17,
+  "durationSec": 14.82
+ },
+ {
+  "id": "57",
+  "text": "They are shot two days later; their bodies trucked into Milan and strung up by the heels.",
+  "query": "Piazzale Loreto Milan 1945",
+  "alts": [
+   "Mussolini Petacci Piazzale Loreto",
+   "Milan 1945 lamppost"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 17,
+  "durationSec": 14.82
+ },
+ {
+  "id": "58",
+  "text": "The news reaches Hitler's bunker that afternoon. Within hours he has his dog Blondi poisoned.",
+  "query": "Adolf Hitler 1945 last",
+  "alts": [
+   "Hitler 1945 final photo",
+   "Hitler last public appearance"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 15,
+  "durationSec": 13.08
+ },
+ {
+  "id": "59",
+  "text": "He hands his secretaries capsules of cyanide, refusing to become a spectacle for his enemies.",
+  "query": "Reich Chancellery ruins 1945",
+  "alts": [
+   "Reichskanzlei 1945 destroyed",
+   "Berlin bunker garden 1945"
+  ],
+  "motion": "pan-left",
+  "transition": "xfade",
+  "words": 15,
+  "durationSec": 13.08
+ },
+ {
+  "id": "60",
+  "text": "Twenty-three years after a march on Rome, both men were dead within forty-eight hours of each other.",
+  "query": "Mussolini Hitler together 1940s",
+  "alts": [
+   "Hitler and Mussolini",
+   "Duce and Fuhrer 1938"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 17,
+  "durationSec": 14.82
+ }
+]
