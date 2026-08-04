@@ -1,0 +1,873 @@
+[
+ {
+  "id": "01",
+  "text": "July 1st 1942. The desert west of El Alamein, sixty miles from Alexandria.",
+  "query": "North Africa desert 1942 Afrika Korps",
+  "alts": [
+   "Western Desert 1942",
+   "El Alamein desert 1942"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 13,
+  "durationSec": 11.47
+ },
+ {
+  "id": "02",
+  "text": "A German field marshal looks east toward the Nile, the Pyramids, the Suez Canal — the richest prize in the war.",
+  "query": "Erwin Rommel command vehicle desert",
+  "alts": [
+   "Rommel Afrika Korps command",
+   "Rommel desert binoculars"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 21,
+  "durationSec": 18.53
+ },
+ {
+  "id": "03",
+  "text": "Erwin Rommel, the Desert Fox, closer to winning the Mediterranean war than any German ever will be again.",
+  "query": "Erwin Rommel portrait 1942",
+  "alts": [
+   "Erwin Rommel field marshal",
+   "Rommel portrait"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 18,
+  "durationSec": 15.89
+ },
+ {
+  "id": "04",
+  "text": "And he is finished. His Afrika Korps bled down to almost nothing.",
+  "query": "destroyed panzer desert 1942",
+  "alts": [
+   "knocked out tank North Africa",
+   "wrecked German tank desert"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 12,
+  "durationSec": 10.59
+ },
+ {
+  "id": "05",
+  "text": "That morning he has exactly thirteen tanks that still run. Thirteen.",
+  "query": "Panzer III North Africa desert",
+  "alts": [
+   "German tank Afrika Korps",
+   "Panzer desert 1942"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 11,
+  "durationSec": 9.71
+ },
+ {
+  "id": "06",
+  "text": "He writes four words a man in his position should never have to write: our strength has faded away.",
+  "query": "Rommel writing desert",
+  "alts": [
+   "Rommel with map desert",
+   "Rommel headquarters Africa"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 19,
+  "durationSec": 16.77
+ },
+ {
+  "id": "07",
+  "text": "How does an army that is winning simply run out of the means to win?",
+  "query": "Afrika Korps supply column desert",
+  "alts": [
+   "German supply trucks North Africa",
+   "Afrika Korps convoy desert"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 15,
+  "durationSec": 13.24
+ },
+ {
+  "id": "08",
+  "text": "It had to do with a scrap of rock in the sea, three hundred miles behind his back.",
+  "query": "Malta aerial island Mediterranean",
+  "alts": [
+   "Malta island aerial",
+   "Malta from air"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 18,
+  "durationSec": 15.89
+ },
+ {
+  "id": "09",
+  "text": "An island his Fuehrer had looked at, shrugged at, and decided he could not be bothered to take.",
+  "query": "Malta Grand Harbour Valletta",
+  "alts": [
+   "Valletta Grand Harbour",
+   "Malta harbour 1940s"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 18,
+  "durationSec": 15.89
+ },
+ {
+  "id": "10",
+  "text": "This is the story of Malta — the island that beat the Desert Fox.",
+  "query": "Malta George Cross island siege",
+  "alts": [
+   "Siege of Malta 1942",
+   "Malta wartime"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 14,
+  "durationSec": 12.36
+ },
+ {
+  "id": "11",
+  "text": "Start with a map, because the whole tragedy is a matter of geometry.",
+  "query": "Mediterranean map 1942 theatre",
+  "alts": [
+   "Mediterranean theatre map WWII",
+   "North Africa campaign map"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 13,
+  "durationSec": 11.47
+ },
+ {
+  "id": "12",
+  "text": "Rommel's fuel, ammunition and men all come by ship from Italy across the Mediterranean to Libya.",
+  "query": "Italian convoy Mediterranean 1941",
+  "alts": [
+   "Italian navy convoy WWII",
+   "Regia Marina convoy"
+  ],
+  "motion": "pan-right",
+  "transition": "xfade",
+  "words": 16,
+  "durationSec": 14.12
+ },
+ {
+  "id": "13",
+  "text": "Sitting almost exactly astride the middle of that lifeline is Malta, a British fortress island.",
+  "query": "Malta fortress coast",
+  "alts": [
+   "Malta fortifications",
+   "Malta coastline wartime"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 15,
+  "durationSec": 13.24
+ },
+ {
+  "id": "14",
+  "text": "From Malta fly British bombers. From Malta sail British submarines and fast surface ships.",
+  "query": "British submarine Malta 1942",
+  "alts": [
+   "Royal Navy submarine Malta",
+   "British bomber Mediterranean"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 14,
+  "durationSec": 12.36
+ },
+ {
+  "id": "15",
+  "text": "Month after month they hunt Rommel's convoys and send them to the bottom of the sea.",
+  "query": "ship sinking Mediterranean WWII",
+  "alts": [
+   "merchant ship sinking WWII",
+   "torpedoed ship Mediterranean"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 16,
+  "durationSec": 14.12
+ },
+ {
+  "id": "16",
+  "text": "The numbers tell it better than any narration. In August 1941, thirty-five percent of everything shipped to Rommel was sunk.",
+  "query": "cargo ship convoy WWII Mediterranean",
+  "alts": [
+   "freighter convoy 1941",
+   "Axis supply ship"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 20,
+  "durationSec": 17.65
+ },
+ {
+  "id": "17",
+  "text": "By October, sixty-three percent. Nearly two of every three tons never arrived.",
+  "query": "burning ship at sea WWII",
+  "alts": [
+   "ship on fire sea WWII",
+   "sinking freighter"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 12,
+  "durationSec": 10.59
+ },
+ {
+  "id": "18",
+  "text": "Count Galeazzo Ciano, Mussolini's foreign minister, kept one of the great diaries of the war.",
+  "query": "Galeazzo Ciano portrait",
+  "alts": [
+   "Galeazzo Ciano",
+   "Ciano foreign minister"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 15,
+  "durationSec": 13.24
+ },
+ {
+  "id": "19",
+  "text": "November 9th 1941: that night a convoy of seven ships set out, guarded by two cruisers and ten destroyers.",
+  "query": "Italian cruiser Regia Marina 1941",
+  "alts": [
+   "Italian cruiser WWII",
+   "Regia Marina warship"
+  ],
+  "motion": "pan-left",
+  "transition": "xfade",
+  "words": 19,
+  "durationSec": 16.77
+ },
+ {
+  "id": "20",
+  "text": "All — I mean all — our ships were sunk. The British returned to Malta after having slaughtered us.",
+  "query": "warship sinking Mediterranean",
+  "alts": [
+   "Italian warship sinking",
+   "naval battle Mediterranean WWII"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 19,
+  "durationSec": 16.77
+ },
+ {
+  "id": "21",
+  "text": "So the Germans decided to fix it — and the crucial thing is, they already knew how.",
+  "query": "Albert Kesselring portrait",
+  "alts": [
+   "Albert Kesselring",
+   "Kesselring Luftwaffe"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 17,
+  "durationSec": 15.0
+ },
+ {
+  "id": "22",
+  "text": "They pulled U-boats from the Atlantic into the Mediterranean.",
+  "query": "German U-boat Mediterranean 1942",
+  "alts": [
+   "U-boat surfaced WWII",
+   "German submarine crew"
+  ],
+  "motion": "pan-right",
+  "transition": "xfade",
+  "words": 9,
+  "durationSec": 7.94
+ },
+ {
+  "id": "23",
+  "text": "And handed Kesselring fresh squadrons for the airfields of Sicily, minutes from Malta.",
+  "query": "Junkers Ju 88 Sicily 1942",
+  "alts": [
+   "Luftwaffe bomber Sicily",
+   "German bombers airfield WWII"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 13,
+  "durationSec": 11.47
+ },
+ {
+  "id": "24",
+  "text": "They turned the full weight of German air power onto one small island.",
+  "query": "Luftwaffe Stuka dive bomber",
+  "alts": [
+   "Ju 87 Stuka",
+   "Stuka dive bomber WWII"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 13,
+  "durationSec": 11.47
+ },
+ {
+  "id": "25",
+  "text": "The British fleet in the eastern Mediterranean was gutted — battleships, a carrier, cruisers, destroyers.",
+  "query": "British battleship WWII Mediterranean",
+  "alts": [
+   "Royal Navy battleship",
+   "HMS warship Mediterranean"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 15,
+  "durationSec": 13.24
+ },
+ {
+  "id": "26",
+  "text": "And Malta itself was bombed, in Shirer's words, day and night for weeks.",
+  "query": "Malta bombing ruins 1942",
+  "alts": [
+   "Valletta bomb damage 1942",
+   "Malta blitz ruins"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 13,
+  "durationSec": 11.47
+ },
+ {
+  "id": "27",
+  "text": "The island starved. Its people sheltered in caves and tunnels under the most concentrated bombing on earth.",
+  "query": "Malta air raid shelter civilians",
+  "alts": [
+   "Malta shelter civilians WWII",
+   "Malta bombing civilians"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 17,
+  "durationSec": 15.0
+ },
+ {
+  "id": "28",
+  "text": "And with Malta pinned down, the miracle happened for the Axis: the supplies got through.",
+  "query": "Axis supply ship unloading Tripoli",
+  "alts": [
+   "Tripoli harbour 1942",
+   "Afrika Korps supplies unloading"
+  ],
+  "motion": "pan-right",
+  "transition": "xfade",
+  "words": 15,
+  "durationSec": 13.24
+ },
+ {
+  "id": "29",
+  "text": "In January 1942, not a single ton of Axis shipping was lost on the run to Africa. Not one.",
+  "query": "cargo ship Mediterranean calm",
+  "alts": [
+   "freighter at sea WWII",
+   "supply ship convoy"
+  ],
+  "motion": "slow-pull",
+  "transition": "dip-to-black",
+  "words": 19,
+  "durationSec": 16.77
+ },
+ {
+  "id": "30",
+  "text": "And Rommel, suddenly fed and fueled, uncoiled like a spring.",
+  "query": "Afrika Korps panzers advancing desert",
+  "alts": [
+   "German tanks advancing desert",
+   "Panzer column North Africa"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 10,
+  "durationSec": 8.83
+ },
+ {
+  "id": "31",
+  "text": "The Desert Fox at the height of his powers drove east and outfought a larger British army.",
+  "query": "Rommel Afrika Korps command 1942",
+  "alts": [
+   "Rommel in field North Africa",
+   "Rommel staff car desert"
+  ],
+  "motion": "pan-left",
+  "transition": "xfade",
+  "words": 17,
+  "durationSec": 15.0
+ },
+ {
+  "id": "32",
+  "text": "In June he stormed the great fortress of Tobruk, which had defied him for nearly a year.",
+  "query": "Tobruk 1942 captured",
+  "alts": [
+   "Tobruk fortress WWII",
+   "Tobruk fall 1942"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 17,
+  "durationSec": 15.0
+ },
+ {
+  "id": "33",
+  "text": "He took thirty-three thousand prisoners in a single day.",
+  "query": "British prisoners North Africa 1942",
+  "alts": [
+   "Allied POWs Tobruk",
+   "British prisoners desert 1942"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 9,
+  "durationSec": 7.94
+ },
+ {
+  "id": "34",
+  "text": "Hitler was so delighted that the day after Tobruk fell, he made Rommel a field marshal.",
+  "query": "Rommel field marshal baton",
+  "alts": [
+   "Rommel Generalfeldmarschall",
+   "Rommel intersignia field marshal"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 16,
+  "durationSec": 14.12
+ },
+ {
+  "id": "35",
+  "text": "Now the road to Egypt lay open: the Nile, Alexandria, the Suez Canal.",
+  "query": "Suez Canal 1940s",
+  "alts": [
+   "Suez Canal WWII",
+   "Alexandria Egypt 1942"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 13,
+  "durationSec": 11.47
+ },
+ {
+  "id": "36",
+  "text": "And beyond, the oil of the Middle East, and a linkup with the German armies driving through Russia to the Caucasus.",
+  "query": "German advance Caucasus 1942",
+  "alts": [
+   "Wehrmacht advance Russia 1942",
+   "Caucasus oil Baku"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 21,
+  "durationSec": 18.53
+ },
+ {
+  "id": "37",
+  "text": "Even Mussolini could smell it. Rommel's baton caused him, Ciano noted, much pain.",
+  "query": "Benito Mussolini uniform 1942",
+  "alts": [
+   "Mussolini military uniform",
+   "Benito Mussolini 1942"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 13,
+  "durationSec": 11.47
+ },
+ {
+  "id": "38",
+  "text": "So the Duce flew to Libya himself. He believed he could enter Alexandria in fifteen days.",
+  "query": "Mussolini Libya 1942",
+  "alts": [
+   "Mussolini North Africa",
+   "Mussolini in Libya"
+  ],
+  "motion": "pan-right",
+  "transition": "xfade",
+  "words": 16,
+  "durationSec": 14.12
+ },
+ {
+  "id": "39",
+  "text": "His staff remembered him waiting to take the salute at a parade of Axis tanks beneath the shadow of the Pyramids.",
+  "query": "Pyramids Giza 1940s",
+  "alts": [
+   "Great Pyramids Giza historic",
+   "Pyramids Egypt WWII"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 21,
+  "durationSec": 18.53
+ },
+ {
+  "id": "40",
+  "text": "This is the exact hinge of the war — the plan Hitler had already approved.",
+  "query": "Hitler map table generals 1942",
+  "alts": [
+   "Hitler situation map generals",
+   "Hitler Wolfsschanze map"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 15,
+  "durationSec": 13.24
+ },
+ {
+  "id": "41",
+  "text": "Grand Admiral Erich Raeder had spent months trying to make Hitler see the Mediterranean as a sailor saw it.",
+  "query": "Erich Raeder admiral portrait",
+  "alts": [
+   "Erich Raeder",
+   "Grossadmiral Raeder"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 19,
+  "durationSec": 16.77
+ },
+ {
+  "id": "42",
+  "text": "In March 1942 Raeder finally won approval for the half that mattered: Operation Herkules — the capture of Malta.",
+  "query": "Operation Herkules Malta plan map",
+  "alts": [
+   "Malta invasion plan 1942",
+   "Axis plan Malta"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 19,
+  "durationSec": 16.77
+ },
+ {
+  "id": "43",
+  "text": "German and Italian paratroopers would drop onto the island and take it, once and for all.",
+  "query": "German Fallschirmjager paratroopers",
+  "alts": [
+   "Fallschirmjäger paratroopers WWII",
+   "German paratroopers Crete"
+  ],
+  "motion": "pan-left",
+  "transition": "xfade",
+  "words": 16,
+  "durationSec": 14.12
+ },
+ {
+  "id": "44",
+  "text": "Take the island, and the lifeline is safe forever. Take the island, and the Pyramids are not a fantasy.",
+  "query": "Malta airfield target 1942",
+  "alts": [
+   "Malta from the air 1942",
+   "Luqa airfield Malta"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 19,
+  "durationSec": 16.77
+ },
+ {
+  "id": "45",
+  "text": "And then, on June 15th 1942, with the door to Egypt swinging open, Adolf Hitler postponed the attack on Malta.",
+  "query": "Adolf Hitler 1942 portrait",
+  "alts": [
+   "Adolf Hitler 1942",
+   "Hitler wartime portrait"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 20,
+  "durationSec": 17.65
+ },
+ {
+  "id": "46",
+  "text": "His reason was the reason for almost everything that went wrong: he needed the troops and planes in Russia.",
+  "query": "German troops Eastern Front 1942",
+  "alts": [
+   "Wehrmacht Eastern Front 1942",
+   "German infantry Russia 1942"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 19,
+  "durationSec": 16.77
+ },
+ {
+  "id": "47",
+  "text": "The great summer offensive toward Stalingrad and the Caucasus oil was beginning, and he had committed everything to it.",
+  "query": "German offensive summer 1942 Russia",
+  "alts": [
+   "Case Blue 1942",
+   "German tanks Russia summer 1942"
+  ],
+  "motion": "pan-right",
+  "transition": "xfade",
+  "words": 19,
+  "durationSec": 16.77
+ },
+ {
+  "id": "48",
+  "text": "Malta, he said, could wait — and be kept quiet in the meantime by bombing.",
+  "query": "Luftwaffe bombing Malta 1942",
+  "alts": [
+   "Malta air raid 1942",
+   "bombs falling Malta"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 15,
+  "durationSec": 13.24
+ },
+ {
+  "id": "49",
+  "text": "Sit with the backwardness of it. He treated the foundation as though it were the decoration.",
+  "query": "Hitler generals conference 1942",
+  "alts": [
+   "Hitler with generals 1942",
+   "Hitler war conference"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 16,
+  "durationSec": 14.12
+ },
+ {
+  "id": "50",
+  "text": "Shirer's judgment cuts to the bone: Hitler had never understood global warfare.",
+  "query": "Adolf Hitler map pensive",
+  "alts": [
+   "Hitler studying map",
+   "Hitler thoughtful 1942"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 12,
+  "durationSec": 10.59
+ },
+ {
+  "id": "51",
+  "text": "He gave Rommel a field marshal's baton. He would not give him an island.",
+  "query": "Rommel field marshal portrait",
+  "alts": [
+   "Rommel Generalfeldmarschall portrait",
+   "Rommel medals"
+  ],
+  "motion": "slow-pull",
+  "transition": "dip-to-black",
+  "words": 14,
+  "durationSec": 12.36
+ },
+ {
+  "id": "52",
+  "text": "Malta was not kept quiet. One day after Hitler postponed the assault, a British convoy fought through.",
+  "query": "British convoy Malta 1942",
+  "alts": [
+   "Malta convoy 1942",
+   "Operation Harpoon convoy"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 17,
+  "durationSec": 15.0
+ },
+ {
+  "id": "53",
+  "text": "And then came the reinforcement that broke the spell: Spitfires flown off the American carrier Wasp.",
+  "query": "USS Wasp aircraft carrier 1942",
+  "alts": [
+   "USS Wasp CV-7",
+   "aircraft carrier Spitfires Malta"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 16,
+  "durationSec": 14.12
+ },
+ {
+  "id": "54",
+  "text": "They landed on Malta's cratered runways, rose into the sky, and drove Kesselring's bombers out of it.",
+  "query": "Spitfire Malta 1942",
+  "alts": [
+   "Supermarine Spitfire Malta",
+   "Spitfire taking off WWII"
+  ],
+  "motion": "pan-left",
+  "transition": "xfade",
+  "words": 17,
+  "durationSec": 15.0
+ },
+ {
+  "id": "55",
+  "text": "The island that had been an anvil for German bombs became, once again, a hammer.",
+  "query": "Spitfires formation flight WWII",
+  "alts": [
+   "Spitfire squadron flight",
+   "Spitfires over Mediterranean"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 15,
+  "durationSec": 13.24
+ },
+ {
+  "id": "56",
+  "text": "From that point on, three-quarters of Rommel's supply ships were sunk. Three out of every four.",
+  "query": "tanker burning sinking WWII",
+  "alts": [
+   "oil tanker sinking WWII",
+   "ship torpedoed Mediterranean"
+  ],
+  "motion": "slow-pull",
+  "transition": "dip-to-black",
+  "words": 16,
+  "durationSec": 14.12
+ },
+ {
+  "id": "57",
+  "text": "He was being starved by an island again — but now at the far limit of his reach, with no margin left.",
+  "query": "Afrika Korps stranded desert",
+  "alts": [
+   "stalled German column desert",
+   "Afrika Korps out of fuel"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 22,
+  "durationSec": 19.42
+ },
+ {
+  "id": "58",
+  "text": "That is how the Desert Fox came to sit outside El Alamein with thirteen running tanks.",
+  "query": "El Alamein battlefield 1942",
+  "alts": [
+   "El Alamein 1942",
+   "desert battlefield Alamein"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 16,
+  "durationSec": 14.12
+ },
+ {
+  "id": "59",
+  "text": "He was sixty miles from Alexandria. He could nearly see the prize — and could not close the distance.",
+  "query": "desert horizon dusk WWII",
+  "alts": [
+   "Western Desert horizon",
+   "Sahara desert dusk"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 19,
+  "durationSec": 16.77
+ },
+ {
+  "id": "60",
+  "text": "At El Alamein the British line held.",
+  "query": "British infantry El Alamein 1942",
+  "alts": [
+   "Eighth Army El Alamein",
+   "British soldiers desert 1942"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 7,
+  "durationSec": 6.18
+ },
+ {
+  "id": "61",
+  "text": "Then a new British general, Bernard Montgomery — resupplied because Malta had cut Rommel's throat — attacked.",
+  "query": "Bernard Montgomery portrait",
+  "alts": [
+   "Field Marshal Montgomery",
+   "Montgomery Eighth Army"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 17,
+  "durationSec": 15.0
+ },
+ {
+  "id": "62",
+  "text": "The second battle of El Alamein broke the Afrika Korps and began a retreat that never truly stopped.",
+  "query": "El Alamein artillery barrage 1942",
+  "alts": [
+   "El Alamein artillery night",
+   "desert artillery WWII"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 18,
+  "durationSec": 15.89
+ },
+ {
+  "id": "63",
+  "text": "It was, as much as Stalingrad that same season, the moment the tide turned in the West.",
+  "query": "Afrika Korps retreat 1942 desert",
+  "alts": [
+   "German retreat North Africa",
+   "Axis retreat desert"
+  ],
+  "motion": "pan-right",
+  "transition": "dip-to-black",
+  "words": 17,
+  "durationSec": 15.0
+ },
+ {
+  "id": "64",
+  "text": "Churchill said it best: before Alamein Germany never had a victory, and after it never had a defeat.",
+  "query": "Winston Churchill portrait 1942",
+  "alts": [
+   "Winston Churchill WWII",
+   "Churchill portrait"
+  ],
+  "motion": "slow-push",
+  "transition": "cut",
+  "words": 18,
+  "durationSec": 15.89
+ },
+ {
+  "id": "65",
+  "text": "And behind Alamein, holding it up, was Malta — the island that would not die.",
+  "query": "Malta Grand Harbour defiant 1942",
+  "alts": [
+   "Malta George Cross",
+   "Valletta harbour wartime"
+  ],
+  "motion": "slow-pull",
+  "transition": "xfade",
+  "words": 15,
+  "durationSec": 13.24
+ },
+ {
+  "id": "66",
+  "text": "Raeder saw it. Rommel felt it. And Hitler, with the paratroopers ready to go, called it off — to feed an offensive that ended buried in the snow at Stalingrad.",
+  "query": "Stalingrad winter 1942 German",
+  "alts": [
+   "Stalingrad 1942 winter",
+   "German soldiers Stalingrad snow"
+  ],
+  "motion": "slow-push",
+  "transition": "xfade",
+  "words": 30,
+  "durationSec": 26.48
+ },
+ {
+  "id": "67",
+  "text": "He forgot the island. And the island did not forget him.",
+  "query": "Malta island sea aerial",
+  "alts": [
+   "Malta aerial view",
+   "Malta Mediterranean island"
+  ],
+  "motion": "slow-push",
+  "transition": "dip-to-black",
+  "words": 11,
+  "durationSec": 9.71
+ }
+]
