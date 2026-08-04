@@ -48,7 +48,7 @@ case leave a one-line note in the Angle title cell noting it was attempted and s
 | 26 | ARC | Galeazzo Ciano | Mussolini's Son-in-Law and the Diaries That Survived | Executed at Hitler's insistence; his wife smuggled the diaries out under her clothing | 28 | pending |
 | 27 | ARC | Reinhard Heydrich | The Frame-Up Artist | The Fritsch fabrication, the Kristallnacht teletypes, the Wannsee paper trail | 10, 13, 27 | pending |
 | 28 | ARC | Martin Bormann | The Secretary Who Outlasted Everyone | The quiet operator who out-maneuvered Göring, Himmler, and the entire bunker | 30, 31 | pending |
-| 29 | RELATIONSHIP | Hitler & Röhm | Comrades to Corpses | Fourteen years of partnership ended with a pistol left on a table | 7 | pending |
+| 29 | RELATIONSHIP | Hitler & Röhm | Comrades to Corpses | Fourteen years of partnership ended with a pistol left on a table | 7 | produced |
 | 30 | RELATIONSHIP | Hitler & Rommel | The Popular General He Couldn't Publicly Destroy | Why the Desert Fox got a forced suicide and a state funeral instead of a trial | 26, 29 | pending |
 | 31 | RELATIONSHIP | Himmler & Fegelein | Family, Patronage, Betrayal | A former jockey marries into the Braun family, then dies for his patron's treason | 30, 31 | pending |
 | 32 | RELATIONSHIP | Goebbels & the Strassers | The Battle for the Nazi Party's Soul | Hanover vs. Bamberg — the internal-socialism faction Hitler had to crush | 5 | pending |
@@ -93,3 +93,4 @@ case leave a one-line note in the Angle title cell noting it was attempted and s
   script-final.md save) — see the media-assembly memory note for the new standard method.
 - Backlog 2026-08-04: 2 new rough scripts written (row #45 Gleiwitz "Canned Goods", row #47 The Ordeal of Dr. Hácha), grounded in ch.15/17 and ch.13. Also corrected stale statuses: #6 war-on-religion and #12 Hitler & Mussolini are produced. Separately produced this period: special-reichstag-fire-1933 and special-hitler-name-schicklgruber (not original pool rows).
 - Backlog 2026-08-04 (later): row #53 'The Island Hitler Forgot' scripted (cinematic, ~2.3k words) and produced end-to-end as a 16-min silent visual cut (special-malta-island-hitler-forgot-1942). Also produced this session: special-reichstag-fire-1933 (14.2-min silent cut). Mussolini episode media/spec built but render deferred at user request.
+- Backlog 2026-08-04 (later): row #29 'Night of the Long Knives' scripted (cinematic, ~2.9k words) and produced as a 20-min cut — FIRST episode to mix real archival VIDEO (11 PD clips from Capra's 'The Nazis Strike') with stills. Established the chunked-render fallback (render_chunks_nolk.sh) after a single-pass concurrency-4 render hit a Chrome 'Target closed' hang at ~71%.
