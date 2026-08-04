@@ -14,17 +14,20 @@ for START in $(seq 0 $CHUNK $((TOTAL-1))); do
   ok=0
   for attempt in 1 2 3; do
     echo ">>> chunk $i frames $START-$END attempt $attempt $(date +%H:%M:%S)"
-    npx remotion render src/index.jsx Documentary "$PART" \
-      --props="$PROPS" --frames=$START-$END --concurrency=2 \
-      --browser-executable="$CHROME" --log=info 2>&1 | grep -E "Rendered|Encoded|error|Error" | tail -2
-    if [ -f "$PART" ] && [ "$(stat -c %s "$PART")" -gt 10000 ]; then ok=1; break; fi
-    echo "!!! chunk $i attempt $attempt failed, cleaning + retry"; pkill -9 -f headless_shell 2>/dev/null; sleep 3
+    timeout 900 npx remotion render src/index.jsx Documentary "$PART" \
+      --props="$PROPS" --frames=$START-$END --concurrency=4 \
+      --browser-executable="$CHROME" --log=info >/tmp/chunk_$i.log 2>&1
+    rc=$?
+    tail -1 /tmp/chunk_$i.log | tr '\r' '\n' | tail -1
+    if [ -f "$PART" ] && [ "$(stat -c %s "$PART")" -gt 10000 ]; then ok=1; echo "chunk $i OK rc=$rc"; break; fi
+    echo "!!! chunk $i attempt $attempt failed/timeout rc=$rc, killing chrome + retry"
+    pkill -9 -f headless_shell 2>/dev/null; rm -rf /tmp/react-motion-render* 2>/dev/null; sleep 4
   done
   [ $ok -ne 1 ] && { echo "FATAL: chunk $i failed 3x"; exit 1; }
   echo "file '$PART'" >> "$PARTS/list.txt"
   i=$((i+1))
 done
 echo "=== concatenating $i parts ==="
-"$FF" -y -f concat -safe 0 -i "$PARTS/list.txt" -c copy "$OUT" 2>&1 | tail -2
-echo "DONE $(date)"; ls -la "$OUT"
+"$FF" -y -f concat -safe 0 -i "$PARTS/list.txt" -c copy "$OUT" 2>&1 | tail -1
+echo "CHUNKS DONE $(date)"; ls -la "$OUT"
 "$FF" -v error -show_entries format=duration -of csv=p=0 "$OUT" | awk '{printf "duration %.0fs (%.1f min)\n",$1,$1/60}'
