@@ -8,6 +8,28 @@ const africa = africaRaw as any;
 export const VIDEO_WIDTH = 1920;
 export const VIDEO_HEIGHT = 1080;
 
+// ---- 3D tabletop tilt --------------------------------------------------
+// The map SVG is tilted with CSS `perspective(P) rotateX(TILT)` about its
+// centre. `project3d` replicates that exact transform in JS so the upright
+// pin overlay can be positioned to land on the tilted surface.
+export const TILT_DEG = 52;
+export const PERSPECTIVE = 1500;
+
+export function project3d(
+  x: number,
+  y: number,
+): { x: number; y: number; scale: number } {
+  const cx = VIDEO_WIDTH / 2;
+  const cy = VIDEO_HEIGHT / 2;
+  const a = (TILT_DEG * Math.PI) / 180;
+  const u = x - cx;
+  const v = y - cy;
+  const yr = v * Math.cos(a); // rotateX: y' = y·cos
+  const zr = v * Math.sin(a); // rotateX: z' = y·sin (bottom comes forward)
+  const scale = PERSPECTIVE / (PERSPECTIVE - zr);
+  return { x: cx + u * scale, y: cy + yr * scale, scale };
+}
+
 // Box the continent is fitted into (leaves room for titles / labels).
 const FIT: [[number, number], [number, number]] = [
   [220, 120],
