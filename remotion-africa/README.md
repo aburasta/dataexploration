@@ -21,9 +21,26 @@ A sharp, cinematic map animation: an aeroplane flies from **Accra, Ghana** to
   bearing ENE · 098°, ~4h 55m), starfield backdrop, subtle graticule grid and a
   cinematic vignette.
 
+## Second composition — `TroopAdvance` (Paris → Alsace-Lorraine)
+
+A light, warm WWI/WWII-style operations map. A single **cluster** — a 2D tank
+leading a block of marching boot-prints — advances *as a group* from Paris to
+the Alsace-Lorraine objective on the German border. The group **moves**; it does
+not leave an ever-extending trail (only a faint static dashed route + arrow
+shows the plan). France sits highlighted among its neighbours for context; the
+objective zone is a dashed coral area, and a flag plants on arrival.
+
+- Map: `d3-geo` conic-conformal projection of France (+ neighbours), overseas
+  territories clipped out.
+- Files: `src/geoFrance.ts` (map + route math), `src/TroopAdvance.tsx` (scene).
+
+```bash
+npm run render -- TroopAdvance out/paris-to-alsace.mp4   # or use Studio
+```
+
 ## Specs
 
-- 1920 × 1080, 30 fps, 420 frames (~14 s)
+- Both: 1920 × 1080, 30 fps (Accra→Kampala 420 frames ~14 s; TroopAdvance 400 frames ~13 s)
 
 ## Use it
 
