@@ -1,6 +1,7 @@
 import { Composition } from "remotion";
 import { AccraToKampala } from "./AccraToKampala";
 import { TroopAdvance } from "./TroopAdvance";
+import { PrinceInk } from "./PrinceInk";
 import { VIDEO_WIDTH, VIDEO_HEIGHT } from "./geo";
 
 export const RemotionRoot: React.FC = () => {
@@ -18,6 +19,14 @@ export const RemotionRoot: React.FC = () => {
         id="TroopAdvance"
         component={TroopAdvance}
         durationInFrames={400}
+        fps={30}
+        width={VIDEO_WIDTH}
+        height={VIDEO_HEIGHT}
+      />
+      <Composition
+        id="PrinceInk"
+        component={PrinceInk}
+        durationInFrames={300}
         fps={30}
         width={VIDEO_WIDTH}
         height={VIDEO_HEIGHT}

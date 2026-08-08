@@ -38,9 +38,26 @@ objective zone is a dashed coral area, and a flag plants on arrival.
 npm run render -- TroopAdvance out/paris-to-alsace.mp4   # or use Studio
 ```
 
+## Third composition — `PrinceInk` (handwriting)
+
+A stylized 2D **hand + fountain pen** writes the name **"Prince"** in casual
+handwriting, warm sepia ink, on a slightly **crumpled paper** sheet.
+
+- The word is authored as **centreline pen strokes** (`src/handwriting.ts`), one
+  per letter, revealed with a `strokeDasharray` draw and lifted between letters.
+- Each stroke is measured (`getTotalLength` / `getPointAtLength` inside a
+  `delayRender`) so the **pen nib rides exactly on the ink** as it's written.
+- Paper crumple + grain are synthesized with SVG filters
+  (`feTurbulence` → `feDiffuseLighting`), no image assets.
+- File: `src/PrinceInk.tsx`.
+
+```bash
+npm run render -- PrinceInk out/prince-ink.mp4   # or use Studio
+```
+
 ## Specs
 
-- Both: 1920 × 1080, 30 fps (Accra→Kampala 420 frames ~14 s; TroopAdvance 400 frames ~13 s)
+- All: 1920 × 1080, 30 fps (Accra→Kampala 420f ~14 s; TroopAdvance 400f ~13 s; PrinceInk 300f ~10 s)
 
 ## Use it
 
