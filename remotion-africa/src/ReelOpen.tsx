@@ -23,8 +23,8 @@ type Beat = {
 };
 
 const B: Beat[] = [
-  { from: 0, dur: 162, src: "broll/reds_ruins.mp4", kind: "video" },
-  { from: 162, dur: 164, src: "broll/reds_combat.mp4", kind: "video" },
+  { from: 0, dur: 162, src: "broll/airraid_bombers.mp4", kind: "video" },
+  { from: 162, dur: 164, src: "broll/airraid_flak.mp4", kind: "video" },
   { from: 326, dur: 199, src: "broll/eva_berghof.mp4", kind: "video", name: "EVA BRAUN", sub: "Berghof · home movies" },
   { from: 525, dur: 159, src: "broll/eva_terrace.mp4", kind: "video" },
   { from: 684, dur: 177, src: "broll/eva_group.mp4", kind: "video" },
@@ -34,8 +34,8 @@ const B: Beat[] = [
   { from: 1260, dur: 180, src: "broll/parade_troops.mp4", kind: "video" },
   // "the occult practices of the Nazis" — ceremonial standards / banners
   { from: 1440, dur: 198, src: "broll/parade_standards.mp4", kind: "video" },
-  // "the evils they committed" — devastation (non-graphic)
-  { from: 1638, dur: 108, src: "broll/reds_town.mp4", kind: "video" },
+  // "the evils they committed" — air-raid destruction (non-graphic)
+  { from: 1638, dur: 108, src: "broll/airraid_smoke.mp4", kind: "video" },
   // "a different angle: love and passion" — Eva payoff enters only here
   { from: 1746, dur: 54, src: "broll/eva_close.mp4", kind: "video" },
 ];
