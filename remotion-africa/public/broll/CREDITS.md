@@ -6,7 +6,7 @@ original audio (extracted from the uploaded video).
 | Clip(s) in project | Source | Where | License |
 | --- | --- | --- | --- |
 | reds_ruins, reds_combat, reds_town | Universal Newsreel — "Reds Roll On In Germany", 1945-03-29 | Archive.org id `1945-03-29_Reds_Roll_On_In_Germany` (Universal Newsreels collection) | Public Domain (Universal donated the newsreels to the public domain) |
-| parade_troops | Universal Newsreel — "Hitlerites Parade In Rain", 1933-03-16 | Archive.org id `1933-03-16_Hitlerites_Parade_In_Rain` | Public Domain |
+| parade_troops, parade_standards | Universal Newsreel — "Hitlerites Parade In Rain", 1933-03-16 (marching ranks + swastika standard-bearers) | Archive.org id `1933-03-16_Hitlerites_Parade_In_Rain` | Public Domain |
 | eva_berghof, eva_terrace, eva_group, eva_close | "Adolf Hitler and Eva Braun's private videos (home movie)" — Berghof color reels (US-seized, NARA) | Wikimedia Commons | Public Domain |
 | geli_raubal.jpg (still) | Geli Raubal studio portrait (DPLA) | Wikimedia Commons | Public Domain |
 

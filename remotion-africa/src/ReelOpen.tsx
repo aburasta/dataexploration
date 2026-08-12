@@ -30,9 +30,14 @@ const B: Beat[] = [
   { from: 684, dur: 177, src: "broll/eva_group.mp4", kind: "video" },
   { from: 861, dur: 234, src: "broll/eva_close.mp4", kind: "video" },
   { from: 1095, dur: 165, src: "broll/geli_raubal.jpg", kind: "still", name: "GELI RAUBAL", sub: "1908 – 1931" },
-  { from: 1260, dur: 195, src: "broll/parade_troops.mp4", kind: "video" },
-  { from: 1455, dur: 180, src: "broll/reds_town.mp4", kind: "video" },
-  { from: 1635, dur: 165, src: "broll/eva_berghof.mp4", kind: "video" },
+  // "top Nazis" — regime pageantry
+  { from: 1260, dur: 180, src: "broll/parade_troops.mp4", kind: "video" },
+  // "the occult practices of the Nazis" — ceremonial standards / banners
+  { from: 1440, dur: 198, src: "broll/parade_standards.mp4", kind: "video" },
+  // "the evils they committed" — devastation (non-graphic)
+  { from: 1638, dur: 108, src: "broll/reds_town.mp4", kind: "video" },
+  // "a different angle: love and passion" — Eva payoff enters only here
+  { from: 1746, dur: 54, src: "broll/eva_close.mp4", kind: "video" },
 ];
 
 const DUR = 1800; // 60s @30fps
