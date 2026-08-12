@@ -5,3 +5,6 @@ out/*.png
 # large reproducible media
 public/vo/*.wav
 out/remake-open-60s.mp4
+
+# large full-render masters + previews (reproducible)
+out/full_p*.mp4

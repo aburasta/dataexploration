@@ -1,0 +1,555 @@
+[
+{
+"from": 0,
+"dur": 162,
+"src": "broll/airraid_bombers.mp4"
+},
+{
+"from": 162,
+"dur": 164,
+"src": "broll/airraid_flak.mp4"
+},
+{
+"from": 326,
+"dur": 199,
+"src": "broll/eva_berghof.mp4",
+"name": "EVA BRAUN",
+"sub": "Berghof \u00b7 home movies"
+},
+{
+"from": 525,
+"dur": 159,
+"src": "broll/eva_terrace.mp4"
+},
+{
+"from": 684,
+"dur": 177,
+"src": "broll/eva_group.mp4"
+},
+{
+"from": 861,
+"dur": 234,
+"src": "broll/eva_close.mp4"
+},
+{
+"from": 1095,
+"dur": 165,
+"src": "broll/geli_raubal.jpg",
+"name": "GELI RAUBAL",
+"sub": "1908 \u2013 1931"
+},
+{
+"from": 1260,
+"dur": 180,
+"src": "broll/parade_troops.mp4"
+},
+{
+"from": 1440,
+"dur": 198,
+"src": "broll/parade_standards.mp4"
+},
+{
+"from": 1638,
+"dur": 108,
+"src": "broll/airraid_smoke.mp4"
+},
+{
+"from": 1746,
+"dur": 54,
+"src": "broll/eva_close.mp4"
+},
+{
+"from": 1800,
+"dur": 180,
+"src": "broll/eva_close.mp4"
+},
+{
+"from": 1980,
+"dur": 180,
+"src": "broll/still_hitler_young.jpg"
+},
+{
+"from": 2160,
+"dur": 150,
+"src": "broll/still_hitler_young.jpg",
+"name": "ADOLF HITLER",
+"sub": "Vienna \u00b7 the early years"
+},
+{
+"from": 2310,
+"dur": 150,
+"src": "broll/still_hitler_young.jpg"
+},
+{
+"from": 2460,
+"dur": 150,
+"src": "broll/still_hitler_young.jpg"
+},
+{
+"from": 2610,
+"dur": 150,
+"src": "broll/still_hitler_young.jpg"
+},
+{
+"from": 2760,
+"dur": 153,
+"src": "broll/still_hitler_wwi.jpg",
+"name": "PRIVATE HITLER",
+"sub": "Western Front \u00b7 1914\u20131918"
+},
+{
+"from": 2913,
+"dur": 154,
+"src": "broll/parade_troops.mp4"
+},
+{
+"from": 3067,
+"dur": 153,
+"src": "broll/still_hitler_wwi.jpg"
+},
+{
+"from": 3220,
+"dur": 153,
+"src": "broll/parade_troops.mp4"
+},
+{
+"from": 3373,
+"dur": 154,
+"src": "broll/still_hitler_wwi.jpg"
+},
+{
+"from": 3527,
+"dur": 153,
+"src": "broll/parade_troops.mp4"
+},
+{
+"from": 3680,
+"dur": 153,
+"src": "broll/still_hitler_wwi.jpg"
+},
+{
+"from": 3833,
+"dur": 154,
+"src": "broll/parade_troops.mp4"
+},
+{
+"from": 3987,
+"dur": 153,
+"src": "broll/still_hitler_wwi.jpg"
+},
+{
+"from": 4140,
+"dur": 165,
+"src": "broll/parade_troops.mp4"
+},
+{
+"from": 4305,
+"dur": 165,
+"src": "broll/still_hitler_young.jpg"
+},
+{
+"from": 4470,
+"dur": 165,
+"src": "broll/parade_troops.mp4"
+},
+{
+"from": 4635,
+"dur": 165,
+"src": "broll/still_hitler_young.jpg"
+},
+{
+"from": 4800,
+"dur": 153,
+"src": "broll/eva_mountains.mp4",
+"name": "OBERSALZBERG",
+"sub": "the mountain retreat, 1928"
+},
+{
+"from": 4953,
+"dur": 154,
+"src": "broll/eva_berghof.mp4"
+},
+{
+"from": 5107,
+"dur": 153,
+"src": "broll/eva_mountains.mp4"
+},
+{
+"from": 5260,
+"dur": 153,
+"src": "broll/eva_berghof.mp4"
+},
+{
+"from": 5413,
+"dur": 154,
+"src": "broll/eva_mountains.mp4"
+},
+{
+"from": 5567,
+"dur": 153,
+"src": "broll/eva_berghof.mp4"
+},
+{
+"from": 5720,
+"dur": 153,
+"src": "broll/eva_mountains.mp4"
+},
+{
+"from": 5873,
+"dur": 154,
+"src": "broll/eva_berghof.mp4"
+},
+{
+"from": 6027,
+"dur": 153,
+"src": "broll/eva_mountains.mp4"
+},
+{
+"from": 6180,
+"dur": 150,
+"src": "broll/geli_raubal.jpg",
+"name": "GELI RAUBAL",
+"sub": "Hitler's niece \u00b7 1908\u20131931"
+},
+{
+"from": 6330,
+"dur": 150,
+"src": "broll/eva_mountains.mp4"
+},
+{
+"from": 6480,
+"dur": 150,
+"src": "broll/geli_raubal.jpg"
+},
+{
+"from": 6630,
+"dur": 150,
+"src": "broll/eva_mountains.mp4"
+},
+{
+"from": 6780,
+"dur": 150,
+"src": "broll/geli_raubal.jpg"
+},
+{
+"from": 6930,
+"dur": 150,
+"src": "broll/eva_mountains.mp4"
+},
+{
+"from": 7080,
+"dur": 155,
+"src": "broll/geli_raubal.jpg"
+},
+{
+"from": 7235,
+"dur": 156,
+"src": "broll/eva_berghof.mp4"
+},
+{
+"from": 7391,
+"dur": 155,
+"src": "broll/parade_troops.mp4"
+},
+{
+"from": 7546,
+"dur": 156,
+"src": "broll/geli_raubal.jpg"
+},
+{
+"from": 7702,
+"dur": 155,
+"src": "broll/eva_berghof.mp4"
+},
+{
+"from": 7857,
+"dur": 156,
+"src": "broll/parade_troops.mp4"
+},
+{
+"from": 8013,
+"dur": 155,
+"src": "broll/geli_raubal.jpg"
+},
+{
+"from": 8168,
+"dur": 156,
+"src": "broll/eva_berghof.mp4"
+},
+{
+"from": 8324,
+"dur": 155,
+"src": "broll/parade_troops.mp4"
+},
+{
+"from": 8479,
+"dur": 156,
+"src": "broll/geli_raubal.jpg"
+},
+{
+"from": 8635,
+"dur": 155,
+"src": "broll/eva_berghof.mp4"
+},
+{
+"from": 8790,
+"dur": 171,
+"src": "broll/still_stempfle.jpg",
+"name": "FATHER BERNHARD STEMPFLE",
+"sub": "killed \u00b7 Night of the Long Knives, 1934"
+},
+{
+"from": 8961,
+"dur": 172,
+"src": "broll/parade_standards.mp4"
+},
+{
+"from": 9133,
+"dur": 171,
+"src": "broll/still_stempfle.jpg"
+},
+{
+"from": 9304,
+"dur": 172,
+"src": "broll/parade_standards.mp4"
+},
+{
+"from": 9476,
+"dur": 171,
+"src": "broll/still_stempfle.jpg"
+},
+{
+"from": 9647,
+"dur": 172,
+"src": "broll/parade_standards.mp4"
+},
+{
+"from": 9819,
+"dur": 171,
+"src": "broll/still_stempfle.jpg"
+},
+{
+"from": 9990,
+"dur": 162,
+"src": "broll/geli_raubal.jpg"
+},
+{
+"from": 10152,
+"dur": 162,
+"src": "broll/eva_berghof.mp4"
+},
+{
+"from": 10314,
+"dur": 162,
+"src": "broll/geli_raubal.jpg"
+},
+{
+"from": 10476,
+"dur": 162,
+"src": "broll/eva_berghof.mp4"
+},
+{
+"from": 10638,
+"dur": 162,
+"src": "broll/geli_raubal.jpg"
+},
+{
+"from": 10800,
+"dur": 165,
+"src": "broll/geli_raubal.jpg"
+},
+{
+"from": 10965,
+"dur": 165,
+"src": "broll/geli_raubal.jpg"
+},
+{
+"from": 11130,
+"dur": 165,
+"src": "broll/geli_raubal.jpg"
+},
+{
+"from": 11295,
+"dur": 165,
+"src": "broll/geli_raubal.jpg"
+},
+{
+"from": 11460,
+"dur": 165,
+"src": "broll/geli_raubal.jpg"
+},
+{
+"from": 11625,
+"dur": 165,
+"src": "broll/geli_raubal.jpg"
+},
+{
+"from": 11790,
+"dur": 155,
+"src": "broll/still_hindenburg.jpg",
+"name": "PAUL von HINDENBURG",
+"sub": "Reich President"
+},
+{
+"from": 11945,
+"dur": 155,
+"src": "broll/parade_troops.mp4"
+},
+{
+"from": 12100,
+"dur": 155,
+"src": "broll/still_hindenburg.jpg"
+},
+{
+"from": 12255,
+"dur": 155,
+"src": "broll/parade_troops.mp4"
+},
+{
+"from": 12410,
+"dur": 155,
+"src": "broll/still_hindenburg.jpg"
+},
+{
+"from": 12565,
+"dur": 155,
+"src": "broll/parade_troops.mp4"
+},
+{
+"from": 12720,
+"dur": 180,
+"src": "broll/still_hoffmann.jpg",
+"name": "EVA BRAUN",
+"sub": "Hoffmann's photo studio, Munich"
+},
+{
+"from": 12900,
+"dur": 180,
+"src": "broll/still_eva_portrait.jpg"
+},
+{
+"from": 13080,
+"dur": 180,
+"src": "broll/still_hoffmann.jpg"
+},
+{
+"from": 13260,
+"dur": 163,
+"src": "broll/eva_berghof.mp4"
+},
+{
+"from": 13423,
+"dur": 163,
+"src": "broll/eva_terrace.mp4"
+},
+{
+"from": 13586,
+"dur": 163,
+"src": "broll/eva_group.mp4"
+},
+{
+"from": 13749,
+"dur": 162,
+"src": "broll/eva_berghof.mp4"
+},
+{
+"from": 13911,
+"dur": 163,
+"src": "broll/eva_terrace.mp4"
+},
+{
+"from": 14074,
+"dur": 163,
+"src": "broll/eva_group.mp4"
+},
+{
+"from": 14237,
+"dur": 163,
+"src": "broll/eva_berghof.mp4"
+},
+{
+"from": 14400,
+"dur": 171,
+"src": "broll/eva_close.mp4"
+},
+{
+"from": 14571,
+"dur": 172,
+"src": "broll/eva_mountains.mp4"
+},
+{
+"from": 14743,
+"dur": 171,
+"src": "broll/hitler_child.mp4"
+},
+{
+"from": 14914,
+"dur": 172,
+"src": "broll/eva_close.mp4"
+},
+{
+"from": 15086,
+"dur": 171,
+"src": "broll/eva_mountains.mp4"
+},
+{
+"from": 15257,
+"dur": 172,
+"src": "broll/hitler_child.mp4"
+},
+{
+"from": 15429,
+"dur": 171,
+"src": "broll/eva_close.mp4"
+},
+{
+"from": 15600,
+"dur": 150,
+"src": "broll/airraid_flak.mp4"
+},
+{
+"from": 15750,
+"dur": 150,
+"src": "broll/airraid_smoke.mp4"
+},
+{
+"from": 15900,
+"dur": 150,
+"src": "broll/airraid_flak.mp4"
+},
+{
+"from": 16050,
+"dur": 150,
+"src": "broll/airraid_smoke.mp4"
+},
+{
+"from": 16200,
+"dur": 150,
+"src": "broll/airraid_flak.mp4"
+},
+{
+"from": 16350,
+"dur": 158,
+"src": "broll/eva_close.mp4"
+},
+{
+"from": 16508,
+"dur": 157,
+"src": "broll/still_hitler_young.jpg"
+},
+{
+"from": 16665,
+"dur": 157,
+"src": "broll/geli_raubal.jpg"
+},
+{
+"from": 16822,
+"dur": 158,
+"src": "broll/eva_close.mp4"
+},
+{
+"from": 16980,
+"dur": 180,
+"src": "broll/eva_mountains.mp4"
+}
+]
