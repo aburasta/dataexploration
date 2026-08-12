@@ -1,3 +1,7 @@
 node_modules/
 out/*.png
 .DS_Store
+
+# large reproducible media
+public/vo/*.wav
+out/remake-open-60s.mp4

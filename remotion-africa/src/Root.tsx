@@ -2,6 +2,7 @@ import { Composition } from "remotion";
 import { AccraToKampala } from "./AccraToKampala";
 import { TroopAdvance } from "./TroopAdvance";
 import { PrinceInk } from "./PrinceInk";
+import { ReelOpen } from "./ReelOpen";
 import { VIDEO_WIDTH, VIDEO_HEIGHT } from "./geo";
 
 export const RemotionRoot: React.FC = () => {
@@ -27,6 +28,14 @@ export const RemotionRoot: React.FC = () => {
         id="PrinceInk"
         component={PrinceInk}
         durationInFrames={300}
+        fps={30}
+        width={VIDEO_WIDTH}
+        height={VIDEO_HEIGHT}
+      />
+      <Composition
+        id="ReelOpen"
+        component={ReelOpen}
+        durationInFrames={1800}
         fps={30}
         width={VIDEO_WIDTH}
         height={VIDEO_HEIGHT}
