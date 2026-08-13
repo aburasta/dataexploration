@@ -141,22 +141,24 @@
 {
 "from": 4290,
 "dur": 170,
-"src": "broll/city_shops.mp4"
+"src": "broll/city_tram.mp4"
 },
 {
 "from": 4460,
 "dur": 170,
-"src": "broll/city_greengrocer.mp4"
+"src": "broll/city_workers.mp4"
 },
 {
 "from": 4630,
 "dur": 170,
-"src": "broll/city_shops.mp4"
+"src": "broll/city_cars.mp4"
 },
 {
 "from": 4800,
 "dur": 153,
-"src": "broll/eva_mountains.mp4"
+"src": "broll/eva_mountains.mp4",
+"name": "OBERSALZBERG",
+"sub": "the mountain retreat, 1928"
 },
 {
 "from": 4953,
@@ -166,37 +168,37 @@
 {
 "from": 5107,
 "dur": 153,
-"src": "broll/city_countryside.mp4"
+"src": "broll/eva_men.mp4"
 },
 {
 "from": 5260,
 "dur": 153,
-"src": "broll/eva_mountains.mp4"
+"src": "broll/eva_walk.mp4"
 },
 {
 "from": 5413,
 "dur": 154,
-"src": "broll/eva_berghof.mp4"
+"src": "broll/eva_terrace.mp4"
 },
 {
 "from": 5567,
 "dur": 153,
-"src": "broll/city_countryside.mp4"
+"src": "broll/city_park.mp4"
 },
 {
 "from": 5720,
 "dur": 153,
-"src": "broll/eva_mountains.mp4"
+"src": "broll/eva_group.mp4"
 },
 {
 "from": 5873,
 "dur": 154,
-"src": "broll/eva_berghof.mp4"
+"src": "broll/city_countryside.mp4"
 },
 {
 "from": 6027,
 "dur": 153,
-"src": "broll/city_countryside.mp4"
+"src": "broll/eva_mountains.mp4"
 },
 {
 "from": 6180,
@@ -208,32 +210,32 @@
 {
 "from": 6338,
 "dur": 157,
-"src": "broll/eva_mountains.mp4"
+"src": "broll/city_men_talk.mp4"
 },
 {
 "from": 6495,
 "dur": 157,
-"src": "broll/city_residential.mp4"
+"src": "broll/city_bridge.mp4"
 },
 {
 "from": 6652,
 "dur": 158,
-"src": "broll/geli_raubal.jpg"
+"src": "broll/eva_scene.mp4"
 },
 {
 "from": 6810,
 "dur": 158,
-"src": "broll/eva_mountains.mp4"
+"src": "broll/city_residential.mp4"
 },
 {
 "from": 6968,
 "dur": 157,
-"src": "broll/city_residential.mp4"
+"src": "broll/eva_walk.mp4"
 },
 {
 "from": 7125,
 "dur": 157,
-"src": "broll/geli_raubal.jpg"
+"src": "broll/city_park.mp4"
 },
 {
 "from": 7282,
@@ -243,42 +245,42 @@
 {
 "from": 7440,
 "dur": 169,
-"src": "broll/city_shops.mp4"
+"src": "broll/parade_troops.mp4"
 },
 {
 "from": 7609,
 "dur": 169,
-"src": "broll/parade_troops.mp4"
+"src": "broll/city_crowd_walk.mp4"
 },
 {
 "from": 7778,
 "dur": 168,
-"src": "broll/city_greengrocer.mp4"
+"src": "broll/city_market.mp4"
 },
 {
 "from": 7946,
 "dur": 169,
-"src": "broll/city_shops.mp4"
+"src": "broll/city_traffic.mp4"
 },
 {
 "from": 8115,
 "dur": 169,
-"src": "broll/parade_troops.mp4"
+"src": "broll/parade_crowd.mp4"
 },
 {
 "from": 8284,
 "dur": 168,
-"src": "broll/city_greengrocer.mp4"
+"src": "broll/city_labor.mp4"
 },
 {
 "from": 8452,
 "dur": 169,
-"src": "broll/city_shops.mp4"
+"src": "broll/city_workers.mp4"
 },
 {
 "from": 8621,
 "dur": 169,
-"src": "broll/parade_troops.mp4"
+"src": "broll/city_cars.mp4"
 },
 {
 "from": 8790,
@@ -295,27 +297,27 @@
 {
 "from": 9133,
 "dur": 171,
-"src": "broll/wwi_ruins.mp4"
+"src": "broll/city_industry.mp4"
 },
 {
 "from": 9304,
 "dur": 172,
-"src": "broll/still_stempfle.jpg"
+"src": "broll/war_ruins.mp4"
 },
 {
 "from": 9476,
 "dur": 171,
-"src": "broll/parade_standards.mp4"
+"src": "broll/city_crowd_b.mp4"
 },
 {
 "from": 9647,
 "dur": 172,
-"src": "broll/wwi_ruins.mp4"
+"src": "broll/parade_troops.mp4"
 },
 {
 "from": 9819,
 "dur": 171,
-"src": "broll/still_stempfle.jpg"
+"src": "broll/city_labor.mp4"
 },
 {
 "from": 9990,
@@ -330,12 +332,12 @@
 {
 "from": 10314,
 "dur": 162,
-"src": "broll/city_street_dawn.mp4"
+"src": "broll/city_traffic.mp4"
 },
 {
 "from": 10476,
 "dur": 162,
-"src": "broll/city_residential.mp4"
+"src": "broll/city_cars.mp4"
 },
 {
 "from": 10638,
@@ -355,17 +357,17 @@
 {
 "from": 11130,
 "dur": 165,
-"src": "broll/geli_raubal.jpg"
+"src": "broll/city_facade.mp4"
 },
 {
 "from": 11295,
 "dur": 165,
-"src": "broll/city_greengrocer.mp4"
+"src": "broll/city_bridge.mp4"
 },
 {
 "from": 11460,
 "dur": 165,
-"src": "broll/geli_raubal.jpg"
+"src": "broll/city_crowd_b.mp4"
 },
 {
 "from": 11625,
@@ -382,17 +384,17 @@
 {
 "from": 11945,
 "dur": 155,
-"src": "broll/parade_crowd.mp4"
+"src": "broll/city_aerial.mp4"
 },
 {
 "from": 12100,
 "dur": 155,
-"src": "broll/city_aerial.mp4"
+"src": "broll/war_surrender.mp4"
 },
 {
 "from": 12255,
 "dur": 155,
-"src": "broll/still_hindenburg.jpg"
+"src": "broll/city_men_talk.mp4"
 },
 {
 "from": 12410,
@@ -402,7 +404,7 @@
 {
 "from": 12565,
 "dur": 155,
-"src": "broll/city_aerial.mp4"
+"src": "broll/city_workers.mp4"
 },
 {
 "from": 12720,
@@ -414,92 +416,92 @@
 {
 "from": 12900,
 "dur": 180,
-"src": "broll/still_eva_portrait.jpg"
+"src": "broll/eva_close.mp4"
 },
 {
 "from": 13080,
 "dur": 180,
-"src": "broll/still_hoffmann.jpg"
+"src": "broll/eva_group.mp4"
 },
 {
 "from": 13260,
-"dur": 163,
-"src": "broll/eva_berghof.mp4"
-},
-{
-"from": 13423,
-"dur": 163,
-"src": "broll/eva_terrace.mp4"
-},
-{
-"from": 13586,
-"dur": 163,
-"src": "broll/eva_group.mp4"
-},
-{
-"from": 13749,
-"dur": 162,
-"src": "broll/eva_berghof.mp4"
-},
-{
-"from": 13911,
-"dur": 163,
-"src": "broll/eva_terrace.mp4"
-},
-{
-"from": 14074,
-"dur": 163,
-"src": "broll/eva_group.mp4"
-},
-{
-"from": 14237,
-"dur": 163,
-"src": "broll/eva_berghof.mp4"
-},
-{
-"from": 14400,
-"dur": 171,
-"src": "broll/eva_close.mp4"
-},
-{
-"from": 14571,
-"dur": 172,
-"src": "broll/eva_mountains.mp4"
-},
-{
-"from": 14743,
-"dur": 171,
+"dur": 165,
 "src": "broll/hitler_child.mp4"
 },
 {
-"from": 14914,
-"dur": 172,
-"src": "broll/eva_close.mp4"
+"from": 13425,
+"dur": 165,
+"src": "broll/eva_berghof.mp4"
 },
 {
-"from": 15086,
-"dur": 171,
+"from": 13590,
+"dur": 165,
+"src": "broll/eva_men.mp4"
+},
+{
+"from": 13755,
+"dur": 165,
+"src": "broll/eva_terrace.mp4"
+},
+{
+"from": 13920,
+"dur": 165,
+"src": "broll/eva_scene.mp4"
+},
+{
+"from": 14085,
+"dur": 165,
+"src": "broll/eva_walk.mp4"
+},
+{
+"from": 14250,
+"dur": 165,
+"src": "broll/city_park.mp4"
+},
+{
+"from": 14415,
+"dur": 165,
 "src": "broll/eva_mountains.mp4"
 },
 {
-"from": 15257,
-"dur": 172,
+"from": 14580,
+"dur": 170,
+"src": "broll/eva_close.mp4"
+},
+{
+"from": 14750,
+"dur": 170,
 "src": "broll/hitler_child.mp4"
 },
 {
-"from": 15429,
-"dur": 171,
-"src": "broll/eva_close.mp4"
+"from": 14920,
+"dur": 170,
+"src": "broll/eva_men.mp4"
+},
+{
+"from": 15090,
+"dur": 170,
+"src": "broll/eva_scene.mp4"
+},
+{
+"from": 15260,
+"dur": 170,
+"src": "broll/city_park.mp4"
+},
+{
+"from": 15430,
+"dur": 170,
+"src": "broll/eva_mountains.mp4"
 },
 {
 "from": 15600,
 "dur": 150,
-"src": "broll/airraid_flak.mp4"
+"src": "broll/war_tank.mp4"
 },
 {
 "from": 15750,
 "dur": 150,
-"src": "broll/airraid_smoke.mp4"
+"src": "broll/war_factory.mp4"
 },
 {
 "from": 15900,
@@ -514,12 +516,12 @@
 {
 "from": 16200,
 "dur": 150,
-"src": "broll/airraid_flak.mp4"
+"src": "broll/airraid_bombers.mp4"
 },
 {
 "from": 16350,
 "dur": 158,
-"src": "broll/eva_close.mp4"
+"src": "broll/city_bridge.mp4"
 },
 {
 "from": 16508,
@@ -529,12 +531,12 @@
 {
 "from": 16665,
 "dur": 157,
-"src": "broll/geli_raubal.jpg"
+"src": "broll/eva_close.mp4"
 },
 {
 "from": 16822,
 "dur": 158,
-"src": "broll/eva_close.mp4"
+"src": "broll/eva_scene.mp4"
 },
 {
 "from": 16980,
