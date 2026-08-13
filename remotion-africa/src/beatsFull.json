@@ -1,35 +1,40 @@
 [
 {
 "from": 0,
-"dur": 162,
+"dur": 165,
 "src": "broll/airraid_bombers.mp4"
 },
 {
-"from": 162,
-"dur": 164,
+"from": 165,
+"dur": 165,
 "src": "broll/airraid_flak.mp4"
 },
 {
-"from": 326,
-"dur": 199,
-"src": "broll/eva_berghof.mp4",
+"from": 330,
+"dur": 150,
+"src": "broll/eva_terrace.mp4",
 "name": "EVA BRAUN",
-"sub": "Berghof \u00b7 home movies"
+"sub": "Berghof home movies"
 },
 {
-"from": 525,
-"dur": 159,
-"src": "broll/eva_terrace.mp4"
+"from": 480,
+"dur": 150,
+"src": "broll/hitler_child.mp4"
 },
 {
-"from": 684,
-"dur": 177,
+"from": 630,
+"dur": 165,
 "src": "broll/eva_group.mp4"
 },
 {
-"from": 861,
-"dur": 234,
+"from": 795,
+"dur": 135,
 "src": "broll/eva_close.mp4"
+},
+{
+"from": 930,
+"dur": 165,
+"src": "broll/eva_mountains.mp4"
 },
 {
 "from": 1095,
@@ -40,129 +45,118 @@
 },
 {
 "from": 1260,
-"dur": 180,
+"dur": 150,
 "src": "broll/parade_troops.mp4"
 },
 {
-"from": 1440,
-"dur": 198,
+"from": 1410,
+"dur": 150,
 "src": "broll/parade_standards.mp4"
 },
 {
-"from": 1638,
-"dur": 108,
-"src": "broll/airraid_smoke.mp4"
+"from": 1560,
+"dur": 120,
+"src": "broll/parade_crowd.mp4"
 },
 {
-"from": 1746,
-"dur": 54,
-"src": "broll/eva_close.mp4"
+"from": 1680,
+"dur": 120,
+"src": "broll/eva_berghof.mp4"
 },
 {
 "from": 1800,
 "dur": 180,
-"src": "broll/eva_close.mp4"
+"src": "broll/city_countryside.mp4"
 },
 {
 "from": 1980,
 "dur": 180,
-"src": "broll/still_hitler_young.jpg"
+"src": "broll/city_train.mp4"
 },
 {
 "from": 2160,
-"dur": 150,
-"src": "broll/still_hitler_young.jpg",
-"name": "ADOLF HITLER",
-"sub": "Vienna \u00b7 the early years"
+"dur": 180,
+"src": "broll/city_aerial.mp4"
 },
 {
-"from": 2310,
-"dur": 150,
-"src": "broll/still_hitler_young.jpg"
+"from": 2340,
+"dur": 180,
+"src": "broll/city_street_dawn.mp4"
 },
 {
-"from": 2460,
+"from": 2520,
 "dur": 150,
-"src": "broll/still_hitler_young.jpg"
+"src": "broll/city_facade.mp4"
 },
 {
-"from": 2610,
-"dur": 150,
-"src": "broll/still_hitler_young.jpg"
+"from": 2670,
+"dur": 90,
+"src": "broll/city_residential.mp4"
 },
 {
 "from": 2760,
-"dur": 153,
-"src": "broll/still_hitler_wwi.jpg",
-"name": "PRIVATE HITLER",
-"sub": "Western Front \u00b7 1914\u20131918"
+"dur": 180,
+"src": "broll/wwi_soldiers.mp4"
 },
 {
-"from": 2913,
-"dur": 154,
-"src": "broll/parade_troops.mp4"
+"from": 2940,
+"dur": 180,
+"src": "broll/wwi_column.mp4"
 },
 {
-"from": 3067,
-"dur": 153,
-"src": "broll/still_hitler_wwi.jpg"
+"from": 3120,
+"dur": 180,
+"src": "broll/wwi_transport.mp4"
 },
 {
-"from": 3220,
-"dur": 153,
-"src": "broll/parade_troops.mp4"
+"from": 3300,
+"dur": 180,
+"src": "broll/wwi_countryside.mp4"
 },
 {
-"from": 3373,
-"dur": 154,
-"src": "broll/still_hitler_wwi.jpg"
+"from": 3480,
+"dur": 180,
+"src": "broll/wwi_trench.mp4"
 },
 {
-"from": 3527,
-"dur": 153,
-"src": "broll/parade_troops.mp4"
+"from": 3660,
+"dur": 180,
+"src": "broll/wwi_village.mp4"
 },
 {
-"from": 3680,
-"dur": 153,
-"src": "broll/still_hitler_wwi.jpg"
+"from": 3840,
+"dur": 150,
+"src": "broll/wwi_muddy.mp4"
 },
 {
-"from": 3833,
-"dur": 154,
-"src": "broll/parade_troops.mp4"
-},
-{
-"from": 3987,
-"dur": 153,
-"src": "broll/still_hitler_wwi.jpg"
+"from": 3990,
+"dur": 150,
+"src": "broll/wwi_ruins.mp4"
 },
 {
 "from": 4140,
-"dur": 165,
-"src": "broll/parade_troops.mp4"
+"dur": 150,
+"src": "broll/city_shops.mp4"
 },
 {
-"from": 4305,
-"dur": 165,
-"src": "broll/still_hitler_young.jpg"
+"from": 4290,
+"dur": 170,
+"src": "broll/city_shops.mp4"
 },
 {
-"from": 4470,
-"dur": 165,
-"src": "broll/parade_troops.mp4"
+"from": 4460,
+"dur": 170,
+"src": "broll/city_greengrocer.mp4"
 },
 {
-"from": 4635,
-"dur": 165,
-"src": "broll/still_hitler_young.jpg"
+"from": 4630,
+"dur": 170,
+"src": "broll/city_shops.mp4"
 },
 {
 "from": 4800,
 "dur": 153,
-"src": "broll/eva_mountains.mp4",
-"name": "OBERSALZBERG",
-"sub": "the mountain retreat, 1928"
+"src": "broll/eva_mountains.mp4"
 },
 {
 "from": 4953,
@@ -172,22 +166,22 @@
 {
 "from": 5107,
 "dur": 153,
-"src": "broll/eva_mountains.mp4"
+"src": "broll/city_countryside.mp4"
 },
 {
 "from": 5260,
 "dur": 153,
-"src": "broll/eva_berghof.mp4"
+"src": "broll/eva_mountains.mp4"
 },
 {
 "from": 5413,
 "dur": 154,
-"src": "broll/eva_mountains.mp4"
+"src": "broll/eva_berghof.mp4"
 },
 {
 "from": 5567,
 "dur": 153,
-"src": "broll/eva_berghof.mp4"
+"src": "broll/city_countryside.mp4"
 },
 {
 "from": 5720,
@@ -202,94 +196,89 @@
 {
 "from": 6027,
 "dur": 153,
-"src": "broll/eva_mountains.mp4"
+"src": "broll/city_countryside.mp4"
 },
 {
 "from": 6180,
-"dur": 150,
+"dur": 158,
 "src": "broll/geli_raubal.jpg",
 "name": "GELI RAUBAL",
 "sub": "Hitler's niece \u00b7 1908\u20131931"
 },
 {
-"from": 6330,
-"dur": 150,
+"from": 6338,
+"dur": 157,
 "src": "broll/eva_mountains.mp4"
 },
 {
-"from": 6480,
-"dur": 150,
+"from": 6495,
+"dur": 157,
+"src": "broll/city_residential.mp4"
+},
+{
+"from": 6652,
+"dur": 158,
 "src": "broll/geli_raubal.jpg"
 },
 {
-"from": 6630,
-"dur": 150,
+"from": 6810,
+"dur": 158,
 "src": "broll/eva_mountains.mp4"
 },
 {
-"from": 6780,
-"dur": 150,
+"from": 6968,
+"dur": 157,
+"src": "broll/city_residential.mp4"
+},
+{
+"from": 7125,
+"dur": 157,
 "src": "broll/geli_raubal.jpg"
 },
 {
-"from": 6930,
-"dur": 150,
+"from": 7282,
+"dur": 158,
 "src": "broll/eva_mountains.mp4"
 },
 {
-"from": 7080,
-"dur": 155,
-"src": "broll/geli_raubal.jpg"
+"from": 7440,
+"dur": 169,
+"src": "broll/city_shops.mp4"
 },
 {
-"from": 7235,
-"dur": 156,
-"src": "broll/eva_berghof.mp4"
-},
-{
-"from": 7391,
-"dur": 155,
+"from": 7609,
+"dur": 169,
 "src": "broll/parade_troops.mp4"
 },
 {
-"from": 7546,
-"dur": 156,
-"src": "broll/geli_raubal.jpg"
+"from": 7778,
+"dur": 168,
+"src": "broll/city_greengrocer.mp4"
 },
 {
-"from": 7702,
-"dur": 155,
-"src": "broll/eva_berghof.mp4"
+"from": 7946,
+"dur": 169,
+"src": "broll/city_shops.mp4"
 },
 {
-"from": 7857,
-"dur": 156,
+"from": 8115,
+"dur": 169,
 "src": "broll/parade_troops.mp4"
 },
 {
-"from": 8013,
-"dur": 155,
-"src": "broll/geli_raubal.jpg"
+"from": 8284,
+"dur": 168,
+"src": "broll/city_greengrocer.mp4"
 },
 {
-"from": 8168,
-"dur": 156,
-"src": "broll/eva_berghof.mp4"
+"from": 8452,
+"dur": 169,
+"src": "broll/city_shops.mp4"
 },
 {
-"from": 8324,
-"dur": 155,
+"from": 8621,
+"dur": 169,
 "src": "broll/parade_troops.mp4"
-},
-{
-"from": 8479,
-"dur": 156,
-"src": "broll/geli_raubal.jpg"
-},
-{
-"from": 8635,
-"dur": 155,
-"src": "broll/eva_berghof.mp4"
 },
 {
 "from": 8790,
@@ -306,22 +295,22 @@
 {
 "from": 9133,
 "dur": 171,
-"src": "broll/still_stempfle.jpg"
+"src": "broll/wwi_ruins.mp4"
 },
 {
 "from": 9304,
 "dur": 172,
-"src": "broll/parade_standards.mp4"
+"src": "broll/still_stempfle.jpg"
 },
 {
 "from": 9476,
 "dur": 171,
-"src": "broll/still_stempfle.jpg"
+"src": "broll/parade_standards.mp4"
 },
 {
 "from": 9647,
 "dur": 172,
-"src": "broll/parade_standards.mp4"
+"src": "broll/wwi_ruins.mp4"
 },
 {
 "from": 9819,
@@ -331,27 +320,27 @@
 {
 "from": 9990,
 "dur": 162,
-"src": "broll/geli_raubal.jpg"
+"src": "broll/city_street_dawn.mp4"
 },
 {
 "from": 10152,
 "dur": 162,
-"src": "broll/eva_berghof.mp4"
+"src": "broll/city_residential.mp4"
 },
 {
 "from": 10314,
 "dur": 162,
-"src": "broll/geli_raubal.jpg"
+"src": "broll/city_street_dawn.mp4"
 },
 {
 "from": 10476,
 "dur": 162,
-"src": "broll/eva_berghof.mp4"
+"src": "broll/city_residential.mp4"
 },
 {
 "from": 10638,
 "dur": 162,
-"src": "broll/geli_raubal.jpg"
+"src": "broll/city_street_dawn.mp4"
 },
 {
 "from": 10800,
@@ -361,7 +350,7 @@
 {
 "from": 10965,
 "dur": 165,
-"src": "broll/geli_raubal.jpg"
+"src": "broll/city_greengrocer.mp4"
 },
 {
 "from": 11130,
@@ -371,7 +360,7 @@
 {
 "from": 11295,
 "dur": 165,
-"src": "broll/geli_raubal.jpg"
+"src": "broll/city_greengrocer.mp4"
 },
 {
 "from": 11460,
@@ -381,7 +370,7 @@
 {
 "from": 11625,
 "dur": 165,
-"src": "broll/geli_raubal.jpg"
+"src": "broll/city_greengrocer.mp4"
 },
 {
 "from": 11790,
@@ -393,27 +382,27 @@
 {
 "from": 11945,
 "dur": 155,
-"src": "broll/parade_troops.mp4"
+"src": "broll/parade_crowd.mp4"
 },
 {
 "from": 12100,
 "dur": 155,
-"src": "broll/still_hindenburg.jpg"
+"src": "broll/city_aerial.mp4"
 },
 {
 "from": 12255,
 "dur": 155,
-"src": "broll/parade_troops.mp4"
+"src": "broll/still_hindenburg.jpg"
 },
 {
 "from": 12410,
 "dur": 155,
-"src": "broll/still_hindenburg.jpg"
+"src": "broll/parade_crowd.mp4"
 },
 {
 "from": 12565,
 "dur": 155,
-"src": "broll/parade_troops.mp4"
+"src": "broll/city_aerial.mp4"
 },
 {
 "from": 12720,
@@ -535,7 +524,7 @@
 {
 "from": 16508,
 "dur": 157,
-"src": "broll/still_hitler_young.jpg"
+"src": "broll/city_aerial.mp4"
 },
 {
 "from": 16665,

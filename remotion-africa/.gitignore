@@ -8,3 +8,5 @@ out/remake-open-60s.mp4
 
 # large full-render masters + previews (reproducible)
 out/full_p*.mp4
+out/rework_*.mp4
+out/full_p*_preview.mp4
