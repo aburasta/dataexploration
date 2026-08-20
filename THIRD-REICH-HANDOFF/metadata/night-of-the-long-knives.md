@@ -67,41 +67,72 @@ Option 3 is the best fit if the episode leans on the July 3 retroactive legalisa
 ## Description — full copy-paste block
 
 ```
-Hitler said he had uncovered a coup. He never produced a single piece of evidence for it — and the men he called conspirators were asleep in their beds when the killing started. This is the Night of the Long Knives, hour by hour.
+The Night of the Long Knives: Hitler claimed he had crushed a coup. He never produced one shred of evidence — and the "plotters" were asleep when it began.
 
-At two in the morning on June 30th, 1934, Hitler took off from an airfield near Bonn convinced, or claiming to be convinced, that the SA was hours away from seizing Berlin. Sixty miles from where he landed, at the Hanslbauer Hotel on the shore of the Tegernsee, Ernst Röhm — the only man in Germany Hitler addressed with the familiar "du," the man who had built the two-and-a-half-million-strong brownshirt army that carried him to power — was asleep. He had left his staff guards behind in Munich. By the time the weekend was over, Röhm was dead in a Munich prison cell, and so were somewhere between seventy-seven and a thousand other people.
+On 30 June 1934, Adolf Hitler ordered the murder of his oldest friend. Ernst Röhm — chief of staff of the SA, commander of two and a half million brownshirts, the only man in Germany Hitler addressed with the familiar "du" — was asleep at the Hanslbauer Hotel in Bad Wiessee when the cars came up the lake road at dawn. He had left his guards behind in Munich. Over the next three days, between 77 and more than 1,000 people were shot or beaten to death across Germany. History remembers it as the Night of the Long Knives; the Nazis called it the Röhm Purge, the Röhm-Putsch, and internally Operation Hummingbird. This documentary reconstructs it hour by hour and tests the official story against the evidence.
 
-This episode reconstructs how it actually happened, and why. The quarrel that made it inevitable: Röhm wanted the SA to swallow the regular army and to finish the "second revolution," and the generals would never allow it. The real trigger, which had nothing to do with any plot — Papen's defiant Marburg speech on June 17th, and then, on June 21st, Blomberg telling Hitler to his face at Neudeck that unless the tension ended, the dying Hindenburg would declare martial law and hand the state to the army. Hitler flew home with one option left: kill his oldest comrade or lose everything. Then the machinery: Göring and Himmler, who had been assembling their own kill lists for months and needed only to convince him; the dawn arrests at Wiessee; the pistol left on Röhm's table, and his refusal to use it — "If I am to be killed, let Adolf do it himself"; the 150 SA men shot against the wall of the Lichterfelde cadet school; General von Schleicher and his wife of eighteen months shot dead in their own doorway; Gregor Strasser killed in a Gestapo cell on Göring's personal order; Gustav von Kahr, a grudge eleven years old, hacked to death in a swamp near Dachau; Father Bernhard Stempfle, who knew too much about Geli Raubal, found with a broken neck and three shots in the heart; and Dr. Willi Schmid, a music critic playing his cello in his Munich apartment, taken away by four SS men and returned four days later in a sealed coffin — killed because his name resembled someone else's.
+WHAT THIS EPISODE COVERS
+• The quarrel that made it inevitable: Ernst Röhm's "second revolution" and his demand that the SA swallow the German army
+• Why the real trigger had nothing to do with any plot — Papen's Marburg speech of 17 June 1934, then Blomberg's ultimatum on 21 June: end the tension, or the dying Hindenburg hands the state to the army
+• Hermann Göring and Heinrich Himmler, who had been building their kill lists for months and needed only to convince Hitler a putsch was coming
+• The dawn arrests at Bad Wiessee, and the pistol left on Röhm's table in Stadelheim prison — and his refusal to use it: "If I am to be killed, let Adolf do it himself"
+• The 150 SA leaders shot at the Lichterfelde cadet school; General Kurt von Schleicher — Germany's chancellor eighteen months earlier — shot dead in his doorway with his wife; Gregor Strasser killed in a Gestapo cell on Göring's order; Gustav von Kahr, an eleven-year grudge from the Beer Hall Putsch, hacked to death in a swamp near Dachau
+• Dr Willi Schmid, a music critic taken from his Munich apartment while playing the cello and returned in a sealed coffin — killed over a name that resembled another man's
 
-Then the part that mattered most. Hindenburg thanked Hitler by telegram for "nipping treason in the bud." The cabinet met on July 3rd and retroactively declared the murders lawful, "for the defense of the State." Blomberg passed on the army's congratulations — for the killing of two of its own generals — and only two officers in the entire officer corps protested. On July 13th Hitler stood in the Reichstag and explained why he had bypassed the courts: "In this hour I was responsible for the fate of the German people, and thereby I became the supreme judge of the German people." Thirteen days later the SS, as its reward, was cut loose from the SA and made answerable to Hitler alone. The generals thought they had won. Ten years later — almost to the day — the July 20th plotters found out what "supreme judge" had meant.
+Then the part most retellings skip. Hindenburg wired his thanks for "nipping treason in the bud." On 3 July the cabinet declared the killings lawful retroactively, a measure "for the defense of the State" — murder legalised three days after the fact. The army sent its congratulations for the shooting of two of its own generals; two officers protested. On 13 July Hitler told the Reichstag why he had bypassed the courts: "In this hour I was responsible for the fate of the German people, and thereby I became the supreme judge of the German people." Thirteen days later the SS was cut free of the SA as its reward and made answerable to Hitler alone — the purge did not just destroy the SA, it created the SS. The generals thought they had won. Ten years later, almost to the day, the officers of the 20 July plot found out what "supreme judge" had meant.
 
-WHO THIS IS FOR: viewers who know the Night of the Long Knives as a name and a date, but have never seen the evidence tested — who ordered it, who actually died, why the army applauded, and how a weekend of murder was made legal three days after the fact.
+QUESTIONS THIS EPISODE ANSWERS
+• Why did Hitler kill Ernst Röhm, his closest friend in the Nazi Party?
+• Was there ever a real Röhm putsch, or any SA plot against Hitler?
+• How many people died in the Night of the Long Knives?
+• How did the purge give birth to the SS — and backfire on the German army?
+
+WHO THIS IS FOR: viewers who know the Night of the Long Knives as a name and a date but have never seen the case tested.
 
 CHAPTERS
-0:00 [PLACEHOLDER — derive from spec] Two A.M., Hangelar Airfield
+0:00 Two A.M., Hangelar Airfield
 0:00 The Friend Who Built the Brownshirts
 0:00 The Second Revolution and the Army's Red Line
-0:00 Marburg: Papen Says It Out Loud
-0:00 June 21st: Hindenburg's Ultimatum
+0:00 21 June: Hindenburg's Ultimatum
 0:00 Göring, Himmler, and the Lists
-0:00 Dawn at Wiessee
+0:00 Dawn at Bad Wiessee
 0:00 The Pistol on the Table
-0:00 Lichterfelde, Schleicher, Strasser, Kahr
-0:00 The Cellist: Dr. Willi Schmid
-0:00 July 3rd: Murder Made Lawful
-0:00 "The Supreme Judge of the German People"
+0:00 The Killing Spreads: Schleicher, Strasser, Kahr
+0:00 3 July: Murder Made Lawful
 0:00 The Reward: How the SS Was Born
 
 This is a STRICTLY NON-POLITICAL, educational history channel. Nothing here endorses or promotes any ideology, party, or regime — the material is presented for historical, documentary, and educational purposes only, and condemns the crimes of the period without reservation.
 
-Sourcing: built on the standard published histories of Nazi Germany — principally William L. Shirer's "The Rise and Fall of the Third Reich" — together with the primary record: Hitler's own Reichstag speech of July 13, 1934, the July 3 cabinet law declaring the killings lawful measures "for the defense of the State," Wilhelm Frick's testimony at Nuremberg, the affidavit of Willi Schmid's widow (Nuremberg Document L-135), and the eyewitness testimony given at the 1957 Munich trial of Sepp Dietrich and Michael Lippert — the first and effectively only punishment any of the executioners received. The death toll is given as a range on purpose: Hitler announced 77, the émigré White Book of the Purge claimed 401 while naming only 116, and the 1957 trial heard "more than 1,000." Where no photograph of a moment survives, we use an accurate contextual image rather than invent one.
+Sourcing: William L. Shirer's "The Rise and Fall of the Third Reich," plus the primary record — Hitler's Reichstag speech of 13 July 1934, the 3 July cabinet law, Wilhelm Frick's Nuremberg testimony, the sworn affidavit of Willi Schmid's widow (Nuremberg Document L-135), and eyewitness testimony from the 1957 Munich trial of Sepp Dietrich and Michael Lippert — the only punishment any executioner ever received. The death toll is a range on purpose: Hitler announced 77; the émigré White Book of the Purge claimed 401 while naming 116; the 1957 trial heard "more than 1,000." Where no photograph survives, we use an accurate contextual image rather than invent one.
 
-New episodes cover the twists behind the major figures of the Third Reich you probably haven't heard before. If this was worth your time, subscribe and hit the bell — and share it with someone who'd find it as surprising as you did.
+New episodes cover the twists behind the major figures of the Third Reich you haven't heard. Subscribe and hit the bell.
 
-▶ WATCH NEXT: [FILL IN: paste link — the strongest pairing is ep003 "Hitler's Love Life," which covers Father Stempfle and Geli Raubal and is directly referenced above]
+▶ WATCH NEXT: [FILL IN: link to ep003 "Hitler's Love Life" — covers Father Stempfle and Geli Raubal]
 
 #ThirdReich #NightOfTheLongKnives #WW2History #NaziGermany #History
 ```
+
+**Verified budgets:** 4956 / 5000 characters; first line 155 characters, so the full hook survives the ~157-char desktop search snippet and the exact head keyword sits in the first 29. Chapter timestamps are placeholders — derive them from the render spec before publishing, or cut the block.
+
+---
+
+## Why the description is built this way
+
+| Block | SEO job |
+|---|---|
+| **Line 1 (155 chars)** | The only text most people ever see. Exact head keyword in the first 29 characters, then a curiosity gap that states a *claim being contradicted* — the framing that carried TIKhistory's 68-minute video to 449K. Sized to survive the ~157-char desktop snippet uncut. |
+| **Paragraph 2** | The first ~200 words carry the most indexing weight, so it is the densest entity block in the file: Adolf Hitler, Ernst Röhm, SA, Hanslbauer Hotel, Bad Wiessee, Munich, 30 June 1934. Written as narrative, not summary — the Infographics Show pattern. |
+| **Alt-name sentence** | "Night of the Long Knives / Röhm Purge / Röhm-Putsch / Operation Hummingbird" in one line captures four separate search surfaces, including the German-language and codename queries, without reading as keyword stuffing. |
+| **WHAT THIS EPISODE COVERS** | Bulleted so it survives skim-reading, and each bullet is anchored to a named entity — Papen, Blomberg, Neudeck, Göring, Himmler, Stadelheim, Lichterfelde, Schleicher, Strasser, Kahr, Willi Schmid. Entity density is what YouTube's topic classifier reads. |
+| **Aftermath paragraph** | The differentiator. Every large video on this topic stops at the killings; almost none cover the 3 July retroactive legalisation, the "supreme judge" speech, or the SS being created as the reward. This is the block that makes the video worth ranking above the incumbents. |
+| **QUESTIONS THIS EPISODE ANSWERS** | Long-tail and voice-search capture, phrased exactly as people type them ("why did Hitler kill Ernst Röhm", "how many died"). None of the current top-20 videos do this — it is free surface area. |
+| **CHAPTERS** | Feeds YouTube's Key Moments in search. Cut from 13 to 10 because a ~9-minute episode with 13 chapters produces segments too short to be useful. |
+| **Sourcing paragraph** | Credibility signal that measurably matters in this niche (Infographics Show lists USHMM/Britannica; TIKhistory links a per-video source spreadsheet), and it naturally carries more indexable entities: Shirer, Nuremberg, Sepp Dietrich. |
+| **No link block** | Deliberately omitted. Academia Play's 1.66M-view description is 80% store/Patreon/app links, but that works on an established channel; here it would bury the copy that sells the video. |
+
+**Keyword frequency (verified):** night of the long knives ×4, Röhm ×7, Hitler ×11, purge ×4,
+putsch ×4, 1934 ×3, Bad Wiessee ×3, SS ×4, SA ×4, Third Reich ×2. Natural density — nothing repeated
+often enough to read as stuffing.
 
 ---
 
